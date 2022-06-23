@@ -1,0 +1,9 @@
+package ImpProgram;
+
+public class FlatMapEx {
+
+	public static void main(String[] args) {
+		List<Integer> collected = Stream.
+	}
+
+}

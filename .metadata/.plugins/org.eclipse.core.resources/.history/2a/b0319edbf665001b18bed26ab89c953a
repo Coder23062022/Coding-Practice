@@ -1,0 +1,26 @@
+package Practice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test3 extends PutStatsMapDecorator<Object, Object> {
+	public Test3(Map<Object, Object> map) {
+		super(map);
+	}
+
+	public static void main(String[] args) {
+		Map<String, Integer> copyMap = new HashMap<>();
+		PutStatsMapDecorator<String, Integer> psmd = new PutStatsMapDecorator<>(new HashMap<>());
+		psmd.put("A", null);
+		psmd.put("B", 2);
+		psmd.putIfAbsent("A", 4);
+		psmd.putIfAbsent("B", 3);
+		psmd.putAll(copyMap);
+		System.out.println("Put count:" + psmd.getCountPut());
+		System.out.println("PutAll count:" + psmd.getCountPutAll());
+		System.out.println("PutIfAbsent count:" + psmd.getCountPutIfAbsent());
+		
+		System.out.println(copyMap);
+		System.out.println(psmd.get("A"));
+	}
+}

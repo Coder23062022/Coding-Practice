@@ -1,0 +1,10 @@
+package com.javaex1;
+
+public class Ext1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

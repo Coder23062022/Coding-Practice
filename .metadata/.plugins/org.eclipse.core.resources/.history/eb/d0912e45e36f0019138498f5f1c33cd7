@@ -1,0 +1,12 @@
+package ImpProgram;
+
+import java.util.List;
+import java.util.stream.Stream;
+
+public class FlatMapEx {
+
+	public static void main(String[] args) {
+		List<Integer> collected = Stream.of(asList(1,2), asList(3,4))
+	}
+
+}

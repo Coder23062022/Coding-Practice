@@ -1,0 +1,18 @@
+package Practice;
+
+public class Test2 {
+	public static void main(String[] args) {
+		Integer intArr[] = { 1, 2, 3, 4 };
+		Double dArr[] = { 1.1, 2.2, 3.3, 4.4 };
+		Character charArr[] = { 'a', 'b' };
+		printArray(intArr);
+		printArray(dArr);
+		printArray(charArr);
+	}
+
+	static <E extends Number> void printArray(E[] array) {
+		for (E elements : array) {
+			System.out.println(elements);
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package Practice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test3 extends PutStatsMapDecorator {
+	public Test3(Map map) {
+		super(map);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+		map.put("A", 1);
+		map.put("B", 2);
+
+		PutStatsMapDecorator psmd = new PutStatsMapDecorator<>(map);
+
+		System.out.println(psmd.getCountPut());
+	}
+}

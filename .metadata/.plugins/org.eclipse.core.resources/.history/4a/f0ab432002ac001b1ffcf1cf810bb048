@@ -1,0 +1,23 @@
+package Practice;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class Test3 {
+	@SuppressWarnings("rawtypes")
+	public static void main(String[] args) {
+		/*
+		 * List ints = Arrays.asList(1, 2); List nums = ints; nums.add(3.14);
+		 * System.out.println(nums);
+		 */
+
+		Optional GOT = Optional.of("Game of Thrones");
+
+		String[] str = new String[10];
+		Optional strOpt = Optional.ofNullable(str[9]);
+
+		System.out.println(strOpt.isPresent());
+		System.out.println(GOT.isPresent());
+	}
+}

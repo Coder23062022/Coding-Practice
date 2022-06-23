@@ -1,0 +1,20 @@
+package ImpProgram;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FlatmapDemo {
+	public static void main(String[] args) {
+		 
+        List<String> houseGryffindor = Arrays.asList("Albus", "Harry", "Ron", "Hermione");
+        List<String> houseHufflepuff = Arrays.asList("Bridget", "Cedric", "Nymphadora");
+        List<String> houseRavenclaw = Arrays.asList("Luna", "Garrick", "Filius");
+        List<String> houseSlytherin = Arrays.asList("Severus", "Tom", "Phineas");
+ 
+        List<List<String>> hogwarts = new ArrayList<List<String>>(); 
+        hogwarts.add(houseGryffindor);
+        hogwarts.add(houseHufflepuff);
+        hogwarts.add(houseRavenclaw);
+        hogwarts.add(houseSlytherin);
+}

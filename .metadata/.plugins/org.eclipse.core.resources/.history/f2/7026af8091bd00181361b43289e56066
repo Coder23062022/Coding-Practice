@@ -1,0 +1,20 @@
+package com.javaex1;
+
+import java.io.IOException;
+
+class Test{
+	void method() throws IOException{
+		System.out.println("Learn");
+	}
+}
+
+public class Test2 {
+
+	public static void main(String[] args) throws Exception {
+		Test m= new Test();
+		m.method();
+		System.out.println("Hello world");
+
+	}
+
+}

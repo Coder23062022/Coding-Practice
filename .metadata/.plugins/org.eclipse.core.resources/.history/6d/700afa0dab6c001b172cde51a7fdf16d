@@ -1,0 +1,30 @@
+package CollectionAndMap;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ListMon {
+
+	public static void main(String[] args) {
+		List<Double> listK = new ArrayList<>();
+		listK.add(20.5);
+		listK.add(12.0);
+		listK.add(22.0);
+		listK.add(5.5);
+		listK.add(30.0);
+		listK.add(10.0);
+		listK.add(15.0);
+		
+
+		List<Double> sortedList = listK.stream().filter(x -> (x > 9 && x < 20)).sorted()
+				.collect(Collectors.toList());
+		System.out.println(sortedList);
+
+		/*
+		 * Collections.sort(listK); Iterator<Double> i = listK.iterator();
+		 * while(i.hasNext()) { Double d = (double) i.next(); if(d>9.0 && d<20.0) {
+		 * System.out.println(d); } }
+		 */
+	}
+}

@@ -1,0 +1,17 @@
+package Practice;
+
+import java.util.Arrays;
+
+public class Test1 {
+	public static void main(String[] args) {
+
+		int arr[] = { 5, 4, 4, 2, 2, 8 };
+		Arrays.sort(arr);
+		System.out.println(arr.length);
+		for (int i = 1; i < arr.length; i++) {
+			if (arr[i] != arr[i - 1]) {
+				System.out.println(arr.length - i);
+			}
+		}
+	}
+}

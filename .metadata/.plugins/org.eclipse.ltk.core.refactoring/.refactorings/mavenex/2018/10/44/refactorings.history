@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mavenex/src/main/resources/com/tutorialspoint/as.java&apos; to &apos;HelloController.java&apos;" description="Rename resource &apos;as.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/com/tutorialspoint/as.java" name="HelloController.java" stamp="1540747127526" updateReferences="true"/>
+</session>

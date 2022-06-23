@@ -1,0 +1,22 @@
+package ImpProgram;
+
+class Q {
+	int num;
+	public void put(int num) {
+		System.out.println("Put:" +num);
+		this.num = num;
+	}
+	public void get() {
+		System.out.println("Get:" +num);
+	}
+}
+
+public class InterThread {
+
+	public static void main(String[] args) {
+		Q q = new Q();
+		new Producer(q);
+		new Consumer(q);
+	}
+
+}

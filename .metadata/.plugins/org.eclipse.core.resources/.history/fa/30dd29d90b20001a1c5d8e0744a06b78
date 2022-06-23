@@ -1,0 +1,10 @@
+package com.javaex1;
+
+import java.io.IOException;
+
+public class Ext {
+
+	public static void meth() throws IOException {
+		System.out.println("Hello");
+	}
+}

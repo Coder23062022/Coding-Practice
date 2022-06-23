@@ -1,0 +1,17 @@
+package com.javaex1;
+
+public class MainClass {
+	static String s="Krish";
+	public static void main(String[] args) {
+		try {
+			addString(s);
+		}
+		catch(Exception e)
+		{
+			System.out.println("exception handled");
+		}
+	}
+	static void addString(String s) {
+		s=s.concat("test");
+	}
+}

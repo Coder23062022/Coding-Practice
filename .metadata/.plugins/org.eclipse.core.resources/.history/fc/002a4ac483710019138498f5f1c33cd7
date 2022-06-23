@@ -1,0 +1,20 @@
+package ImpProgram;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+
+	public static void main(String[] args) {
+		List<Integer> al = new ArrayList<>();
+		al.add(1);
+		al.add(2);
+		
+		meth(al);
+	}
+	
+	public static void meth(List<Integer> list) {
+		list = null;
+	}
+
+}

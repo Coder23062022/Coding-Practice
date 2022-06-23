@@ -1,0 +1,15 @@
+package com.javaex1;
+
+import java.io.IOException;
+
+public class CodeTest {
+	public static void main(String[] args) throws IOException {
+		String name = "John";
+		int age = 28;
+		boolean active = true;
+		Object[] employee = {name, age, active};
+		for(int i=0; i<employee.length; i++) {
+			System.out.println(employee[i]);
+		}
+	}
+}
