@@ -1,4 +1,4 @@
-package Practice;
+package src.Practice;
 
 public class Test1 {
 	public static void main(String[] args) {

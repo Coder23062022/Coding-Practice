@@ -1,4 +1,4 @@
-package XoriantTest;
+package src.XoriantTest;
 
 //Consider this Java Program. It reads integers from the standard input (until it gets a negative number) and puts them into an array.
 //After that it calls processArray on the array, and then prints the contents of the array on standard output. Currently, processArray does not modify the array.

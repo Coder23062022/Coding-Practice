@@ -1,4 +1,4 @@
-package Exception;
+package src.Exception;
 
 @SuppressWarnings("serial")
 class k_exception extends Exception

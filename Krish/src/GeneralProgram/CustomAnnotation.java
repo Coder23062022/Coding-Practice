@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.ElementType;

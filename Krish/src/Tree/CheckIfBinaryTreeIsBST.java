@@ -1,4 +1,4 @@
-package Tree;
+package src.Tree;
 
 public class CheckIfBinaryTreeIsBST {
     static BST root;

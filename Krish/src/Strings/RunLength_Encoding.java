@@ -1,4 +1,4 @@
-package Strings;
+package src.Strings;
 
 public class RunLength_Encoding {
 	public static void main(String[] args) {

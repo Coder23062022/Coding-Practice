@@ -1,4 +1,4 @@
-package Practice;
+package src.Practice;
 
 import java.util.Collection;
 import java.util.Map;

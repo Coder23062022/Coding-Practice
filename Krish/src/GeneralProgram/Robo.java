@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 import java.awt.AWTException; 
 import java.awt.Robot; 

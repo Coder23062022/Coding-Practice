@@ -1,4 +1,4 @@
-package Recursion;
+package src.Recursion;
 
 //Dynamic programming: Bottom-up approach. Time complexity: O(n*m), Space complexity: O(n)
 public class ClimbingStairs {

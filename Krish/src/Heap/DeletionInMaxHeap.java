@@ -1,4 +1,4 @@
-package Heap;
+package src.Heap;
 
 public class DeletionInMaxHeap {
 	// To heapify a subtree rooted with node i which is

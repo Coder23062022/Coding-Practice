@@ -1,4 +1,4 @@
-package Stack;
+package src.Stack;
 
 import java.util.ListIterator;
 import java.util.Stack;

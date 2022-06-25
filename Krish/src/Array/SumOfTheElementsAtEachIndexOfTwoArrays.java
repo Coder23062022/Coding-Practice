@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 //Print the sum of the elements at each index of two arrays such that if the sum is a two digit number, then separate them and print it.
 

@@ -1,4 +1,4 @@
-package CollectionAndMap;
+package src.CollectionAndMap;
 
 import java.util.Collections;
 import java.util.Comparator;

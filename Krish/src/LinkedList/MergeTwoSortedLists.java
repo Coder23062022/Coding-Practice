@@ -1,4 +1,4 @@
-package LinkedList;
+package src.LinkedList;
 
 //Time Complexity:  Since we are traversing through the two lists fully. So, the time complexity is O(m+n) where m and n are the lengths of the 
 //two lists to be merged. 

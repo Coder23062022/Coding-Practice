@@ -1,4 +1,4 @@
-package Sorting;
+package src.Sorting;
 
 public class SelectionSort {
 	// Java program for implementation of Selection Sort 

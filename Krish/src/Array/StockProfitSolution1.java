@@ -1,8 +1,8 @@
-package Array;
+package src.Array;
 
 /*A financial analyst is responsible for a portfolio of profitable stocks represented in an array. Each item in the array represents the yearly profit of a 
  * corresponding stock. The analyst gathers all distinct pairs of stocks that reached the target profit. Distinct pairs are pairs that differ in at least one 
- * element. Given the array of profits, find the number of distinct pairs of stocks where the sum of each pair’s profits is exactly equal to the target profit.
+ * element. Given the array of profits, find the number of distinct pairs of stocks where the sum of each pairï¿½s profits is exactly equal to the target profit.
 
 Example:
 

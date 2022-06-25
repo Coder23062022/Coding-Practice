@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package src.DynamicProgramming;
 
 public class MaximumSum {
     /*Function to return max sum such that no two elements are adjacent */

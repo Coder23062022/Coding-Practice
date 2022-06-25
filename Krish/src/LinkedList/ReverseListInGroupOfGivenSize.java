@@ -1,4 +1,4 @@
-package LinkedList;
+package src.LinkedList;
 
 public class ReverseListInGroupOfGivenSize {
 	static Node head;

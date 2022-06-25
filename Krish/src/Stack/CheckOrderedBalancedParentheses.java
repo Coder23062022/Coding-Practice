@@ -1,4 +1,4 @@
-package Stack;
+package src.Stack;
 
 import java.util.Stack;
 
@@ -14,9 +14,9 @@ public class CheckOrderedBalancedParentheses {
 		Stack<Character> stack = new Stack<>();
 
 		for (int i = 0; i < s.length(); i++) {
-			// If the current character is a starting bracket (‘(‘ or ‘{‘ or ‘[‘) then push
-			// it to stack. If the current character is a closing bracket (‘)’ or ‘}’ or
-			// ‘]’) then pop from stack and if the popped character is not matching starting
+			// If the current character is a starting bracket (ï¿½(ï¿½ or ï¿½{ï¿½ or ï¿½[ï¿½) then push
+			// it to stack. If the current character is a closing bracket (ï¿½)ï¿½ or ï¿½}ï¿½ or
+			// ï¿½]ï¿½) then pop from stack and if the popped character is not matching starting
 			// bracket, then parenthesis are not balanced.
 			if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
 				stack.push(s.charAt(i));

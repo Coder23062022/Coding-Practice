@@ -1,4 +1,4 @@
-package Thread;
+package src.Thread;
 
 class Q {
     int num;

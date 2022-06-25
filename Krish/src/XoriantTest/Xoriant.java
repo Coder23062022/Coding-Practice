@@ -1,4 +1,4 @@
-package XoriantTest;
+package src.XoriantTest;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 public class RearrangePositiveNegativeNumbers {
 	static void rearrange(int arr[], int n) {

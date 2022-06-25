@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 //Example: 
 //Input : Arr[] = { 1 , 2 , 3 , 4 , 5 , 5  }

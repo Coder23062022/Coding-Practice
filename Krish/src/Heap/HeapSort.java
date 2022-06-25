@@ -1,4 +1,4 @@
-package Heap;
+package src.Heap;
 
 //Time complexity of this problem is O(nlogn).
 //To build the heap by heapify method, it will take O(n). Height of the tree is logn. So complexity will be O(nlogn).

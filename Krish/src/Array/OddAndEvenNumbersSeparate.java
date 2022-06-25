@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 public class OddAndEvenNumbersSeparate {
 	public static void main(String[] args) {

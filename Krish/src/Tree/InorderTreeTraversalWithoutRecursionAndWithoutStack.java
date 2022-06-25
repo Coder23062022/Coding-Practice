@@ -1,4 +1,4 @@
-package Tree;
+package src.Tree;
 
 public class InorderTreeTraversalWithoutRecursionAndWithoutStack {
 	Node root;

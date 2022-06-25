@@ -1,4 +1,4 @@
-package Strings;
+package src.Strings;
 
 public class RemoveACharacterToMakeAPalindrome {
 	public static void main(String[] args) {

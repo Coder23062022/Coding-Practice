@@ -1,4 +1,4 @@
-package HackerRank;
+package src.HackerRank;
 
 //Source: https://www.chegg.com/homework-help/questions-and-answers/1-dam-design-company-designing-dam-built-across-stream-create-small-lake-reduce-materials--q59671847
 

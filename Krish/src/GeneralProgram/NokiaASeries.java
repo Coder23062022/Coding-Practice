@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 @Smartphone(os = "Android", version = 6)
 class NokiaASeries {

@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 //Example:
 //Input: {2,2,3,3}

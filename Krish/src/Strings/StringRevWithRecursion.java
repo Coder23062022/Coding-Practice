@@ -1,4 +1,4 @@
-package Strings;
+package src.Strings;
 
 class StringRevWithRecursion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 public class SieveOfEratosthenes {
 	void sieveOfEratosthenes(int n) {

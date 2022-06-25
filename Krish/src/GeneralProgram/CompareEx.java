@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 import java.util.ArrayList;
 import java.util.Collections;

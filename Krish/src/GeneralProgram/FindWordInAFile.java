@@ -1,4 +1,4 @@
-package GeneralProgram;
+package src.GeneralProgram;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

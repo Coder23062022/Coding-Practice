@@ -1,4 +1,4 @@
-package Practice;
+package src.src.Practice;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

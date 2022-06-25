@@ -1,4 +1,4 @@
-package Strings;
+package src.Strings;
 
 //Time Complexity: O(n^2) and Space complexity: O(n)
 

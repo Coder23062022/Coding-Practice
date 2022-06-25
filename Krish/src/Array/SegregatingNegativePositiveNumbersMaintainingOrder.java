@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 public class SegregatingNegativePositiveNumbersMaintainingOrder {
 	static void segregate(int arr[], int n) {

@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 public class Segregate0and1 {
 	public static void main(String[] args) {

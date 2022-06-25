@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 //Problem: Find an element in array such that sum of left array is equal to sum of right array.
 

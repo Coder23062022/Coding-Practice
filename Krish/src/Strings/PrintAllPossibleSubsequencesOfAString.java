@@ -1,4 +1,4 @@
-package Strings;
+package src.Strings;
 
 public class PrintAllPossibleSubsequencesOfAString {
 	public static void main(String[] args) {

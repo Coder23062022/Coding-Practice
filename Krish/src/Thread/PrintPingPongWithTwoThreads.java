@@ -1,4 +1,4 @@
-package Thread;
+package src.Thread;
 
 public class PrintPingPongWithTwoThreads {
 	public static void main(String[] args) {

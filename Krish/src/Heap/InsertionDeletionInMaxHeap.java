@@ -1,4 +1,4 @@
-package Heap;
+package src.Heap;
 
 public class InsertionDeletionInMaxHeap {
 	public static void main(String[] args) {

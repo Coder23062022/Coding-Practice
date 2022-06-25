@@ -1,4 +1,4 @@
-package Heap;
+package src.Heap;
 
 public class InsertionInMaxHeap {
 	static void heapify(int arr[], int n, int i) {

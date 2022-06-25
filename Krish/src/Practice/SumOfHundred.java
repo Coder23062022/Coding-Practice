@@ -1,4 +1,4 @@
-package Practice;
+package src.Practice;
 
 public class SumOfHundred {
 

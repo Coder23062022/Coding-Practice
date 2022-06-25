@@ -1,4 +1,4 @@
-package Java8;
+package src.Java8;
 
 //Material: https://www.baeldung.com/java-groupingby-collector
 

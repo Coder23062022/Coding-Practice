@@ -1,4 +1,4 @@
-package SearchingAlgo;
+package src.SearchingAlgo;
 
 import java.util.Scanner;
 
