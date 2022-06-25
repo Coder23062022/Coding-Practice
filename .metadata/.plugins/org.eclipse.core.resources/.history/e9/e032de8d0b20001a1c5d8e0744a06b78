@@ -1,8 +1,0 @@
-package com.javaex1;
-
-public class Ext {
-
-	public static void meth() throws Exception {
-		System.out.println("Hello");
-	}
-}
