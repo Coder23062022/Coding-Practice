@@ -1,4 +1,4 @@
-package src.Strings;
+package src.DynamicProgramming;
 
 //Time Complexity of this implementation is: O(mn)
 //Video reference: https://www.youtube.com/watch?v=NnD96abizww

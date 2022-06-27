@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/CountIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/NumberOfIslandsLeetCodeSolve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/BFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/DFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/NumberOfIslandsLeetCodeSolve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeMinNumberOfCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeNumberOfWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/FindMinInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/SameTreeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/SubTreeOfATree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/kthSmallestElementInBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestPalindromicSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +62,16 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberOfIslandsLeetCodeSolve">
-    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.BFS" />
+  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversal">
+    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.BinaryTreeLevelOrderTraversal" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.CountIslands" />
+    <configuration name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.LowestCommonAncestorOfBST" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.DFS" />
+    <configuration name="SameTreeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.SameTreeCheck" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslandsLeetCodeSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.NumberOfIslandsLeetCodeSolve" />
+    <configuration name="SubTreeOfATree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.SubTreeOfATree" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Array.ThreeSum" />
+    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Array.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfIslandsLeetCodeSolve" />
-        <item itemvalue="Application.CountIslands" />
-        <item itemvalue="Application.DFS" />
-        <item itemvalue="Application.BFS" />
-        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+        <item itemvalue="Application.kthSmallestElementInBST" />
+        <item itemvalue="Application.LowestCommonAncestorOfBST" />
+        <item itemvalue="Application.SubTreeOfATree" />
+        <item itemvalue="Application.SameTreeCheck" />
       </list>
     </recent_temporary>
   </component>

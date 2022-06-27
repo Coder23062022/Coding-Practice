@@ -31,6 +31,7 @@ public class CheckIfBinaryTreeIsBST {
         if (root == null)
             return true;
         //In a BST, root value should be greater than its left subtree and lesser than it's right subtree.
+        //l and r are here taken as left and right boundaries just like we do in binary search.
         if (l != null && root.data <= l.data || r != null && root.data >= r.data)
             return false;
 
