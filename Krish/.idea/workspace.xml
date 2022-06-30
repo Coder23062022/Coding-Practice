@@ -2,32 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/BFS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/DFS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/NumberOfIslandsLeetCodeSolve.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeMinNumberOfCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChangeNumberOfWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/FindMinInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorOfBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/SameTreeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/SubTreeOfATree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/kthSmallestElementInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ContainerWithMostWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeNumberOfWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intervals/MeetingRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intervals/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intervals/NonOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestPalindromicSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Workspace/Krish",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Workspace/Krish&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversal">
-    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.BinaryTreeLevelOrderTraversal" />
+}</component>
+  <component name="RunManager" selected="Application.MaximumSubarray">
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Greedy.JumpGame" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.LowestCommonAncestorOfBST" />
+    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Greedy.MaximumSubarray" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTreeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.SameTreeCheck" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Intervals.MergeIntervals" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Intervals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubTreeOfATree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.SubTreeOfATree" />
+    <configuration name="NonOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Intervals.NonOverlappingIntervals" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Intervals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.Test7" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
-        <item itemvalue="Application.kthSmallestElementInBST" />
-        <item itemvalue="Application.LowestCommonAncestorOfBST" />
-        <item itemvalue="Application.SubTreeOfATree" />
-        <item itemvalue="Application.SameTreeCheck" />
+        <item itemvalue="Application.MaximumSubarray" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.NonOverlappingIntervals" />
+        <item itemvalue="Application.Test7" />
       </list>
     </recent_temporary>
   </component>

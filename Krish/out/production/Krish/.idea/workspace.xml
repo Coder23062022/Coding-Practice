@@ -2,212 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ConwaysGameOfLife.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/DutchNationalFlagProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/HighestSumOfNonAdjascentNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestConsecutiveSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestIncreasingOrderSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/MinimalParkingSpaces.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/MoveZerosToEnd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/OddAndEvenNumbersSeparate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/PairSumMatchesRestOfArraySum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/PairsMatchingSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RearrangeArrayIntoTwoSameHalvesOfEqualSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RearrangePositiveNegativeNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/Segregate0and1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SegregatePositiveNegativeNumberNotMaintaningOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SegregatingNegativePositiveNumbersMaintainingOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SmallestAndLargestInAStringArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SplitArrayIntoTwoEqualSumSubarrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/StockProfitSolution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/StockProfitSolution2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SumOfTheElementsAtEachIndexOfTwoArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/TopKFrequentElements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/TripletSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/kthSmallestElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Backtracking/BalancedParenthesesCombination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/ComparatorExample$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/ComparatorExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/FlatMapEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/FlatmapDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/HighestSibling.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/ImmutableClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/InfoGainInterviewMapQstn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/Name.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/PairWithGivenDifference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortOnEnumValuesUsingTreeSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/MaximumSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/MinNumberOfCoinsToMakeAGivenValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/Custom_exception2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/Exception1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/ExceptionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/ExceptionWithInheritance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/Ext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/MyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/TryCatchFinally.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/custom_exception.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Exception/k_exception.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/FactoryDesignPattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/ShapeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/FactoryDesignPattern/Square.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/ClimbingStairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/CompareEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/CustomAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/FibonacciCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/FindWordInAFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/Ideone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/IntegerToOtherDTConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/NokiaASeries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/PalindromeCheckNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/PalindromeCheckString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/PrimeCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/Robo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/SieveOfEratosthenes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/Smartphone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/SquareCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/HackerRank/DamDesign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/HackerRank/DirectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/HackerRank/SubArrayMaxMin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Heap/DeletionInMaxHeap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Heap/HeapSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Heap/InsertionDeletionInMaxHeap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Heap/InsertionInMaxHeap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Java8/Example1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Java8/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Java8/ListToMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Java8/SecondHighestNumberFromList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Java8/UseOfGroupBy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DeleteKthLastNode$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DeleteKthLastNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MergeTwoSortedLists$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MergeTwoSortedLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MidElementOfLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MidElementOfLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Temp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Practice/OddEvenPrint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Practice/PutStatsMapDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Practice/SumOfHundred.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Queue/QueueUsingSingleStack$Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Queue/QueueUsingSingleStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Queue/QueueUsingTwoStacks$Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Queue/QueueUsingTwoStacks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Queue/ReverseAQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Recursion/ClimbingStairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Recursion/Factorial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Recursion/PowImplementation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/FindMissingNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/FindSquareRoot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Sorting/BubbleSortOptimaztion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Sorting/InsertionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Sorting/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Sorting/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingRecursion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingTempStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/StackUsingSingleQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/StackUsingTwoQueues$Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/StackUsingTwoQueues.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/AllPalindromicSubstringsIncludingTheLongestOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/AnagramCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/CaesarCipher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/DecodeAStringWithTwoStacks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/EachCharOccuranceInAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/FindKeyInAStringWithoutUsingLibraryFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstMaxLengthEvenWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstNonRepeatingCharInAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/GroupAnagrams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestCommonSubsequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestPalindromicSubsequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/MaxOccuranceCharInAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/PrintAllPossibleSubsequencesOfAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/RemoveACharacterToMakeAPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/ReverseACharArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/ReverseASentence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/ReverseASentenceWithFirstLetterCapitalOfEachWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/RunLength_Encoding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringEncodeDecode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringPermutations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringRevWithRecursion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringRevWithoutRecursion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringcheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringsplit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringswitchcase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/SymmetricStringCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/ConcurrencyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/ConcurrentModificationExceptionExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Consume.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/CountDownLatchExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/CyclicBarrierExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/InterThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/OddAndEvenNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/OddAndEvenNumbersGeneration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/PassengerThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/PrintPingPong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/PrintPingPongWithTwoThreads.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/PrintSequenceRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Processor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Produce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/Q.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/ThreadPrintsEveryThirdNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Thread/YieldExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BSTOperations$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BSTOperations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BalanceBinaryTreeCheck$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BalanceBinaryTreeCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST$BST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/EmployeeHierarchy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InorderPredecessorSuccessorOfAKey$BST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InorderPredecessorSuccessorOfAKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LeftAndRightViewOfABinaryTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LeftAndRightViewOfABinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TreeTraversal$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TreeTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TreeTraversalWithoutRecursionWithSingleStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/XoriantTest/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/XoriantTest/Xoriant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution$RatingStatisticsCollector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution$RatingStatisticsCollectorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Test6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ContainerWithMostWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeNumberOfWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,24 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Workspace/Krish",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Workspace/Krish&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
-    <configuration name="BubbleSortOptimaztion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSortOptimaztion" />
+}</component>
+  <component name="RunManager" selected="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal">
+    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.BinaryTreeLevelOrderTraversal" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.LongestConsecutiveSequence" />
+    <configuration name="ConstructBinaryTreeFromPreorderAndInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.ConstructBinaryTreeFromPreorderAndInorderTraversal" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Array.ProductOfArrayExceptSelf" />
+    <configuration name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.LowestCommonAncestorOfBST" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Array.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Solution" />
+    <configuration name="SubTreeOfATree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.SubTreeOfATree" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Practice.Test6" />
+    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Practice.*" />
+          <option name="PATTERN" value="src.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.BubbleSortOptimaztion" />
-        <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal" />
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+        <item itemvalue="Application.kthSmallestElementInBST" />
+        <item itemvalue="Application.LowestCommonAncestorOfBST" />
+        <item itemvalue="Application.SubTreeOfATree" />
       </list>
     </recent_temporary>
   </component>
