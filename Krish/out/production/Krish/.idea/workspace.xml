@@ -2,30 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ContainerWithMostWater.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/CoinChangeNumberOfWays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestCommonSubsequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubsequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/InvertBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/LowestCommonAncestorOfBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SameTreeCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/SubTreeOfATree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/JumpGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MaximumSubarray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MergeIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/HighestSumOfNonAdjacentNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MinNoOfPlatformsNeeded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/HighestSumOfNonAdjascentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/OddAndEvenNumbersSeparate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/Segregate0and1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/HighestSumOfNonAdjascentNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MoveZerosToEnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/OddAndEvenNumbersSeparate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Segregate0and1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/PalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/PalindromeSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +72,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal">
-    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.BinaryTreeLevelOrderTraversal" />
+  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
+    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SearchingAlgo.FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.SearchingAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructBinaryTreeFromPreorderAndInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.ConstructBinaryTreeFromPreorderAndInorderTraversal" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.LongestPalindromicSubstring" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.LowestCommonAncestorOfBST" />
+    <configuration name="PalindromeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Strings.PalindromeSubstring" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubTreeOfATree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.SubTreeOfATree" />
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SearchingAlgo.SearchInRotatedSortedArray" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.SearchingAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
+    <configuration name="src.Greedy.MinNoOfPlatformsNeeded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Greedy.MinNoOfPlatformsNeeded" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal" />
-        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
-        <item itemvalue="Application.kthSmallestElementInBST" />
-        <item itemvalue="Application.LowestCommonAncestorOfBST" />
-        <item itemvalue="Application.SubTreeOfATree" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.PalindromeSubstring" />
+        <item itemvalue="Application.src.Greedy.MinNoOfPlatformsNeeded" />
+        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>

@@ -7,7 +7,7 @@ public class BestTimeToBuyAndSellStock {
     }
 
     static int maxProfit(int[] prices) {
-        int profit = 0, max_profit = 0, min_price = prices[0];
+        int profit, max_profit = 0, min_price = prices[0];
         for (int i = 1; i < prices.length; i++) {
             profit = prices[i] - min_price;
             min_price = Math.min(min_price, prices[i]);

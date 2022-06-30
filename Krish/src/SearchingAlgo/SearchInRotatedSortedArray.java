@@ -5,10 +5,10 @@ package src.SearchingAlgo;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         int[] nums = {3, 4, 5, 1, 2};
-        System.out.println(findMin(nums, 6));
+        System.out.println(search(nums, 6));
     }
 
-    static int findMin(int[] nums, int target) {
+    static int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) return -1;
         int l = 0, r = nums.length - 1;
         while (l < r) {
