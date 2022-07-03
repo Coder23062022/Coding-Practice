@@ -2,41 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/JumpGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MaximumSubarray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MergeIntervals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/FindNumberOfPalindromicSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/HighestSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MinNoOfPlatformsNeeded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/HighestSumOfNonAdjascentNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MoveZerosToEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/OddAndEvenNumbersSeparate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/Segregate0and1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/HighestSumOfNonAdjascentNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/MoveZerosToEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/OddAndEvenNumbersSeparate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Segregate0and1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/PalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/FindAllPalindromicSubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/FindAllPalindromicSubstrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/FindAllPalindromicSubstrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MinNoOfPlatformsNeeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/MinNoOfPlatformsNeeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/MinNoOfPlatformsNeeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intervals/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MidElementOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MidElementOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseListInGroupOfGivenSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseListInGroupOfGivenSize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +54,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindNumberOfPalindromicSubstrings">
-    <configuration name="FindAllPalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.FindAllPalindromicSubstrings" />
+  <component name="RunManager" selected="Application.MergeTwoSortedLists">
+    <configuration name="DeleteKthLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.DeleteKthLastNode" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SearchingAlgo.FindFirstAndLastPositionOfElementInSortedArray" />
+    <configuration name="DetectAndRemoveLoopInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.DetectAndRemoveLoopInALinkedList" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SearchingAlgo.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumberOfPalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.FindNumberOfPalindromicSubstrings" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.MergeTwoSortedLists" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.DynamicProgramming.LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.LongestPalindromicSubstring" />
+    <configuration name="MidElementOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.MidElementOfLinkedList" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Greedy.MinNoOfPlatformsNeeded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Greedy.MinNoOfPlatformsNeeded" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.ReverseLinkedList" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Greedy.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindNumberOfPalindromicSubstrings" />
-        <item itemvalue="Application.src.DynamicProgramming.LongestPalindromicSubstring" />
-        <item itemvalue="Application.FindAllPalindromicSubstrings" />
-        <item itemvalue="Application.src.Greedy.MinNoOfPlatformsNeeded" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.DetectAndRemoveLoopInALinkedList" />
+        <item itemvalue="Application.MidElementOfLinkedList" />
+        <item itemvalue="Application.DeleteKthLastNode" />
       </list>
     </recent_temporary>
   </component>

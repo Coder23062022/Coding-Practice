@@ -34,7 +34,6 @@ class MergeTwoSortedLists {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
-        System.out.println();
     }
 
     // Driver Code

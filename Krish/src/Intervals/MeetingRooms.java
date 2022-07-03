@@ -5,7 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class MeetingRooms {
-
     static class Interval {
         int start, end;
 
