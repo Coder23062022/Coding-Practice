@@ -27,6 +27,8 @@ public class kthSmallestElementInBST {
         System.out.println("k-th smallest element is: " + result);
     }
 
+    //Do the Inorder traversal of the BST so that values will come in sorted order and increase a counter everytime it
+    //iterates to check with k.
     static void kthSmallestElement(TreeNode root, int k) {
         if (root == null) return;
         kthSmallestElement(root.left, k);

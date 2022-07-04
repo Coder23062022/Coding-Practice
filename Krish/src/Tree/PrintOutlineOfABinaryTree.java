@@ -42,16 +42,16 @@ public class PrintOutlineOfABinaryTree {
         }
 
         //Another approach
-        List<Node> leftView = new ArrayList<>();
-        printLeftViewMeth2(root, leftView);
-        Collections.reverse(leftView);
-        List<Node> rightView = new ArrayList<>();
-        printRightViewMeth2(root.right, rightView);
+        List<Node> leftViewList = new ArrayList<>();
+        printLeftViewMeth2(root, leftViewList);
+        Collections.reverse(leftViewList);
+        List<Node> rightViewList = new ArrayList<>();
+        printRightViewMeth2(root.right, rightViewList);
         System.out.println("\nOutline view of the tree:");
-        for (Node node : leftView) {
+        for (Node node : leftViewList) {
             System.out.print(node.data + " ");
         }
-        for (Node node : rightView) {
+        for (Node node : rightViewList) {
             System.out.print(node.data + " ");
         }
     }

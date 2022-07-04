@@ -1,4 +1,4 @@
-package src.Strings;
+package src.SlidingWindow;
 
 import java.util.HashSet;
 
@@ -9,9 +9,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         //String s = "abcabcbb";
         String s = "abcbcad";
 
-        int left = 0;
-        int right = 0;
-        int max = 0;
+        int left = 0, right = 0, max = 0;
         HashSet<Character> hashSet = new HashSet<>();
 
         while (right < s.length()) {

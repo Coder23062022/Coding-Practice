@@ -10,7 +10,7 @@ public class SubTreeOfATree {
 
         TreeNode(int d) {
             data = d;
-            this.left = this.right = null;
+            left = right = null;
         }
     }
 

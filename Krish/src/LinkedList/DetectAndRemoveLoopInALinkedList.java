@@ -19,11 +19,8 @@ class DetectAndRemoveLoopInALinkedList {
         if (node == null || node.next == null)
             return;
 
-        Node slow = node, fast = node, prev = null;
-
         // Move slow and fast 1 and 2 steps ahead respectively.
-        slow = slow.next;
-        fast = fast.next.next;
+        Node slow = node.next, fast = node.next.next, prev = null;
 
         // Search for loop using slow and fast pointers
         while (fast != null && fast.next != null) {
@@ -35,7 +32,7 @@ class DetectAndRemoveLoopInALinkedList {
 
         /* If loop exists */
         if (slow == fast) {
-            slow = node;
+            slow = node; //Starting slow from first node.
             while (slow != fast) {
                 prev = fast;
                 slow = slow.next;

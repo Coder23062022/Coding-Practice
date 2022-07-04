@@ -1,6 +1,7 @@
 package src.Tree;
 
 public class BalanceBinaryTreeCheck {
+    Node root;
 
     //Inner class to create a node
     static class Node {
@@ -12,10 +13,8 @@ public class BalanceBinaryTreeCheck {
         }
     }
 
-    Node root;
-
     private Node createTree() {
-        this.root = new Node(0);
+        root = new Node(0);
         root.left = new Node(1);
         root.left.left = new Node(3);
         root.left.right = new Node(4);
@@ -46,7 +45,6 @@ public class BalanceBinaryTreeCheck {
         if (Math.abs(leftSubtreeHeight - rightSubtreeHeight) > 1) {
             return -1;
         }
-
         return Math.max(leftSubtreeHeight, rightSubtreeHeight) + 1;
     }
 

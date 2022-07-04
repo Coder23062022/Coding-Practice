@@ -9,7 +9,7 @@ public class InvertBinaryTree {
 
         TreeNode(int d) {
             data = d;
-            this.left = this.right = null;
+            left = right = null;
         }
     }
 

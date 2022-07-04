@@ -1,32 +1,32 @@
 package src.Tree;
 
 public class CheckIfBinaryTreeIsBST {
-    static BST root;
-    static BST l;
-    static BST r;
+    static TreeNode root;
+    static TreeNode l;
+    static TreeNode r;
 
-    static class BST {
+    static class TreeNode {
         int data;
-        BST left, right;
+        TreeNode left, right;
 
-        public BST(int data) {
+        public TreeNode(int data) {
             this.data = data;
             left = right = null;
         }
     }
 
     public static void main(String[] args) {
-        root = new BST(10);
-        root.left = new BST(10);
-        root.right = new BST(19);
-        root.left.left = new BST(-5);
-        root.right.left = new BST(17);
-        root.right.right = new BST(21);
+        root = new TreeNode(10);
+        root.left = new TreeNode(10);
+        root.right = new TreeNode(19);
+        root.left.left = new TreeNode(-5);
+        root.right.left = new TreeNode(17);
+        root.right.right = new TreeNode(21);
         System.out.println(isBST(root, l, r));
     }
 
     //source video: https://www.youtube.com/watch?v=MILxfAbIhrE&ab_channel=TusharRoy-CodingMadeSimple
-    static boolean isBST(BST root, BST l, BST r) {
+    static boolean isBST(TreeNode root, TreeNode l, TreeNode r) {
         //An empty tree is considered to be a BST.
         if (root == null)
             return true;

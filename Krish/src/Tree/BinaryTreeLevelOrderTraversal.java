@@ -6,7 +6,6 @@ import java.util.List;
 
 public class BinaryTreeLevelOrderTraversal {
     static TreeNode root;
-    static int result = 0;
 
     static class TreeNode {
         int data;
@@ -40,6 +39,8 @@ public class BinaryTreeLevelOrderTraversal {
             int size = queue.size();
             List<Integer> current = new ArrayList<>();
 
+            //Iterating till the size of the queue every time to traverse all the nodes in a level and collect all the
+            //children they have.
             for (int i = 0; i < size; i++) {
                 TreeNode currentNode = queue.poll();
                 current.add(currentNode.data);

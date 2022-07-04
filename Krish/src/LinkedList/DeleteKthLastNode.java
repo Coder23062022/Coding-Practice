@@ -37,9 +37,9 @@ public class DeleteKthLastNode {
         Node first = head;
         Node second = head;
         for (int i = 0; i < key; i++) {
-            //If count of nodes in the given linked list is <= N.
+            //If count of nodes in the given linked list is <= key.
             if (second.next == null) {
-                //If count = N i.e. delete the head node.
+                //If count = key i.e. delete the head node.
                 if (i == key - 1)
                     head = head.next;
                 return;
@@ -52,8 +52,8 @@ public class DeleteKthLastNode {
             second = second.next;
         }
 
-        //First must be pointing to the Nth node from the end by now.
-        //So, delete the node first is pointing to.
+        //By now, first must be pointing to one node before the node to be deleted.
+        //So, delete the link first is pointing to now.
         first.next = first.next.next;
 
         printList(head);
