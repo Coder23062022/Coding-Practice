@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxProductSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MaxLengthOfSubArrayWithPositiveProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/MergeTwoSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Graph/NumberOfIslandsLeetCodeSolve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/NumberOfIslandsLeetCodeSolve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MaximumSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MaximumSubarray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Temp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Temp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Temp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/TripletSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/TripletSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BalanceBinaryTreeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BalanceBinaryTreeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/CheckIfBinaryTreeIsBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/PrintOutlineOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/PrintOutlineOfABinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/SubTreeOfATree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SubTreeOfATree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/kthSmallestElementInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/kthSmallestElementInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/kthSmallestElementInBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/CountIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/CountIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/NumberOfIslandsLeetCodeSolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/NumberOfIslandsLeetCodeSolve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseListInGroupOfGivenSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseListInGroupOfGivenSize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +57,48 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.kthSmallestElementInBST">
-    <configuration name="DetectAndRemoveLoopInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.DetectAndRemoveLoopInALinkedList" />
+  <component name="RunManager" selected="Application.ReverseListInGroupOfGivenSize">
+    <configuration name="CountIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Graph.CountIslands" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxLengthOfSubArrayWithPositiveProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Greedy.MaxLengthOfSubArrayWithPositiveProduct" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfIslandsLeetCodeSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Graph.NumberOfIslandsLeetCodeSolve" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseListInGroupOfGivenSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.ReverseListInGroupOfGivenSize" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
@@ -74,51 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MidElementOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.MidElementOfLinkedList" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.Test3" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.ReorderList" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Array.TwoSum" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Tree.*" />
+          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.kthSmallestElementInBST" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.MidElementOfLinkedList" />
-        <item itemvalue="Application.DetectAndRemoveLoopInALinkedList" />
+        <item itemvalue="Application.ReverseListInGroupOfGivenSize" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.NumberOfIslandsLeetCodeSolve" />
+        <item itemvalue="Application.CountIslands" />
+        <item itemvalue="Application.MaxLengthOfSubArrayWithPositiveProduct" />
       </list>
     </recent_temporary>
   </component>

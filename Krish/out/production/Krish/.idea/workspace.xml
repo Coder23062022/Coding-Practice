@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/JumpGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Greedy/MaximumSubarray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRooms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MergeIntervals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/HighestSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MinNoOfPlatformsNeeded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MaxLengthOfSubarrayWithPositiveProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/DuplicateInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/HighestSumOfNonAdjascentNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MoveZerosToEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/OddAndEvenNumbersSeparate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/Segregate0and1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/PalindromeSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DuplicateInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/HighestSumOfNonAdjascentNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/MoveZerosToEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/OddAndEvenNumbersSeparate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Segregate0and1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/PalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/PalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/MaximumSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +42,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SearchingAlgo.FindFirstAndLastPositionOfElementInSortedArray" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SearchingAlgo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.LongestPalindromicSubstring" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Strings.PalindromeSubstring" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SearchingAlgo.SearchInRotatedSortedArray" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SearchingAlgo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="src.Greedy.MinNoOfPlatformsNeeded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Greedy.MinNoOfPlatformsNeeded" />
+  <component name="RunManager" selected="Application.MaxLengthOfSubarrayWithPositiveProduct">
+    <configuration name="MaxLengthOfSubarrayWithPositiveProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Greedy.MaxLengthOfSubarrayWithPositiveProduct" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +56,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MidElementOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.MidElementOfLinkedList" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.ReorderList" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.TwoSum" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.kthSmallestElementInBST" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.PalindromeSubstring" />
-        <item itemvalue="Application.src.Greedy.MinNoOfPlatformsNeeded" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
+        <item itemvalue="Application.MaxLengthOfSubarrayWithPositiveProduct" />
+        <item itemvalue="Application.kthSmallestElementInBST" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.ReorderList" />
+        <item itemvalue="Application.MidElementOfLinkedList" />
       </list>
     </recent_temporary>
   </component>

@@ -28,9 +28,9 @@ public class LongestPalindromicSubstring {
             high++;
         }
 
-        if (high - low - 1 >= maxLength) {
+        if (high - (low + 1) >= maxLength) {
             result = s.substring(low + 1, high);
-            maxLength = high - low - 1;
+            maxLength = high - (low + 1);
         }
     }
 }
