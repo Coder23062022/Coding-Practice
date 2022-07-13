@@ -17,10 +17,10 @@ public class NumberOfIslandsLeetCodeSolve {
     }
 
     static void DFSUtil(char[][] grid, int row, int col) {
-        if (row < 0 || row >= grid.length || col < 0 || col >= grid[row].length || grid[row][col] == '0') {
+        if (row < 0 || row >= grid.length || col < 0 || col >= grid[row].length || grid[row][col] != '1') {
             return;
         }
-        grid[row][col] = '0';
+        grid[row][col] = '#'; //Disappear this cell. You can put 0 or any character here except 1.
         DFSUtil(grid, row + 1, col);
         DFSUtil(grid, row - 1, col);
         DFSUtil(grid, row, col + 1);

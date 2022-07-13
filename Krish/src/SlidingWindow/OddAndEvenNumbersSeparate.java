@@ -8,19 +8,16 @@ public class OddAndEvenNumbersSeparate {
         int right = inputArray.length - 1;
 
         while (left < right) {
-            while (inputArray[left] % 2 == 0)
+            if (inputArray[left] % 2 == 0) {
                 left++;
-            while (inputArray[right] % 2 == 1)
-                right--;
-
-            if (left < right) {
+            } else {
                 int temp = inputArray[left];
                 inputArray[left] = inputArray[right];
                 inputArray[right] = temp;
-                left++;
                 right--;
             }
         }
+
         for (int j : inputArray) {
             System.out.print(j + " ");
         }

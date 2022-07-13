@@ -2,16 +2,17 @@ package src.Array;
 
 import java.util.Arrays;
 
-//Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums
-//except nums[i]. Time complexity: O(n)
+//Time complexity: O(n), Space complexity: O(1)
+//Problem: https://leetcode.com/problems/product-of-array-except-self/
+//Source video: https://www.youtube.com/watch?v=tSRFtR3pv74&ab_channel=NickWhite
+
 public class ProductOfArrayExceptSelf {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
-        System.out.println(Arrays.toString(productExceptSelf(nums)));
+        System.out.println(Arrays.toString(productExceptSelfWithSpaceOptimization(nums)));
     }
 
-    //Source video: https://www.youtube.com/watch?v=tSRFtR3pv74&ab_channel=NickWhite
-    static int[] productExceptSelf(int[] nums) {
+    static int[] productExceptSelfWithSpaceOptimization(int[] nums) {
         int[] result = new int[nums.length];
         result[0] = 1;
         for (int i = 1; i < nums.length; i++) {
@@ -22,6 +23,27 @@ public class ProductOfArrayExceptSelf {
         for (int i = nums.length - 1; i >= 0; i--) {
             result[i] = result[i] * R;
             R = R * nums[i];
+        }
+        return result;
+    }
+
+    static int[] productExceptSelf(int[] nums) {
+        int[] L = new int[nums.length];
+        int[] R = new int[nums.length];
+        int[] result = new int[nums.length];
+
+        L[0] = 1;
+        for (int i = 1; i < nums.length; i++) {
+            L[i] = nums[i - 1] * L[i - 1];
+        }
+
+        R[nums.length - 1] = 1;
+        for (int i = nums.length - 2; i >= 0; i--) {
+            R[i] = R[i + 1] * nums[i + 1];
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = L[i] * R[i];
         }
         return result;
     }

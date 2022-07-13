@@ -10,16 +10,16 @@ public class Segregate0and1 {
     }
 
     static void segregate0and1(int[] arr) {
-        int i = 0, j = arr.length - 1;
-        while (i < j) {
-            if (arr[i] == 1) {
+        int left = 0, right = arr.length - 1;
+        while (left < right) {
+            if (arr[left] == 1) {
                 // swap
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                j--;
+                int temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                right--;
             } else {
-                i++;
+                left++;
             }
         }
     }

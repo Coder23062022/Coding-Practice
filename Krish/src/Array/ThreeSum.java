@@ -17,7 +17,8 @@ public class ThreeSum {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums); //-4, -1, -1, 0, 1, 2
 
-        //Approach: 1. Take the i-th element in each operation and subtract it from 0 and put it into tempSum variable.
+        //Approach:
+        //1. Take the i-th element in each operation and subtract it from 0 and put it into tempSum variable.
         //2. Now find two elements from rest of the array so that their sum is equal to tempSum.
         for (int i = 0; i < nums.length - 2; i++) {
             if (i == 0 || nums[i] != nums[i - 1]) { //This checks the duplicates, if there are any duplicates, we will skip it.
