@@ -2,49 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Intervals/MinimalParkingSpaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MinimalParkingSpaces.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SubArraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/VersionCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestConsecutiveSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestConsecutiveSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestIncreasingOrderSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/LongestIncreasingOrderSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MinimalParkingSpaces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/PairSumMatchesRestOfArraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/PairSumMatchesRestOfArraySum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/PairsMatchingSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/ProductOfArrayExceptSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ProductOfArrayExceptSelf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/SegregatePositiveNegativeNumberNotMaintaningOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/SegregatingNegativePositiveNumbersMaintainingOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/kthSmallestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/kthSmallestElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/OddEvenPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/SumOfHundred.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/OddAndEvenNumbersSeparate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/OddAndEvenNumbersSeparate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/Segregate0and1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/Segregate0and1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution$RatingStatisticsCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution$RatingStatisticsCollectorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/src/Practice/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/LongestIncreasingOrderSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/LongestIncreasingOrderSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/MinimalParkingSpaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/PairSumMatchesRestOfArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/PairSumMatchesRestOfArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/PairsMatchingSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/RearrangePositiveNegativeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RearrangePositiveNegativeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/HighestSumOfNonAdjacentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/MaxProductSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/MaxProductSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/MaximumSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRoomsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MeetingRoomsII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/MergeIntervals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/SegregatePositiveNegativeNumberNotMaintaningOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/SegregatingNegativePositiveNumbersMaintainingOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/kthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/kthSmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/HighestSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/MaxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/MaximumSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intervals/MinNoOfPlatformsNeeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/MinNoOfPlatformsNeeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intervals/NonOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intervals/NonOverlappingIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeleteKthLastNode">
-    <configuration name="DeleteKthLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.DeleteKthLastNode" />
+  <component name="RunManager" selected="Application.SubArraySumEqualsK">
+    <configuration name="CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.CoinChangeMinNumberOfCoins" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.LinkedList.*" />
+          <option name="PATTERN" value="src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddAndEvenNumbersSeparate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindow.OddAndEvenNumbersSeparate" />
+    <configuration name="MaxSumOfNonAdjacentNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.MaxSumOfNonAdjacentNumbers" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SlidingWindow.*" />
+          <option name="PATTERN" value="src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Segregate0and1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindow.Segregate0and1" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Intervals.MergeIntervals" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SlidingWindow.*" />
+          <option name="PATTERN" value="src.Intervals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegregatingPositiveNegativeNumbersMaintainingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindow.SegregatingPositiveNegativeNumbersMaintainingOrder" />
+    <configuration name="SubArraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.SubArraySumEqualsK" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SlidingWindow.*" />
+          <option name="PATTERN" value="src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.SlidingWindow.SegregatePositiveNegativeNumbersNotMaintainingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindow.SegregatePositiveNegativeNumbersNotMaintainingOrder" />
+    <configuration name="src.DynamicProgramming.MaximumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.MaximumSum" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SlidingWindow.*" />
+          <option name="PATTERN" value="src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteKthLastNode" />
-        <item itemvalue="Application.src.SlidingWindow.SegregatePositiveNegativeNumbersNotMaintainingOrder" />
-        <item itemvalue="Application.OddAndEvenNumbersSeparate" />
-        <item itemvalue="Application.Segregate0and1" />
-        <item itemvalue="Application.src.Array.SegregatingPositiveNegativeNumbersMaintainingOrder" />
+        <item itemvalue="Application.SubArraySumEqualsK" />
+        <item itemvalue="Application.CoinChangeMinNumberOfCoins" />
+        <item itemvalue="Application.src.DynamicProgramming.MaximumSum" />
+        <item itemvalue="Application.MaxSumOfNonAdjacentNumbers" />
+        <item itemvalue="Application.MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +160,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/ReorderList.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

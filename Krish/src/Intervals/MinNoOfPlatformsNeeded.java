@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 //Problem: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 //Video reference: https://www.youtube.com/watch?v=dxVcMDI7vyI&ab_channel=takeUforward
-//Time Complexity: O(N * log N), One traversal O(n) of both the array is needed after sorting O(N * log N).
+//Time Complexity: O(N * log N), One traversal O(n) of both the array is needed after sorting.
 //Space complexity: O(1)
 
 public class MinNoOfPlatformsNeeded {

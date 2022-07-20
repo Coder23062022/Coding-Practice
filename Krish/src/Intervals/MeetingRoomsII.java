@@ -17,8 +17,8 @@ public class MeetingRoomsII {
     }
 
     public static void main(String[] args) {
-//        List<Interval> intervals = Arrays.asList(new Interval(0, 30), new Interval(5, 10), new Interval(15, 20));
-        List<Interval> intervals = Arrays.asList(new Interval(2, 7));
+        List<Interval> intervals = Arrays.asList(new Interval(0, 30), new Interval(5, 10), new Interval(15, 20));
+//        List<Interval> intervals = Arrays.asList(new Interval(2, 7));
         System.out.println(minMeetingRooms(intervals));
     }
 

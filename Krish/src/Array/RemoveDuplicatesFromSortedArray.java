@@ -1,5 +1,9 @@
 package src.Array;
 
+//Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+//Video source: https://www.youtube.com/watch?v=DEJAZBq0FDA&ab_channel=NeetCode
+//Time complexity: O(n)
+
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         // int a[] = { 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4 };
@@ -7,26 +11,19 @@ public class RemoveDuplicatesFromSortedArray {
         System.out.println("Length is: " + findLengthWithoutDuplicates(a));
     }
 
-    // In this algorithm, we focused on the length of the array which should come
-    // when no duplicates are present.
+    // In this algorithm, we focused on the length of the array which should come when no duplicates are present.
     static int findLengthWithoutDuplicates(int[] a) {
         if (a.length == 0)
             return 0;
 
-        int i = 0;
-        for (int j = 1; j < a.length; j++) {
-            if (a[j] != a[i]) {
-                i++;
+        int i = 1, j = 1;
+        while (j < a.length) {
+            if (a[j] != a[j - 1]) {
                 a[i] = a[j];
+                i++;
             }
+            j++;
         }
-        // In the below commented code if you will print the array, you can see
-        // duplicate values are present in the output array, but as our main target is
-        // to find the length of the duplicate free array, we can ignore the final array
-        // which is getting formed.
-        /*
-         * for (int k = 0; k < a.length; k++) { System.out.println(a[k]); }
-         */
-        return i + 1;
+        return i;
     }
 }

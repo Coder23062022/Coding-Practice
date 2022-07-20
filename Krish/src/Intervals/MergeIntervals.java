@@ -7,6 +7,7 @@ import java.util.List;
 public class MergeIntervals {
     public static void main(String[] args) {
         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+//        int[][] intervals = {{1,4},{5,6}};
         for (int[] interval : merge(intervals))
             System.out.println(Arrays.toString(interval));
     }
@@ -14,7 +15,7 @@ public class MergeIntervals {
     static int[][] merge(int[][] intervals) {
         List<int[]> answer = new ArrayList<>();
 
-        if (intervals.length != 0 || intervals != null) {
+        if (intervals.length != 0) {
             Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
 
             int start = intervals[0][0];
