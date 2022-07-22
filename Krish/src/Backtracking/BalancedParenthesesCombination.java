@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//Problem: https://leetcode.com/problems/generate-parentheses/
+//Video source: https://www.youtube.com/watch?v=s9fokUqJ76A&ab_channel=NeetCode
+//Time complexity: O(2^n)
+//Space complexity: O(n)
+
 public class BalancedParenthesesCombination {
     public static void main(String[] args) {
         List<String> output_list = new ArrayList<>();
@@ -22,8 +27,13 @@ public class BalancedParenthesesCombination {
         if (current_String.length() == n * 2) {
             result.add(current_String);
         }
+
+        //Add open parenthesis if open < n.
         if (open < n)
             backTrack(result, current_String + "(", open + 1, close, n);
+
+        //Add close parenthesis only when close < open. Because number of close parenthesis cannot exceed number of open parenthesis.
+        //Otherwise, it will not be a valid combination.
         if (close < open)
             backTrack(result, current_String + ")", open, close + 1, n);
     }

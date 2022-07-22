@@ -2,6 +2,10 @@ package src.Array;
 
 import java.util.HashSet;
 
+//Problem: https://leetcode.com/problems/contains-duplicate/
+//Time complexity: O(n)
+//Space complexity: O(n)
+
 public class DuplicateInArray {
     public static void main(String[] args) {
         // Time complexity is O(n) and Space complexity is O(1)
