@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/NumberOfGoodComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/Test234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MakeArrayBeautiful.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/FirstNonRepeatingCharInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/FirstNonRepeatingCharInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/Test234.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/EmployeeHierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/EmployeeHierarchy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeTraversalWithoutRecursionWithSingleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeTraversalWithoutRecursionWithSingleStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,39 +44,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test234">
+  <component name="RunManager" selected="Application.EmployeeHierarchy">
+    <configuration name="EmployeeHierarchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.EmployeeHierarchy" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOfGoodComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Graph.NumberOfGoodComponents" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.PalindromeLinkedList" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Practice.Test123" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTraversalWithoutRecursionWithSingleStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.TreeTraversalWithoutRecursionWithSingleStack" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeHierarchy" />
+        <item itemvalue="Application.TreeTraversalWithoutRecursionWithSingleStack" />
         <item itemvalue="Application.Test234" />
         <item itemvalue="Application.NumberOfGoodComponents" />
         <item itemvalue="Application.Test21" />
-        <item itemvalue="Application.Test123" />
-        <item itemvalue="Application.PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>

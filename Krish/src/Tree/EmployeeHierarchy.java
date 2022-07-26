@@ -6,22 +6,23 @@ import java.util.List;
 import java.util.Map;
 
 //Source: https://www.lavivienpost.com/build-hierarchy-tree/
-class Employee {
-    protected int id, managerId;
-    protected String name;
-    protected List<Employee> subordinates;
-
-    // Constructor, Time O(1), Space O(1)
-    public Employee(String id, String name, String managerId) {
-        this.id = Integer.parseInt(id);
-        this.name = name;
-        this.managerId = Integer.parseInt(managerId);
-    }
-}
 
 public class EmployeeHierarchy {
     private final Map<Integer, Employee> employees = new HashMap<>(); // stores (id, employee) pair
     private Employee root;
+
+    static class Employee {
+        protected int id, managerId;
+        protected String name;
+        protected List<Employee> subordinates;
+
+        // Constructor, Time O(1), Space O(1)
+        public Employee(String id, String name, String managerId) {
+            this.id = Integer.parseInt(id);
+            this.name = name;
+            this.managerId = Integer.parseInt(managerId);
+        }
+    }
 
     // Read data and build map, Iteration, Time O(n), Space O(n), n is number of
     // employees
