@@ -11,8 +11,9 @@ public class FirstNonRepeatingCharInAString {
         System.out.println(firstNonRepeatingCharInAStringMeth2(str2));
     }
 
+    //Space complexity: O(n)
     private static char firstNonRepeatingCharInAStringMeth1(String s) {
-        Map<Character, Integer> hm = new HashMap<Character, Integer>();
+        Map<Character, Integer> hm = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (hm.containsKey(s.charAt(i))) {
                 hm.put(s.charAt(i), hm.get(s.charAt(i)) + 1);
@@ -27,6 +28,7 @@ public class FirstNonRepeatingCharInAString {
         return '_';
     }
 
+    //Space complexity: O(1)
     private static char firstNonRepeatingCharInAStringMeth2(String s) {
         for (int i = 0; i < s.length(); i++) {
             // If the first index of the character is equal to the last index of the

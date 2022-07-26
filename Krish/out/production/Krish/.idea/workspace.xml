@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Test123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Test21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Test234.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Backtracking/BalancedParenthesesCombination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Backtracking/BalancedParenthesesCombination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/CountIslands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Practice/VersionCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/AnagramCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/AnagramCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/BalancedParenthesesCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/BalancedParenthesesCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/CountIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/CountIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/AnagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/AnagramCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +46,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LetterCombinationsOfAPhoneNumber">
-    <configuration name="CountIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.CountIslands" />
+  <component name="RunManager" selected="Application.Test21">
+    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LinkedList.PalindromeLinkedList" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,21 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Backtracking.LetterCombinationsOfAPhoneNumber" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Tree.LowestCommonAncestorOfBinaryTree" />
+    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Tree.SymmetricTree" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindow.MoveZerosToEnd" />
+    <configuration name="Test123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.Test123" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SlidingWindow.*" />
+          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graph.WordSearch" />
+    <configuration name="Test21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.Test21" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Graph.*" />
+          <option name="PATTERN" value="src.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.Test234" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
-        <item itemvalue="Application.WordSearch" />
-        <item itemvalue="Application.CountIslands" />
-        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
-        <item itemvalue="Application.MoveZerosToEnd" />
+        <item itemvalue="Application.Test21" />
+        <item itemvalue="Application.Test234" />
+        <item itemvalue="Application.Test123" />
+        <item itemvalue="Application.PalindromeLinkedList" />
+        <item itemvalue="Application.SymmetricTree" />
       </list>
     </recent_temporary>
   </component>
