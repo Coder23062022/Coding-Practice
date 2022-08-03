@@ -1,4 +1,4 @@
-package src.Strings;
+package src.Backtracking;
 
 public class StringPermutations {
     public static void main(String[] args) {
@@ -16,16 +16,16 @@ public class StringPermutations {
 
         // Make a boolean array of size '26' which stores false by default and make true
         // at the position which alphabet is being used to make distinct permutation.
-        boolean[] alpha = new boolean[26];
+        boolean[] visited = new boolean[26];
 
         for (int i = 0; i < word.length(); i++) {
             char ch = word.charAt(i);
 
             // If the character has not been used then recursive call will take place.
             // Otherwise, there will be no recursive call.
-            if (!alpha[ch - 'A']) // If the input is in small letters, then here it will be 'a'.
+            if (!visited[ch - 'A']) // If the input is in small letters, then here it will be 'a'.
                 permutation(result + ch, word.substring(0, i) + word.substring(i + 1));
-            alpha[ch - 'A'] = true;
+            visited[ch - 'A'] = true;
         }
     }
 }

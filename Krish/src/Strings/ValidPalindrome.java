@@ -1,7 +1,8 @@
 package src.Strings;
 
-//Problem: A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all
-//non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+//Problem: https://leetcode.com/problems/valid-palindrome/
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class ValidPalindrome {
     public static void main(String[] args) {

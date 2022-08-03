@@ -32,10 +32,12 @@ public class AddStrings {
             result.append((char) (digit + '0'));
         }
 
+        //If there is any carry leftover append that to the result.
         if (carry > 0) {
             result.append((char) (carry + '0'));
         }
 
+        //This is for a special case to handle. If the result comes with all 0's, then only one 0 we have to print.
         int j = result.length() - 1;
         while (j > 0 && result.charAt(j) == '0') {
             result.deleteCharAt(j);

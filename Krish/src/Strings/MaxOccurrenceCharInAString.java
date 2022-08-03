@@ -5,20 +5,23 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MaxOccuranceCharInAString {
+//Time complexity: O(n)
+//Space complexity: O(n)
 
+public class MaxOccurrenceCharInAString {
     public static void main(String[] args) {
 //        String str = "sample string";
         String str = "abcd";
-        System.out.println("Max occurring character is " + getMaxOccuringCharMeth1(str));
-        List<Character> list = getMaxOccuringCharMeth2(str);
+        System.out.println("Max occurring character is " + getMaxOccurringCharMeth1(str));
+        List<Character> list = getMaxOccurringCharMeth2(str);
         for (Character character : list) {
             System.out.println("Max occurring character is " + character);
         }
     }
 
     static final int ASCII_SIZE = 256;
-    static char getMaxOccuringCharMeth1(String str) {
+
+    static char getMaxOccurringCharMeth1(String str) {
         // Create array to keep the count of individual
         // characters and initialize the array as 0
         int[] count = new int[ASCII_SIZE];
@@ -38,11 +41,11 @@ public class MaxOccuranceCharInAString {
                 result = str.charAt(i);
             }
         }
-        System.out.println("Count of occurance of the character: " + max);
+        System.out.println("Count of occurrence of the character: " + max);
         return result;
     }
 
-    private static List<Character> getMaxOccuringCharMeth2(String str) {
+    private static List<Character> getMaxOccurringCharMeth2(String str) {
         Map<Character, Integer> hm = new HashMap<>();
         char[] ch = str.toCharArray();
         int max = 1;
@@ -50,12 +53,11 @@ public class MaxOccuranceCharInAString {
             if (!hm.containsKey(c)) {
                 hm.put(c, 1);
             } else {
-                int oldCount = hm.get(c);
-                hm.put(c, oldCount + 1);
-                max = Math.max(max, oldCount + 1);
+                max = Math.max(max, hm.get(c) + 1);
+                hm.put(c, hm.get(c) + 1);
             }
         }
-        System.out.println("Count of max occurance:" + max);
+        System.out.println("Count of max occurrence:" + max);
         List<Character> result = new ArrayList<>();
         for (Map.Entry<Character, Integer> m : hm.entrySet()) {
             if (m.getValue() == max) {

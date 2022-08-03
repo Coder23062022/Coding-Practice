@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+//Time Complexity: O(n)
+//Auxiliary Space: O(256)
+
 public class SecondMostFrequentCharacterInAString {
     static final int ASCII_SIZE = 256;
 

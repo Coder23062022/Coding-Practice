@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//Time Complexity: O(nlogn)
+//Auxiliary Space: O(n)
+
 public class SecondMostFrequentCharacterInAStringUsingCollection {
     public static void main(String[] args) {
         String str = "geeksforgeeks";

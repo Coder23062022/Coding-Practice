@@ -1,5 +1,8 @@
 package src.Strings;
 
+//Time complexity: O(n)
+//Space complexity: O(n)
+
 public class VowelsAndConsonantsCount {
     public static void main(String... args) {
         //String s = "I am a good boy";
@@ -13,7 +16,6 @@ public class VowelsAndConsonantsCount {
         String vowels = "aeiouy";
 
         char[] inputCharArray = input.toCharArray();
-
         for (char c : inputCharArray) {
             if (vowels.indexOf(c) != -1) {
                 vowelsCount++;
@@ -21,7 +23,6 @@ public class VowelsAndConsonantsCount {
                 consonantCount++;
             }
         }
-
         System.out.println("Vowels count: " + vowelsCount);
         System.out.println("Consonants count: " + consonantCount);
     }

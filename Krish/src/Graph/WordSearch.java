@@ -1,6 +1,8 @@
 package src.Graph;
 
 //Problem: https://leetcode.com/problems/word-search/
+//Time complexity: O(m∗n∗4^s)
+//Time complexity analysis: https://cs.stackexchange.com/questions/96626/whats-the-big-o-runtime-of-a-dfs-word-search-through-a-matrix
 
 public class WordSearch {
     static boolean[][] visited;
@@ -40,9 +42,9 @@ public class WordSearch {
 
     public static void main(String[] args) {
         char[][] grid = {
-                {'A', 'B', 'C', 'E' },
-                {'S', 'F', 'C', 'S' },
-                {'A', 'D', 'E', 'E' }
+                {'A' , 'B' , 'C' , 'E'},
+                {'S' , 'F' , 'C' , 'S'},
+                {'A' , 'D' , 'E' , 'E'}
         };
         String word = "ABCCED";
         System.out.println("Searched word is found: " + exist(grid, word));
