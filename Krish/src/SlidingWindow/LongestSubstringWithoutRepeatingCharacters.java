@@ -2,9 +2,11 @@ package src.SlidingWindow;
 
 import java.util.HashSet;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+//Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+//Time complexity: O(n)
+//Space complexity: O(n)
 
-    // Sliding window problem
+public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         //String s = "abcabcbb";
         String s = "abcbcad";
@@ -18,7 +20,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
                 right++; // The right pointer is expanding the window here.
                 max = Math.max(hashSet.size(), max); // Hashset size is the total number of unique characters in the hashset against the current max.
             } else {
-                hashSet.remove(s.charAt(left)); //Popping out the beginning character from the hashset.
+                //Removing characters from left pointer side until the character at right pointer becomes unique in hashset.
+                hashSet.remove(s.charAt(left));
                 left++;
             }
         }

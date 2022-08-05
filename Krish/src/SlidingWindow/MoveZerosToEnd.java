@@ -2,6 +2,10 @@ package src.SlidingWindow;
 
 import java.util.Arrays;
 
+//Problem: https://leetcode.com/problems/move-zeroes/
+//Time complexity: O(n)
+//Space complexity: O(1)
+
 public class MoveZerosToEnd {
     public static void main(String[] args) {
         int[] a = {0, 1, 0, 3, 12};
@@ -9,7 +13,8 @@ public class MoveZerosToEnd {
             return;
 
         //Idea is to take two pointers - left and right. Right pointer will just move to the right if the element is 0.
-        //If the element is non-zero, then right pointer value and left pointer value will be swapped and both will be incremented by 1.
+        //If the element is non-zero, then right pointer value and left pointer value will be swapped and both pointers
+        //will be incremented by 1.
 
         int left = 0, right = 0;
         for (int i = 0; i < a.length; i++) {

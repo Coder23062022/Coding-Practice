@@ -2,47 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/PrintAllPossibleSubsequencesOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/PrintAllPossibleSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/EachCharOccurrenceInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequenceLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/CollectionAndMap/SortHashMapByValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/ValidSudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/GeneralProgram/ValidSudoku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Graph/WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Graph/WordSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Recursion/PowImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Recursion/PowImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/AddStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/AddStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/AnagramCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/AnagramCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/EachCharOccuranceInAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstMaxLengthEvenWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstMaxLengthEvenWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstNonRepeatingCharInAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/FirstNonRepeatingCharInAString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/MaxOccuranceCharInAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/PrintAllPossibleSubsequencesOfAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/RemoveACharacterToMakeAPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/RemoveACharacterToMakeAPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAndMap/SortHashMapByValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAndMap/SortHashMapByValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/PowImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/PowImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/AddStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/AddStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/AnagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/AnagramCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/EachCharOccuranceInAString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/FindKeyInAStringWithoutUsingLibraryFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/FindKeyInAStringWithoutUsingLibraryFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/FirstMaxLengthEvenWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/FirstMaxLengthEvenWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/FirstNonRepeatingCharInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/FirstNonRepeatingCharInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/MaxOccuranceCharInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/MaxOccurrenceCharInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/PrintAllPossibleSubsequencesOfAString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/RemoveACharacterToMakeAPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/RemoveACharacterToMakeAPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/SecondMostFrequentCharacterInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/SecondMostFrequentCharacterInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/StringPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/Stringsplit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/Stringswitchcase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/VowelsAndConsonantsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/VowelsAndConsonantsCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-kafka-consumer-example" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-kafka-consumer-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-kafka-producer-example" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-kafka-producer-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/MoveZerosToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/MoveZerosToEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/OddAndEvenNumbersSeparate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/Segregate0and1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingTempStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingTempStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringPermutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringsplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringswitchcase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/ValidPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/FindAllAnagramsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/OddAndEvenNumbersSeparate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/Segregate0and1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/CheckIfTwoStacksAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/CheckIfTwoStacksAreSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/CheckOrderedBalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/CheckOrderedBalancedParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/SortStackUsingTempStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/SortStackUsingTempStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +72,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.src.Strings.ReverseACharArray">
-    <configuration name="PrintAllPossibleSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Backtracking.PrintAllPossibleSubsets" />
+  <component name="RunManager" selected="Application.LongestIncreasingSubsequenceLength">
+    <configuration name="LongestIncreasingSubsequenceLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.LongestIncreasingSubsequenceLength" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
+          <option name="PATTERN" value="src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Backtracking.PrintAllPossibleSubsequencesOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Backtracking.PrintAllPossibleSubsequencesOfAString" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.MajorityElement" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
+          <option name="PATTERN" value="src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Strings.MaxOccurrenceCharInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Strings.MaxOccurrenceCharInAString" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.NextPermutation" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
+          <option name="PATTERN" value="src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Strings.RemoveACharacterToMakeAPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Strings.RemoveACharacterToMakeAPalindrome" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.RemoveDuplicatesFromSortedArray" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
+          <option name="PATTERN" value="src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Strings.ReverseACharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Strings.ReverseACharArray" />
+    <configuration name="TEst12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Practice.TEst12" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Backtracking.*" />
+          <option name="PATTERN" value="src.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.src.Strings.ReverseACharArray" />
-        <item itemvalue="Application.src.Strings.RemoveACharacterToMakeAPalindrome" />
-        <item itemvalue="Application.PrintAllPossibleSubsets" />
-        <item itemvalue="Application.src.Backtracking.PrintAllPossibleSubsequencesOfAString" />
-        <item itemvalue="Application.src.Strings.MaxOccurrenceCharInAString" />
+        <item itemvalue="Application.LongestIncreasingSubsequenceLength" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.TEst12" />
+        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>

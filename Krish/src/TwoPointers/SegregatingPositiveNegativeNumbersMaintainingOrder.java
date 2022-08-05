@@ -1,4 +1,7 @@
-package src.SlidingWindow;
+package src.TwoPointers;
+
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class SegregatingPositiveNegativeNumbersMaintainingOrder {
     static void segregate(int[] arr, int n) {
@@ -9,16 +12,16 @@ public class SegregatingPositiveNegativeNumbersMaintainingOrder {
                 count_negative++;
 
         // Run a loop until all negative numbers are moved to the beginning
-        int i = 0, j = i + 1;
+        int i = 0, j = 1;
         while (i != count_negative) {
 
             // If number is negative, update position of next positive number.
             if (arr[i] < 0) {
                 i++;
-                j = i + 1;
+                j = i + 1; //To start checking again from next element after arr[i].
             }
 
-            // If number is positive, move it to index j and increment j.
+            // If number is positive, swap arr[i] and arr[j] and increment j.
             else if (arr[i] > 0 && j < n) {
                 int t = arr[i];
                 arr[i] = arr[j];

@@ -1,4 +1,7 @@
-package src.SlidingWindow;
+package src.TwoPointers;
+
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class OddAndEvenNumbersSeparate {
     public static void main(String[] args) {

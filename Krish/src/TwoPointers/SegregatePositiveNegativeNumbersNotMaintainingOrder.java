@@ -1,4 +1,7 @@
-package src.SlidingWindow;
+package src.TwoPointers;
+
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class SegregatePositiveNegativeNumbersNotMaintainingOrder {
     public static void main(String[] args) {
@@ -6,14 +9,15 @@ public class SegregatePositiveNegativeNumbersNotMaintainingOrder {
         int left = 0;
         int right = a.length - 1;
 
+        //If positive number, then swap. If negative number, then skip.
         while (left < right) {
-            if (a[left] < 0) {
-                left++;
-            } else {
+            if (a[left] >= 0) {
                 int temp = a[left];
                 a[left] = a[right];
                 a[right] = temp;
                 right--;
+            } else {
+                left++;
             }
         }
 
