@@ -1,9 +1,10 @@
 package src.Array;
 
-//Problem: https://leetcode.com/problems/merge-sorted-array/
-//Time complexity: O(n), Space complexity: O(1)
-
 import java.util.Arrays;
+
+//Problem: https://leetcode.com/problems/merge-sorted-array/
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {

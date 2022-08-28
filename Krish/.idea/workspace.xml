@@ -2,39 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7aa32-0f19-4f21-8326-9d3f227e8eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequenceLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Test123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/FindLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/PrintLastNLinesOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/MoveZerosToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/MoveZerosToEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/OddAndEvenNumbersSeparate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/Segregate0and1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingTempStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Stack/SortStackUsingTempStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/StringPermutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringsplit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/Stringswitchcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/ValidPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/FindAllAnagramsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/OddAndEvenNumbersSeparate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/OddAndEvenNumbersSeparate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Segregate0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/Segregate0and1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/SegregatingPositiveNegativeNumbersMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/CheckIfTwoStacksAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/CheckIfTwoStacksAreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/CheckOrderedBalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/CheckOrderedBalancedParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/SortStackUsingTempStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/SortStackUsingTempStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/MergeTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/MergeTwoSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/SplitArrayIntoTwoEqualSumSubarrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SplitArrayIntoTwoEqualSumSubarrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krish/src/DynamicProgramming/LongestIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MergeTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/SplitArrayIntoTwoEqualSumSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/SplitArrayIntoTwoEqualSumSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-kafka-producer-example" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-kafka-producer-example" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +60,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequenceLength">
-    <configuration name="LongestIncreasingSubsequenceLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.LongestIncreasingSubsequenceLength" />
-      <module name="Krish" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Array.MajorityElement" />
+  <component name="RunManager" selected="Application.FindTheDuplicateNumber">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.BestTimeToBuyAndSellStock" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Array.NextPermutation" />
+    <configuration name="FindTheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.FindTheDuplicateNumber" />
+      <module name="Krish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.MajorityElement" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEst12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Practice.TEst12" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Array.SortColors" />
       <module name="Krish" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Practice.*" />
+          <option name="PATTERN" value="src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestIncreasingSubsequenceLength" />
-        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.FindTheDuplicateNumber" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.TEst12" />
-        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.SortColors" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>

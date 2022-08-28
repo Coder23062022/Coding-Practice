@@ -4,6 +4,7 @@ package src.Array;
 //Algorithm used: Moore’s Voting Algorithm
 //Reference: https://www.geeksforgeeks.org/frequent-element-array/
 //Video source: https://www.youtube.com/watch?v=X0G5jEcvroo&ab_channel=AnujBhaiya
+//Condition: count(MajorityElement) > arrayLength/2
 //Time complexity: O(n)
 //Space complexity: O(1)
 
@@ -20,8 +21,8 @@ public class MajorityElement {
     }
 
     static int majorityElement(int[] nums) {
-        int res = 0, count = 0;
-        for (int i = 0; i < nums.length; i++) {
+        int res = 0, count = 1;
+        for (int i = 1; i < nums.length; i++) {
             if (nums[i] == nums[res])
                 count++;
             else

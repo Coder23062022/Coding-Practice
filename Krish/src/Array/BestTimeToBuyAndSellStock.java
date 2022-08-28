@@ -1,5 +1,9 @@
 package src.Array;
 
+//Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+//Time complexity: O(n)
+//Space complexity: O(1)
+
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
         int[] prices = {7, 1, 5, 3, 6, 4};
