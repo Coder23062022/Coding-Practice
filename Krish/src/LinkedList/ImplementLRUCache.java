@@ -1,4 +1,4 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
 import java.util.HashMap;
 import java.util.Map;

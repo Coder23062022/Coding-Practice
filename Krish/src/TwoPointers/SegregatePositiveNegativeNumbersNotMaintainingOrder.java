@@ -1,4 +1,4 @@
-package src.TwoPointers;
+package Krish.src.TwoPointers;
 
 //Time complexity: O(n)
 //Space complexity: O(1)

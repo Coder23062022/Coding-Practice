@@ -1,4 +1,4 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/palindrome-linked-list/
 //Video source: https://www.youtube.com/watch?v=ee-DuKtRNGw&ab_channel=AnujBhaiya

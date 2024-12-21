@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.Arrays;
 

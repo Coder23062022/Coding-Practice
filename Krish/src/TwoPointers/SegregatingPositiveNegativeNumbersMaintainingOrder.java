@@ -1,10 +1,10 @@
-package src.TwoPointers;
+package Krish.src.TwoPointers;
 
-//Time complexity: O(n)
+//Time complexity: O(n*window)
 //Space complexity: O(1)
 
 public class SegregatingPositiveNegativeNumbersMaintainingOrder {
-    static void segregate(int[] arr, int n) {
+    static void method1(int[] arr, int n) {
         // Count negative numbers
         int count_negative = 0;
         for (int i = 0; i < n; i++)
@@ -31,10 +31,27 @@ public class SegregatingPositiveNegativeNumbersMaintainingOrder {
         }
     }
 
+    public static void method2(int[] arr) {
+        int i = 0, j = 0;
+        while (j < arr.length) {
+            if (arr[j] < 0) {
+                for (int k = j; k > i; k--) {
+                    int temp = arr[k];
+                    arr[k] = arr[k - 1];
+                    arr[k - 1] = temp;
+                }
+                i++;
+            }
+            j++;
+        }
+    }
+
     public static void main(String[] args) {
-        int[] arr = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
-        int n = arr.length;
-        segregate(arr, n);
+//        int[] arr = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
+//        int n = arr.length;
+//        segregate(arr, n);
+        int[] arr = {12, 11, -13, -5, 6, -7, 5, -3, -6};
+        method2(arr);
         for (int j : arr) System.out.print(j + " ");
     }
 }

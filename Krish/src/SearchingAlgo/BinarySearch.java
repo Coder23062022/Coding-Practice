@@ -1,4 +1,4 @@
-package src.SearchingAlgo;
+package Krish.src.SearchingAlgo;
 
 import java.util.Scanner;
 

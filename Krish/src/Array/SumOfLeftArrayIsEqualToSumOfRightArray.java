@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/
 //Time complexity: O(n)

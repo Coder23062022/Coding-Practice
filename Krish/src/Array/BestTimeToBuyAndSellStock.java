@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 //Time complexity: O(n)

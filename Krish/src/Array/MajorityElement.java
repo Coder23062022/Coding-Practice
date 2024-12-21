@@ -1,38 +1,45 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/majority-element/
 //Algorithm used: Moore’s Voting Algorithm
-//Reference: https://www.geeksforgeeks.org/frequent-element-array/
-//Video source: https://www.youtube.com/watch?v=X0G5jEcvroo&ab_channel=AnujBhaiya
 //Condition: count(MajorityElement) > arrayLength/2
+
+//Reference: https://www.geeksforgeeks.org/frequent-element-array/
+//Video source: https://www.youtube.com/watch?v=n5QY3x_GNDg
+//Video source: https://www.youtube.com/watch?v=X0G5jEcvroo&ab_channel=AnujBhaiya
 //Time complexity: O(n)
 //Space complexity: O(1)
 
 public class MajorityElement {
     public static void main(String[] args) {
-        int[] nums = {2, 2, 1, 1, 1, 2, 2};
+//        int[] nums = {2, 2, 1, 1, 1, 2, 2};
+        int[] nums = {2, 3, 7, 3, 4};
         int count = 0;
-        int mostFreqElement = majorityElement(nums);
+        int candidate = findCandidate(nums);
         for (int num : nums) {
-            if (num == mostFreqElement)
+            if (num == candidate)
                 count++;
         }
-        System.out.println("Element " + mostFreqElement + " occurs " + count + " times");
+        if (count > nums.length / 2) {
+            System.out.println("Element " + candidate + " occurs " + count + " times");
+        } else {
+            System.out.println("No majority element is found as condition of count(MajorityElement) > arrayLength/2 is not met.");
+        }
     }
 
-    static int majorityElement(int[] nums) {
-        int res = 0, count = 1;
+    static int findCandidate(int[] nums) {
+        int majorityIndex = 0, count = 1;
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[res])
+            if (nums[majorityIndex] == nums[i])
                 count++;
             else
                 count--;
 
             if (count == 0) {
-                res = i;
+                majorityIndex = i;
                 count = 1;
             }
         }
-        return nums[res];
+        return nums[majorityIndex];
     }
 }

@@ -1,9 +1,11 @@
-package src.Intervals;
+package Krish.src.Intervals;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
 //Problem: https://leetcode.com/problems/non-overlapping-intervals/
+//Time Complexity: O(nlogn) + O(n)
+//Space complexity: O(1)
 
 public class NonOverlappingIntervals {
     public static void main(String[] args) {
@@ -15,11 +17,11 @@ public class NonOverlappingIntervals {
 
     static int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length == 0) return 0;
-        Arrays.sort(intervals, (a, b) -> a[1] - b[1]); //sort by end time.
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[1])); //sort by end time.
         int count = 0;
         int currEnd = intervals[0][1];
         for (int i = 1; i < intervals.length; i++) {
-            if (currEnd <= intervals[i][0]) {
+            if (currEnd <= intervals[i][0]) { //no overlap
                 currEnd = intervals[i][1];
             } else {
                 count++;

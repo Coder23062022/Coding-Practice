@@ -1,4 +1,4 @@
-package src.Intervals;
+package Krish.src.Intervals;
 
 import java.io.BufferedReader;
 import java.io.IOException;

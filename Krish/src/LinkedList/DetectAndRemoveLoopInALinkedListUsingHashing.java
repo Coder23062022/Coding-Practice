@@ -1,4 +1,8 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
+
+//Problem: https://leetcode.com/problems/linked-list-cycle/description/
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 import java.util.HashSet;
 import java.util.Set;

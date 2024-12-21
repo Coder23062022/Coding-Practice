@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/missing-number/
 //Time complexity: O(n)

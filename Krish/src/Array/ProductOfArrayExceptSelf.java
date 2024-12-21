@@ -1,16 +1,22 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.Arrays;
 
-//Time complexity: O(n), Space complexity: O(1)
 //Problem: https://leetcode.com/problems/product-of-array-except-self/
 //Source video: https://www.youtube.com/watch?v=tSRFtR3pv74&ab_channel=NickWhite
+//Time complexity: O(n), Space complexity: O(1)
 
 public class ProductOfArrayExceptSelf {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
         System.out.println(Arrays.toString(productExceptSelfWithSpaceOptimization(nums)));
     }
+
+//index	  =                  0	1	2	4		Multiply direction
+//nums(given array)	=        1	2	3	4
+//result=result*nums[i] =    1	1	2	6		→
+//R=R*nums[i]	    =       24	12	4	1		←
+//final result=R*result	=   24	12	8	6		→
 
     static int[] productExceptSelfWithSpaceOptimization(int[] nums) {
         int[] result = new int[nums.length];

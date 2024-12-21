@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,6 +6,7 @@ import java.util.Map;
 
 //Problem: https://leetcode.com/problems/two-sum/
 //Time complexity: O(n)
+//Space complexity: O(n)
 
 public class TwoSum {
     public static void main(String[] args) {

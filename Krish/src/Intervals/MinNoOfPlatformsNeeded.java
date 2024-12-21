@@ -1,10 +1,10 @@
-package src.Intervals;
+package Krish.src.Intervals;
 
 import java.util.Arrays;
 
 //Problem: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 //Video reference: https://www.youtube.com/watch?v=dxVcMDI7vyI&ab_channel=takeUforward
-//Time Complexity: O(N * log N), One traversal O(n) of both the array is needed after sorting.
+//Time Complexity: O(2nlogn) + O(n) //To sort both the arrays it takes O(2nlogn). To traverse both the arrays it takes O(n).
 //Space complexity: O(1)
 
 public class MinNoOfPlatformsNeeded {
@@ -18,8 +18,7 @@ public class MinNoOfPlatformsNeeded {
         int i = 1, j = 0;
 
         while (i < n && j < n) {
-            //If next event in sorted order is arrival, increment count of platforms needed, else decrement count of
-            //platforms needed.
+            //If next train's arrival time is less than or equal to the previous train's departure time, then we need an extra platform.
             if (arr[i] <= dep[j]) {
                 plat_needed++;
                 i++;

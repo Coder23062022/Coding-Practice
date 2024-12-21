@@ -1,4 +1,4 @@
-package src.SlidingWindow;
+package Krish.src.SlidingWindow;
 
 import java.util.HashSet;
 
@@ -8,8 +8,8 @@ import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        //String s = "abcabcbb";
-        String s = "abcbcad";
+        String s = "abcabcbb";
+//        String s = "abcbcad";
 
         int left = 0, right = 0, max = 0;
         HashSet<Character> hashSet = new HashSet<>();

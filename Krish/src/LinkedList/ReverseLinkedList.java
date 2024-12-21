@@ -1,4 +1,8 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
+
+//Problem: https://leetcode.com/problems/reverse-linked-list/description/
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class ReverseLinkedList {
     static Node head;
@@ -24,8 +28,7 @@ public class ReverseLinkedList {
             prev = current;
             current = next;
         }
-        node = prev;
-        return node;
+        return prev;
     }
 
     // prints content of double linked list

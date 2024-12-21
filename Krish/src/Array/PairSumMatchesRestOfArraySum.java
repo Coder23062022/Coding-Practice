@@ -1,7 +1,10 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.HashSet;
 import java.util.Set;
+
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class PairSumMatchesRestOfArraySum {
     public static void main(String[] args) {

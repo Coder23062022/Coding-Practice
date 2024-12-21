@@ -1,4 +1,9 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
+
+//Problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+//Video source: https://www.youtube.com/watch?v=XVuQxVej6y8&ab_channel=NeetCode
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class DeleteKthLastNode {
     static Node head;
@@ -10,6 +15,11 @@ public class DeleteKthLastNode {
         Node(int data) {
             this.data = data;
             this.next = null;
+        }
+
+        Node(int data, Node next) {
+            this.data = data;
+            this.next = next;
         }
     }
 
@@ -33,25 +43,24 @@ public class DeleteKthLastNode {
 
     //Two pointer approach.
     static void deleteNode(int key) {
-        Node first = head;
-        Node second = head;
+        Node dummyNode = new Node(0, head);
+        Node left = dummyNode;
+        Node right = head;
+
         for (int i = 0; i < key; i++) {
-            second = second.next;
+            right = right.next;
         }
 
-        //If you want to delete the head node, then it will return empty list.
-        if (second == null) return;
-
-        while (second.next != null) {
-            first = first.next;
-            second = second.next;
+        while (right != null) {
+            left = left.next;
+            right = right.next;
         }
 
         //By now, first must be pointing to one node before the node to be deleted.
         //So, delete the link first is pointing to now.
-        first.next = first.next.next;
+        left.next = left.next.next;
 
-        printList(head);
+        printList(dummyNode.next);
     }
 
     static void printList(Node node) {

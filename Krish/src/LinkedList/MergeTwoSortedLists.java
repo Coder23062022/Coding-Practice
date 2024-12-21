@@ -1,7 +1,12 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
-//Time Complexity:  Since we are traversing through the two lists fully. So, the time complexity is O(m+n) where m and n are the lengths of the 
-//two lists to be merged. 
+//Problem: https://leetcode.com/problems/merge-two-sorted-lists/description/
+//Video source: https://www.youtube.com/watch?v=n5_9DMCX0Yk&ab_channel=ApnaCollege
+//Video source: https://www.youtube.com/watch?v=XIdigk956u0&ab_channel=NeetCode
+//Video source: https://www.youtube.com/watch?v=jXu-H7XuClE&t=814s&ab_channel=takeUforward
+//Time Complexity: O(m+n), where m and n are the lengths of the two lists
+//Space Complexity: O(1)
+
 class MergeTwoSortedLists {
     Node head;
 
@@ -15,7 +20,7 @@ class MergeTwoSortedLists {
         }
     }
 
-    // Method to insert a node at the end of the linked list
+    //Method to insert a node at the end of the linked list
     public void addToTheLast(Node node) {
         if (head == null) {
             head = node;
@@ -27,7 +32,7 @@ class MergeTwoSortedLists {
         }
     }
 
-    /* Method to print linked list */
+    //Method to print linked list
     void printList() {
         Node temp = head;
         while (temp != null) {
@@ -36,7 +41,6 @@ class MergeTwoSortedLists {
         }
     }
 
-    // Driver Code
     public static void main(String[] args) {
         /*
          * Let us create two sorted linked lists to test the methods Created lists:
@@ -74,9 +78,8 @@ class MergeTwoSortedLists {
     }
 
     static Node sortedMergeWithoutRecursion(Node A, Node B) {
-        //Source: https://www.youtube.com/watch?v=K63Mjf-H0B0
-        Node result = new Node(-1);
-        Node head = result;
+        Node dummyNode = new Node(-1);
+        Node result = dummyNode;
         while (A != null && B != null) {
             if (A.data < B.data) {
                 result.next = A; //If element in A list is smaller, then add it to the result list and go to next element in A list.
@@ -94,6 +97,6 @@ class MergeTwoSortedLists {
         } else {
             result.next = B;
         }
-        return head.next; //Return the result list.
+        return dummyNode.next; //Return the result list.
     }
 }

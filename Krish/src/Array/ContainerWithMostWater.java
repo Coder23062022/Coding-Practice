@@ -1,6 +1,9 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/container-with-most-water/
+//Video reference: https://www.youtube.com/watch?v=UuiTKBwPgAo&ab_channel=NeetCode
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class ContainerWithMostWater {
     public static void main(String[] args) {
@@ -11,18 +14,18 @@ public class ContainerWithMostWater {
     //Solving by two pointers technique.
     static int maxArea(int[] height) {
         int max_area = 0;
-        int low = 0;
-        int high = height.length - 1;
+        int l = 0;
+        int r = height.length - 1;
 
-        while (low < high) {
-            if (height[low] < height[high]) {
-                //To calculate the area, you have to consider the difference between the high and low index multiplied by the
+        while (l < r) {
+            if (height[l] < height[r]) {
+                //To calculate the area, you have to consider the difference between the left and right index multiplied by the
                 //lowest height. Because, if you will think of a container, you can fill the water till the lowest height only.
-                max_area = Math.max(max_area, height[low] * (high - low));
-                low++;
+                max_area = Math.max(max_area, height[l] * (r - l));
+                l++;
             } else {
-                max_area = Math.max(max_area, height[high] * (high - low));
-                high--;
+                max_area = Math.max(max_area, height[r] * (r - l));
+                r--;
             }
         }
         return max_area;

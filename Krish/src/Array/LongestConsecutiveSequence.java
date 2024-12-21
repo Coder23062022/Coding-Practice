@@ -1,10 +1,11 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.HashSet;
 import java.util.Set;
 
 //Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 //Time complexity: O(n).
+//Space complexity: O(n).
 //Problem: https://leetcode.com/problems/longest-consecutive-sequence/
 //Video source: https://www.youtube.com/watch?v=P6RZZMu_maU&ab_channel=NeetCode
 
@@ -20,13 +21,13 @@ public class LongestConsecutiveSequence {
         for (int i : nums) set.add(i);
         int max = 0;
         for (int i : nums) {
-            //If the set doesn't contain the nums[i] element, then it's a starting of a sequence.
+            //If the set doesn't contain the (i - 1) element, then it's a starting of a sequence.
             if (!set.contains(i - 1)) {
                 int count = 1;
                 while (set.contains(i + count)) {
                     count += 1;
                 }
-                max = Math.max(count, max);
+                max = Math.max(max, count);
             }
         }
         return max;

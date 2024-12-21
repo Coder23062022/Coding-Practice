@@ -1,4 +1,4 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/intersection-of-two-linked-lists/
 //Time complexity: O(m + n)

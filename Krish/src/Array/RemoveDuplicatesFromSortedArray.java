@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 //Video source: https://www.youtube.com/watch?v=DEJAZBq0FDA&ab_channel=NeetCode
@@ -8,8 +8,8 @@ package src.Array;
 
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
-        // int a[] = { 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4 };
-        int[] a = {1, 1, 1, 2};
+         int a[] = { 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4 };
+//        int[] a = {1, 1, 1, 2};
         int n = a.length;
         n = removingDuplicates(a, n);
         System.out.println("New array length is: " + n);

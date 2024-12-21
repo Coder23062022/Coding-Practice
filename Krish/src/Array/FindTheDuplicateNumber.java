@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/find-the-duplicate-number/
 //Time complexity: O(n)
@@ -10,6 +10,7 @@ public class FindTheDuplicateNumber {
         System.out.println(findDuplicate(nums));
     }
 
+    //Floyd's algorithm
     static int findDuplicate(int[] nums) {
         int slow = 0, fast = 0;
         do {

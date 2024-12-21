@@ -1,4 +1,4 @@
-package src.Strings;
+package Krish.src.Strings;
 
 import java.util.Comparator;
 import java.util.Map;
@@ -53,6 +53,6 @@ public class SecondMostFrequentCharacterInAString {
         }
         return counter.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                .map(Map.Entry::getKey).toList().get(n - 1);
+                .map(Map.Entry::getKey).collect(Collectors.toList()).get(n - 1);
     }
 }

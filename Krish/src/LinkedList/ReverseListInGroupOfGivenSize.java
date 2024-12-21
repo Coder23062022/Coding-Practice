@@ -1,6 +1,9 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
+//Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/
 //Source video: https://www.youtube.com/watch?v=fi2vh0nQLi0&t=492s&ab_channel=CodeHelp-byBabbar
+//Time Complexity: O(nlogK)
+//Space Complexity: O(1)
 
 public class ReverseListInGroupOfGivenSize {
     static Node head;

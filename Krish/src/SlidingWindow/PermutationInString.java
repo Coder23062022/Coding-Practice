@@ -1,4 +1,4 @@
-package src.SlidingWindow;
+package Krish.src.SlidingWindow;
 
 import java.util.Arrays;
 

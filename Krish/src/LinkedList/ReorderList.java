@@ -1,4 +1,9 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
+
+//Problem: https://leetcode.com/problems/reorder-list/
+//Video source: https://www.youtube.com/watch?v=S5bfdUTrKLM&ab_channel=NeetCode
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class ReorderList {
     static Node head;
@@ -37,19 +42,19 @@ public class ReorderList {
         Node middle = findMiddle(head);
         Node reverse = reverseSecondHalf(middle.next);
         middle.next = null;
-        mergeTwoHalves(head, reverse);
+        mergeTwoHalvesMethod1(head, reverse);
     }
 
     static Node findMiddle(Node head) {
         if (head == null || head.next == null) return head;
-        Node first = head;
-        Node second = head.next;
+        Node slow = head;
+        Node fast = head.next;
 
-        while (second != null && second.next != null) {
-            first = first.next;
-            second = second.next.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        return first;
+        return slow;
     }
 
     static Node reverseSecondHalf(Node head) {
@@ -66,13 +71,25 @@ public class ReorderList {
         return prev;
     }
 
-    static void mergeTwoHalves(Node first, Node second) {
+    static void mergeTwoHalvesMethod1(Node first, Node second) {
         Node temp;
         while (first != null && second != null) {
             temp = first.next;
             first.next = second;
             first = second;
             second = temp;
+        }
+    }
+
+    static void mergeTwoHalvesMethod2(Node first, Node second) {
+        Node temp1, temp2;
+        while (second != null) {
+            temp1 = first.next;
+            temp2 = second.next;
+            first.next = second;
+            second.next = temp1;
+            first = temp1;
+            second = temp2;
         }
     }
 }

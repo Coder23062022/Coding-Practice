@@ -1,4 +1,4 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
 public class MidElementOfLinkedList {
     Node head;

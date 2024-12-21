@@ -1,19 +1,56 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.*;
+
+//Problem: https://leetcode.com/problems/top-k-frequent-elements/description/
+//Video source: https://www.youtube.com/watch?v=YPTqKIgVk-k
+//Solution: https://leetcode.com/problems/top-k-frequent-elements/solutions/5513122/video-2-solutions/
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class TopKFrequentElements {
     public static void main(String[] args) {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
-        int[] result = topKFrequentElements(nums, k);
+//        int[] result = topKFrequentElementsWithSorting(nums, k);
+        int[] result = topKFrequentElementsWithoutSorting(nums, k);
         System.out.println("Top " + k + " Frequent Elements are:");
         for (int i : result) {
             System.out.print(i + " ");
         }
     }
 
-    static int[] topKFrequentElements(int[] nums, int k) {
+    static int[] topKFrequentElementsWithoutSorting(int[] nums, int k) {
+        Map<Integer, Integer> counter = new HashMap<>();
+        for (int n : nums) {
+            counter.put(n, counter.getOrDefault(n, 0) + 1);
+        } //Here counter map will be like: 1 - 3, 2 - 2, 3 - 1
+
+        List<Integer>[] freqArray = new ArrayList[nums.length + 1];
+        //First populate the freq array with blank list.
+        for (int i = 0; i < freqArray.length; i++) {
+            freqArray[i] = new ArrayList<>();
+        }
+
+        for (Map.Entry<Integer, Integer> entry : counter.entrySet()) {
+            int frequency = entry.getValue();
+            freqArray[frequency].add(entry.getKey());
+        }
+
+        int[] res = new int[k];
+        int index = 0;
+        for (int i = freqArray.length - 1; i >= 0; i--) {
+            for (int num : freqArray[i]) {
+                res[index++] = num;
+                if (index == k) {
+                    return res;
+                }
+            }
+        }
+        return new int[0];
+    }
+
+    static int[] topKFrequentElementsWithSorting(int[] nums, int k) {
         Map<Integer, Integer> hm = new HashMap<>();
         for (int num : nums) {
             if (hm.containsKey(num)) {

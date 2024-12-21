@@ -1,4 +1,4 @@
-package src.LinkedList;
+package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/add-two-numbers/
 //Time complexity: O(n)
