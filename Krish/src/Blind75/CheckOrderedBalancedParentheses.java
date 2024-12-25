@@ -1,4 +1,4 @@
-package Krish.src.Stack;
+package Krish.src.Blind75;
 
 import java.util.Stack;
 

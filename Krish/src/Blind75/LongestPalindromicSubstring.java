@@ -1,4 +1,4 @@
-package Krish.src.DynamicProgramming;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/longest-palindromic-substring/
 //Video source: https://www.youtube.com/watch?v=XYQecbcd6_c&ab_channel=NeetCode

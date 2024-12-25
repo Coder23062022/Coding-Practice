@@ -5,219 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6a7a5-2a34-4011-ae3b-f678ade9faac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/DeleteKthLastNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/DetectAndRemoveLoopInALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/DuplicateInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/FindMinInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/InsertIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MaxProductSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MeetingRoomsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MinNoOfPlatformsNeeded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/NonOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Intervals/InsertIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/LinkedList/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Workspace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/AnagramCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/CheckOrderedBalancedParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/StringEncodeDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/SlidingWindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Strings/MinimumWindowSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/DuplicateInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/DuplicateInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/FindTheDuplicateNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/FirstMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/LargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/LongestIncreasingOrderSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/LongestIncreasingOrderSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/MergeTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/PairSumMatchesRestOfArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/PairSumMatchesRestOfArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/SubArraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/SubArraySumEqualsK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/SumOfTheElementsAtEachIndexOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/SumOfTheElementsAtEachIndexOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Array/kthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Array/kthSmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/MaxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/MaxProductSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Greedy/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Greedy/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/MeetingRoomsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/MinNoOfPlatformsNeeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/MinNoOfPlatformsNeeded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/MinimalParkingSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/MinimalParkingSpaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Intervals/NonOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Intervals/NonOverlappingIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindSquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindSquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SlidingWindow/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SlidingWindow/FindAllAnagramsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SlidingWindow/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SlidingWindow/MoveZerosToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SlidingWindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SlidingWindow/PermutationInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/SecondMostFrequentCharacterInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/SecondMostFrequentCharacterInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/TwoPointers/OddAndEvenNumbersSeparate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/TwoPointers/OddAndEvenNumbersSeparate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/TwoPointers/Segregate0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/TwoPointers/Segregate0and1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/resources/com/infy/kb/SomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/resources/com/tutorialspoint/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/resources/tes/ta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/classes/com/infy/kb/SomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/classes/com/tutorialspoint/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/classes/tes/ta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/m2e-wtp/web-resources/META-INF/maven/com.maven/mavenex/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/m2e-wtp/web-resources/META-INF/maven/com.maven/mavenex/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/classes/com/infy/kb/SomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/classes/com/tutorialspoint/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/classes/tes/ta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenex/target/mavenex/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/src/main/java/com/multiDB/multiDBConnection/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/src/test/java/com/multiDB/multiDBConnection/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/target/classes/META-INF/maven/com.multiDB/multiDBConnection/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/target/classes/META-INF/maven/com.multiDB/multiDBConnection/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/target/classes/com/multiDB/multiDBConnection/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDBConnection/target/test-classes/com/multiDB/multiDBConnection/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/java/com/springbootexample/EmployeeApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/java/com/springbootexample/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/java/com/springbootexample/dao/EmployeeDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/java/com/springbootexample/model/employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/java/com/springbootexample/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/com/springbootexample/EmployeeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/com/springbootexample/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/com/springbootexample/dao/EmployeeDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/com/springbootexample/model/employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/classes/com/springbootexample/repository/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/m2e-wtp/web-resources/META-INF/maven/com.bootexample/springbootexample/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/m2e-wtp/web-resources/META-INF/maven/com.bootexample/springbootexample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/com/springbootexample/EmployeeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/com/springbootexample/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/com/springbootexample/dao/EmployeeDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/com/springbootexample/model/employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/classes/com/springbootexample/repository/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/HikariCP-2.7.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/hibernate-core-5.2.17.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/hibernate-validator-6.0.13.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-core-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-databind-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-datatype-jdk8-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-datatype-jsr310-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jackson-module-parameter-names-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-aop-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-aspects-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-beans-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-autoconfigure-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-devtools-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-aop-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-data-jpa-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-jdbc-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-json-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-logging-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-tomcat-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-boot-starter-web-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-context-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-core-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-data-commons-2.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-data-jpa-2.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-expression-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-jcl-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-jdbc-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-orm-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-tx-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-web-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/spring-webmvc-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/tomcat-embed-core-8.5.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/tomcat-embed-el-8.5.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/tomcat-embed-websocket-8.5.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootexample/target/springbootexample/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/AddTwoNumbers$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/ImplementLRUCache$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/ImplementLRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/MidElementOfLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/MidElementOfLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/PalindromeLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/LinkedList/PalindromeLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/CheckOrderedBalancedParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/AnagramCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Stack/CheckOrderedBalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Stack/CheckOrderedBalancedParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/AnagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/AnagramCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/StringEncodeDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/StringEncodeDecode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnagramCheck.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Debug",
     "Application.DeleteKthLastNode.executor": "Run",
     "Application.DetectAndRemoveLoopInALinkedList.executor": "Run",
@@ -259,6 +82,7 @@
     "Application.FindSquareRoot.executor": "Run",
     "Application.FindTheDuplicateNumber.executor": "Run",
     "Application.FirstMissingPositive.executor": "Run",
+    "Application.GroupAnagrams.executor": "Debug",
     "Application.InsertIntervals.executor": "Run",
     "Application.Krish.src.Array.MajorityElement.executor": "Run",
     "Application.Krish.src.Array.MergeTwoSortedArrays.executor": "Debug",
@@ -273,7 +97,9 @@
     "Application.LargestNumber.executor": "Debug",
     "Application.LongestConsecutiveSequence.executor": "Debug",
     "Application.LongestIncreasingOrderSequence.executor": "Run",
-    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
+    "Application.LongestPalindromicSubstring.executor": "Run",
+    "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
+    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
     "Application.MajorityElement.executor": "Debug",
     "Application.MaxProductSubArray.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
@@ -283,8 +109,10 @@
     "Application.MergeTwoSortedArrays.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MinNoOfPlatformsNeeded.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
     "Application.MoveZerosToEnd.executor": "Run",
     "Application.NonOverlappingIntervals.executor": "Debug",
+    "Application.PalindromicSubstrings.executor": "Run",
     "Application.PlusOne.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RearrangePositiveNegativeNumbers.executor": "Run",
@@ -297,12 +125,14 @@
     "Application.SegregatingPositiveNegativeNumbersMaintainingOrder.executor": "Debug",
     "Application.SmallestAndLargestInAStringArray.executor": "Run",
     "Application.SortColors.executor": "Debug",
+    "Application.StringEncodeDecode.executor": "Run",
     "Application.SubArraySumEqualsK.executor": "Run",
     "Application.SumOfLeftArrayIsEqualToSumOfRightArray.executor": "Debug",
     "Application.SumOfTheElementsAtEachIndexOfTwoArrays.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.TopKFrequentElements.executor": "Run",
     "Application.TwoSum.executor": "Debug",
+    "Application.ValidPalindrome.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -322,13 +152,13 @@
       <recent name="Krish.src.Blind75" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Krish.src.LinkedList.ReverseListInGroupOfGivenSize">
-    <configuration name="DeleteKthLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.LinkedList.DeleteKthLastNode" />
+  <component name="RunManager" selected="Application.StringEncodeDecode">
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.DynamicProgramming.LongestPalindromicSubstring" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.LinkedList.*" />
+          <option name="PATTERN" value="Krish.src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Krish.src.LinkedList.ReverseListInGroupOfGivenSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.LinkedList.ReverseListInGroupOfGivenSize" />
+    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.SlidingWindow.LongestRepeatingCharacterReplacement" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.LinkedList.*" />
+          <option name="PATTERN" value="Krish.src.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.LinkedList.MergeKSortedLists" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Strings.MinimumWindowSubstring" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.LinkedList.*" />
+          <option name="PATTERN" value="Krish.src.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.LinkedList.ReorderList" />
+    <configuration name="PalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.DynamicProgramming.PalindromicSubstrings" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.LinkedList.*" />
+          <option name="PATTERN" value="Krish.src.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseListInGroupOfGivenSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkedList.ReverseListInGroupOfGivenSize" />
+    <configuration name="StringEncodeDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Strings.StringEncodeDecode" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.LinkedList.*" />
+          <option name="PATTERN" value="Krish.src.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Krish.src.LinkedList.ReverseListInGroupOfGivenSize" />
-        <item itemvalue="Application.ReverseListInGroupOfGivenSize" />
-        <item itemvalue="Application.MergeKSortedLists" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.DeleteKthLastNode" />
+        <item itemvalue="Application.StringEncodeDecode" />
+        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.PalindromicSubstrings" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>

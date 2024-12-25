@@ -1,6 +1,5 @@
-package Krish.src.Strings;
+package Krish.src.Blind75;
 
-import java.util.ArrayList;
 import java.util.*;
 
 //Problem: https://leetcode.com/problems/group-anagrams/description/

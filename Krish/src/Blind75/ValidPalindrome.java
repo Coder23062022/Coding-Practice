@@ -1,4 +1,4 @@
-package Krish.src.Strings;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/valid-palindrome/
 //Time complexity: O(n)

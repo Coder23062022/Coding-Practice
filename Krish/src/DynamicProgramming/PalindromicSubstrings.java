@@ -1,13 +1,12 @@
 package Krish.src.DynamicProgramming;
 
-//Problem: https://leetcode.com/problems/longest-palindromic-substring/
+//Problem: https://leetcode.com/problems/palindromic-substrings/description/
 //Video source: https://www.youtube.com/watch?v=XYQecbcd6_c&ab_channel=NeetCode
 //Time complexity: O(n^2)
 //Space complexity: O(1)
 
-public class LongestPalindromicSubstring {
-    static String result;
-    static int maxLength;
+public class PalindromicSubstrings {
+    static int result;
 
     public static void main(String[] args) {
         String s = "babad";
@@ -15,8 +14,8 @@ public class LongestPalindromicSubstring {
         System.out.println(longestPalindrome(s));
     }
 
-    static String longestPalindrome(String s) {
-        if (s.length() < 2) return s;
+    static int longestPalindrome(String s) {
+        if (s.length() < 2) return 1;
         for (int i = 0; i < s.length(); i++) {
             findAllPalindromes(s, i, i + 1); //For even length palindrome
             findAllPalindromes(s, i, i); //For odd length palindrome
@@ -28,10 +27,7 @@ public class LongestPalindromicSubstring {
     //That's why 'low' value we are decrementing and 'high' value we are incrementing.
     static void findAllPalindromes(String s, int low, int high) {
         while (low >= 0 && high < s.length() && s.charAt(low) == s.charAt(high)) {
-            if (high - low + 1 > maxLength) {
-                result = s.substring(low, high + 1);
-                maxLength = high - low + 1;
-            }
+            result++;
             low--;
             high++;
         }

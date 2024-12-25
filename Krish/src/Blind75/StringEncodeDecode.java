@@ -1,4 +1,4 @@
-package Krish.src.Strings;
+package Krish.src.Blind75;
 
 import java.util.ArrayList;
 import java.util.List;
