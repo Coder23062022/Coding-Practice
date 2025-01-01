@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 //Problem: https://leetcode.com/problems/product-of-array-except-self/
 //Source video: https://www.youtube.com/watch?v=tSRFtR3pv74&ab_channel=NickWhite
-//Time complexity: O(n), Space complexity: O(1)
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class ProductOfArrayExceptSelf {
     public static void main(String[] args) {

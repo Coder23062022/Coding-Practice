@@ -1,4 +1,4 @@
-package Krish.src.GeneralProgram;
+package Krish.src.Blind75;
 
 import java.util.Scanner;
 

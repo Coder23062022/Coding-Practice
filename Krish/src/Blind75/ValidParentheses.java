@@ -6,7 +6,7 @@ import java.util.Stack;
 //Time complexity: O(n)
 //Time complexity: O(n)
 
-public class CheckOrderedBalancedParentheses {
+public class ValidParentheses {
     public static void main(String[] args) {
         System.out.println("Parentheses are balanced? - " + checkForBalancedParentheses("[{}]"));
         System.out.println("Parentheses are balanced? - " + checkStack("[{]}"));

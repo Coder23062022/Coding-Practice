@@ -1,4 +1,4 @@
-package Krish.src.DynamicProgramming;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/longest-common-subsequence/description/
 //Video source: https://www.youtube.com/watch?v=NnD96abizww

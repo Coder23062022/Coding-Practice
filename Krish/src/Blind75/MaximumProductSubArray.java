@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Time complexity: O(n)
 //Space complexity: O(1)
 
-public class MaxProductSubArray {
+public class MaximumProductSubArray {
     public static void main(String[] args) {
 //        int[] nums = {2, 3, -2, 4};
         int[] nums = {3, 2, -1, 4, 0, -6, 3, -2, 6};

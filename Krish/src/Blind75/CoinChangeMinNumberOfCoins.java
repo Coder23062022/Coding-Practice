@@ -1,4 +1,4 @@
-package Krish.src.DynamicProgramming;
+package Krish.src.Blind75;
 
 import java.util.Arrays;
 

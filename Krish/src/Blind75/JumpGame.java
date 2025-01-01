@@ -1,4 +1,4 @@
-package Krish.src.Greedy;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/jump-game/
 //Video source: https://www.youtube.com/watch?v=tZAa_jJ3SwQ&ab_channel=takeUforward

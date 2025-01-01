@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/word-search/
 //Video source: https://www.youtube.com/watch?v=pfiQ_PS1g8E&ab_channel=NeetCode

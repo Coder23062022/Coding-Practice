@@ -1,8 +1,11 @@
-package src.DynamicProgramming;
+package Krish.src.Blind75;
 
+//Problem: https://leetcode.com/problems/house-robber/description/
 //Video Source: https://www.youtube.com/watch?v=UtGtF6nc35g
+//Time complexity: O(n)
+//Space complexity: O(1)
 
-public class MaxSumOfNonAdjacentNumbers {
+public class HouseRobber1_MaxSumOfNonAdjacentNumbers {
     public static void main(String[] args) {
         int[] a = {2, 7, 9, 5, 6, 6};
         System.out.println(highestSumOfNonAdjacentNos(a));
