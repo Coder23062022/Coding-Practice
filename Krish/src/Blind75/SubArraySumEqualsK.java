@@ -1,4 +1,4 @@
-package Krish.src.Array;
+package Krish.src.Blind75;
 
 import java.util.HashMap;
 import java.util.Map;
