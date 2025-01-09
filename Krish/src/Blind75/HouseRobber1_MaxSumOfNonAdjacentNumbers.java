@@ -15,7 +15,7 @@ public class HouseRobber1_MaxSumOfNonAdjacentNumbers {
         int excl = 0, incl = 0;
         for (int x : a) {
             int temp = incl; //Storing the old inclusive to temp.
-            incl = Math.max(x + excl, incl); //Formula to calculate the new inclusive.
+            incl = Math.max(incl, x + excl); //Formula to calculate the new inclusive.
             excl = temp; //New exclusive will be the old inclusive.
         }
         return incl;

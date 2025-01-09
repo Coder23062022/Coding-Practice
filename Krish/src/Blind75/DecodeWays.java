@@ -7,7 +7,8 @@ package Krish.src.Blind75;
 
 public class DecodeWays {
     public static void main(String[] args) {
-        String s = "06";
+        String s = "226";
+//        String s = "06";
         System.out.println(numDecodings(s));
     }
 

@@ -10,6 +10,8 @@ public class HouseRobber2 {
         System.out.println(rob(a));
     }
 
+    //Run the HouseRobber1 solution twice. One time including the last element and excluding the first element.
+    //Another time including the first element and excluding the last element.
     static int rob(int[] nums) {
         if (nums.length == 1) return nums[0];
 

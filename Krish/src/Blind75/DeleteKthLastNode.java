@@ -56,8 +56,8 @@ public class DeleteKthLastNode {
             right = right.next;
         }
 
-        //By now, first must be pointing to one node before the node to be deleted.
-        //So, delete the link first is pointing to now.
+        //By now, left must be pointing to one node before the node to be deleted.
+        //So, delete the link left is pointing to now.
         left.next = left.next.next;
 
         printList(dummyNode.next);

@@ -1,8 +1,9 @@
 package Krish.src.SearchingAlgo;
 
 //Problem: https://leetcode.com/problems/search-in-rotated-sorted-array/
-//Time complexity: O(logn)
 //Video reference: https://www.youtube.com/watch?v=5qGrJbHhqFs&ab_channel=takeUforward
+//Time complexity: O(logn)
+//Space complexity: O(1)
 
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {

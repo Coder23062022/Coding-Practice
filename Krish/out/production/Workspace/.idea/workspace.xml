@@ -5,22 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6a7a5-2a34-4011-ae3b-f678ade9faac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/CoinChangeMinNumberOfCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestIncreasingSubsequenceLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindPeakElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/LongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/LongestIncreasingSubsequenceLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/ClimbingStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestIncreasingSubsequenceLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/LongestIncreasingSubsequenceLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/MaxSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/GeneralProgram/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/GeneralProgram/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SubArraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SubArraySumEqualsK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ContainerWithMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DecodeWays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/FindMinInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/FindMinInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/DecodeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/DeleteKthLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/FindMinInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Greedy/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Greedy/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,39 +73,47 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnagramCheck.executor": "Run",
-    "Application.BestTimeToBuyAndSellStock.executor": "Debug",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.ClimbingStairs.executor": "Debug",
     "Application.CoinChangeMinNumberOfCoins.executor": "Run",
-    "Application.DeleteKthLastNode.executor": "Run",
+    "Application.CombinationSumIV.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.DecodeWays.executor": "Debug",
+    "Application.DeleteKthLastNode.executor": "Debug",
     "Application.DetectAndRemoveLoopInALinkedList.executor": "Run",
     "Application.DuplicateInArray.executor": "Run",
     "Application.FindAllAnagramsInAString.executor": "Debug",
     "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
-    "Application.FindMinInRotatedSortedArray.executor": "Run",
+    "Application.FindMinInRotatedSortedArray.executor": "Debug",
     "Application.FindSquareRoot.executor": "Run",
     "Application.FindTheDuplicateNumber.executor": "Run",
     "Application.FirstMissingPositive.executor": "Run",
-    "Application.GroupAnagrams.executor": "Debug",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.HouseRobber2.executor": "Run",
     "Application.InsertIntervals.executor": "Run",
+    "Application.JumpGame.executor": "Debug",
     "Application.Krish.src.Array.MajorityElement.executor": "Run",
     "Application.Krish.src.Array.MergeTwoSortedArrays.executor": "Debug",
     "Application.Krish.src.Array.PlusOne.executor": "Debug",
     "Application.Krish.src.Array.SumOfTheElementsAtEachIndexOfTwoArrays.executor": "Run",
     "Application.Krish.src.Array.TopKFrequentElements.executor": "Debug",
     "Application.Krish.src.Blind75.CoinChangeMinNumberOfCoins.executor": "Debug",
+    "Application.Krish.src.Blind75.HouseRobber2.executor": "Run",
     "Application.Krish.src.DynamicProgramming.CoinChangeMinNumberOfCoins.executor": "Run",
+    "Application.Krish.src.Greedy.JumpGame.executor": "Run",
     "Application.Krish.src.Intervals.MergeIntervals.executor": "Debug",
     "Application.Krish.src.LinkedList.MergeTwoSortedLists.executor": "Run",
     "Application.Krish.src.LinkedList.ReverseListInGroupOfGivenSize.executor": "Run",
     "Application.Krish.src.SearchingAlgo.FindSquareRoot.executor": "Debug",
     "Application.Krish.src.SlidingWindow.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
+    "Application.Krish.src.Strings.GroupAnagrams.executor": "Run",
     "Application.LargestNumber.executor": "Debug",
-    "Application.LongestConsecutiveSequence.executor": "Debug",
+    "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestIncreasingOrderSequence.executor": "Run",
     "Application.LongestIncreasingSubsequenceLength.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
-    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
+    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.MajorityElement.executor": "Debug",
     "Application.MaxProductSubArray.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
@@ -103,7 +131,7 @@
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RearrangePositiveNegativeNumbers.executor": "Run",
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.ReorderList.executor": "Run",
+    "Application.ReorderList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseListInGroupOfGivenSize.executor": "Run",
     "Application.SearchInRotatedSortedArray.executor": "Run",
@@ -118,7 +146,9 @@
     "Application.ThreeSum.executor": "Run",
     "Application.TopKFrequentElements.executor": "Run",
     "Application.TwoSum.executor": "Debug",
-    "Application.ValidPalindrome.executor": "Run",
+    "Application.UniquePaths.executor": "Run",
+    "Application.ValidPalindrome.executor": "Debug",
+    "Application.WordBreak.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -139,13 +169,13 @@
       <recent name="Krish.src.Blind75" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseRobber2">
-    <configuration name="CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DynamicProgramming.CoinChangeMinNumberOfCoins" />
+  <component name="RunManager" selected="Application.FindPeakElement">
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.SearchingAlgo.FindPeakElement" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.DynamicProgramming.*" />
+          <option name="PATTERN" value="Krish.src.SearchingAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,21 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.DynamicProgramming.HouseRobber2" />
-      <module name="Workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Krish.src.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Krish.src.Blind75.CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.CoinChangeMinNumberOfCoins" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.LongestPalindromicSubstring" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
@@ -179,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Krish.src.DynamicProgramming.CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.DynamicProgramming.CoinChangeMinNumberOfCoins" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.LongestSubstringWithoutRepeatingCharacters" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.DynamicProgramming.*" />
+          <option name="PATTERN" value="Krish.src.Blind75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +209,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequenceLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.DynamicProgramming.LongestIncreasingSubsequenceLength" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.UniquePaths" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.DynamicProgramming.*" />
+          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.ValidPalindrome" />
+      <module name="Workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Krish.src.Blind75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HouseRobber2" />
-        <item itemvalue="Application.LongestIncreasingSubsequenceLength" />
-        <item itemvalue="Application.Krish.src.Blind75.CoinChangeMinNumberOfCoins" />
-        <item itemvalue="Application.Krish.src.DynamicProgramming.CoinChangeMinNumberOfCoins" />
-        <item itemvalue="Application.CoinChangeMinNumberOfCoins" />
+        <item itemvalue="Application.FindPeakElement" />
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>

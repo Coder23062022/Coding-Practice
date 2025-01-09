@@ -17,8 +17,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
         while (right < s.length()) {
             if (!hashSet.contains(s.charAt(right))) {
                 hashSet.add(s.charAt(right));
-                right++; // The right pointer is expanding the window here.
-                max = Math.max(hashSet.size(), max); // Hashset size is the total number of unique characters in the hashset against the current max.
+                right++; //The right pointer is expanding the window here.
+                max = Math.max(max, hashSet.size()); //Hashset size is the total number of unique characters in the hashset against the current max.
             } else {
                 //Removing characters from left pointer side until the character at right pointer becomes unique in hashset.
                 hashSet.remove(s.charAt(left));

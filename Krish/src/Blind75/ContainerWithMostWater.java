@@ -18,9 +18,9 @@ public class ContainerWithMostWater {
         int r = height.length - 1;
 
         while (l < r) {
+            //To calculate the area, you have to consider the difference between the left and right index multiplied by the
+            //lowest height. Because, if you will think of a container, you can fill the water till the lowest height only.
             if (height[l] < height[r]) {
-                //To calculate the area, you have to consider the difference between the left and right index multiplied by the
-                //lowest height. Because, if you will think of a container, you can fill the water till the lowest height only.
                 max_area = Math.max(max_area, height[l] * (r - l));
                 l++;
             } else {

@@ -14,11 +14,14 @@ public class JumpGame {
 
     static boolean canJump(int[] nums) {
         if (nums.length == 0) return true;
-        int maxIndex = 0;
+        int maxIndex = 0; //maxIndex means the farthest index you can reach
         for (int i = 0; i < nums.length; i++) {
-            if (i > maxIndex) return false;
+            if (i > maxIndex) return false; //Because it's not possible to reach an index beyond maxIndex
             maxIndex = Math.max(maxIndex, i + nums[i]);
         }
         return true;
     }
 }
+
+//Note: In the given array, if 0 is not there then it will always return true.
+//Only catch here is that if 0 is there, then it may or may not return true.
