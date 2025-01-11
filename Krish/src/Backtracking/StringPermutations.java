@@ -1,4 +1,4 @@
-package src.Backtracking;
+package Krish.src.Backtracking;
 
 public class StringPermutations {
     public static void main(String[] args) {

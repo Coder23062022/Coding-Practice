@@ -5,42 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6a7a5-2a34-4011-ae3b-f678ade9faac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Krish/src/Strings/PermutationInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SubArraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SubArraySumEqualsK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ContainerWithMostWater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DecodeWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/FindMinInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/FindMinInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SearchInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/DecodeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/DeleteKthLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/FindMinInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/HouseRobber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Blind75/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Blind75/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/DynamicProgramming/HouseRobber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Greedy/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Greedy/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/LinkedList/DeleteKthLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Strings/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/StringPermutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/src/Backtracking/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Backtracking/StringPermutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +43,7 @@
     "Application.AnagramCheck.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.ClimbingStairs.executor": "Debug",
-    "Application.CoinChangeMinNumberOfCoins.executor": "Run",
+    "Application.CoinChangeMinNumberOfCoins.executor": "Debug",
     "Application.CombinationSumIV.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.DecodeWays.executor": "Debug",
@@ -128,6 +96,7 @@
     "Application.MoveZerosToEnd.executor": "Run",
     "Application.NonOverlappingIntervals.executor": "Debug",
     "Application.PalindromicSubstrings.executor": "Run",
+    "Application.PermutationInString.executor": "Run",
     "Application.PlusOne.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RearrangePositiveNegativeNumbers.executor": "Run",
@@ -141,6 +110,7 @@
     "Application.SmallestAndLargestInAStringArray.executor": "Run",
     "Application.SortColors.executor": "Debug",
     "Application.StringEncodeDecode.executor": "Run",
+    "Application.StringPermutations.executor": "Debug",
     "Application.SubArraySumEqualsK.executor": "Run",
     "Application.SumOfLeftArrayIsEqualToSumOfRightArray.executor": "Debug",
     "Application.SumOfTheElementsAtEachIndexOfTwoArrays.executor": "Run",
@@ -170,13 +140,13 @@
       <recent name="Krish.src.Blind75" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedLists">
-    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.SearchingAlgo.FindPeakElement" />
+  <component name="RunManager" selected="Application.PermutationInString">
+    <configuration name="CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.CoinChangeMinNumberOfCoins" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.SearchingAlgo.*" />
+          <option name="PATTERN" value="Krish.src.Blind75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.LongestSubstringWithoutRepeatingCharacters" />
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.SearchingAlgo.FindPeakElement" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="PATTERN" value="Krish.src.SearchingAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.UniquePaths" />
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Strings.PermutationInString" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="PATTERN" value="Krish.src.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.ValidPalindrome" />
+    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Backtracking.StringPermutations" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="PATTERN" value="Krish.src.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationInString" />
+        <item itemvalue="Application.StringPermutations" />
+        <item itemvalue="Application.CoinChangeMinNumberOfCoins" />
         <item itemvalue="Application.MergeKSortedLists" />
         <item itemvalue="Application.FindPeakElement" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -291,24 +261,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Krish/src/Blind75/MergeKSortedLists.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Krish/src/Blind75/MergeKSortedLists.java</url>
-          <line>79</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Krish/src/Blind75/MergeKSortedLists.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
