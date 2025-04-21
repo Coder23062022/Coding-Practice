@@ -2,8 +2,15 @@ package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/merge-k-sorted-lists/
 //Video source: https://www.youtube.com/watch?v=q5a5OiGbT6Q&ab_channel=NeetCode
-//Time Complexity: O(nlogK)
-//Space Complexity: O(1)
+//Video source: https://www.youtube.com/watch?v=1zktEppsdig&ab_channel=takeUforward
+//Time Complexity: O(n * k * logK)
+//Space Complexity: O(logk), because of recursion
+
+//Note: Two approaches, one with recursion, another with priority queue
+//Related article: https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class MergeKSortedLists {
     Node head;
@@ -65,7 +72,8 @@ public class MergeKSortedLists {
         lists[1] = llist2.head;
         lists[2] = llist3.head;
 
-        llist1.head = mergeKLists(lists);
+//        llist1.head = mergeKLists(lists);
+        llist1.head = mergeKListsUsingPriorityQueue(lists);
         llist1.printList();
     }
 
@@ -104,6 +112,28 @@ public class MergeKSortedLists {
             result.next = l1;
         } else {
             result.next = l2;
+        }
+        return dummyNode.next;
+    }
+
+    //Using priority queue
+    static Node mergeKListsUsingPriorityQueue(Node[] lists) {
+        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.data));
+        for (Node head : lists) {
+            if (head != null) pq.add(head);
+        }
+
+        Node dummyNode = new Node(-1);
+        Node result = dummyNode;
+
+        while (!pq.isEmpty()) {
+            Node node = pq.poll();
+            result.next = node;
+            result = result.next;
+
+            if (node.next != null) {
+                pq.add(node.next);
+            }
         }
         return dummyNode.next;
     }

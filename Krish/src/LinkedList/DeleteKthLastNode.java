@@ -2,7 +2,7 @@ package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 //Video source: https://www.youtube.com/watch?v=XVuQxVej6y8&ab_channel=NeetCode
-//Time complexity: O(n)
+//Time complexity: O(n), n is the length of the linked list
 //Space complexity: O(1)
 
 public class DeleteKthLastNode {
@@ -24,7 +24,7 @@ public class DeleteKthLastNode {
     }
 
     public static void main(String[] args) {
-        int k = 3;
+        int k = 5;
         insert(5);
         insert(4);
         insert(3);

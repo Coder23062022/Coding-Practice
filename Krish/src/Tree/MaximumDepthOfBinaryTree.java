@@ -1,4 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
+
+//Problem: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+//Video source: https://www.youtube.com/watch?v=eD3tmO66aBA
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class MaximumDepthOfBinaryTree {
     static TreeNode root;
@@ -26,6 +31,6 @@ public class MaximumDepthOfBinaryTree {
         if (root == null) return 0;
         int leftSubtreeHeight = maxDepth(root.left);
         int rightSubtreeHeight = maxDepth(root.right);
-        return Math.max(leftSubtreeHeight, rightSubtreeHeight) + 1;
+        return 1 + Math.max(leftSubtreeHeight, rightSubtreeHeight);
     }
 }

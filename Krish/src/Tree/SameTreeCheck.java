@@ -1,4 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
+
+//Problem: https://leetcode.com/problems/same-tree/
+//Video source: https://www.youtube.com/watch?v=BhuvF_-PWS0
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class SameTreeCheck {
     static TreeNode root1;

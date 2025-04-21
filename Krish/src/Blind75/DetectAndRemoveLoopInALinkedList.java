@@ -1,6 +1,7 @@
 package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/linked-list-cycle/description/
+//Video source: https://www.youtube.com/watch?v=wiOo4DC5GGA&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
@@ -24,28 +25,26 @@ class DetectAndRemoveLoopInALinkedList {
             return;
 
         //Move slow and fast 1 and 2 steps ahead respectively.
-        Node slow = node.next, fast = node.next.next, prev = null;
-
-        //Search for loop using slow and fast pointers
+        Node slow = node, fast = node;
         while (fast != null && fast.next != null) {
-            if (slow == fast)
-                break;
             slow = slow.next;
             fast = fast.next.next;
+            if (slow == fast) break;
         }
 
-        //If loop exists
+        //If loop exists, then how to remove the loop
+        Node prev = null;
         if (slow == fast) {
-            slow = node; //Starting slow from first node.
+            slow = node; //Starting slow from the first node.
             while (slow != fast) {
                 prev = fast;
                 slow = slow.next;
                 fast = fast.next;
             }
-
-            //Since fast->next is the looping point
-            prev.next = null; //Remove loop
         }
+
+        //Since fast->next is the looping point
+        prev.next = null; //Remove loop
     }
 
     //Function to print the linked list

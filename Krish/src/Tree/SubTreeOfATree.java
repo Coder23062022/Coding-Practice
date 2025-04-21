@@ -1,4 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
+
+//Problem: https://leetcode.com/problems/subtree-of-another-tree/description/
+//Video source:
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class SubTreeOfATree {
     static TreeNode root;

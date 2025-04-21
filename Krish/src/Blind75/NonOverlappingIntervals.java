@@ -29,4 +29,19 @@ public class NonOverlappingIntervals {
         }
         return count;
     }
+
+    static int eraseOverlapIntervals2(int[][] intervals) {
+        if (intervals.length == 0) return 0;
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[1]));
+        int count = 1;
+        int currEnd = intervals[0][1];
+
+        for (int i = 1; i < intervals.length; i++) {
+            if (intervals[i][0] >= currEnd) {
+                currEnd = intervals[i][1];
+                count++;
+            }
+        }
+        return intervals.length - count;
+    }
 }

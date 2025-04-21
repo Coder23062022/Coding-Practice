@@ -26,6 +26,18 @@ public class MoveZerosToEnd {
             }
             right++;
         }
+
+        //You can solve this problem with a single counter variable also.
+//        int counter = 0;
+//        for (int i = 0; i < a.length; i++) {
+//            if (a[i] != 0) {
+//                int temp = a[i];
+//                a[i] = a[counter];
+//                a[counter] = temp;
+//                counter++;
+//            }
+//        }
+
         System.out.println("After moving all the zeros at the end, the array is: " + Arrays.toString(a));
     }
 }

@@ -1,4 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
+
+//Problem: https://leetcode.com/problems/invert-binary-tree/description/
+//Video source: https://www.youtube.com/watch?v=OnSn2XEQ4MY
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class InvertBinaryTree {
     static TreeNode root;

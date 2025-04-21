@@ -10,7 +10,7 @@ import java.util.*;
 
 public class TopKFrequentElements {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 2, 2, 3};
+        int[] nums = {1, 1, 1, 2, 2, 2, 3};
         int k = 2;
 //        int[] result = topKFrequentElementsWithSorting(nums, k);
         int[] result = topKFrequentElementsWithoutSorting(nums, k);
@@ -18,6 +18,7 @@ public class TopKFrequentElements {
         for (int i : result) {
             System.out.print(i + " ");
         }
+        System.out.println();
     }
 
     static int[] topKFrequentElementsWithoutSorting(int[] nums, int k) {

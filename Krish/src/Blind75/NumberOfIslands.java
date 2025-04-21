@@ -1,8 +1,8 @@
-package src.Graph;
+package Krish.src.Blind75;
 
 //Problem: https://leetcode.com/problems/number-of-islands/
 
-public class NumberOfIslandsLeetCodeSolve {
+public class NumberOfIslands {
     static int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) return 0;
 

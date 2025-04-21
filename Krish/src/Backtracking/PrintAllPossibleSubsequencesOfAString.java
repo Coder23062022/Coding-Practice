@@ -1,9 +1,9 @@
-package src.Backtracking;
+package Krish.src.Backtracking;
 
+//Similar problem: https://leetcode.com/problems/subsets/
+//Video source: https://www.youtube.com/watch?v=V0IgCltYgg4&ab_channel=CodeHelp-byBabbar
 //Time complexity: O(n * 2^n), where n is the size of the given string
 //Space complexity: O(1)
-//Video source: https://www.youtube.com/watch?v=V0IgCltYgg4&ab_channel=CodeHelp-byBabbar
-//Similar problem: https://leetcode.com/problems/subsets/
 
 public class PrintAllPossibleSubsequencesOfAString {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class PrintAllPossibleSubsequencesOfAString {
         //If index >= input.length(), then we are at the last level of recursion tree.
         if (index >= input.length()) {
             //If you want to exclude the space in answer, then add if. Otherwise, 'if' not required.
-            if (output.length() > 0) System.out.println(output);
+            if (!output.isEmpty()) System.out.println(output);
             return;
         }
 

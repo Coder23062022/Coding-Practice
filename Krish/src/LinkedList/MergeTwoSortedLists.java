@@ -1,9 +1,9 @@
 package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/merge-two-sorted-lists/description/
-//Video source: https://www.youtube.com/watch?v=n5_9DMCX0Yk&ab_channel=ApnaCollege
 //Video source: https://www.youtube.com/watch?v=XIdigk956u0&ab_channel=NeetCode
 //Video source: https://www.youtube.com/watch?v=jXu-H7XuClE&t=814s&ab_channel=takeUforward
+//Video source:https://www.youtube.com/watch?v=f8RPIb-0DDE&ab_channel=ShradhaKhapra
 //Time Complexity: O(m+n), where m and n are the lengths of the two lists
 //Space Complexity: O(1)
 

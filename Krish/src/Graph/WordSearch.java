@@ -9,6 +9,7 @@ package Krish.src.Graph;
 public class WordSearch {
     static boolean[][] visited;
 
+
     static boolean exist(char[][] board, String word) {
         visited = new boolean[board.length][board[0].length];
         for (int i = 0; i < board.length; i++) {

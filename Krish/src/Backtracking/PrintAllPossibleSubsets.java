@@ -1,12 +1,13 @@
-package src.Backtracking;
+package Krish.src.Backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
 
 //Problem: https://leetcode.com/problems/subsets/
+//Video source: https://www.youtube.com/watch?v=REOH22Xwdkk
 //Video source: https://www.youtube.com/watch?v=V0IgCltYgg4&ab_channel=CodeHelp-byBabbar
 //Time complexity: O(n * 2^n), where n is the size of the given array.
-//Space complexity: O(n)
+//Space complexity: O(n * 2^n)
 
 public class PrintAllPossibleSubsets {
     public static void main(String[] args) {
@@ -30,12 +31,11 @@ public class PrintAllPossibleSubsets {
             return;
         }
 
-        //exclude
-        subsets(nums, output, index + 1, result);
-
         //include
         output.add(nums[index]);
         subsets(nums, output, index + 1, result);
         output.remove(output.size() - 1);
+        //exclude
+        subsets(nums, output, index + 1, result);
     }
 }

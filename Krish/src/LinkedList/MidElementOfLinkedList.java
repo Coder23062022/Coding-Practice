@@ -31,14 +31,14 @@ public class MidElementOfLinkedList {
         }
 
         // Find the middle element
-        Node ptr1 = linkedList.head;
-        Node ptr2 = linkedList.head;
+        Node slow = linkedList.head;
+        Node fast = linkedList.head;
 
-        while (ptr1 != null && ptr1.next != null) {
-            //Increase the ptr1 by 2 and ptr2 by 1, if ptr1 points to last element then ptr2 will point to the middle element.
-            ptr1 = ptr1.next.next;
-            ptr2 = ptr2.next;
+        while (fast != null && fast.next != null) {
+            //Increase the slow by 1 and fast by 2, if fast points to last element then slow will point to the middle element.
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        System.out.println("\nMiddle Element: " + ptr2.value);
+        System.out.println("\nMiddle Element: " + slow.value);
     }
 }

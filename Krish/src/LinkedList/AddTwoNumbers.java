@@ -36,8 +36,8 @@ public class AddTwoNumbers {
     }
 
     static Node addTwoNumbers(Node l1, Node l2) {
-        Node dummy = new Node(0); // creating a dummy list
-        Node curr = dummy; // initialising a pointer
+        Node dummy = new Node(0);
+        Node curr = dummy;
         int carry = 0;
         // while loop will run, until l1 OR l2 not reaches null OR if they both reaches null. But our carry has some value in it. 
         // We will add that as well into our list
@@ -56,6 +56,6 @@ public class AddTwoNumbers {
             curr.next = new Node(sum % 10); // the value we'll get by moduling it, will become as new node. So, add it to our list. curr will point to that new node we get
             curr = curr.next; // update the current every time
         }
-        return dummy.next; // return dummy.next bcz, we don't want the value we have considered in it initially.
+        return dummy.next;
     }
 }

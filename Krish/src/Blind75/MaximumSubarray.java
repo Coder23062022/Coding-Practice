@@ -19,7 +19,7 @@ public class MaximumSubarray {
         int currSum = 0, maxSum = Integer.MIN_VALUE;
         for (int num : nums) {
             currSum = currSum + num;
-            maxSum = Math.max(currSum, maxSum);
+            maxSum = Math.max(maxSum, currSum);
             //If any negative number will come, then we have to ignore that because it will reduce the sum value.
             //So, till now whatever the maximum sum we can get that is already there in maxSum and currSum we are setting
             //it to 0 again to start with a new sub-array.
