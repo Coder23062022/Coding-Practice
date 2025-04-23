@@ -1,7 +1,8 @@
 package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/intersection-of-two-linked-lists/
-//Time complexity: O(m + n)
+//Video source: https://www.youtube.com/watch?v=0DYoPz2Tpt4&ab_channel=takeUforward
+//Time complexity: O(m + n), m and n are the length of the linked lists
 //Space complexity: O(1)
 
 public class IntersectionOfTwoLinkedLists {
