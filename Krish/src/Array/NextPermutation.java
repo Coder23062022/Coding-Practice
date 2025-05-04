@@ -1,36 +1,49 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.Arrays;
 
 //Problem: https://leetcode.com/problems/next-permutation/
-//Video source: https://www.youtube.com/watch?v=IhsUbEMfIbY&ab_channel=AlgorithmsMadeEasy
+//Video source: https://www.youtube.com/watch?v=-1cLK6PaLsQ&ab_channel=ApnaCollege
 //Time complexity: O(n)
 //Space complexity: O(1)
 
 public class NextPermutation {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
-//        int[] nums = {3, 2, 1};
+//        int[] nums = {1, 2, 3};
+        int[] nums = {1, 2, 3, 6, 5, 4};
         nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
 
     static void nextPermutation(int[] nums) {
-        int i = nums.length - 2;
-        //1. Find the point of change.
-        while (i >= 0 && nums[i] >= nums[i + 1]) i--;
+        int pivot = -1;
+        int n = nums.length;
 
-        if (i >= 0) {
-            int j = nums.length - 1;
-            //2. Find the number of substitution.
-            while (j >= 0 && nums[j] <= nums[i]) {
-                j--;
+        //Find the pivot
+        for (int i = n - 2; i >= 0; i--) {
+            if (nums[i] < nums[i + 1]) {
+                pivot = i;
+                break;
             }
-            //3. Swap a[i] and a[j]
-            swap(nums, i, j);
         }
-        //4. Reverse the remaining array after substitution point.
-        reverse(nums, i + 1, nums.length - 1);
+
+        //If pivot is still -1, then the given array is in descending order. In that case, just reverse the array.
+        if (pivot == -1) {
+            reverse(nums, 0, n - 1);
+            return;
+        }
+
+        //Find the first number from right which is greater than pivot and swap them.
+        for (int i = n - 1; i > pivot; i--) {
+            if (nums[i] > nums[pivot]) {
+                swap(nums, i, pivot);
+                break;
+            }
+        }
+
+        //Reverse the portion of the array which is after the pivot.
+        int l = pivot + 1, r = n - 1;
+        reverse(nums, l, r);
     }
 
     static void swap(int[] nums, int i, int j) {
@@ -39,11 +52,11 @@ public class NextPermutation {
         nums[j] = temp;
     }
 
-    static void reverse(int[] nums, int i, int j) {
-        while (i < j) {
-            swap(nums, i, j);
-            i++;
-            j--;
+    static void reverse(int[] nums, int l, int r) {
+        while (l <= r) {
+            swap(nums, l, r);
+            l++;
+            r--;
         }
     }
 }

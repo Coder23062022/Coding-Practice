@@ -2,10 +2,10 @@ package Krish.src.Strings;
 
 import java.util.Arrays;
 
-//Problem: https://leetcode.com/problems/valid-anagram/description/
+//Problem: https://leetcode.com/problems/valid-anagram
 //Video source: https://www.youtube.com/watch?v=IRN1VcA8CGc&ab_channel=NickWhite
 //Time complexity: O(n)
-//Space complexity: O(n)
+//Space complexity: O(26)
 
 public class AnagramCheck {
     //Time Complexity: O(nlogn)

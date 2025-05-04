@@ -1,8 +1,8 @@
 package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/swap-nodes-in-pairs/
-//Time Complexity: O(nlog2)
-//Space Complexity: O(1)
+//Time Complexity: O(n)
+//Space Complexity: O(n/2), if we use recursive approach. For iterative approach, it will be O(1).
 
 public class SwapNodesInPairs {
     static class Node {
@@ -35,6 +35,20 @@ public class SwapNodesInPairs {
             System.out.print(node.data + " ");
             node = node.next;
         }
+    }
+
+    //Data swapping
+    static Node swapPairsIterative(Node head) {
+        if (head == null || head.next == null) return head;
+        Node curr = head;
+        while (curr != null && curr.next != null) {
+            int temp = curr.data;
+            curr.data = curr.next.data;
+            curr.next.data = temp;
+
+            curr = curr.next.next; //Jump to the 3rd node to swap the next pair
+        }
+        return head;
     }
 
     static Node swapPairs(Node head) {

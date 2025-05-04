@@ -1,8 +1,9 @@
 package Krish.src.LinkedList;
 
 //Problem: https://leetcode.com/problems/add-two-numbers/
-//Time complexity: O(n)
-//Space complexity: O(n)
+//Video source: https://www.youtube.com/watch?v=XmRrGzR6udg&ab_channel=takeUforward
+//Time complexity: O(max(m, n)), m and n are the length of the lists
+//Space complexity: O(max(m, n)) to store the result list but this is needed as per the question. So you can say O(1).
 
 public class AddTwoNumbers {
     static Node headA;

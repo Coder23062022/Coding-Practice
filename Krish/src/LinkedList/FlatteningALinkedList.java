@@ -58,9 +58,9 @@ public class FlatteningALinkedList {
     }
 
     static Node flatten(Node root) {
+        Node dummyNode = new Node(-1);
+        Node result = dummyNode;
         PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparing(a -> a.data));
-        Node head = null;
-        Node tail = null;
 
         while (root != null) {
             pq.add(root);
@@ -69,19 +69,13 @@ public class FlatteningALinkedList {
 
         while (!pq.isEmpty()) {
             Node minNode = pq.poll();
-
-            if (head == null) {
-                head = minNode;
-                tail = minNode;
-            } else {
-                tail.bottom = minNode;
-                tail = tail.bottom;
-            }
+            result.bottom = minNode;
+            result = result.bottom;
 
             if (minNode.bottom != null) {
                 pq.add(minNode.bottom);
             }
         }
-        return head;
+        return dummyNode.bottom;
     }
 }

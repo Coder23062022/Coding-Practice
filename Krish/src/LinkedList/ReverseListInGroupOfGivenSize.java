@@ -1,8 +1,8 @@
 package Krish.src.LinkedList;
 
-//Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/
-//Source video: https://www.youtube.com/watch?v=fi2vh0nQLi0&t=492s&ab_channel=CodeHelp-byBabbar
-//Time Complexity: O(nlogK)
+//Problem: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
+//Reference doc: https://www.geeksforgeeks.org/reverse-a-linked-list-in-groups-of-given-size-iterative-approach/
+//Time Complexity: O(n), where n is the number of nodes in linked list
 //Space Complexity: O(1)
 
 public class ReverseListInGroupOfGivenSize {
@@ -31,7 +31,7 @@ public class ReverseListInGroupOfGivenSize {
         System.out.println("Linkedlist before reverse:");
         printList(head);
         System.out.println("\nLinkedlist after reverse:");
-        printList(reverseKGroup(head, k));
+        printList(reverseKGroupIterative(head, k));
     }
 
     static void printList(Node node) {
@@ -41,31 +41,44 @@ public class ReverseListInGroupOfGivenSize {
         }
     }
 
-    static Node reverseKGroup(Node head, int k) {
-        if (head == null)
-            return null;
-        Node current = head;
-        Node next = null;
-        Node prev = null;
-        int count = 0;
+    static Node reverseKGroupIterative(Node head, int k) {
+        if (head == null || head.next == null) return head;
 
-        /* Reverse first k nodes of linked list */
-        while (count < k && current != null) {
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-            count++;
+        Node curr = head;
+        Node newHead = null;
+        Node tail = null;
+
+        while (curr != null) {
+            Node groupHead = curr;
+
+            Node prev = null;
+            Node next;
+            int count = 0;
+            while (curr != null && count < k) {
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+                count++;
+            }
+
+
+            // If newHead is null, set it to the
+            // last node of the first group
+            if (newHead == null) {
+                newHead = prev;
+            }
+
+            // Connect the previous group to the
+            // current reversed group
+            if (tail != null) {
+                tail.next = prev;
+            }
+
+            // Move tail to the end of the
+            // reversed group
+            tail = groupHead;
         }
-
-        /* next is now a pointer to (k+1)th node
-           Recursively call for the list starting from
-           current. And make rest of the list as next of
-           first node */
-        if (next != null)
-            head.next = reverseKGroup(next, k);
-
-        // prev is now head of input list
-        return prev;
+        return newHead;
     }
 }
