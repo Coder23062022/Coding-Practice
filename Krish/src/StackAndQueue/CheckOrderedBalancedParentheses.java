@@ -1,4 +1,4 @@
-package Krish.src.Stack;
+package Krish.src.StackAndQueue;
 
 import java.util.Stack;
 

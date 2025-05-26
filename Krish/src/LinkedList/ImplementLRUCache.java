@@ -4,28 +4,61 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Problem: https://leetcode.com/problems/lru-cache/
-//Video source: https://www.youtube.com/watch?v=Xc4sICC8m4M&t=584s&ab_channel=takeUforward
-//              https://www.youtube.com/watch?v=NDpwj0VWz1U&ab_channel=NickWhite
+//Video source: https://www.youtube.com/watch?v=GsY6y0iPaHw&ab_channel=ShradhaKhapra
 //Time complexity: O(1)
 //Space complexity: O(n)
 
 public class ImplementLRUCache {
-    Node head = new Node(0, 0), tail = new Node(0, 0);
+    static class Node {
+        Node prev, next;
+        int key, value;
+
+        Node(int k, int v) {
+            key = k;
+            value = v;
+            prev = next = null;
+        }
+    }
+
+    Node head = new Node(-1, -1);
+    Node tail = new Node(-1, -1);
     Map<Integer, Node> map = new HashMap<>();
-    int _capacity;
+    int limit;
 
     public ImplementLRUCache(int capacity) {
-        _capacity = capacity;
+        limit = capacity;
         head.next = tail;
         tail.prev = head;
     }
 
+    //Insert a node after head
+    private void addNode(Node newNode) {
+        Node oldNext = head.next;
+        head.next = newNode;
+        oldNext.prev = newNode;
+        newNode.prev = head;
+        newNode.next = oldNext;
+    }
+
+    private void deleteNode(Node oldNode) {
+        Node oldPrev = oldNode.prev;
+        Node oldNext = oldNode.next;
+        oldPrev.next = oldNext;
+        oldNext.prev = oldPrev;
+    }
+
     public int get(int key) {
         if (map.containsKey(key)) {
-            Node node = map.get(key);
-            remove(node);
-            insert(node);
-            return node.value;
+            int ans = map.get(key).value;
+
+            //Converting the least recently used node to the most recently used node (Delete and re-insert)
+            Node ansNode = map.get(key);
+            map.remove(key);
+            deleteNode(ansNode);
+            addNode(ansNode);
+            map.put(key, ansNode);
+
+            return ans;
         } else {
             return -1;
         }
@@ -33,35 +66,18 @@ public class ImplementLRUCache {
 
     public void put(int key, int value) {
         if (map.containsKey(key)) {
-            remove(map.get(key));
+            Node oldNode = map.get(key);
+            deleteNode(oldNode);
+            map.remove(key);
         }
-        if (map.size() == _capacity) {
-            remove(tail.prev); //Removing the least recently used node.
+
+        if (map.size() == limit) {
+            map.remove(tail.prev.key);
+            deleteNode(tail.prev);
         }
-        insert(new Node(key, value));
-    }
 
-    private void remove(Node node) {
-        map.remove(node.key);
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-    }
-
-    private void insert(Node node) {
-        map.put(node.key, node);
-        node.next = head.next;
-        node.next.prev = node;
-        head.next = node;
-        node.prev = head;
-    }
-
-    static class Node {
-        Node prev, next;
-        int key, value;
-
-        Node(int _key, int _value) {
-            key = _key;
-            value = _value;
-        }
+        Node newNode = new Node(key, value);
+        addNode(newNode);
+        map.put(key, newNode);
     }
 }

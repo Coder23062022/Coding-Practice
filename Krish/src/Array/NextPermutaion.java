@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Time complexity: O(n)
 //Space complexity: O(1)
 
-public class NextPermutation {
+class NextPermutation {
     public static void main(String[] args) {
 //        int[] nums = {1, 2, 3};
         int[] nums = {1, 2, 3, 6, 5, 4};
@@ -19,7 +19,7 @@ public class NextPermutation {
         int pivot = -1;
         int n = nums.length;
 
-        //Find the pivot
+        //Find the pivot (The largest index i such that nums[i] < nums[i+1])
         for (int i = n - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 pivot = i;

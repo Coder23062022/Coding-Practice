@@ -1,4 +1,4 @@
-package src.Queue;
+package Krish.src.StackAndQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

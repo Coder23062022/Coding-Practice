@@ -1,5 +1,6 @@
-package src.Stack;
+package Krish.src.StackAndQueue;
 
+import java.util.Objects;
 import java.util.Stack;
 
 //Time complexity: O(n)
@@ -16,7 +17,7 @@ public class CheckIfTwoStacksAreSame {
         // compare top of both stacks
         while (!stack1.empty()) {
             // If the top elements of both stacks are same
-            if (stack1.peek() == stack2.peek()) {
+            if (Objects.equals(stack1.peek(), stack2.peek())) {
                 // Pop top of both stacks
                 stack1.pop();
                 stack2.pop();
