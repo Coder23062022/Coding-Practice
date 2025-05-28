@@ -1,15 +1,16 @@
 package Krish.src.Tree;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-//Problem: https://leetcode.com/problems/binary-tree-level-order-traversal/
-//Video source: https://www.youtube.com/watch?v=EoAsWbO7sqg&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=8&ab_channel=takeUforward
+//Problem: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+//Video source: https://www.youtube.com/watch?v=3OXWEdlIGl4&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=19&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(n)
 
-public class BinaryTreeLevelOrderTraversal {
+public class ZigZagLevelOrderTraversal {
     static TreeNode root;
 
     static class TreeNode {
@@ -28,26 +29,25 @@ public class BinaryTreeLevelOrderTraversal {
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
-        List<List<Integer>> result = levelOrderTraversalUsingBFS(root);
+        List<List<Integer>> result = zigzagLevelOrderTraversal(root);
         for (List<Integer> nodes : result) {
             System.out.println(nodes);
         }
     }
 
-    static List<List<Integer>> levelOrderTraversalUsingBFS(TreeNode root) {
+    static List<List<Integer>> zigzagLevelOrderTraversal(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
+        int flag = 0;
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            List<Integer> current = new ArrayList<>();
+            List<Integer> currentList = new ArrayList<>();
 
-            //Iterating till the size of the queue every time to traverse all the nodes in a level and collect all the
-            //children they have.
             for (int i = 0; i < size; i++) {
                 TreeNode currentNode = queue.poll();
-                current.add(currentNode.data);
+                currentList.add(currentNode.data);
 
                 if (currentNode.left != null) {
                     queue.add(currentNode.left);
@@ -57,7 +57,16 @@ public class BinaryTreeLevelOrderTraversal {
                     queue.add(currentNode.right);
                 }
             }
-            result.add(current);
+
+            if (flag == 0) {
+                result.add(currentList);
+                flag = 1;
+            } else {
+                Collections.reverse(currentList);
+                result.add(currentList);
+                flag = 0;
+            }
+
         }
         return result;
     }

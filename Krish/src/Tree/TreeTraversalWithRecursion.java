@@ -1,6 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
 
-public class TreeTraversal {
+//Time complexity: O(n)
+//Space complexity: O(n)
+
+public class TreeTraversalWithRecursion {
 
     static class Node {
         int data;
@@ -45,7 +48,7 @@ public class TreeTraversal {
     }
 
     public static void main(String[] args) {
-        TreeTraversal traversal = new TreeTraversal();
+        TreeTraversalWithRecursion traversal = new TreeTraversalWithRecursion();
         Node tree = traversal.createTree();
         System.out.println("PreOrderTraversal of the tree is:");
         traversal.preOrderTraversal(tree);

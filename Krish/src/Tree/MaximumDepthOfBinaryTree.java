@@ -1,6 +1,6 @@
 package Krish.src.Tree;
 
-//Problem: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+//Problem: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 //Video source: https://www.youtube.com/watch?v=eD3tmO66aBA
 //Time complexity: O(n)
 //Space complexity: O(n)

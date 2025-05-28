@@ -1,6 +1,9 @@
-package src.Tree;
+package Krish.src.Tree;
 
 //Problem: https://leetcode.com/problems/symmetric-tree/
+//Video source: https://www.youtube.com/watch?v=nKggNAiEpBE&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=25&ab_channel=takeUforward
+//Time complexity: O(n)
+//Space complexity: O(n), for skewed tree it will take the entire stack space
 
 public class SymmetricTree {
     static TreeNode root;
@@ -34,6 +37,9 @@ public class SymmetricTree {
     static boolean isSymmetric(TreeNode left, TreeNode right) {
         if (left == null && right == null) return true;
         if (left == null || right == null) return false;
+        //The above two lines can also be simplified to:
+        //if (left == null || right == null) return left == right;
+
         if (left.data != right.data) return false;
         return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
     }

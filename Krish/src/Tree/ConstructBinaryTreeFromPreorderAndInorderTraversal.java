@@ -1,11 +1,14 @@
-package src.Tree;
+package Krish.src.Tree;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
-    static TreeNode root;
+//Problem: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+//Video source: https://www.youtube.com/watch?v=aZNaLrVebKQ&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=34&ab_channel=takeUforward
+//Time complexity: O(n)
+//Space complexity: O(n)
 
+public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -45,11 +48,11 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         if (preStart > preEnd || inStart > inEnd) return null;
 
         TreeNode root = new TreeNode(preOrder[preStart]); //Find the root from preorder traversal.
-        int rootPosInInorderArray = inMap.get(root.data); //Find the root position in inorder array.
-        int nodeCount = rootPosInInorderArray - inStart; //Find number of nodes in the left subtree of the corresponding root.
+        int inRoot = inMap.get(root.data); //Find the root position in inorder array.
+        int numsLeft = inRoot - inStart; //Find number of nodes in the left subtree of the corresponding root.
 
-        root.left = buildTree(preOrder, preStart + 1, preStart + nodeCount, inorder, inStart, rootPosInInorderArray - 1, inMap);
-        root.right = buildTree(preOrder, preStart + nodeCount + 1, preEnd, inorder, rootPosInInorderArray + 1, inEnd, inMap);
+        root.left = buildTree(preOrder, preStart + 1, preStart + numsLeft, inorder, inStart, inRoot - 1, inMap);
+        root.right = buildTree(preOrder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
 
         return root;
     }

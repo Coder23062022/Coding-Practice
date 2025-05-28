@@ -1,8 +1,11 @@
-package src.Tree;
+package Krish.src.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class TreeTraversalWithoutRecursionWithSingleStack {
     Node root;
