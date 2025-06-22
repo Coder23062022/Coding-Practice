@@ -6,8 +6,9 @@ import java.util.Comparator;
 import java.util.List;
 
 //Problem: https://leetcode.com/problems/merge-intervals/
+//Video source: https://www.youtube.com/watch?v=IexN60k62jo&t=635s&ab_channel=takeUforward
 //Time Complexity: O(nlogn) + O(n)
-//Space complexity: O(1)
+//Space complexity: O(n), to store the ans
 
 public class MergeIntervals {
     public static void main(String[] args) {
@@ -20,10 +21,6 @@ public class MergeIntervals {
 
     static int[][] merge(int[][] intervals) {
         List<int[]> res = new ArrayList<>();
-
-        if (intervals.length == 0 || intervals == null)
-            return res.toArray(new int[0][]);
-
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
         int start = intervals[0][0];
         int end = intervals[0][1];

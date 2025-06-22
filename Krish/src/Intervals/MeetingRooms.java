@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+//Problem: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+//Video reference: https://www.youtube.com/watch?v=dxVcMDI7vyI&ab_channel=takeUforward
+//Time Complexity: O(nlogn) + O(n) //To sort the array it takes O(nlogn). To traverse the array it takes O(n).
+//Space complexity: O(1)
+
 public class MeetingRooms {
     static class Interval {
         int start, end;

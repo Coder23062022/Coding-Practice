@@ -6,8 +6,6 @@ package Krish.src.Tree;
 //Space complexity: O(n)
 
 public class MaximumDepthOfBinaryTree {
-    static TreeNode root;
-
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -19,7 +17,7 @@ public class MaximumDepthOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        root = new TreeNode(3);
+        TreeNode root = new TreeNode(3);
         root.left = new TreeNode(9);
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);

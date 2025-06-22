@@ -1,11 +1,11 @@
 package Krish.src.Tree;
 
-//Problem: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+//Problem: https://www.geeksforgeeks.org/problems/kth-largest-element-in-bst/1
 //Video source: https://www.youtube.com/watch?v=9TJYWh0adfk&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=45&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
-public class kthSmallestElementInBST {
+public class kthLargestElementInBST {
     static int count = 0, result = 0;
 
     static class TreeNode {
@@ -25,24 +25,24 @@ public class kthSmallestElementInBST {
         root.left.left = new TreeNode(2);
         root.left.right = new TreeNode(4);
         root.left.left.left = new TreeNode(1);
-        kthSmallest(root, 3);
-        System.out.println("k-th smallest element is: " + result);
+        kthLargest(root, 3);
+        System.out.println("k-th largest element is: " + result);
     }
 
-    static void kthSmallest(TreeNode root, int k) {
+    static void kthLargest(TreeNode root, int k) {
         traverse(root, k);
     }
 
-    //Do the Inorder traversal of the BST so that values will come in sorted order and increase a counter everytime it
+    //Do the reverse Inorder traversal of the BST so that values will come in descending order and increase a counter everytime it
     //iterates to check with k.
     static void traverse(TreeNode root, int k) {
         if (root == null) return;
-        traverse(root.left, k);
+        traverse(root.right, k);
         count++;
         if (count == k) {
             result = root.data;
             return;
         }
-        traverse(root.right, k);
+        traverse(root.left, k);
     }
 }

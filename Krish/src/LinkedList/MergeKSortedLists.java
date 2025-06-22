@@ -3,9 +3,6 @@ package Krish.src.LinkedList;
 //Problem: https://leetcode.com/problems/merge-k-sorted-lists/
 //Video source: https://www.youtube.com/watch?v=q5a5OiGbT6Q&ab_channel=NeetCode
 //Video source: https://www.youtube.com/watch?v=1zktEppsdig&ab_channel=takeUforward
-//Time Complexity: O(n * k * logk)
-//Space Complexity: O(logk), because of recursion
-
 //Note: Two approaches, one with recursion, another with priority queue
 //Related article: https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
 
@@ -77,6 +74,8 @@ public class MergeKSortedLists {
         llist1.printList();
     }
 
+    //Time Complexity: O(n * k * logk)
+    //Space Complexity: O(logk), because of recursion
     static Node mergeKLists(Node[] lists) {
         if (lists.length == 0 || lists == null) {
             return null;
@@ -117,6 +116,8 @@ public class MergeKSortedLists {
     }
 
     //Using priority queue
+    //Time Complexity: O(klogk) + (n * k * logk)
+    //Space Complexity: O(k)
     static Node mergeKListsUsingPriorityQueue(Node[] lists) {
         PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparing(a -> a.data));
         for (Node head : lists) {

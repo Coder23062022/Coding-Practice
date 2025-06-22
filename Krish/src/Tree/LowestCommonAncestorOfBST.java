@@ -1,11 +1,10 @@
-package src.Tree;
+package Krish.src.Tree;
 
 //Problem: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-//Time complexity: O(logn), Space complexity: O(1).
+//Video source: https://www.youtube.com/watch?v=cX_kPV_foZc&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=47&ab_channel=takeUforward
+//Time complexity: O(logn)
 
 public class LowestCommonAncestorOfBST {
-    static TreeNode root;
-
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -17,7 +16,7 @@ public class LowestCommonAncestorOfBST {
     }
 
     public static void main(String[] args) {
-        root = new TreeNode(6);
+        TreeNode root = new TreeNode(6);
         root.left = new TreeNode(2);
         root.right = new TreeNode(8);
         root.left.left = new TreeNode(0);
@@ -26,9 +25,10 @@ public class LowestCommonAncestorOfBST {
         root.left.right.right = new TreeNode(5);
         root.right.left = new TreeNode(7);
         root.right.right = new TreeNode(9);
-        System.out.println(lowestCommonAncestor(root, root.left, root.right).data);
+        System.out.println(lowestCommonAncestorIterative(root, root.left, root.right).data);
     }
 
+    //Recursive (Space complexity: O(n))
     static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) return null;
 
@@ -38,5 +38,19 @@ public class LowestCommonAncestorOfBST {
             return lowestCommonAncestor(root.right, p, q);
         } else
             return root;
+    }
+
+    //Iterative (Space complexity: O(1))
+    static TreeNode lowestCommonAncestorIterative(TreeNode root, TreeNode p, TreeNode q) {
+        while (root != null) {
+            if (p.data < root.data && q.data < root.data) {
+                root = root.left;
+            } else if (p.data > root.data && q.data > root.data) {
+                root = root.right;
+            } else {
+                break;
+            }
+        }
+        return root;
     }
 }

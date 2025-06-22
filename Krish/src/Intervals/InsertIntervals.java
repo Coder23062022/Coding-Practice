@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-//Problem: https://leetcode.com/problems/insert-interval/description/
+//Problem: https://leetcode.com/problems/insert-interval
 //Video source: https://www.youtube.com/watch?v=xxRE-46OCC8&ab_channel=takeUforward
 //Time Complexity: O(n)
-//Space complexity: O(n)
+//Space complexity: O(n), considering the result array
 
 public class InsertIntervals {
     public static void main(String[] args) {

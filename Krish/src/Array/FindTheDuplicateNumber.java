@@ -1,6 +1,7 @@
 package Krish.src.Array;
 
 //Problem: https://leetcode.com/problems/find-the-duplicate-number/
+//Video source: https://www.youtube.com/watch?v=32Ll35mhWg0&t=328s&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
@@ -11,6 +12,7 @@ public class FindTheDuplicateNumber {
     }
 
     //Floyd's algorithm
+    //Same as linked list cycle detection algorithm
     static int findDuplicate(int[] nums) {
         int slow = 0, fast = 0;
         do {

@@ -6,6 +6,8 @@ import java.util.List;
 
 //Problem: https://www.lintcode.com/problem/919/
 //Solution approach: Similar to MinNoOfPlatformsNeeded problem
+//Time Complexity: O(2nlogn) + O(n)
+//Space complexity: O(1)
 
 public class MeetingRoomsII {
     static class Interval {

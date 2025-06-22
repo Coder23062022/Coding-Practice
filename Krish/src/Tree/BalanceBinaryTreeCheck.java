@@ -1,9 +1,11 @@
-package src.Tree;
+package Krish.src.Tree;
+
+//Problem: https://leetcode.com/problems/balanced-binary-tree/
+//Video source: https://www.youtube.com/watch?v=Yt50Jfbd8Po&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=15&ab_channel=takeUforward
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class BalanceBinaryTreeCheck {
-    Node root;
-
-    //Inner class to create a node
     static class Node {
         int data;
         Node left, right;
@@ -14,7 +16,7 @@ public class BalanceBinaryTreeCheck {
     }
 
     private Node createTree() {
-        root = new Node(0);
+        Node root = new Node(0);
         root.left = new Node(1);
         root.left.left = new Node(3);
         root.left.right = new Node(4);
@@ -23,11 +25,6 @@ public class BalanceBinaryTreeCheck {
         root.right = new Node(2);
         root.right.left = new Node(5);
         root.right.left.right = new Node(7);
-
-        //Balanced Binary Tree
-		/*root.left = new Node(1);
-		root.right = new Node(2);
-		root.left.left = new Node(3);*/
         return root;
     }
 
@@ -37,24 +34,22 @@ public class BalanceBinaryTreeCheck {
         }
 
         int leftSubtreeHeight = isBalanced(currentNode.left);
-        if (leftSubtreeHeight == -1) return -1;
-
         int rightSubtreeHeight = isBalanced(currentNode.right);
-        if (rightSubtreeHeight == -1) return -1;
+        if (leftSubtreeHeight == -1 || rightSubtreeHeight == -1) return -1;
 
         if (Math.abs(leftSubtreeHeight - rightSubtreeHeight) > 1) {
             return -1;
         }
-        return Math.max(leftSubtreeHeight, rightSubtreeHeight) + 1;
+        return 1 + Math.max(leftSubtreeHeight, rightSubtreeHeight);
     }
 
     public static void main(String[] args) {
         BalanceBinaryTreeCheck object = new BalanceBinaryTreeCheck();
-        Node tree = object.createTree();
-        if (object.isBalanced(tree) == -1) {
+        Node root = object.createTree();
+        if (object.isBalanced(root) == -1) {
             System.out.println("Tree is not balanced");
         } else {
-            System.out.println("Tree is balanced and the height of the tree is:" + object.isBalanced(tree));
+            System.out.println("Tree is balanced and the height of the tree is:" + object.isBalanced(root));
         }
     }
 }

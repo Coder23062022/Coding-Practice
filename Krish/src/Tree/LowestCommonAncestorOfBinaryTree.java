@@ -1,12 +1,12 @@
-package src.Tree;
+package Krish.src.Tree;
 
 //Problem: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-//Time complexity: O(logn), Space complexity: O(1).
 //Video source: https://www.youtube.com/watch?v=cOjLyASDJcc&ab_channel=AnujBhaiya
+//Video source: https://www.youtube.com/watch?v=_-QHfMDde90&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=27&ab_channel=takeUforward
+//Time complexity: O(n)
+//Space complexity: O(n)
 
 public class LowestCommonAncestorOfBinaryTree {
-    static TreeNode root;
-
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -18,7 +18,7 @@ public class LowestCommonAncestorOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        root = new TreeNode(6);
+        TreeNode root = new TreeNode(6);
         root.left = new TreeNode(2);
         root.right = new TreeNode(8);
         root.left.left = new TreeNode(0);
@@ -34,7 +34,12 @@ public class LowestCommonAncestorOfBinaryTree {
         if (root == null || root == p || root == q) return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left != null && right != null) return root;
-        return left != null ? left : right;
+        if (left == null) {
+            return right;
+        } else if (right == null) {
+            return left;
+        } else {
+            return root;
+        }
     }
 }

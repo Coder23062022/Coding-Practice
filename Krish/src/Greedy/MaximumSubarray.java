@@ -1,8 +1,10 @@
-package src.Greedy;
+package Krish.src.Greedy;
 
 //Problem: https://leetcode.com/problems/maximum-subarray/
 //Solved by 'Kadane's Algorithm'.
 //Video reference: https://www.youtube.com/watch?v=HCL4_bOd3-4&ab_channel=AnujBhaiya
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class MaximumSubarray {
     public static void main(String[] args) {

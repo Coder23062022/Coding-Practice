@@ -10,8 +10,6 @@ import java.util.List;
 //Space complexity: O(n)
 
 public class BinaryTreeLevelOrderTraversal {
-    static TreeNode root;
-
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -23,7 +21,7 @@ public class BinaryTreeLevelOrderTraversal {
     }
 
     public static void main(String[] args) {
-        root = new TreeNode(3);
+        TreeNode root = new TreeNode(3);
         root.left = new TreeNode(9);
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);
@@ -41,13 +39,13 @@ public class BinaryTreeLevelOrderTraversal {
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            List<Integer> current = new ArrayList<>();
+            List<Integer> currentList = new ArrayList<>();
 
             //Iterating till the size of the queue every time to traverse all the nodes in a level and collect all the
             //children they have.
             for (int i = 0; i < size; i++) {
                 TreeNode currentNode = queue.poll();
-                current.add(currentNode.data);
+                currentList.add(currentNode.data);
 
                 if (currentNode.left != null) {
                     queue.add(currentNode.left);
@@ -57,7 +55,7 @@ public class BinaryTreeLevelOrderTraversal {
                     queue.add(currentNode.right);
                 }
             }
-            result.add(current);
+            result.add(currentList);
         }
         return result;
     }
