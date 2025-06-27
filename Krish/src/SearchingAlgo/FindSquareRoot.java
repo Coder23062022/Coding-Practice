@@ -2,6 +2,11 @@ package Krish.src.SearchingAlgo;
 
 import java.util.Scanner;
 
+//Problem: https://leetcode.com/problems/sqrtx/
+//Video source: https://www.youtube.com/watch?v=Bsv3FPUX_BA&ab_channel=takeUforward
+//Time Complexity: O(logn)
+//Space Complexity: O(1)
+
 public class FindSquareRoot {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
@@ -11,23 +16,16 @@ public class FindSquareRoot {
         System.out.println("Square root of " + input + " is: " + findSquareRoot(input));
     }
 
-    // using Binary Search
-    static int findSquareRoot(int data) {
-        int low = 0;
-        int high = data;
-
-        if (data < 2) {
-            return data;
-        }
-
+    static int findSquareRoot(int x) {
+        int low = 0, high = x;
         while (low <= high) {
-            int mid = (low + high) / 2;
-            if (mid * mid == data) {
-                return mid;
-            } else if (mid * mid < data) {
-                low = mid + 1;
+            long mid = (low + high) / 2;
+            if (mid * mid == x) {
+                return (int) mid;
+            } else if (mid * mid < x) {
+                low = (int) mid + 1;
             } else {
-                high = mid - 1;
+                high = (int) mid - 1;
             }
         }
         //The flow will come here only when the input is not a perfect square. In that case return the last 'high' value.

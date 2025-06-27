@@ -37,8 +37,22 @@ public class SwapNodesInPairs {
         }
     }
 
-    //Data swapping
-    static Node swapPairsIterative(Node head) {
+    static Node swapPairs(Node head) {
+        if (head == null || head.next == null) return head;
+        Node dummyNode = new Node(-1);
+        Node curr = head, prev = dummyNode;
+
+        while (curr != null && curr.next != null) {
+            prev.next = curr.next;
+            curr.next = prev.next.next;
+            prev.next.next = curr;
+            prev = curr;
+            curr = curr.next;
+        }
+        return dummyNode.next;
+    }
+
+    static Node swapPairsByDataSwapping(Node head) {
         if (head == null || head.next == null) return head;
         Node curr = head;
         while (curr != null && curr.next != null) {
@@ -51,9 +65,8 @@ public class SwapNodesInPairs {
         return head;
     }
 
-    static Node swapPairs(Node head) {
-        if (head == null)
-            return null;
+    static Node swapPairsWithRecursion(Node head) {
+        if (head == null) return null;
         Node current = head;
         Node next = null;
         Node prev = null;
@@ -67,7 +80,7 @@ public class SwapNodesInPairs {
             count++;
         }
 
-        if (next != null) head.next = swapPairs(next);
+        if (next != null) head.next = swapPairsWithRecursion(next);
         return prev;
     }
 }

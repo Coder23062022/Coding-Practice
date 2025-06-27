@@ -3,8 +3,9 @@ package Krish.src.SearchingAlgo;
 import java.util.Arrays;
 
 //Problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-//Time complexity: O(logn)
-//Video reference: https://www.youtube.com/watch?v=bU-q1OJ0KWw&ab_channel=NickWhite
+//Video source: https://www.youtube.com/watch?v=hjR1IYVx9lY&ab_channel=takeUforward
+//Time complexity: O(2logn)
+//Space Complexity: O(1)
 
 public class FindFirstAndLastPositionOfElementInSortedArray {
     public static void main(String[] args) {

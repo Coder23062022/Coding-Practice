@@ -4,6 +4,7 @@ package Krish.src.LinkedList;
 //Video source: https://www.youtube.com/watch?v=KT1iUciJr4g
 //Time Complexity: O(n)
 //Space Complexity: O(1)
+//Note: Same as SegregateEvenAndOddNodes problem
 
 public class PartitionList {
     static class ListNode {
@@ -31,24 +32,25 @@ public class PartitionList {
     }
 
     static ListNode partition(ListNode head, int x) {
-        ListNode left = new ListNode(0);
-        ListNode right = new ListNode(0);
-        ListNode leftTail = left;
-        ListNode rightTail = right;
+        ListNode leftHead = new ListNode(-1);
+        ListNode rightHead = new ListNode(-1);
+        ListNode leftTail = leftHead;
+        ListNode rightTail = rightHead;
+        ListNode curr = head;
 
-        while (head != null) {
-            if (head.val < x) {
-                leftTail.next = head;
+        while (curr != null) {
+            if (curr.val < x) {
+                leftTail.next = curr;
                 leftTail = leftTail.next;
             } else {
-                rightTail.next = head;
+                rightTail.next = curr;
                 rightTail = rightTail.next;
             }
-            head = head.next;
+            curr = curr.next;
         }
 
-        leftTail.next = right.next;
+        leftTail.next = rightHead.next;
         rightTail.next = null;
-        return left.next;
+        return leftHead.next;
     }
 }
