@@ -3,25 +3,23 @@ package Krish.src.Graph;
 //Problem: https://leetcode.com/problems/word-search/
 //Video source: https://www.youtube.com/watch?v=pfiQ_PS1g8E&ab_channel=NeetCode
 //Video source: https://www.youtube.com/watch?v=m9TrOL1ETxI&ab_channel=NickWhite
-//Time complexity: O(m∗n∗4^s)
+//Time complexity: O(m*n*4^k), where k is the length of the word and we are searching for the letter m*n times in the worst case.
+//Here 4 in 4^k is because at each level of our decision tree we are making 4 recursive calls which equal 4^k in the worst case.
 //Space complexity: O(n)
 
 public class WordSearch {
-    static boolean[][] visited;
-
-
     static boolean exist(char[][] board, String word) {
-        visited = new boolean[board.length][board[0].length];
+        boolean[][] visited = new boolean[board.length][board[0].length];
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                if (board[i][j] == word.charAt(0) && search(board, word, i, j, 0))
+                if (board[i][j] == word.charAt(0) && search(board, word, i, j, 0, visited))
                     return true;
             }
         }
         return false;
     }
 
-    static boolean search(char[][] board, String word, int i, int j, int index) {
+    static boolean search(char[][] board, String word, int i, int j, int index, boolean[][] visited) {
         if (index == word.length()) {
             return true;
         }
@@ -32,10 +30,10 @@ public class WordSearch {
 
         visited[i][j] = true;
 
-        if (search(board, word, i - 1, j, index + 1) ||
-                search(board, word, i + 1, j, index + 1) ||
-                search(board, word, i, j - 1, index + 1) ||
-                search(board, word, i, j + 1, index + 1)) {
+        if (search(board, word, i - 1, j, index + 1, visited) ||
+                search(board, word, i + 1, j, index + 1, visited) ||
+                search(board, word, i, j - 1, index + 1, visited) ||
+                search(board, word, i, j + 1, index + 1, visited)) {
             return true;
         }
 
