@@ -5,7 +5,7 @@ import java.util.List;
 
 //Problem: https://leetcode.com/problems/subsets/
 //Video source: https://www.youtube.com/watch?v=REOH22Xwdkk
-//Video source: https://www.youtube.com/watch?v=V0IgCltYgg4&ab_channel=CodeHelp-byBabbar
+//Video source: https://www.youtube.com/watch?v=pNzljlzDCiI&ab_channel=ApnaCollege
 //Time complexity: O(n * 2^n), where n is the size of the given array.
 //Space complexity: O(n * 2^n)
 

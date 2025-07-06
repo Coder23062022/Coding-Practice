@@ -38,4 +38,26 @@ public class CombinationSumII {
             }
         }
     }
+
+    static void findCombinationMethod2(int i, int[] arr, int target, List<List<Integer>> result, List<Integer> ds) {
+        //Base case
+        if (target == 0) {
+            result.add(new ArrayList<>(ds));
+            return;
+        }
+
+        if (i < arr.length && arr[i] <= target) {
+            //include
+            ds.add(arr[i]);
+            findCombination(i + 1, arr, target - arr[i], result, ds);
+
+            //backtrack
+            ds.remove(ds.size() - 1);
+
+            //exclude
+            int index = i + 1;
+            while (index < arr.length && arr[index] == arr[index - 1]) index++;
+            findCombination(index, arr, target, result, ds);
+        }
+    }
 }

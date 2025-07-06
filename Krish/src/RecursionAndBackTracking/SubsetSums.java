@@ -17,7 +17,6 @@ public class SubsetSums {
     static ArrayList<Integer> subsetSums(int[] arr) {
         ArrayList<Integer> res = new ArrayList<>();
         func(0, 0, arr, res);
-        Collections.sort(res);
         return res;
     }
 

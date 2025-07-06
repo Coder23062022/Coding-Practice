@@ -9,16 +9,16 @@ import java.util.List;
 //Space Complexity: O(k*x), k is the average length and x is the no. of combinations
 
 public class CombinationSum {
-
     public static void main(String[] args) {
-        int[] candidates = {2, 3, 6, 7};
-        int target = 7;
+//        int[] candidates = {2, 3, 6, 7};
+        int[] candidates = {8, 7, 4, 3};
+        int target = 11; //7;
         System.out.println(combinationSum(candidates, target));
     }
 
     static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        findCombinations(0, candidates, target, result, new ArrayList<>());
+        findCombinationsMethod2(0, candidates, target, result, new ArrayList<>());
         return result;
     }
 
@@ -36,5 +36,19 @@ public class CombinationSum {
             ds.remove(ds.size() - 1);
         }
         findCombinations(index + 1, arr, target, result, ds);
+    }
+
+    static void findCombinationsMethod2(int index, int[] arr, int target, List<List<Integer>> result, List<Integer> ds) {
+        if (target == 0) {
+            result.add(new ArrayList<>(ds));
+            return;
+        }
+
+        if (index < arr.length && arr[index] <= target) {
+            ds.add(arr[index]);
+            findCombinationsMethod2(index, arr, target - arr[index], result, ds);
+            ds.remove(ds.size() - 1);
+        }
+        if (index < arr.length) findCombinationsMethod2(index + 1, arr, target, result, ds);
     }
 }
