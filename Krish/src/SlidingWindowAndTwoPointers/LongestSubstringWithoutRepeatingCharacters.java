@@ -1,8 +1,9 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 import java.util.HashSet;
 
 //Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+//Video source: https://www.youtube.com/watch?v=-zSxTJkcdAo&list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL&index=4&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(n)
 

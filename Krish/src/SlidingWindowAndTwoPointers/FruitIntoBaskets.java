@@ -1,7 +1,7 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/fruit-into-baskets/
-//Video source: https://www.youtube.com/watch?v=e3bs0uA1NhQ&list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL&index=6&ab_channel=takeUforward
+//Video source: https://www.youtube.com/watch?v=e3bs0uA1NhQ&t=3s&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1), because map size will always be 2
 

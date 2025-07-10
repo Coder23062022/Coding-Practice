@@ -1,4 +1,4 @@
-package Krish.src.TwoPointers;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/search-suggestions-system/
 //Video source: https://www.youtube.com/watch?v=D4T2N0yAr20&ab_channel=NeetCode

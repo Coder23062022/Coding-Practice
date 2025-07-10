@@ -1,6 +1,6 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
-//Problem: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+//Problem: https://leetcode.com/problems/longest-repeating-character-replacement
 //Video source: https://www.youtube.com/watch?v=_eNhaDCr6P0&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(26)

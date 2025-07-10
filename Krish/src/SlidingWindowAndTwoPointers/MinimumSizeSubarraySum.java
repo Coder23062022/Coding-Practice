@@ -1,4 +1,4 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/minimum-size-subarray-sum/description/
 //Video source: https://www.youtube.com/watch?v=aYqYMIqZx5s

@@ -1,4 +1,4 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/find-all-anagrams-in-a-string/
 //Similar problem: https://leetcode.com/problems/permutation-in-string/

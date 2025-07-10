@@ -1,4 +1,4 @@
-package Krish.src.TwoPointers;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Time complexity: O(n*window)
 //Space complexity: O(1)

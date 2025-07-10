@@ -1,4 +1,4 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 //Video source: https://www.youtube.com/watch?v=xtqN4qlgr8s&list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL&index=7&ab_channel=takeUforward

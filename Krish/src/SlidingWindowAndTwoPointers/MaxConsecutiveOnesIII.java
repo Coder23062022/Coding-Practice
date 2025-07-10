@@ -1,7 +1,7 @@
-package Krish.src.SlidingWindow;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/max-consecutive-ones-iii/
-//Video source: https://www.youtube.com/watch?v=3E4JBHSLpYk&list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL&index=4&ab_channel=takeUforward
+//Video source: https://www.youtube.com/watch?v=3E4JBHSLpYk&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
