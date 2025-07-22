@@ -1,24 +1,52 @@
 package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/find-all-anagrams-in-a-string/
-//Similar problem: https://leetcode.com/problems/permutation-in-string/
+//Video source: https://www.youtube.com/watch?v=WJaij9ffOIY&ab_channel=takeUforward
 //Video source: https://www.youtube.com/watch?v=XFh_AoEdOTw&ab_channel=TECHDOSE
+//Similar problem: https://leetcode.com/problems/minimum-window-substring/
+//Similar problem: https://leetcode.com/problems/permutation-in-string/
 //Time complexity: O(n). Basically, O(26 * length of s)
-//Space complexity: O(n)
+//Space complexity: O(256)
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class FindAllAnagramsInAString {
     public static void main(String[] args) {
         String s = "cbaebabacd", p = "abc";
-        for (int x : findAnagrams(s, p)) {
-            System.out.print(x + " ");
-        }
+//        String s = "baa", p = "aa";
+        System.out.println(findAnagrams(s, p));
     }
 
     static List<Integer> findAnagrams(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        if (s.length() < p.length()) return res;
+        Map<Character, Integer> map = new HashMap<>();
+        int l = 0, r = 0, count = 0;
+
+        //Fill the map with the character frequencies of p string
+        for (int i = 0; i < p.length(); i++) {
+            map.put(p.charAt(i), map.getOrDefault(p.charAt(i), 0) + 1);
+        }
+
+        //Run the sliding window for s string
+        while (r < s.length()) {
+            if (map.containsKey(s.charAt(r)) && map.get(s.charAt(r)) > 0) count++;
+            map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) - 1);
+
+            while (count == p.length()) {
+                if (r - l + 1 == p.length()) {
+                    res.add(l);
+                }
+                map.put(s.charAt(l), map.get(s.charAt(l)) + 1);
+                if (map.get(s.charAt(l)) > 0) count--;
+                l++;
+            }
+            r++;
+        }
+        return res;
+    }
+
+    static List<Integer> findAnagramsMethod2(String s, String p) {
         List<Integer> result = new ArrayList<>();
         if (p.length() > s.length()) return result;
 

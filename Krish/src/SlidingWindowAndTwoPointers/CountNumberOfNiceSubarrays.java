@@ -1,6 +1,8 @@
 package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/count-number-of-nice-subarrays/
+//Similar problem: https://leetcode.com/problems/binary-subarrays-with-sum/
+//Similar problem: https://leetcode.com/problems/subarrays-with-k-different-integers/
 //Video source: https://www.youtube.com/watch?v=j_QOv9OT9Og&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)

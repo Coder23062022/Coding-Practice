@@ -1,6 +1,7 @@
-package Krish.src.Array;
+package Krish.src.DynamicProgramming.DpOnStocks;
 
 //Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+//Video source: https://www.youtube.com/watch?v=excAOvwF_Wk&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
@@ -14,8 +15,8 @@ public class BestTimeToBuyAndSellStock {
         int profit, max_profit = 0, min_price = prices[0];
         for (int i = 1; i < prices.length; i++) {
             profit = prices[i] - min_price;
-            min_price = Math.min(min_price, prices[i]);
             max_profit = Math.max(max_profit, profit);
+            min_price = Math.min(min_price, prices[i]);
         }
         return max_profit;
     }
