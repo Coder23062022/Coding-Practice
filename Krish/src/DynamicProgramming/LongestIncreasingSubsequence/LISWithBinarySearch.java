@@ -1,7 +1,6 @@
-package Krish.src.DynamicProgramming;
+package Krish.src.DynamicProgramming.LongestIncreasingSubsequence;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 //Problem: https://leetcode.com/problems/longest-increasing-subsequence/
@@ -9,7 +8,7 @@ import java.util.List;
 //Time complexity: O(nlogn)
 //Space complexity: O(n)
 
-public class LongestIncreasingSubsequenceLength {
+public class LISWithBinarySearch {
     public static void main(String[] args) {
 //        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         int[] nums = {4, 10, 4, 3, 8, 9};
@@ -19,13 +18,11 @@ public class LongestIncreasingSubsequenceLength {
 
     static int lengthOfLISMethod1(int[] nums) {
         List<Integer> result = new ArrayList<>();
-
         for (int num : nums) {
-            if (result.isEmpty()) {
+            //If it is the first number or the number is greater than the last inserted element in the list, then add it to the result
+            if (result.isEmpty() || num > result.get(result.size() - 1)) {
                 result.add(num);
-            } else if (num > result.get(result.size() - 1)) {
-                result.add(num);
-            } else {
+            } else {  //If the number is less than the last inserted element, then do a binary search to find out the position where the number can be put and replace the number in that position with the current number
                 int index = binarySearch(result, num);
                 result.set(index, num);
             }
@@ -46,23 +43,5 @@ public class LongestIncreasingSubsequenceLength {
             }
         }
         return low;
-    }
-
-    //Video source: https://www.youtube.com/watch?v=CE2b_-XfVDk&t=276s&ab_channel=TusharRoy-CodingMadeSimple
-    //Time complexity: O(n^2)
-    //Space complexity: O(n)
-    static int lengthOfLISMethod2(int[] nums) {
-        int[] res = new int[nums.length];
-        Arrays.fill(res, 1);
-        for (int i = 1; i < nums.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[j] < nums[i]) {
-                    res[i] = Math.max(res[i], res[j] + 1);
-                }
-            }
-        }
-        int max = 0;
-        for (int re : res) max = Math.max(max, re);
-        return max;
     }
 }

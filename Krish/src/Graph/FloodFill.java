@@ -1,7 +1,7 @@
 package Krish.src.Graph;
 
 //Problem: https://leetcode.com/problems/flood-fill/
-//Video source: https://www.youtube.com/watch?v=C-2_uSRli8o&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=9
+//Video source: https://www.youtube.com/watch?v=C-2_uSRli8o&ab_channel=takeUforward
 //Time complexity: O(n*m), n and m are the number of rows and columns
 //Space complexity: O(n*m)
 
@@ -14,25 +14,23 @@ public class FloodFill {
                 {1, 1, 0},
                 {1, 0, 1}
         };
-        floodFill(image, 1, 1, 2);
-        for (int[] row : image)
-            System.out.println(Arrays.toString(row));
+        for (int[] row : floodFill(image, 1, 1, 2)) System.out.println(Arrays.toString(row));
     }
 
-    static void floodFill(int[][] image, int sr, int sc, int color) {
-        int[][] visited = new int[image.length][image[0].length];
+    static int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int[][] res = image;
         int initColor = image[sr][sc];
-        DFSUtil(image, sr, sc, color, initColor, visited);
+        DFSUtil(image, sr, sc, color, initColor, res);
+        return res;
     }
 
-    static void DFSUtil(int[][] image, int sr, int sc, int color, int initColor, int[][] visited) {
-        if (sr >= 0 && sr < image.length && sc >= 0 && sc < image[sr].length && visited[sr][sc] != 1 && image[sr][sc] == initColor) {
-            image[sr][sc] = color;
-            visited[sr][sc] = 1;
-            DFSUtil(image, sr + 1, sc, color, initColor, visited);
-            DFSUtil(image, sr - 1, sc, color, initColor, visited);
-            DFSUtil(image, sr, sc + 1, color, initColor, visited);
-            DFSUtil(image, sr, sc - 1, color, initColor, visited);
+    static void DFSUtil(int[][] image, int row, int col, int color, int initColor, int[][] res) {
+        if (row >= 0 && row < image.length && col >= 0 && col < image[0].length && image[row][col] == initColor && res[row][col] != color) {
+            res[row][col] = color;
+            DFSUtil(image, row + 1, col, color, initColor, res);
+            DFSUtil(image, row - 1, col, color, initColor, res);
+            DFSUtil(image, row, col + 1, color, initColor, res);
+            DFSUtil(image, row, col - 1, color, initColor, res);
         }
     }
 }

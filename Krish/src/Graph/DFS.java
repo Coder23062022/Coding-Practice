@@ -2,6 +2,10 @@ package Krish.src.Graph;
 
 import java.util.LinkedList;
 
+//Video source: https://www.youtube.com/watch?v=Qzf1a--rhp8&t=943s&ab_channel=takeUforward
+//Time complexity: O(V + 2E)
+//Space complexity: O(n)
+
 public class DFS {
     static int V;
     static LinkedList<Integer>[] adj;
@@ -20,24 +24,18 @@ public class DFS {
 
     static void depthFirstTraversal() {
         boolean[] visited = new boolean[V];
-
-        //If the source vertex is not provided, call the recursive helper function to print DFS traversal starting from all
-        //vertices one by one.
-        for (int i = 0; i < V; i++) {
-            if (!visited[i])
-                depthFirstTraversalUtil(i, visited);
-        }
+        dfsUsingRecursion(0, visited);
     }
 
-    static void depthFirstTraversalUtil(int v, boolean[] visited) {
+    static void dfsUsingRecursion(int node, boolean[] visited) {
         // Mark the current node as visited and print it
-        visited[v] = true;
-        System.out.print(v + " ");
+        visited[node] = true;
+        System.out.print(node + " ");
 
         // Recur for all the vertices adjacent to this vertex.
-        for (int n : adj[v]) {
+        for (int n : adj[node]) {
             if (!visited[n]) {
-                depthFirstTraversalUtil(n, visited);
+                dfsUsingRecursion(n, visited);
             }
         }
     }

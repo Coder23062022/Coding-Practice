@@ -2,6 +2,10 @@ package Krish.src.Graph;
 
 import java.util.LinkedList;
 
+//Video source: https://www.youtube.com/watch?v=-tgVpUgsQ5k&ab_channel=takeUforward
+//Time complexity: O(V + 2E)
+//Space complexity: O(n)
+
 public class BFS {
     static int V;
     static LinkedList<Integer>[] adj;
@@ -26,11 +30,11 @@ public class BFS {
         visited[startingVertex] = true;
 
         while (!queue.isEmpty()) {
-            startingVertex = queue.poll();
-            System.out.print(startingVertex + " ");
+            int node = queue.poll();
+            System.out.print(node + " ");
 
-            //Finding the neighbours.
-            for (int n : adj[startingVertex]) {
+            //Finding the neighbours from adjacency list.
+            for (int n : adj[node]) {
                 if (!visited[n]) {
                     visited[n] = true;
                     queue.add(n);

@@ -1,7 +1,7 @@
 package Krish.src.Graph;
 
 //Problem: https://leetcode.com/problems/number-of-islands/
-//Video source: https://www.youtube.com/watch?v=muncqlKJrH0&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=8
+//Video source: https://www.youtube.com/watch?v=muncqlKJrH0&t=483s&ab_channel=takeUforward
 //Time complexity: O(n^2)
 //Space complexity: O(n^2)
 
@@ -23,7 +23,7 @@ public class NumberOfIslands {
     }
 
     static void DFSUtil(char[][] grid, int row, int col, int[][] visited) {
-        if (row >= 0 && row < grid.length && col >= 0 && col < grid[row].length && grid[row][col] == '1' && visited[row][col] == 0) {
+        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == '1' && visited[row][col] == 0) {
             visited[row][col] = 1;
             DFSUtil(grid, row + 1, col, visited);
             DFSUtil(grid, row, col + 1, visited);

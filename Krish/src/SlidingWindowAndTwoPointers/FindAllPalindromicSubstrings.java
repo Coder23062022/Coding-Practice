@@ -1,4 +1,4 @@
-package src.DynamicProgramming;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 import java.util.HashSet;
 import java.util.Set;

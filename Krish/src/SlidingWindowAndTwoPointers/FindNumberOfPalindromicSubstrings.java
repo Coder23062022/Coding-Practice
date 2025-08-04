@@ -1,4 +1,4 @@
-package src.DynamicProgramming;
+package Krish.src.SlidingWindowAndTwoPointers;
 
 //Problem: https://leetcode.com/problems/palindromic-substrings/
 
