@@ -1,9 +1,9 @@
 package Krish.src.Graph;
 
 //Problem: https://leetcode.com/problems/number-of-enclaves/
-//Video source: https://www.youtube.com/watch?v=rxKcepXQgU4&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=15
-//Time complexity: O(n*m), n and m are the number of rows and columns
-//Space complexity: O(n*m)
+//Video source: https://www.youtube.com/watch?v=rxKcepXQgU4&ab_channel=takeUforward
+//Time complexity: O(n * m)
+//Space complexity: O(n * m)
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -19,46 +19,47 @@ public class NumberOfEnclaves {
         System.out.println(numEnclaves(grid));
     }
 
-    static int count = 0;
-
     static int numEnclaves(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
+        int n = grid.length;
+        int m = grid[0].length;
         Queue<Pair> q = new LinkedList<>();
-        int[][] visited = new int[m][n];
-        int noOfLands = 0;
+        int[][] visited = new int[n][m];
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if ((i == 0 || i == m - 1 || j == 0 || j == n - 1) && grid[i][j] == 1) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if ((i == 0 || i == n - 1 || j == 0 || j == m - 1) && grid[i][j] == 1) {
                     q.add(new Pair(i, j));
                     visited[i][j] = 1;
-                    count++;
                 }
-
-                if (grid[i][j] == 1) noOfLands++;
             }
         }
 
+        int[] delRow = {-1, 0, 1, 0};
+        int[] delCol = {0, 1, 0, -1};
+
         while (!q.isEmpty()) {
-            int row = q.peek().row;
-            int col = q.peek().col;
+            int r = q.peek().row;
+            int c = q.peek().col;
             q.remove();
-            BFSUtil(grid, visited, row + 1, col, q);
-            BFSUtil(grid, visited, row - 1, col, q);
-            BFSUtil(grid, visited, row, col + 1, q);
-            BFSUtil(grid, visited, row, col - 1, q);
+
+            for (int k = 0; k < 4; k++) {
+                int nRow = r + delRow[k];
+                int nCol = c + delCol[k];
+
+                if (nRow >= 0 && nRow < n && nCol >= 0 && nCol < m && visited[nRow][nCol] == 0 && grid[nRow][nCol] == 1) {
+                    visited[nRow][nCol] = 1;
+                    q.add(new Pair(nRow, nCol));
+                }
+            }
         }
 
-        return noOfLands > count ? (noOfLands - count) : 0;
-    }
-
-    static void BFSUtil(int[][] grid, int[][] visited, int r, int c, Queue<Pair> q) {
-        if (r >= 0 && r < grid.length && c >= 0 && c < grid[r].length && grid[r][c] == 1 && visited[r][c] != 1) {
-            q.add(new Pair(r, c));
-            visited[r][c] = 1;
-            count++;
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 1 && visited[i][j] == 0) count++;
+            }
         }
+        return count;
     }
 
     static class Pair {

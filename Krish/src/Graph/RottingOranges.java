@@ -1,9 +1,9 @@
 package Krish.src.Graph;
 
 //Problem: https://leetcode.com/problems/rotting-oranges/
-//Video source: https://www.youtube.com/watch?v=yf3oUhkvqA0&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=11
-//Time complexity: O(n*m), n and m are the number of rows and columns
-//Space complexity: O(n*m)
+//Video source: https://www.youtube.com/watch?v=yf3oUhkvqA0&ab_channel=takeUforward
+//Time complexity: O(n * m)
+//Space complexity: O(n * m)
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -28,33 +28,32 @@ public class RottingOranges {
             for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == 2) {
                     q.add(new Pair(i, j, 0));
-                    visited[i][j] = 1;
+                    visited[i][j] = 2;
                 } else if (grid[i][j] == 1) {
                     freshOrangesCount++;
                 }
             }
         }
 
-        int result = 0;
+        int time = 0;
         while (!q.isEmpty()) {
             int r = q.peek().row;
             int c = q.peek().col;
             int t = q.peek().time;
+            time = Math.max(time, t);
             q.remove();
 
             BFSUtil(grid, r + 1, c, visited, t, q);
             BFSUtil(grid, r - 1, c, visited, t, q);
             BFSUtil(grid, r, c + 1, visited, t, q);
             BFSUtil(grid, r, c - 1, visited, t, q);
-            result = t;
         }
-        return freshOrangesCount == count ? result : -1;
+        return freshOrangesCount == count ? time : -1;
     }
 
     static void BFSUtil(int[][] grid, int row, int col, int[][] visited, int t, Queue<Pair> q) {
-        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == 1 && visited[row][col] != 1) {
-            grid[row][col] = 2;
-            visited[row][col] = 1;
+        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == 1 && visited[row][col] != 2) {
+            visited[row][col] = 2;
             q.add(new Pair(row, col, t + 1));
             count++;
         }
