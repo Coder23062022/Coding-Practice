@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://leetcode.ca/2016-09-11-286-Walls-and-Gates/
 //Video source: https://www.youtube.com/watch?v=Pj9378ZsCh4&t=2s&ab_channel=KevinNaughtonJr.

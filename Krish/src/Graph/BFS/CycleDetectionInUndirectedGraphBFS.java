@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.BFS;
 
 //Problem: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 //Video source: https://www.youtube.com/watch?v=BPlrALf1LDU&ab_channel=takeUforward

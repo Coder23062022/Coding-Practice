@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.BFS;
 
 //Problem: https://leetcode.com/problems/number-of-enclaves/
 //Video source: https://www.youtube.com/watch?v=rxKcepXQgU4&ab_channel=takeUforward

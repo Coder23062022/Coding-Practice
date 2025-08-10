@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://www.geeksforgeeks.org/problems/number-of-distinct-islands/0
 //https://leetcode.com/problems/number-of-distinct-islands/description/

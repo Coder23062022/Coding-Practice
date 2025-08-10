@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://leetcode.com/problems/number-of-islands/
 //Video source: https://www.youtube.com/watch?v=muncqlKJrH0&t=483s&ab_channel=takeUforward

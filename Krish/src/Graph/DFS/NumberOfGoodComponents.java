@@ -1,4 +1,4 @@
-package src.Graph;
+package Krish.src.Graph.DFS;
 
 import java.util.ArrayList;
 

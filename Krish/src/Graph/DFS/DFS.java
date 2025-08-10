@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 import java.util.LinkedList;
 

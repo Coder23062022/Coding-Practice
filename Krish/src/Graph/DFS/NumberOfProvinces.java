@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://leetcode.com/problems/number-of-provinces/
 //Video source: https://www.youtube.com/watch?v=ACzkVtewUYA&ab_channel=takeUforward

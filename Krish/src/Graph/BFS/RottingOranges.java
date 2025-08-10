@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.BFS;
 
 //Problem: https://leetcode.com/problems/rotting-oranges/
 //Video source: https://www.youtube.com/watch?v=yf3oUhkvqA0&ab_channel=takeUforward

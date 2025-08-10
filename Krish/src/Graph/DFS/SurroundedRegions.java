@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://leetcode.com/problems/surrounded-regions/
 //Video source: https://www.youtube.com/watch?v=BtdgAys4yMk&ab_channel=takeUforward

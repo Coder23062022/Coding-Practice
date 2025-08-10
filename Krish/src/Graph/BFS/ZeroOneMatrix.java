@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.BFS;
 
 //Problem: https://leetcode.com/problems/01-matrix/
 //Video source: https://www.youtube.com/watch?v=edXdVwkYHF8&t=517s&ab_channel=takeUforward

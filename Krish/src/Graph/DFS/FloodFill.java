@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://leetcode.com/problems/flood-fill/
 //Video source: https://www.youtube.com/watch?v=C-2_uSRli8o&ab_channel=takeUforward

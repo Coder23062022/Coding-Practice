@@ -1,4 +1,4 @@
-package Krish.src.Graph;
+package Krish.src.Graph.DFS;
 
 //Problem: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 //Video source: https://www.youtube.com/watch?v=zQ3zgFypzX4&ab_channel=takeUforward
@@ -38,7 +38,7 @@ public class CycleDetectionInUndirectedGraphDFS {
         visited[v] = true;
         for (int neighbor : adj[v]) {
             if (!visited[neighbor]) {
-                if (dfs(neighbor, adj, visited, v)) return true;
+                if (!dfs(neighbor, adj, visited, v)) return true;
             } else if (neighbor != parent) {
                 return true;
             }

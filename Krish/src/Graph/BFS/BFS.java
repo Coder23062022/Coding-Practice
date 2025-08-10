@@ -1,6 +1,7 @@
-package Krish.src.Graph;
+package Krish.src.Graph.BFS;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 //Video source: https://www.youtube.com/watch?v=-tgVpUgsQ5k&ab_channel=takeUforward
 //Time complexity: O(V + 2E)
@@ -24,7 +25,7 @@ public class BFS {
 
     static void breadthFirstTraversal(int startingVertex) {
         boolean[] visited = new boolean[V];
-        LinkedList<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
 
         queue.add(startingVertex);
         visited[startingVertex] = true;
