@@ -29,9 +29,9 @@ public class LongestRepeatingCharacterReplacement {
             if (wl - maxF > k) {
                 map.put(s.charAt(l), map.get(s.charAt(l)) - 1);
                 l++;
-                wl = r - l + 1;
+            } else {
+                maxLen = Math.max(maxLen, wl);
             }
-            maxLen = Math.max(maxLen, wl);
             r++;
         }
         return maxLen;

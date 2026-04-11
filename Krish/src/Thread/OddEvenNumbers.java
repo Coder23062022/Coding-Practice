@@ -1,9 +1,11 @@
 package Krish.src.Thread;
 
 //Related doc: https://www.geeksforgeeks.org/print-even-and-odd-numbers-in-increasing-order-using-two-threads-in-java/
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class OddEvenNumbers {
-    volatile static int counter = 1;
+    volatile static int counter = 1; //force all threads to update and use the latest copy of this counter, and not use locally cached copies
     int limit;
 
     OddEvenNumbers(int limit) {
@@ -46,9 +48,16 @@ public class OddEvenNumbers {
 
     public static void main(String[] args) {
         OddEvenNumbers printer = new OddEvenNumbers(10);
-        Thread t1 = new Thread(printer::printOddNum);
+//        Thread t1 = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                printer.printOddNum();
+//            }
+//        });
+        //From Java 8, you can use run method it with lambda
+        Thread t1 = new Thread(() -> printer.printOddNum()); //You can also convert this with method reference: Thread t1 = new Thread(printer::printOddNum);
         t1.setName("Odd");
-        Thread t2 = new Thread(printer::printEvenNum);
+        Thread t2 = new Thread(() -> printer.printEvenNum());
         t2.setName("Even");
         t1.start();
         t2.start();

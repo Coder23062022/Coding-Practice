@@ -17,9 +17,12 @@ public class ImplementAtoi {
             idx++;
         }
 
-        if (idx < s.length() && (s.charAt(idx) == '-' || s.charAt(idx) == '+')) {
-            if (s.charAt(idx++) == '-') {
+        if (idx < s.length()) {
+            if (s.charAt(idx) == '-') {
                 sign = -1;
+                idx++;
+            } else if (s.charAt(idx) == '+') {
+                idx++;
             }
         }
 
