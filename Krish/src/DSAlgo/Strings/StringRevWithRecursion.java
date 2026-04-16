@@ -1,4 +1,4 @@
-package src.Strings;
+package Krish.src.DSAlgo.Strings;
 
 class StringRevWithRecursion {
     public static void main(String[] args) {

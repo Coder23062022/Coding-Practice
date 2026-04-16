@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/second-largest3735/1
 //Video source: https://www.youtube.com/watch?v=37E9ckMDdTk&t=160s

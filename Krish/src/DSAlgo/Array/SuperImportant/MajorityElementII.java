@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 import java.util.ArrayList;
 import java.util.List;

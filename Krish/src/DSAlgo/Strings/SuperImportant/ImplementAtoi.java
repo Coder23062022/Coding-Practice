@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://leetcode.com/problems/string-to-integer-atoi/
 //Solution explain: https://leetcode.com/problems/string-to-integer-atoi/solutions/1402936/java-c-simple-pictorial-explanation-32-bit-int-easy

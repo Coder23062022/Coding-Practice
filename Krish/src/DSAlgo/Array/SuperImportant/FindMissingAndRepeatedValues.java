@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/find-missing-and-repeated-values/
 //Similar problem: https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/

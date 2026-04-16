@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
 //Video source: https://www.youtube.com/watch?v=AseUmwVNaoY&ab_channel=takeUforward

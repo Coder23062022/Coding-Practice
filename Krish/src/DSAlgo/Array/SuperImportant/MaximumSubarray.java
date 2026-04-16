@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/maximum-subarray/
 //Solved by 'Kadane's Algorithm'.

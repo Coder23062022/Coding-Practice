@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/
 //Video source: https://www.youtube.com/watch?v=3YDBT9ZrfaU&ab_channel=NeetCode

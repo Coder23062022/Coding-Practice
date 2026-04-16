@@ -1,4 +1,4 @@
-package src.Strings;
+package Krish.src.DSAlgo.Strings;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 //Video source: https://www.youtube.com/watch?v=UizI7R6ND9Q&ab_channel=NeetCodeIO

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 //Video source: https://www.youtube.com/watch?v=DEJAZBq0FDA&ab_channel=NeetCode

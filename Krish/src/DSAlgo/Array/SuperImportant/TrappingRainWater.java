@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/trapping-rain-water/
 //Video source: https://www.youtube.com/watch?v=UHHp8USwx4M

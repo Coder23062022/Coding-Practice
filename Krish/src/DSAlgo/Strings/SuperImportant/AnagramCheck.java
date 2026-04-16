@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 import java.util.Arrays;
 

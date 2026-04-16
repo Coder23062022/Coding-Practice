@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/container-with-most-water/
 //Video reference: https://www.youtube.com/watch?v=UuiTKBwPgAo&ab_channel=NeetCode

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://leetcode.com/problems/string-compression/
 //Video source: https://www.youtube.com/watch?v=cAB15h6-sWA&ab_channel=ApnaCollege

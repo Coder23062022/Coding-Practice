@@ -1,12 +1,13 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 import java.util.Arrays;
 
 //Problem: https://leetcode.com/problems/merge-sorted-array/
+//Video source: https://www.youtube.com/watch?v=-1cLK6PaLsQ&t=8s
 //Time complexity: O(m + n)
 //Space complexity: O(1)
 
-public class MergeTwoSortedArrays {
+public class MergeTwoSortedArraysLeetcode {
     public static void main(String[] args) {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {4, 5, 6};

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/majority-element/
 //Video source: https://www.youtube.com/watch?v=nP_ns3uSh80&ab_channel=takeUforward

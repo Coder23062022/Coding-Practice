@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/count-the-reversals0401/1
 //Video source: https://www.youtube.com/watch?v=8q1sma-qMsA&ab_channel=GeeksforGeeks

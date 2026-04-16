@@ -1,13 +1,13 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 import java.util.Arrays;
 
 //Problem: https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
-//Video source: https://www.youtube.com/watch?v=n7uwj04E0I4&t=1052s&ab_channel=takeUforward
+//Video source: https://www.youtube.com/watch?v=n7uwj04E0I4
 //Time complexity: O(min(n, m)) + O(nlogn) + O(mlogm)
 //Space complexity: O(1)
 
-public class MergeTwoSortedArraysWithoutExtraSpace {
+public class MergeTwoSortedArraysGFG {
     public static void main(String[] args) {
         int[] a = {1, 5, 9, 10, 15, 20}, b = {2, 3, 8, 13};
         mergeArrays(a, b);

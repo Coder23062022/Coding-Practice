@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Array;
+package Krish.src.DSAlgo.Array.SuperImportant;
 
 //Problem: https://leetcode.com/problems/maximum-product-subarray/
 //Video source: https://www.youtube.com/watch?v=hnswaLJvr6g

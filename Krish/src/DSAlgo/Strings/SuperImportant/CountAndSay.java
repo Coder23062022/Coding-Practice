@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Strings;
+package Krish.src.DSAlgo.Strings.SuperImportant;
 
 //Problem: https://leetcode.com/problems/count-and-say/
 //Video source: https://www.youtube.com/watch?v=htSwmFGdFUI&ab_channel=Techdose
