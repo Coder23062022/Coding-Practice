@@ -5,10 +5,677 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6a7a5-2a34-4011-ae3b-f678ade9faac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Krish/src/Strings/PermutationInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/StringPermutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Krish/src/Backtracking/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Krish/src/Backtracking/StringPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/Krish.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/ConwaysGameOfLife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/DuplicateInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/DutchNationalFlagProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/FindTheDuplicateNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/FirstMissingPositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/LargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/LongestConsecutiveSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/LongestIncreasingOrderSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/MergeTwoSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/NextPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/PairSumMatchesRestOfArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/ProductOfArrayExceptSelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/RearrangeArrayIntoTwoSameHalvesOfEqualSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/RearrangePositiveNegativeNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SmallestAndLargestInAStringArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SortColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SplitArrayIntoTwoEqualSumSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/StockProfitSolution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/StockProfitSolution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SubArraySumEqualsK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/SumOfTheElementsAtEachIndexOfTwoArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/TopKFrequentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/TripletSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Array/kthSmallestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Backtracking/BalancedParenthesesCombination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Backtracking/LetterCombinationsOfAPhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Backtracking/PrintAllPossibleSubsequencesOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Backtracking/PrintAllPossibleSubsets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Backtracking/StringPermutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/ComparatorExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/ComparatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/FindMaxAndAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/FlatMapEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/FlatmapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/HighestSibling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/ImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/InfoGainInterviewMapQstn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/PairWithGivenDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/SortHashMapByValues$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/SortHashMapByValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/CollectionAndMap/SortOnEnumValuesUsingTreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/CoinChangeNumberOfWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/FindAllPalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/FindNumberOfPalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/LongestIncreasingSubsequenceLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/MaxProductSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/MaxSumOfNonAdjacentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/DynamicProgramming/MinNumberOfCoinsToMakeAGivenValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/Custom_exception2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/Exception1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/ExceptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/ExceptionWithInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/Ext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/TryCatchFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/custom_exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Exception/k_exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/FactoryDesignPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/FactoryDesignPattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/CompareEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/CustomAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/FibonacciCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/FindWordInAFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/Ideone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/IntegerToOtherDTConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/NokiaASeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/PalindromeCheckNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/PalindromeCheckString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/PrimeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/Robo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/SieveOfEratosthenes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/Smartphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/SquareCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/GeneralProgram/ValidSudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/CountIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/NumberOfGoodComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/NumberOfIslandsLeetCodeSolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Graph/WordSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Greedy/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Greedy/MaxLengthOfSubArrayWithPositiveProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Greedy/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/HackerRank/DamDesign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/HackerRank/DirectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/HackerRank/SubArrayMaxMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Heap/DeletionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Heap/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Heap/InsertionDeletionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Heap/InsertionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MeetingRooms$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MeetingRooms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MeetingRoomsII$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MeetingRoomsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MinNoOfPlatformsNeeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/MinimalParkingSpaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Intervals/NonOverlappingIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Java8/Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Java8/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Java8/ListToMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Java8/SecondHighestNumberFromList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Java8/UseOfGroupBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/AddTwoNumbers$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DeleteKthLastNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DeleteKthLastNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ImplementLRUCache$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ImplementLRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/IntersectionOfTwoLinkedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/IntersectionOfTwoLinkedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/MergeTwoSortedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/MergeTwoSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/MidElementOfLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/MidElementOfLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/PalindromeLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/PalindromeLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReorderList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReorderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReverseLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Practice/PutStatsMapDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Practice/Test123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Queue/QueueUsingSingleStack$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Queue/QueueUsingSingleStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Queue/QueueUsingTwoStacks$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Queue/QueueUsingTwoStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Queue/ReverseAQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Recursion/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Recursion/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Recursion/PowImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/FindMissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/FindSquareRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SlidingWindow/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/SlidingWindow/PermutationInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Sorting/BubbleSortOptimaztion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Sorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Sorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Sorting/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/CheckIfTwoStacksAreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/CheckOrderedBalancedParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/LongestValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/MakeArrayBeautiful.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/NextGreaterElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/SortStackUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/SortStackUsingTempStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/StackUsingSingleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/StackUsingTwoQueues$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Stack/StackUsingTwoQueues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/AddStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/AllPalindromicSubstringsIncludingTheLongestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/AnagramCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/CaesarCipher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/DecodeAStringWithTwoStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/EachCharOccurrenceInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/FindKeyInAStringWithoutUsingLibraryFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/FindLargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/FirstMaxLengthEvenWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/FirstNonRepeatingCharInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/LargestNumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/LargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/MaxOccurrenceCharInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/PrintLastNLinesOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/RemoveACharacterToMakeAPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/ReverseACharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/ReverseASentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/ReverseASentenceWithFirstLetterCapitalOfEachWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/RunLength_Encoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/StringEncodeDecode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/StringRevWithRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/StringRevWithoutRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/Stringcheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/SymmetricStringCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Strings/VowelsAndConsonantsCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/AtomicIntegerExample$Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/AtomicIntegerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/ConcurrencyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/ConcurrentModificationExceptionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Consume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/CountDownLatchExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/CyclicBarrierExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/InterThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/OddAndEvenNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/OddAndEvenNumbersGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/PassengerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/PrintPingPong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/PrintPingPongWithTwoThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/PrintSequenceRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Produce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/ThreadPrintsEveryThirdNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Thread/YieldExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BSTOperations$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BSTOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BalanceBinaryTreeCheck$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BalanceBinaryTreeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/BinaryTreeLevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/CheckIfBinaryTreeIsBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/EmployeeHierarchy$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/EmployeeHierarchy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InorderPredecessorSuccessorOfAKey$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InorderPredecessorSuccessorOfAKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InvertBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/InvertBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LeftAndRightViewOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LeftAndRightViewOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LowestCommonAncestorOfBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LowestCommonAncestorOfBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LowestCommonAncestorOfBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/LowestCommonAncestorOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/MaximumDepthOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/PrintOutlineOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SameTreeCheck$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SameTreeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SubTreeOfATree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SubTreeOfATree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SymmetricTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/SymmetricTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TopAndBottomViewOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TreeTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TreeTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TreeTraversalWithoutRecursionWithSingleStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/TreeTraversalWithoutRecursionWithSingleStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/kthSmallestElementInBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/Tree/kthSmallestElementInBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/TwoPointers/OddAndEvenNumbersSeparate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/TwoPointers/Segregate0and1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/XoriantTest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Krish/src/XoriantTest/Xoriant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/Workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/Krish.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/DuplicateInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/FindTheDuplicateNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/FirstMissingPositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/LargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/LongestConsecutiveSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/LongestIncreasingOrderSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/MergeTwoSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/PairSumMatchesRestOfArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/ProductOfArrayExceptSelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SortColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SubArraySumEqualsK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SumOfLeftArrayIsEqualToSumOfRightArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/SumOfTheElementsAtEachIndexOfTwoArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/TopKFrequentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Array/kthSmallestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Backtracking/StringPermutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/AnagramCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/CoinChangeMinNumberOfCoins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/CombinationSumIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DecodeWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DeleteKthLastNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DeleteKthLastNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DetectAndRemoveLoopInALinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DetectAndRemoveLoopInALinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/DuplicateInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/FindMinInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/HouseRobber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/InsertIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestConsecutiveSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestIncreasingSubsequenceLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestRepeatingCharacterReplacement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MaximumProductSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MeetingRooms$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MeetingRooms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MeetingRoomsII$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MeetingRoomsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MergeKSortedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MergeKSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MergeTwoSortedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MergeTwoSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MinNoOfPlatformsNeeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/MinimumWindowSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/NonOverlappingIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/PalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ProductOfArrayExceptSelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ReorderList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ReorderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ReverseLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SearchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/StringEncodeDecode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/SubArraySumEqualsK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/TopKFrequentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/UniquePaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/ValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/WordBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Blind75/WordSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/CoinChangeMinNumberOfCoins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/CombinationSumIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/DecodeWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber1_MaxSumOfNonAdjacentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/HouseRobber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/LongestIncreasingSubsequenceLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/MaxProductSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/PalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/UniquePaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/DynamicProgramming/WordBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/GeneralProgram/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Graph/WordSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Greedy/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/InsertIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MeetingRooms$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MeetingRooms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MeetingRoomsII$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MeetingRoomsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MinNoOfPlatformsNeeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/MinimalParkingSpaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Intervals/NonOverlappingIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/AddTwoNumbers$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DeleteKthLastNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DeleteKthLastNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/DetectAndRemoveLoopInALinkedListUsingHashing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ImplementLRUCache$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ImplementLRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/IntersectionOfTwoLinkedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/IntersectionOfTwoLinkedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MergeKSortedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MergeKSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MergeTwoSortedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MergeTwoSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MidElementOfLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/MidElementOfLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/PalindromeLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/PalindromeLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReorderList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReorderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/LinkedList/ReverseListInGroupOfGivenSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindFirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMinInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindMissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindPeakElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/FindSquareRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SearchingAlgo/SearchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SlidingWindow/FindAllAnagramsInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SlidingWindow/LongestRepeatingCharacterReplacement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SlidingWindow/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/SlidingWindow/PermutationInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Stack/CheckOrderedBalancedParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/AnagramCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/MinimumWindowSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/PermutationInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/SecondMostFrequentCharacterInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/StringEncodeDecode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/Strings/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/TwoPointers/OddAndEvenNumbersSeparate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/TwoPointers/Segregate0and1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/TwoPointers/SegregatePositiveNegativeNumbersNotMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Krish/src/TwoPointers/SegregatingPositiveNegativeNumbersMaintainingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/Servers/Tomcat v8.5 Server at localhost-config/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/ConwaysGameOfLife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/DutchNationalFlagProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/NextPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/RearrangeArrayIntoTwoSameHalvesOfEqualSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/RearrangePositiveNegativeNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/SmallestAndLargestInAStringArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/SplitArrayIntoTwoEqualSumSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/StockProfitSolution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/StockProfitSolution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Array/TripletSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/BalancedParenthesesCombination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/LetterCombinationsOfAPhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/PrintAllPossibleSubsequencesOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Backtracking/PrintAllPossibleSubsets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/ComparatorExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/ComparatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/FindMaxAndAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/FlatMapEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/FlatmapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/HighestSibling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/ImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/InfoGainInterviewMapQstn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/PairWithGivenDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/SortHashMapByValues$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/SortHashMapByValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/CollectionAndMap/SortOnEnumValuesUsingTreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/CoinChangeNumberOfWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/FindAllPalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/FindNumberOfPalindromicSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/LongestPalindromicSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/DynamicProgramming/MinNumberOfCoinsToMakeAGivenValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/Custom_exception2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/Exception1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/ExceptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/ExceptionWithInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/Ext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/TryCatchFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/custom_exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Exception/k_exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/FactoryDesignPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/FactoryDesignPattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/CompareEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/CustomAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/FibonacciCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/FindWordInAFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/Ideone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/IntegerToOtherDTConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/NokiaASeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/PalindromeCheckNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/PalindromeCheckString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/PrimeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/Robo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/SieveOfEratosthenes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/Smartphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/SquareCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/GeneralProgram/ValidSudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Graph/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Graph/CountIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Graph/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Graph/NumberOfGoodComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Graph/NumberOfIslandsLeetCodeSolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Greedy/MaxLengthOfSubArrayWithPositiveProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Greedy/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/HackerRank/DamDesign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/HackerRank/DirectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/HackerRank/SubArrayMaxMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Heap/DeletionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Heap/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Heap/InsertionDeletionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Heap/InsertionInMaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Java8/Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Java8/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Java8/ListToMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Java8/SecondHighestNumberFromList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Java8/UseOfGroupBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Practice/PutStatsMapDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Practice/Test123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Queue/QueueUsingSingleStack$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Queue/QueueUsingSingleStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Queue/QueueUsingTwoStacks$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Queue/QueueUsingTwoStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Queue/ReverseAQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Recursion/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Recursion/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Recursion/PowImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Sorting/BubbleSortOptimaztion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Sorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Sorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Sorting/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/CheckIfTwoStacksAreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/LongestValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/MakeArrayBeautiful.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/NextGreaterElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/SortStackUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/SortStackUsingTempStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/StackUsingSingleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/StackUsingTwoQueues$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Stack/StackUsingTwoQueues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/AddStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/AllPalindromicSubstringsIncludingTheLongestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/CaesarCipher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/DecodeAStringWithTwoStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/EachCharOccurrenceInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/FindKeyInAStringWithoutUsingLibraryFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/FindLargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/FirstMaxLengthEvenWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/FirstNonRepeatingCharInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/LargestNumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/LargestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/MaxOccurrenceCharInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/PrintLastNLinesOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/RemoveACharacterToMakeAPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/ReverseACharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/ReverseASentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/ReverseASentenceWithFirstLetterCapitalOfEachWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/RunLength_Encoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/SecondMostFrequentCharacterInAStringUsingCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/StringRevWithRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/StringRevWithoutRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/Stringcheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/SymmetricStringCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Strings/VowelsAndConsonantsCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/AtomicIntegerExample$Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/AtomicIntegerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/ConcurrencyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/ConcurrentModificationExceptionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Consume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/CountDownLatchExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/CyclicBarrierExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/InterThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/OddAndEvenNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/OddAndEvenNumbersGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/PassengerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/PrintPingPong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/PrintPingPongWithTwoThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/PrintSequenceRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Produce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/ThreadPrintsEveryThirdNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Thread/YieldExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BSTOperations$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BSTOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BalanceBinaryTreeCheck$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BalanceBinaryTreeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BinaryTreeLevelOrderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/BinaryTreeLevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/CheckIfBinaryTreeIsBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/CheckIfBinaryTreeIsBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/EmployeeHierarchy$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/EmployeeHierarchy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InorderPredecessorSuccessorOfAKey$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InorderPredecessorSuccessorOfAKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InorderTreeTraversalWithoutRecursionAndWithoutStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InvertBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/InvertBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LeftAndRightViewOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LeftAndRightViewOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LowestCommonAncestorOfBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LowestCommonAncestorOfBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LowestCommonAncestorOfBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/LowestCommonAncestorOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/MaximumDepthOfBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/MaximumDepthOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/PrintOutlineOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/PrintOutlineOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SameTreeCheck$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SameTreeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SubTreeOfATree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SubTreeOfATree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SymmetricTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/SymmetricTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TopAndBottomViewOfABinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TopAndBottomViewOfABinaryTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TopAndBottomViewOfABinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TreeTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TreeTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TreeTraversalWithoutRecursionWithSingleStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/TreeTraversalWithoutRecursionWithSingleStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/kthSmallestElementInBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/Tree/kthSmallestElementInBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/XoriantTest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krish/out/production/Workspace/src/XoriantTest/Xoriant.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +707,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountsMerge.executor": "Run",
     "Application.AnagramCheck.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BinarySubarraysWithSum.executor": "Run",
+    "Application.Candy.executor": "Run",
+    "Application.CheapestFlightsWithinKStops.executor": "Run",
     "Application.ClimbingStairs.executor": "Debug",
     "Application.CoinChangeMinNumberOfCoins.executor": "Debug",
     "Application.CombinationSumIV.executor": "Run",
@@ -49,17 +720,22 @@
     "Application.DecodeWays.executor": "Debug",
     "Application.DeleteKthLastNode.executor": "Debug",
     "Application.DetectAndRemoveLoopInALinkedList.executor": "Run",
+    "Application.DijkstrasAlgorithmUsingPQ.executor": "Run",
+    "Application.DisjointSet.executor": "Run",
     "Application.DuplicateInArray.executor": "Run",
     "Application.FindAllAnagramsInAString.executor": "Debug",
+    "Application.FindAllPalindromicSubstrings.executor": "Debug",
     "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
     "Application.FindMinInRotatedSortedArray.executor": "Debug",
     "Application.FindPeakElement.executor": "Run",
     "Application.FindSquareRoot.executor": "Run",
     "Application.FindTheDuplicateNumber.executor": "Run",
     "Application.FirstMissingPositive.executor": "Run",
+    "Application.GasStation.executor": "Debug",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HouseRobber2.executor": "Run",
     "Application.InsertIntervals.executor": "Run",
+    "Application.Interview_Mock.executor": "Run",
     "Application.JumpGame.executor": "Debug",
     "Application.Krish.src.Array.MajorityElement.executor": "Run",
     "Application.Krish.src.Array.MergeTwoSortedArrays.executor": "Debug",
@@ -82,6 +758,7 @@
     "Application.LongestIncreasingSubsequenceLength.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
+    "Application.LongestSubstringWithAtMostKDistinctCharacters.executor": "Run",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.MajorityElement.executor": "Debug",
     "Application.MaxProductSubArray.executor": "Run",
@@ -92,12 +769,19 @@
     "Application.MergeTwoSortedArrays.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MinNoOfPlatformsNeeded.executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.MinimumMultiplicationsToReachEnd.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Debug",
+    "Application.MostStonesRemovedWithSameRowOrColumn.executor": "Debug",
     "Application.MoveZerosToEnd.executor": "Run",
+    "Application.NMeetingsInOneRoom.executor": "Run",
+    "Application.NetworkDelayTime.executor": "Debug",
     "Application.NonOverlappingIntervals.executor": "Debug",
+    "Application.NumberOfIslandsII.executor": "Run",
+    "Application.NumberOfOperationsToMakeNetworkConnected.executor": "Run",
     "Application.PalindromicSubstrings.executor": "Run",
     "Application.PermutationInString.executor": "Run",
     "Application.PlusOne.executor": "Run",
+    "Application.PrintShortestPath.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RearrangePositiveNegativeNumbers.executor": "Run",
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
@@ -105,10 +789,15 @@
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseListInGroupOfGivenSize.executor": "Run",
     "Application.SearchInRotatedSortedArray.executor": "Run",
+    "Application.SecondLargestInAnArray.executor": "Run",
     "Application.SecondMostFrequentCharacterInAString.executor": "Run",
     "Application.SegregatingPositiveNegativeNumbersMaintainingOrder.executor": "Debug",
+    "Application.ShortestDistanceInABinaryMaze.executor": "Run",
+    "Application.ShortestPathInDirectedAcyclicGraph.executor": "Run",
+    "Application.ShortestPathInUndirectedGraph.executor": "Run",
     "Application.SmallestAndLargestInAStringArray.executor": "Run",
     "Application.SortColors.executor": "Debug",
+    "Application.SortList.executor": "Run",
     "Application.StringEncodeDecode.executor": "Run",
     "Application.StringPermutations.executor": "Debug",
     "Application.SubArraySumEqualsK.executor": "Run",
@@ -125,11 +814,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/Workspace/Coding-Practice/Krish/src/Blind75",
+    "last_opened_file_path": "G:/Workspace/Coding-Practice",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.splitter.proportion": "0.30346233"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -140,13 +830,13 @@
       <recent name="Krish.src.Blind75" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PermutationInString">
-    <configuration name="CoinChangeMinNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.CoinChangeMinNumberOfCoins" />
+  <component name="RunManager" selected="Application.FindAllPalindromicSubstrings">
+    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Greedy.Candy" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="PATTERN" value="Krish.src.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +844,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.SearchingAlgo.FindPeakElement" />
+    <configuration name="FindAllPalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.SlidingWindowAndTwoPointers.SuperImportant.PalindromicSubstring.FindAllPalindromicSubstrings" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.SearchingAlgo.*" />
+          <option name="PATTERN" value="Krish.src.SlidingWindowAndTwoPointers.SuperImportant.PalindromicSubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +857,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Blind75.MergeKSortedLists" />
+    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Greedy.GasStation" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Blind75.*" />
+          <option name="PATTERN" value="Krish.src.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +870,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Strings.PermutationInString" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.Array.LongestConsecutiveSequence" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Strings.*" />
+          <option name="PATTERN" value="Krish.src.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +883,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Krish.src.Backtracking.StringPermutations" />
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krish.src.LinkedList.SuperImportant.SortList" />
       <module name="Workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Krish.src.Backtracking.*" />
+          <option name="PATTERN" value="Krish.src.LinkedList.SuperImportant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +898,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PermutationInString" />
-        <item itemvalue="Application.StringPermutations" />
-        <item itemvalue="Application.CoinChangeMinNumberOfCoins" />
-        <item itemvalue="Application.MergeKSortedLists" />
-        <item itemvalue="Application.FindPeakElement" />
+        <item itemvalue="Application.FindAllPalindromicSubstrings" />
+        <item itemvalue="Application.SortList" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.Candy" />
+        <item itemvalue="Application.GasStation" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +946,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Krish/src/Tree/TreeTraversal.java</url>
           <line>13</line>
-          <properties class="src.Tree.TreeTraversal" method="createTree">
+          <properties class="src.Tree.TreeTraversal">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
