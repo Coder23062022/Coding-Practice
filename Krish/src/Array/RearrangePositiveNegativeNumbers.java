@@ -1,4 +1,8 @@
-package src.Array;
+package Krish.src.Array;
+
+//Problem: https://www.geeksforgeeks.org/dsa/rearrange-positive-and-negative-numbers/
+//Time complexity: O(n)
+//Space complexity: O(1)
 
 public class RearrangePositiveNegativeNumbers {
     static void rearrange(int[] arr, int n) {

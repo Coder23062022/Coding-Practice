@@ -1,4 +1,4 @@
-package src.Array;
+package Krish.src.Array;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class SmallestAndLargestInAStringArray {
 		String smallest = "";
 		String largest = "";
 
-		String arr[] = new String[s.length() - 2];
+		String[] arr = new String[s.length() - 2];
 
 		for (int i = 0; i + 3 <= s.length(); i++) {
 			arr[i] = s.substring(i, i + 3);

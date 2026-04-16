@@ -6,7 +6,8 @@ package Krish.src.Greedy;
 
 public class Candy {
     public static void main(String[] args) {
-        int[] ratings = {1, 0, 2};
+//        int[] ratings = {1, 0, 2};
+        int[] ratings = {0, 2, 4, 3, 2, 1, 1, 3, 5, 6, 4, 0 , 0};
         System.out.println(candy(ratings));
     }
 

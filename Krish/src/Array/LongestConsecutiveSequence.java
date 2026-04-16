@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //Problem: https://leetcode.com/problems/longest-consecutive-sequence/
+//Video source: https://www.youtube.com/watch?v=oO5uLE7EUlM
 //Video source: https://www.youtube.com/watch?v=P6RZZMu_maU&ab_channel=NeetCode
 //Time complexity: O(n)
 //Space complexity: O(n)
@@ -18,17 +19,17 @@ public class LongestConsecutiveSequence {
     static int longestConsecutiveSequence(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int i : nums) set.add(i);
-        int max = 0;
-        for (int i : nums) {
+        int maxLen = 0;
+        for (int i : set) {
             //If the set doesn't contain the (i - 1) element, then it's a starting of a sequence.
             if (!set.contains(i - 1)) {
                 int count = 1;
                 while (set.contains(i + count)) {
                     count += 1;
                 }
-                max = Math.max(max, count);
+                maxLen = Math.max(maxLen, count);
             }
         }
-        return max;
+        return maxLen;
     }
 }

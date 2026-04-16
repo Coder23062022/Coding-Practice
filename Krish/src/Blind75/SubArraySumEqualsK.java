@@ -19,30 +19,6 @@ public class SubArraySumEqualsK {
     }
 
     static int subArraySum(int[] nums, int k) {
-        int n = nums.length;
-        int[] pS = new int[n];
-        pS[0] = nums[0];
-
-        //Calculate prefix sum
-        for (int i = 1; i < n; i++) {
-            pS[i] = pS[i - 1] + nums[i];
-        }
-
-        Map<Integer, Integer> hm = new HashMap<>();
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            if (pS[i] == k)
-                count++;
-
-            if (hm.containsKey(pS[i] - k)) {
-                count += hm.get(pS[i] - k);
-            }
-            hm.put(pS[i], hm.getOrDefault(pS[i], 0) + 1);
-        }
-        return count;
-    }
-
-    static int subArraySumMethod2(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
         int count = 0, sum = 0;

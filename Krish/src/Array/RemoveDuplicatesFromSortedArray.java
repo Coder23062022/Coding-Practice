@@ -8,7 +8,7 @@ package Krish.src.Array;
 
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
-         int a[] = { 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4 };
+        int[] a = {1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4};
 //        int[] a = {1, 1, 1, 2};
         int n = a.length;
         n = removingDuplicates(a, n);
@@ -22,14 +22,13 @@ public class RemoveDuplicatesFromSortedArray {
     static int removingDuplicates(int[] a, int n) {
         if (n == 0 || n == 1)
             return n;
-        int j = 0;
-        for (int i = 0; i < n - 1; i++) {
-            if (a[i] != a[i + 1]) {
-                a[j] = a[i];
-                j++;
+        int i = 0;
+        for (int j = 1; j < n; j++) {
+            if (a[j] != a[i]) {
+                a[i + 1] = a[j];
+                i++;
             }
         }
-        a[j++] = a[n - 1];
-        return j;
+        return i + 1;
     }
 }

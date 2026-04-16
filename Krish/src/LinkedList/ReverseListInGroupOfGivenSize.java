@@ -62,7 +62,6 @@ public class ReverseListInGroupOfGivenSize {
                 count++;
             }
 
-
             // If newHead is null, set it to the
             // last node of the first group
             if (newHead == null) {
