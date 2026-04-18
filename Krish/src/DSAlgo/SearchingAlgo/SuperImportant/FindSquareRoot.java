@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 import java.util.Scanner;
 
@@ -29,6 +29,7 @@ public class FindSquareRoot {
             }
         }
         //The flow will come here only when the input is not a perfect square. In that case return the last 'high' value.
+        //Because that will be maximum possible integer that is close to the ans.
         return high;
     }
 }

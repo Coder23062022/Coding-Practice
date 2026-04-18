@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant.BSOnRanges;
 
 //Problem: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 //Video source: https://www.youtube.com/watch?v=thUd_WJn6wk&ab_channel=takeUforward
@@ -14,19 +14,17 @@ public class PaintersPartitionProblem {
     }
 
     static int minTime(int[] arr, int k) {
-        int sum = 0;
-        for (int j : arr) {
-            sum += j;
+        int sumOfBoardLengths = 0;
+        for (int boardLen : arr) {
+            sumOfBoardLengths += boardLen;
         }
 
-        int maxBoard = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > maxBoard) {
-                maxBoard = arr[i];
-            }
+        int maxBoardLen = 0;
+        for (int boardLen : arr) {
+            maxBoardLen = Math.max(maxBoardLen, boardLen);
         }
 
-        int low = maxBoard, high = sum, ans = -1;
+        int low = maxBoardLen, high = sumOfBoardLengths, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(arr, k, mid)) {

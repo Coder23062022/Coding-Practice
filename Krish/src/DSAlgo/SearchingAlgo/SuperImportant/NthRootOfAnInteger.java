@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
 //Video reference: https://www.youtube.com/watch?v=rjEJeYCasHs&t=6s&ab_channel=takeUforward

@@ -1,11 +1,14 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant.BSOnRanges;
 
 //Problem: https://www.geeksforgeeks.org/problems/aggressive-cows/1
 //Video source: https://www.youtube.com/watch?v=R_Mfw4ew-Vo&ab_channel=takeUforward
 //Time complexity: O(nlogn) + O(n * log(Range)), Range = MAX(arr) - MIN(arr)
-//Explanation: nlogn is for sorting.
-//Binary search performs between the maximum element in the array and minimum element in the array, so O(log(MAX(arr) - MIN(arr)))
-//Every time we check for canWePlace function, so O(n * log(MAX(arr) - MIN(arr)))
+/*
+    TC explanation:
+    nlogn is for sorting.
+    Binary search performs between the maximum element in the array and minimum element in the array, so O(log(MAX(arr) - MIN(arr)))
+    Every time we check for canWePlace function, so O(n * log(MAX(arr) - MIN(arr)))
+ */
 //Space complexity: O(1)
 
 import java.util.Arrays;
@@ -31,7 +34,7 @@ public class AggressiveCows {
                 high = mid - 1;
             }
         }
-        return ans;
+        return ans; //You can return high here also as high will always fall on the possible ans side
     }
 
     static boolean canWePlace(int[] stalls, int k, int dist) {

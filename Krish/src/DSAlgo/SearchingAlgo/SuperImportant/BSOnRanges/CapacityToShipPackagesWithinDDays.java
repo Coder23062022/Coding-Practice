@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant.BSOnRanges;
 
 //Problem: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 //Video source: https://www.youtube.com/watch?v=MG-Ac4TAvTY&ab_channel=takeUforward
@@ -14,19 +14,17 @@ public class CapacityToShipPackagesWithinDDays {
     }
 
     static int shipWithinDays(int[] weights, int days) {
-        int sum = 0;
-        for (int w : weights) {
-            sum += w;
+        int sumOfWeights = 0;
+        for (int weight : weights) {
+            sumOfWeights += weight;
         }
 
-        int maxWeight = weights[0];
-        for (int i = 1; i < weights.length; i++) {
-            if (weights[i] > maxWeight) {
-                maxWeight = weights[i];
-            }
+        int maxWeight = 0;
+        for (int weight : weights) {
+            maxWeight = Math.max(maxWeight, weight);
         }
 
-        int low = maxWeight, high = sum, ans = -1;
+        int low = maxWeight, high = sumOfWeights, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(weights, days, mid)) {

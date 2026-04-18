@@ -1,17 +1,21 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant.BSOnRanges;
 
 //Problem: https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 //Video source: https://www.youtube.com/watch?v=Z0hwjftStI4&ab_channel=takeUforward
 //Video source: https://www.youtube.com/watch?v=JRAByolWqhw&ab_channel=ApnaCollege
 //Time complexity: O(n) + O(n * log(Range)), Range = Sum(arr) - MAX(arr)
-//Explanation: O(n) is to calculate the sum.
-//Binary search performs between the sum of the array and maximum number of pages in any book, so O(log(Sum(arr) - MAX))
-//Every time we check for isPossible function, so O(n * log(Sum(arr) - MAX))
+/*
+    TC explanation:
+    O(n) is to calculate the sum.
+    Binary search performs between the sum of the array and maximum number of pages in any book, so O(log(Sum(arr) - MAX))
+    Every time we check for isPossible function, so O(n * log(Sum(arr) - MAX))
+*/
 //Space complexity: O(1)
 
 public class AllocateMinimumPages {
     public static void main(String[] args) {
-        int[] arr = {12, 34, 67, 90};
+//        int[] arr = {12, 34, 67, 90};
+        int[] arr = {15, 17, 20};
         int k = 2;
         System.out.println(findPages(arr, k));
     }

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://leetcode.com/problems/single-element-in-a-sorted-array/
 //Video source: https://www.youtube.com/watch?v=AZOmHuHadxQ&ab_channel=takeUforward

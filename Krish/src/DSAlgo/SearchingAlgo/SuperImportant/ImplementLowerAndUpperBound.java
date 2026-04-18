@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/implement-upper-bound/1
 //Video source: https://www.youtube.com/watch?v=6zhGS79oQ4k&ab_channel=takeUforward

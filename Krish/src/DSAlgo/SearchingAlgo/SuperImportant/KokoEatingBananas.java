@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://leetcode.com/problems/koko-eating-bananas
 //Video source: https://www.youtube.com/watch?v=qyfekrNni90&ab_channel=takeUforward

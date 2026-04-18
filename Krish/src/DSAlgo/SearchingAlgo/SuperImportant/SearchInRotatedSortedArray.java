@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://leetcode.com/problems/search-in-rotated-sorted-array/
 //Video reference: https://www.youtube.com/watch?v=5qGrJbHhqFs&ab_channel=takeUforward

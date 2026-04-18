@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://leetcode.com/problems/find-peak-element/
 //Video source: https://www.youtube.com/watch?v=cXxmbemS6XM&t=59s&ab_channel=takeUforward
