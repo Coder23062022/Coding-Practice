@@ -41,10 +41,10 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         while (l <= r) {
             int mid = (l + r) / 2;
             if (a[mid] == target) index = mid;
-            if (a[mid] > target) { //To find the last index, here is the only change compared to the previous method. Instead of >=, it will be > here.
-                r = mid - 1;
-            } else {
+            if (a[mid] <= target) {
                 l = mid + 1;
+            } else {
+                r = mid - 1;
             }
         }
         return index;

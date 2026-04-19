@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SearchingAlgo;
+package Krish.src.DSAlgo.SearchingAlgo.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/
 //Video source: https://www.youtube.com/watch?v=awMDD7sGWVU&ab_channel=AnujKumarSharma

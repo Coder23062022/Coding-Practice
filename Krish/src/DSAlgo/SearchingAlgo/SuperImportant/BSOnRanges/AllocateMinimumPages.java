@@ -22,19 +22,17 @@ public class AllocateMinimumPages {
 
     static int findPages(int[] arr, int k) {
         if (k > arr.length) return -1;
-        int sum = 0;
-        for (int j : arr) {
-            sum += j;
+        int sumOfPages = 0;
+        for (int pages : arr) {
+            sumOfPages += pages;
         }
 
-        int maxPages = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > maxPages) {
-                maxPages = arr[i];
-            }
+        int maxPages = 0;
+        for (int pages : arr) {
+            maxPages = Math.max(maxPages, pages);
         }
 
-        int low = maxPages, high = sum, ans = -1;
+        int low = maxPages, high = sumOfPages, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(arr, k, mid)) {
