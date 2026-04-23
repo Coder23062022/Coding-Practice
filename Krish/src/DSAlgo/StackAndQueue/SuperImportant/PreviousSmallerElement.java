@@ -17,7 +17,6 @@ public class PreviousSmallerElement {
     static int[] previousSmallerElement(int[] nums) {
         Stack<Integer> stack = new Stack<>();
         int[] res = new int[nums.length];
-        int n = nums.length;
 
         for (int i = 0; i < nums.length; i++) {
             while (!stack.isEmpty() && nums[i] <= stack.peek()) {

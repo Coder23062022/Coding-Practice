@@ -16,28 +16,22 @@ public class StackUsingSingleQueue {
         // Add current element
         q.add(val);
 
-        // Pop (or Dequeue) all previous elements and put them after current element
+        //Remove and re-add all the previous elements in the queue
+        //This will add front element into rear of queue
         for (int i = 1; i < q.size(); i++) {
-            // this will add front element into rear of queue
             int x = q.remove();
             q.add(x);
         }
     }
 
-    // Removes the top element
+    //Removes the top element
     int pop() {
-        if (q.isEmpty()) {
-            System.out.println("No elements");
-            return -1;
-        }
-        return q.remove();
+        return q.isEmpty() ? -1 : q.remove();
     }
 
     // Returns top of stack
     int top() {
-        if (q.isEmpty())
-            return -1;
-        return q.peek();
+        return q.isEmpty() ? -1 : q.peek();
     }
 
     //Check for empty stack

@@ -1,18 +1,23 @@
-package Krish.src.DSAlgo.StackAndQueue;
+package Krish.src.DSAlgo.StackAndQueue.SuperImportant;
 
 import java.util.Stack;
 
 //Problem: https://leetcode.com/problems/implement-queue-using-stacks/
-//video source: https://www.youtube.com/watch?v=tqQ5fTamIN4&list=PLgUwDviBIf0pOd5zvVVSzgpo6BaCpHT9c&ab_channel=takeUforward
+//video source: https://www.youtube.com/watch?v=sFvP5Ois0CE
 //Time complexity: Only push - O(2n), but others - O(1)
 //Space complexity: O(2n)
 
 public class QueueUsingTwoStacks {
     static class Queue {
-        Stack<Integer> s1 = new Stack<>();
-        Stack<Integer> s2 = new Stack<>();
+        Stack<Integer> s1;
+        Stack<Integer> s2;
 
-        void push(int x) {
+        Queue() {
+            s1 = new Stack<>();
+            s2 = new Stack<>();
+        }
+
+        void push(int x) { //s1 will give the ans
             while (!s1.isEmpty()) {
                 s2.push(s1.pop());
             }

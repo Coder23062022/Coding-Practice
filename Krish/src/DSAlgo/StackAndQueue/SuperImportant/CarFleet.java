@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.StackAndQueue;
+package Krish.src.DSAlgo.StackAndQueue.SuperImportant;
 
 import java.util.Arrays;
 import java.util.Comparator;

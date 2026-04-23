@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.StackAndQueue;
+package Krish.src.DSAlgo.StackAndQueue.SuperImportant;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -30,7 +30,7 @@ public class SlidingWindowMaximum {
 
             //If curr element is greater than all the existing elements in the deque,
             //then remove all the existing elements from deque and then add the curr element. Because we want to keep the max element only.
-            while (!dq.isEmpty() && nums[i] > nums[dq.peekLast()]) {
+            while (!dq.isEmpty() && nums[i] >= nums[dq.peekLast()]) {
                 dq.pollLast();
             }
             dq.addLast(i);
