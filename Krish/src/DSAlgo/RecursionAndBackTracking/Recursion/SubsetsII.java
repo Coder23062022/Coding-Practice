@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,13 @@ import java.util.List;
 //Problem: https://leetcode.com/problems/subsets-ii/
 //Video source: https://www.youtube.com/watch?v=RIn3gOkbhQE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=13&ab_channel=takeUforward
 //Video source: https://www.youtube.com/watch?v=pNzljlzDCiI&ab_channel=ApnaCollege
-//Time Complexity: O(2^n * k), where O(2^n) for generating every subset and O(k) to insert every subset in another data structure if the average length of every subset is k.
+//Time Complexity: O(nlogn) + O(2^n * k),
+/*
+    Explanation:
+    i) nlogn for sorting.
+    ii) 2^n for generating all subsets and k to insert every subset in another data structure (deep copy).
+    (if the average length of every subset is k)
+ */
 //Space Complexity: O(2^n * k) to store every subset of average length k. Auxiliary space is O(n) if n is the depth of the recursion tree.
 
 public class SubsetsII {

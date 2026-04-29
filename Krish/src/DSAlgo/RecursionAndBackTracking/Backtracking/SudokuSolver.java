@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Backtracking;
 
 //Problem: https://leetcode.com/problems/sudoku-solver/
 //Video source: https://www.youtube.com/watch?v=70cP3qtJp-s&t=27s&ab_channel=ApnaCollege

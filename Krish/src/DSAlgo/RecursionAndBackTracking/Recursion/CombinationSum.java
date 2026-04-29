@@ -1,12 +1,12 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 import java.util.ArrayList;
 import java.util.List;
 
 //Problem: https://leetcode.com/problems/combination-sum/
 //Video source: https://www.youtube.com/watch?v=OyZFFqQtu98&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=10&ab_channel=takeUforward
-//Time Complexity: O(2^t * k) where t is the target, k is the average length
-//Space Complexity: O(k*x), k is the average length and x is the no. of combinations
+//Time Complexity: O(2^n * k), 2^n to generate all subsequences and k is to put ds list into result list
+//Space Complexity: O(k*x), k is the average length of the combinations and x is the no. of combinations
 
 public class CombinationSum {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +29,7 @@ public class PermutationsOfAGivenNumber {
             res.add(new ArrayList<>(ds));
             return;
         }
+
         for (int i = index; i < nums.length; i++) {
             swap(nums, i, index);
             func(index + 1, nums, res);

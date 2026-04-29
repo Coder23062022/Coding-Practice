@@ -1,9 +1,9 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 //Problem: https://www.geeksforgeeks.org/problems/subset-sums2234/1
 //Video source: https://www.youtube.com/watch?v=rYkfBRtMJr8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=12&ab_channel=takeUforward
-//Time Complexity: O(2^n + 2^nlog(2^n))
-//Space Complexity: O(2^n + 2^nlog(2^n))
+//Time Complexity: O(2^n)
+//Space Complexity: O(2^n)
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,6 +18,10 @@ public class SubsetSums {
         ArrayList<Integer> res = new ArrayList<>();
         func(0, 0, arr, res);
         return res;
+        /*
+            If they need the result in sorted order, then do Collections.sort(res) and return the res.
+            Time Complexity will be: O(2^n + 2^nlog(2^n)), 2^nlog(2^n) for sorting
+         */
     }
 
     static void func(int index, int sum, int[] arr, ArrayList<Integer> res) {

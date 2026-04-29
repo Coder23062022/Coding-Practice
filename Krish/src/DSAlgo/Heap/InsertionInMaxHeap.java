@@ -1,4 +1,4 @@
-package src.Heap;
+package Krish.src.DSAlgo.Heap;
 
 public class InsertionInMaxHeap {
 	static void heapify(int arr[], int n, int i) {

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.List;
 //Problem: https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
 //Video source: https://www.youtube.com/watch?v=wuVwUK25Rfc&ab_channel=takeUforward
 //Time complexity: O(V * m^V). There is a total of O(m^V) combinations of colors.
-//For each attempted coloring of a vertex you call isSafe(), can have up to V–1 neighbors, so isSafe() is O(V)
+//For each attempt in coloring of a vertex you call isSafe(), can have up to V–1 neighbors, so isSafe() is O(V)
 //Space complexity: O(V + E). The recursive Stack of the graph coloring function will require O(V) space, Adjacency list and color array will required O(V+E).
 
 public class MColoringProblem {
@@ -38,7 +38,7 @@ public class MColoringProblem {
     }
 
     static boolean canColor(int vertex, int m, List<Integer>[] adj, int[] color) {
-        //If all vertices are colored successfully
+        //If all vertices are colored successfully. You can also pass n and do: if (vertex == n) return true;
         if (vertex == color.length) return true;
 
         //Try all colors from 0 to m-1

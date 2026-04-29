@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Heap;
+package Krish.src.DSAlgo.Heap.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
 //Video source: https://www.youtube.com/watch?v=ptYUCjfNhJY&ab_channel=BackToBackSWE
@@ -30,6 +30,7 @@ public class MergeKSortedArrays {
         PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparing(a -> a.val));
         ArrayList<Integer> res = new ArrayList<>();
 
+        //Add all the first elements from each array
         for (int i = 0; i < k; i++) {
             pq.add(new Node(arr[i][0], i, 0));
         }
@@ -38,7 +39,7 @@ public class MergeKSortedArrays {
             Node curr = pq.poll();
             res.add(curr.val);
             int nextCol = curr.col + 1;
-            if (nextCol < k) {
+            if (nextCol < k) { //Boundary
                 pq.add(new Node(arr[curr.row][nextCol], curr.row, nextCol));
             }
         }

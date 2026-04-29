@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Heap;
+package Krish.src.DSAlgo.Heap.SuperImportant;
 
 //Problem: https://leetcode.com/problems/merge-k-sorted-lists/
 //Video source: https://www.youtube.com/watch?v=1zktEppsdig&ab_channel=takeUforward

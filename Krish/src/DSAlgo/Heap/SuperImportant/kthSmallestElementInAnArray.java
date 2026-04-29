@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Heap;
+package Krish.src.DSAlgo.Heap.SuperImportant;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

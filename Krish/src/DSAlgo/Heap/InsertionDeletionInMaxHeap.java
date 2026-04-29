@@ -1,4 +1,4 @@
-package src.Heap;
+package Krish.src.DSAlgo.Heap;
 
 public class InsertionDeletionInMaxHeap {
 	public static void main(String[] args) {

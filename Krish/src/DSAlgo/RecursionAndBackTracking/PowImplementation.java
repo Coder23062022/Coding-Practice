@@ -1,4 +1,4 @@
-package src.Recursion;
+package Krish.src.DSAlgo.RecursionAndBackTracking;
 
 //Problem: https://leetcode.com/problems/powx-n/
 
@@ -12,7 +12,7 @@ public class PowImplementation {
     /*
      * This algorithm will give you O(n) time complexity.
      * n^p = 1, when p = 0
-     *     = n *n^(p-1), when p>0
+     *     = n * n^(p-1), when p>0
      */
 
     static int pow1(int n, int p) {
@@ -28,7 +28,7 @@ public class PowImplementation {
      * This algorithm will give you O(logn) time complexity.
      * n^p = 1, when p = 0
      * 	   = n^(p/2) * n^(p/2), when p is even
-     *     = n *n^(p-1), when p is odd
+     *     = n * n^(p-1), when p is odd
      */
 
     static int pow2(int n, int p) {

@@ -1,4 +1,4 @@
-package src.Heap;
+package Krish.src.DSAlgo.Heap;
 
 public class DeletionInMaxHeap {
 	// To heapify a subtree rooted with node i which is

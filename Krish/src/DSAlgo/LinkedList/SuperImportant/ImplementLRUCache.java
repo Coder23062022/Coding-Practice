@@ -49,16 +49,16 @@ public class ImplementLRUCache {
 
     public int get(int key) {
         if (map.containsKey(key)) {
-            int ans = map.get(key).value;
-
             //Converting the least recently used node to the most recently used node (Delete and re-insert)
             Node ansNode = map.get(key);
+
             map.remove(key);
             deleteNode(ansNode);
+
             addNode(ansNode);
             map.put(key, ansNode);
 
-            return ans;
+            return map.get(key).value;
         } else {
             return -1;
         }
@@ -66,8 +66,7 @@ public class ImplementLRUCache {
 
     public void put(int key, int value) {
         if (map.containsKey(key)) {
-            Node oldNode = map.get(key);
-            deleteNode(oldNode);
+            deleteNode(map.get(key));
             map.remove(key);
         }
 

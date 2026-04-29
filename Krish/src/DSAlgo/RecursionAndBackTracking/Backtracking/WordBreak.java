@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,16 +30,16 @@ public class WordBreak {
         return res;
     }
 
-    static void wordBreakHelper(String s, HashSet<String> dictSet, String curr, List<String> res, int start) {
+    static void wordBreakHelper(String s, HashSet<String> dictSet, String curr, List<String> res, int index) {
         // If start reaches the end of the string, save the result
-        if (start == s.length()) {
+        if (index == s.length()) {
             res.add(curr);
             return;
         }
 
         // Try every possible substring from the current index
-        for (int end = start + 1; end <= s.length(); ++end) {
-            String word = s.substring(start, end);
+        for (int end = index + 1; end <= s.length(); ++end) {
+            String word = s.substring(index, end);
 
             // Check if the word exists in the dictionary
             if (dictSet.contains(word)) {

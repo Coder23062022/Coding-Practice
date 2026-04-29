@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.RecursionAndBackTracking;
+package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -32,9 +32,9 @@ public class PermutationsOfAGivenString {
         }
 
         for (int i = index; i < s.length(); i++) {
-            swap(s, index, i);
+            swap(s, i, index);
             recurPermute(index + 1, s, ans);
-            swap(s, index, i);
+            swap(s, i, index);
         }
     }
 
