@@ -19,13 +19,10 @@ public class NumberOfDistinctSubstringInAString {
         }
     }
 
-    static Node root = new Node();
-
-    static void insert(String word) {
+    static void insert(Node root, String word) {
         Node curr = root;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
-
             if (curr.children[idx] == null) {
                 curr.children[idx] = new Node();
             }
@@ -35,9 +32,10 @@ public class NumberOfDistinctSubstringInAString {
     }
 
     static int distinctSubstringCount(String str) {
+        Node root = new Node();
         for (int i = 0; i < str.length(); i++) {
             String suffix = str.substring(i); //Find all the suffixes
-            insert(suffix); //Create the tree from the suffixes
+            insert(root, suffix); //Create the tree from the suffixes
         }
         return countNodes(root);
     }
@@ -47,14 +45,14 @@ public class NumberOfDistinctSubstringInAString {
         int count = 0;
         for (int i = 0; i < 26; i++) {
             if (root.children[i] != null) {
-                count += countNodes(root.children[i]);
+                count += 1 + countNodes(root.children[i]);
             }
         }
-        return count + 1;
+        return count;
     }
 
     public static void main(String[] args) {
-        int cnt = distinctSubstringCount("aaabc");
+        int cnt = distinctSubstringCount("ababa"); //aaabc
         System.out.println("Count of distinct substrings: " + cnt);
     }
 }

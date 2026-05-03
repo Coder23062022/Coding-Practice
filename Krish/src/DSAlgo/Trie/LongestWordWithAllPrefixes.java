@@ -2,8 +2,8 @@ package Krish.src.DSAlgo.Trie;
 
 //Problem: https://www.geeksforgeeks.org/problems/longest-valid-word-with-all-prefixes/1
 //Video source: https://www.youtube.com/watch?v=m9zawMC6QAI&ab_channel=ApnaCollege
-//Time complexity: O(n*m), where n is the size of array words[] and m is the maximum length of the string.
-//Space complexity: O(26*n*m)
+//Time complexity: O(n * m), where n is the size of array words[] and m is the maximum length of the string.
+//Space complexity: O(26 * n * m)
 
 public class LongestWordWithAllPrefixes {
     static class Node {
@@ -25,7 +25,6 @@ public class LongestWordWithAllPrefixes {
         Node curr = root;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
-
             if (curr.children[idx] == null) {
                 curr.children[idx] = new Node();
             }

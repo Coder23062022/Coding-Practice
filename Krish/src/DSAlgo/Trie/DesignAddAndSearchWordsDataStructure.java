@@ -21,7 +21,6 @@ public class DesignAddAndSearchWordsDataStructure {
         DesignAddAndSearchWordsDataStructure curr = this;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
-
             if (curr.children[idx] == null) {
                 curr.children[idx] = new DesignAddAndSearchWordsDataStructure();
             }
