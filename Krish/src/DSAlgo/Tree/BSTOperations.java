@@ -1,4 +1,4 @@
-package src.Tree;
+package Krish.src.DSAlgo.Tree;
 
 public class BSTOperations {
 	Node root;

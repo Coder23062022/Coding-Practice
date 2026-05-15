@@ -35,7 +35,7 @@ public class BestTimeToBuyAndSellStockIII {
         }
     }
 
-    //TC: O(n*2*3), SC: O(n*2*3)
+    //TC: O(n*2*3), SC: O(n*2*3) + Recursion stack space
     static int maxProfitWithMemoization(int[] prices) {
         int n = prices.length;
         int[][][] dp = new int[n + 1][2][3];
@@ -112,9 +112,9 @@ public class BestTimeToBuyAndSellStockIII {
         if (i == n || trans == 4) return 0;
         if (dp[i][trans] != -1) return dp[i][trans];
 
-        if (trans % 2 == 0) {
+        if (trans % 2 == 0) { //Buy
             dp[i][trans] = Math.max(-prices[i] + memoizationHelperWithTransactionNumber(i + 1, trans + 1, prices, n, dp), memoizationHelperWithTransactionNumber(i + 1, trans, prices, n, dp));
-        } else {
+        } else { //Sell
             dp[i][trans] = Math.max(prices[i] + memoizationHelperWithTransactionNumber(i + 1, trans + 1, prices, n, dp), memoizationHelperWithTransactionNumber(i + 1, trans, prices, n, dp));
         }
         return dp[i][trans];

@@ -17,7 +17,7 @@ public class TargetSum {
         int sum = 0;
         for (int num : nums) sum += num;
         if ((sum + target) % 2 != 0) return 0;
-        if (sum + target < 0) return 0;
+        if (sum + target < 0) return 0; //You can write this as well: if (sum < Math.abs(target)) return 0;
         int sum1 = (sum + target) / 2;
         return callCountOfSubsetSum(nums, sum1);
     }

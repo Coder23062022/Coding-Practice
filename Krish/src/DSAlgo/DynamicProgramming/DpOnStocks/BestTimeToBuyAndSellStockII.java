@@ -31,7 +31,7 @@ public class BestTimeToBuyAndSellStockII {
         }
     }
 
-    //TC: O(n*2), SC: O(n*2)
+    //TC: O(n*2), SC: O(n*2) + Recursion stack space
     static int maxProfitWithMemoization(int[] prices) {
         int n = prices.length;
         int[][] dp = new int[n + 1][2];
@@ -58,7 +58,7 @@ public class BestTimeToBuyAndSellStockII {
         int[][] dp = new int[n + 1][2];
         dp[n][0] = dp[n][1] = 0;
 
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) { //Bottom up
             for (int j = 0; j <= 1; j++) {
                 if (j == 1) {
                     dp[i][j] = Math.max(-prices[i] + dp[i + 1][0], dp[i + 1][1]);
@@ -70,12 +70,11 @@ public class BestTimeToBuyAndSellStockII {
         return dp[0][1];
     }
 
-    //TC: O(n*2), SC: O(2)
+    //TC: O(n*2), SC: O(1)
     static int maxProfitWithSpaceOptimization(int[] prices) {
         int n = prices.length;
         int[] prev = new int[2];
         int[] curr = new int[2];
-        prev[0] = prev[1] = 0;
 
         for (int i = n - 1; i >= 0; i--) {
             for (int j = 0; j <= 1; j++) {
