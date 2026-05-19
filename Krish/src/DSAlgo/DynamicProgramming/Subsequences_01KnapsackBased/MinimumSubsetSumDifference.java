@@ -21,9 +21,9 @@ public class MinimumSubsetSumDifference {
         boolean[][] dp = callSubsetSum(arr, sum, n);
 
         int min = Integer.MAX_VALUE;
-        for (int i = 0; i <= sum / 2; i++) { //Last row data
-            if (dp[n][i]) {
-                min = Math.min(min, Math.abs(sum - 2 * i));
+        for (int j = 0; j <= sum / 2; j++) { //Last row data
+            if (dp[n][j]) {
+                min = Math.min(min, sum - 2 * j);
             }
         }
         return min;

@@ -48,25 +48,26 @@ public class WildcardMatching {
         return memoizationHelper(s, p, m, n, dp);
     }
 
-    static boolean memoizationHelper(String text, String pattern, int i, int j, boolean[][] dp) {
-        if (j == 0) return i == 0;
-        if (i == 0) {
-            for (int ii = 0; ii < j; ii++) {
-                if (pattern.charAt(ii) != '*') return false;
+    static boolean memoizationHelper(String text, String pattern, int m, int n, boolean[][] dp) {
+        if (n == 0) return m == 0;
+        if (m == 0) {
+            for (int i = 0; i < n; i++) {
+                if (pattern.charAt(i) != '*') return false;
             }
             return true;
         }
 
-        if (dp[i][j]) return true;
+        if (dp[m][n]) return dp[m][n];
 
-        if (text.charAt(i - 1) == pattern.charAt(j - 1) || pattern.charAt(j - 1) == '?') {
-            return memoizationHelper(text, pattern, i - 1, j - 1, dp);
+        if (text.charAt(m - 1) == pattern.charAt(n - 1) || pattern.charAt(n - 1) == '?') {
+            dp[m][n] = memoizationHelper(text, pattern, m - 1, n - 1, dp);
         }
 
-        if (pattern.charAt(j - 1) == '*') {
-            return memoizationHelper(text, pattern, i, j - 1, dp) || memoizationHelper(text, pattern, i - 1, j, dp);
+        if (pattern.charAt(n - 1) == '*') {
+            dp[m][n] = memoizationHelper(text, pattern, m, n - 1, dp) || memoizationHelper(text, pattern, m - 1, n, dp);
         }
-        return false;
+
+        return dp[m][n];
     }
 
     //TC: O(m * n), SC: O(m * n)
@@ -84,6 +85,18 @@ public class WildcardMatching {
                 dp[0][j] = dp[0][j - 1];
             }
         }
+
+        //You can also write the case of s.length() = 0 as:
+//        for (int j = 1; j <= m; j++) {
+//            boolean flag = true;
+//            for (int i = 1; i <= j; i++) {
+//                if (p.charAt(i - 1) != '*') {
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//            dp[0][j] = flag;
+//        }
 
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {

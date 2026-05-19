@@ -13,10 +13,10 @@ public class LISWithBinarySearch {
 //        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         int[] nums = {4, 10, 4, 3, 8, 9};
 //        int[] nums = {0, 1, 0, 3, 2, 3};
-        System.out.println(lengthOfLISMethod1(nums));
+        System.out.println(lengthOfLIS(nums));
     }
 
-    static int lengthOfLISMethod1(int[] nums) {
+    static int lengthOfLIS(int[] nums) {
         List<Integer> result = new ArrayList<>();
         for (int num : nums) {
             //If it is the first number or the number is greater than the last inserted element in the list, then add it to the result

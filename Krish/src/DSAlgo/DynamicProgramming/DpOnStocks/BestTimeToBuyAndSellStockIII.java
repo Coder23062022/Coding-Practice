@@ -39,10 +39,8 @@ public class BestTimeToBuyAndSellStockIII {
     static int maxProfitWithMemoization(int[] prices) {
         int n = prices.length;
         int[][][] dp = new int[n + 1][2][3];
-        for (int[][] dp2 : dp) {
-            for (int[] dp1 : dp2) {
-                Arrays.fill(dp1, -1);
-            }
+        for (int[][] dp1 : dp) {
+            for (int[] row : dp1) Arrays.fill(row, -1);
         }
         return memoizationHelper(0, 1, prices, n, dp, 2);
     }

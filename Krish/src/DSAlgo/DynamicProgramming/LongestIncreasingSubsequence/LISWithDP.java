@@ -38,7 +38,7 @@ public class LISWithDP {
     }
 
     static int memoizationHelper(int[] nums, int n, int index, int prev_index, int[][] dp) {
-        if (index == n) return 0;
+        if (index == n) return 0; //Base case
         if (dp[index][prev_index + 1] != -1) return dp[index][prev_index + 1];
 
         int maxLen = memoizationHelper(nums, n, index + 1, prev_index, dp); //not take

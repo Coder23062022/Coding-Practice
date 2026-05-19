@@ -25,12 +25,12 @@ public class ClimbingStairs {
     static int climbStairs(int n) {
         if (n == 0 || n == 1) return 1;
 
-        int i = 1, j = 1, temp = 0;
-        for (int k = 2; k <= n; k++) {
-            temp = i + j;
-            i = j;
-            j = temp;
+        int prev2 = 1, prev = 1;
+        for (int i = 2; i <= n; i++) {
+            int curr = prev2 + prev;
+            prev2 = prev;
+            prev = curr;
         }
-        return temp;
+        return prev;
     }
 }
