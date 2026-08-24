@@ -1,4 +1,4 @@
-package Krish.src.MultiThreading;
+package Krish.src.MultiThreading.AlternateThreadExecution;
 
 public class OddAndEvenNumbers_AnotherApproach {
     public static void main(String[] args) {

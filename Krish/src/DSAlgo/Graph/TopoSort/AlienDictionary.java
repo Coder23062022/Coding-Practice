@@ -42,6 +42,7 @@ public class AlienDictionary {
                     break;
                 }
                 j++;
+                //ith string's length shouldn't be greater than (i + 1)th string length
                 if (j < w1.length() && j == w2.length()) return "";
             }
         }
