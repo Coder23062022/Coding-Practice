@@ -59,7 +59,8 @@ public class NQueens {
     static void nQueens(char[][] board, int row, int n, List<List<String>> ans) {
         //Base case
         if (row == n) {
-            ans.add(construct(board));
+//            ans.add(construct(board));
+            ans.add(Arrays.stream(board).map(String::valueOf).toList());
             return;
         }
 
@@ -72,10 +73,11 @@ public class NQueens {
         }
     }
 
+    //Convert the 2D char array to List<String>
     static List<String> construct(char[][] board) {
         List<String> res = new LinkedList<>();
-        for (int i = 0; i < board.length; i++) {
-            res.add(String.valueOf(board[i]));
+        for (char[] row : board) {
+            res.add(String.valueOf(row));
         }
         return res;
     }
