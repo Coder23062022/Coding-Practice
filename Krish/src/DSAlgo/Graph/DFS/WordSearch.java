@@ -37,7 +37,7 @@ public class WordSearch {
             return true;
         }
 
-        visited[i][j] = false;
+        visited[i][j] = false; //Backtrack
         return false;
     }
 

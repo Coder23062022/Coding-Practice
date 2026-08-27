@@ -33,7 +33,7 @@ public class PermutationsOfAGivenNumber {
         for (int i = index; i < nums.length; i++) {
             swap(nums, i, index);
             func(index + 1, nums, res);
-            swap(nums, i, index);
+            swap(nums, i, index); //Backtrack
         }
     }
 

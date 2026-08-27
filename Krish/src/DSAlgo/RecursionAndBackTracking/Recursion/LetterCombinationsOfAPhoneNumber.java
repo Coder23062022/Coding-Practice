@@ -17,10 +17,9 @@ public class LetterCombinationsOfAPhoneNumber {
 
     static List<String> letterCombinations(String digits) {
         if (digits.isEmpty()) return new ArrayList<>();
-        List<String> res = new ArrayList<>();
         String[] letters = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        String temp = "";
-        func(0, digits, letters, temp, res);
+        List<String> res = new ArrayList<>();
+        func(0, digits, letters, "", res);
         return res;
     }
 
@@ -29,12 +28,14 @@ public class LetterCombinationsOfAPhoneNumber {
             res.add(temp);
             return;
         }
+
         int number = digits.charAt(index) - '0';
         String str = letters[number];
+
         for (int i = 0; i < str.length(); i++) {
             temp += str.charAt(i);
             func(index + 1, digits, letters, temp, res);
-            temp = temp.substring(0, temp.length() - 1);
+            temp = temp.substring(0, temp.length() - 1); //Backtrack
         }
     }
 

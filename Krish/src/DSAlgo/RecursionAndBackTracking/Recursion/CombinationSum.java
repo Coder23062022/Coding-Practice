@@ -18,7 +18,7 @@ public class CombinationSum {
 
     static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        findCombinationsMethod2(0, candidates, target, result, new ArrayList<>());
+        findCombinations(0, candidates, target, result, new ArrayList<>());
         return result;
     }
 

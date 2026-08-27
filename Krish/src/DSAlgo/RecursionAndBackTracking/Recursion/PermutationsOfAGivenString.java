@@ -1,7 +1,6 @@
 package Krish.src.DSAlgo.RecursionAndBackTracking.Recursion;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 //Problem: https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
@@ -20,21 +19,21 @@ public class PermutationsOfAGivenString {
 
     static List<String> findPermutation(String s) {
         List<String> ans = new ArrayList<>();
-        StringBuilder str = new StringBuilder(s);
-        recurPermute(0, str, ans);
+        StringBuilder sb = new StringBuilder(s);
+        recurPermute(0, sb, ans);
         return ans;
     }
 
-    static void recurPermute(int index, StringBuilder s, List<String> ans) {
-        if (index == s.length()) {
-            ans.add(s.toString());
+    static void recurPermute(int index, StringBuilder sb, List<String> ans) {
+        if (index == sb.length()) {
+            ans.add(sb.toString());
             return;
         }
 
-        for (int i = index; i < s.length(); i++) {
-            swap(s, i, index);
-            recurPermute(index + 1, s, ans);
-            swap(s, i, index);
+        for (int i = index; i < sb.length(); i++) {
+            swap(sb, i, index);
+            recurPermute(index + 1, sb, ans);
+            swap(sb, i, index); //Backtrack
         }
     }
 

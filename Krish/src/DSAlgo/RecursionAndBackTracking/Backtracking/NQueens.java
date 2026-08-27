@@ -75,8 +75,7 @@ public class NQueens {
     static List<String> construct(char[][] board) {
         List<String> res = new LinkedList<>();
         for (int i = 0; i < board.length; i++) {
-            String s = new String(board[i]);
-            res.add(s);
+            res.add(String.valueOf(board[i]));
         }
         return res;
     }

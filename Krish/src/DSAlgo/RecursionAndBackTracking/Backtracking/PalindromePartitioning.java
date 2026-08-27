@@ -31,7 +31,7 @@ public class PalindromePartitioning {
             if (isPalindrome(part)) {
                 curr.add(part);
                 partitionHelper(s.substring(i + 1), curr, res);
-                curr.remove(curr.size() - 1);
+                curr.remove(curr.size() - 1); //Backtrack
             }
         }
     }

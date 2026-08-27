@@ -49,11 +49,11 @@ public class RatInAMaze {
             return;
         }
 
-        maze[row][col] = 0;
+        maze[row][col] = 0; //mark as visited by 0
         findPath(maze, n, row + 1, col, path + "D", res);
         findPath(maze, n, row, col - 1, path + "L", res);
         findPath(maze, n, row, col + 1, path + "R", res);
         findPath(maze, n, row - 1, col, path + "U", res);
-        maze[row][col] = 1;
+        maze[row][col] = 1; //Backtrack
     }
 }

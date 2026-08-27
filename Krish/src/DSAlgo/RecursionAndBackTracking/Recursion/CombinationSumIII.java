@@ -31,8 +31,8 @@ public class CombinationSumIII {
         if (k < 0 || n < 0) return;
 
         ds.add(index);
-        solve(index + 1, k - 1, n - index, ds, res);
+        solve(index + 1, k - 1, n - index, ds, res); //pick
         ds.remove(ds.size() - 1);
-        solve(index + 1, k, n, ds, res);
+        solve(index + 1, k, n, ds, res); //not pick
     }
 }
