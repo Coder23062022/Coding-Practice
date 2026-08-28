@@ -19,7 +19,9 @@ public class NumberOfDistinctSubstringInAString {
         }
     }
 
-    static void insert(Node root, String word) {
+    static Node root = new Node();
+
+    static void insert(String word) {
         Node curr = root;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
@@ -32,10 +34,9 @@ public class NumberOfDistinctSubstringInAString {
     }
 
     static int distinctSubstringCount(String str) {
-        Node root = new Node();
         for (int i = 0; i < str.length(); i++) {
             String suffix = str.substring(i); //Find all the suffixes
-            insert(root, suffix); //Create the tree from the suffixes
+            insert(suffix); //Create the tree from the suffixes
         }
         return countNodes(root);
     }
