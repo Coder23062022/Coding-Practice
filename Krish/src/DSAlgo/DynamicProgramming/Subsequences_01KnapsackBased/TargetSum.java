@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //SC: O(n*target)
 
 public class TargetSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 1, 1, 1};
         int target = 3;
         System.out.println(findTargetSumWays(nums, target));

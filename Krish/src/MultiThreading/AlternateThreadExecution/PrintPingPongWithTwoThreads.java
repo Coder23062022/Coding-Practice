@@ -3,7 +3,7 @@ package Krish.src.MultiThreading.AlternateThreadExecution;
 //Same problem as OddEvenNumbers
 
 public class PrintPingPongWithTwoThreads {
-    public static void main(String[] args) {
+    static void main() {
         int n = 10;
         PrintPingPong printPingPong = new PrintPingPong(n);
 

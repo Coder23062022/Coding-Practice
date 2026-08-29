@@ -9,7 +9,7 @@ import java.util.Stack;
 //Space complexity: O(2n)
 
 public class NextSmallerElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {4, 8, 5, 2, 25};
         System.out.println(nextSmallerElement(nums));
     }

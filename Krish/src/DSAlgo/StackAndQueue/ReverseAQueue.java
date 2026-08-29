@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class ReverseAQueue {
-	public static void main(String[] args) {
+	static void main() {
 		Queue<Integer> q = new LinkedList<>();
 		q.add(1);
 		q.add(2);

@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=nVG7eTiD2bY&ab_channel=takeUforward
 
 public class DistinctSubsequences {
-    public static void main(String[] args) {
+    static void main() {
         String s = "rabbbit", t = "rabbit";
         System.out.println(numDistinctWithRecursion(s, t));
         System.out.println(numDistinctWithMemoization(s, t));

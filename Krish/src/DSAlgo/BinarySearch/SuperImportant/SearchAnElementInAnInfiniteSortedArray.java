@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space Complexity: O(1)
 
 public class SearchAnElementInAnInfiniteSortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
         int target = 10;
         int ans = findPos(arr, target);

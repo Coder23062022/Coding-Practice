@@ -8,7 +8,7 @@ import java.util.Comparator;
 //Space complexity: O(1)
 
 public class NonOverlappingIntervals {
-    public static void main(String[] args) {
+    static void main() {
 //        int[][] intervals = {{1, 2}, {2, 3}, {3, 4}, {1, 3}};
 //        int[][] intervals = {{1,2},{1,2},{1,2}};
         int[][] intervals = {{1, 100}, {11, 22}, {1, 11}, {2, 12}};

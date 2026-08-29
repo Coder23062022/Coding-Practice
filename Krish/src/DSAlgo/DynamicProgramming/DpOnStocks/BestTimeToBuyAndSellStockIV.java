@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=IV1dHbk5CDc&t=355s&ab_channel=takeUforward
 
 public class BestTimeToBuyAndSellStockIV {
-    public static void main(String[] args) {
+    static void main() {
         int[] prices = {2, 4, 1};
         int k = 2;
         System.out.println(maxProfitWithRecursion(prices, k));

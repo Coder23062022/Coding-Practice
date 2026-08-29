@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.Matrix;
 //Space complexity: O(1)
 
 public class RotateMatrix90DegreeAntiClockwise {
-    public static void main(String[] args) {
+    static void main() {
         int[][] mat = {{1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}};

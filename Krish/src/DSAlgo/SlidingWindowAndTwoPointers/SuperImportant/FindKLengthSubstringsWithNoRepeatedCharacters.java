@@ -11,7 +11,7 @@ import java.util.Set;
 //Space complexity: O(n)
 
 public class FindKLengthSubstringsWithNoRepeatedCharacters {
-    public static void main(String[] args) {
+    static void main() {
         String s = "geeksforgeeks";
         int k = 5;
         System.out.println(countKLenSubstrNoRepeats(s, k));

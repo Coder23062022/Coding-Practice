@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class ShortestDistanceInABinaryMaze {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {{1, 1, 1, 1},
                 {1, 1, 0, 1},
                 {1, 1, 1, 1},

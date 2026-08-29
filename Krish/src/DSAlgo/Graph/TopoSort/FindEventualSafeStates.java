@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.TopoSort;
 import java.util.*;
 
 public class FindEventualSafeStates {
-    public static void main(String[] args) {
+    static void main() {
         int[][] graph = {{1, 2}, {2, 3}, {5}, {0}, {5}, {}, {}};
         System.out.println(eventualSafeNodes(graph));
     }

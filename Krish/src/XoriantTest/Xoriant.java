@@ -46,7 +46,7 @@ public class Xoriant {
 		return retVal;
 	}
 
-	public static void main(String[] args) {
+	static void main() {
 		ArrayList<String> inputData = new ArrayList<String>();
 		try {
 			@SuppressWarnings("resource")

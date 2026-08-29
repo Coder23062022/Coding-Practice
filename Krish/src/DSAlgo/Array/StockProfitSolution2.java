@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class StockProfitSolution2 {
-	public static void main(String[] args) {
+	static void main() {
 		int[] arr = { 5, 7, 9, 13, 11, 6, 6, 3, 3 };
 		int n = arr.length;
 		int target_sum = 12;

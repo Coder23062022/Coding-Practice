@@ -9,7 +9,7 @@ public class LongestPalindromicSubstring {
     static String result;
     static int maxLength;
 
-    public static void main(String[] args) {
+    static void main() {
         String s = "babad";
 //        String s = "cbbd";
         System.out.println(longestPalindrome(s));

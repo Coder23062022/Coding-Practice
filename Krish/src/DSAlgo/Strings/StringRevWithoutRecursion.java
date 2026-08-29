@@ -3,7 +3,7 @@ package Krish.src.DSAlgo.Strings;
 import java.util.Scanner;
 
 public class StringRevWithoutRecursion {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println("Enter string to reverse:");
 
         @SuppressWarnings("resource")

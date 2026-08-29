@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class ReverseASentence {
-	public static void main(String[] args) {
+	static void main() {
 		String str = "all you need is love";
 		String[] arr = str.split(" ");
 		String result = "";

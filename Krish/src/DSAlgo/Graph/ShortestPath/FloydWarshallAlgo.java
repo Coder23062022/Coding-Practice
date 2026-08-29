@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath;
 //Space complexity: O(1), but if considering the dist matrix space then its O(V^2)
 
 public class FloydWarshallAlgo {
-    public static void main(String[] args) {
+    static void main() {
         int INF = 100000000;
         int[][] dist = {{0, 4, INF, 5, INF},
                 {INF, 0, 1, INF, 6},

@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //SC: O(n*sum)
 
 public class PartitionsWithGivenDifference {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {5, 2, 6, 4};
         int d = 3;
         System.out.println(countPartitions(arr, d));

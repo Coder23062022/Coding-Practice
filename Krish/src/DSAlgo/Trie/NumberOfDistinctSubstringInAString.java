@@ -52,7 +52,7 @@ public class NumberOfDistinctSubstringInAString {
         return count;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int cnt = distinctSubstringCount("ababa"); //aaabc
         System.out.println("Count of distinct substrings: " + cnt);
     }

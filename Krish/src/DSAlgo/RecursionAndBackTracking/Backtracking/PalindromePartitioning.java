@@ -9,7 +9,7 @@ import java.util.List;
 //Space Complexity: O(n), recursion stack space
 
 public class PalindromePartitioning {
-    public static void main(String[] args) {
+    static void main() {
         String s = "aab";
         System.out.println(partition(s));
     }

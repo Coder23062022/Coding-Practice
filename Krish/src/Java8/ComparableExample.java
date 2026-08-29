@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ComparableExample {
-    public static void main(String[] args) {
+    static void main() {
         List<Movie> l = new ArrayList<>();
         l.add(new Movie("Star Wars", 8.7, 1977));
         l.add(new Movie("Empire Strikes Back", 8.8, 1980));

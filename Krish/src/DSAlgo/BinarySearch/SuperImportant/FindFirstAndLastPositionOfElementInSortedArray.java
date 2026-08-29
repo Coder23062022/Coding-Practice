@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space Complexity: O(1)
 
 public class FindFirstAndLastPositionOfElementInSortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {5, 7, 7, 8, 8, 10};
         System.out.println(Arrays.toString(searchRange(nums, 8)));
     }

@@ -18,7 +18,7 @@ public class MergeTwoBSTs {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Node root1 = new Node(3);
         root1.left = new Node(1);
         root1.right = new Node(5);

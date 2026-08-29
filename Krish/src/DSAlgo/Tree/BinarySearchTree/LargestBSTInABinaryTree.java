@@ -16,7 +16,7 @@ public class LargestBSTInABinaryTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(6);
         root.left = new TreeNode(7);
         root.right = new TreeNode(3);

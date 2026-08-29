@@ -17,7 +17,7 @@ public class FlatteningAMultilevelLinkedList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         //Linked List -
         // 1 -> 2 -> 3
         // |        |

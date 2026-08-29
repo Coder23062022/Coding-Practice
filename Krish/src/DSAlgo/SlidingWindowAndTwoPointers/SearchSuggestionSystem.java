@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SearchSuggestionSystem {
-    public static void main(String[] args) {
+    static void main() {
         String[] products = {"mobile", "mouse", "mo", "moneypot", "monitor", "mousepad"};
         String searchWord = "mouse";
         System.out.println(suggestedProducts(products, searchWord));

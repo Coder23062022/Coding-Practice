@@ -41,7 +41,7 @@ public class SplitArrayIntoTwoEqualSumSubarrays {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {1, 2, 3, 4, 5, 5};
 //        int[] arr = {1, 5, 11, 5};
         int n = arr.length;

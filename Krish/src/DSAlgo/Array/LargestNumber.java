@@ -11,7 +11,7 @@ import java.util.List;
 //Space complexity: O(n)
 
 public class LargestNumber {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] arr = {3, 30, 34, 5, 9};
         int[] arr = {1, 157, 9, 43};
         System.out.println(largestNumber(arr));

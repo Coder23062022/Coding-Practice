@@ -10,7 +10,7 @@ import java.util.Map;
 //Auxiliary Space: O(n)
 
 public class SecondMostFrequentCharacterInAStringUsingCollection {
-    public static void main(String[] args) {
+    static void main() {
         String str = "geeksforgeeks";
         meth(str);
     }

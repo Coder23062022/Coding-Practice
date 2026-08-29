@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(1)
 
 public class MergeIntervals {
-    public static void main(String[] args) {
+    static void main() {
 //        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] intervals = {{1, 3}, {2, 6}, {4, 5}, {8, 10}, {15, 18}};
 //        int[][] intervals = {{1,4},{5,6}};

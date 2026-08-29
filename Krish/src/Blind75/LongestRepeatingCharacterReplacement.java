@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongestRepeatingCharacterReplacement {
-    public static void main(String[] args) {
+    static void main() {
         String s = "AABABBA";
         int k = 1;
         System.out.println(characterReplacement(s, k));

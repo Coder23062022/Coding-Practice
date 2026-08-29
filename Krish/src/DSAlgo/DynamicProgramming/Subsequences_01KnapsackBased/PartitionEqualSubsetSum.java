@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //Video source: https://www.youtube.com/watch?v=7win3dcgo3k&ab_channel=takeUforward
 
 public class PartitionEqualSubsetSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 5, 11, 5};
         System.out.println(canPartitionWithMemoization(nums));
         System.out.println(canPartitionWithTabulation(nums));

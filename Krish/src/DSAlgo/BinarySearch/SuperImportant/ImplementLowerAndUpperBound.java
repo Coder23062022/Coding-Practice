@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space Complexity: O(1)
 
 public class ImplementLowerAndUpperBound {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 3, 6, 7, 8, 8, 11, 11, 11, 12};
         int target = 6;
         System.out.println("Lower bound is: " + lowerBound(arr, target));

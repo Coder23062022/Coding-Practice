@@ -7,7 +7,7 @@ import java.util.*;
 public class AllPalindromicSubstringsIncludingTheLongestOne {
     static int maxLength = 0;
 
-    public static void main(String[] args) {
+    static void main() {
 //        String str = "babad";
         String str = "racecar";
 

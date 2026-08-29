@@ -33,7 +33,7 @@ public class SecondMostFrequentCharacterInAString {
         return (char) second;
     }
 
-    public static void main(String[] args) {
+    static void main() {
 //        String str = "geeksforgeeks";
         String str = "geeksggeeks";
         char res = getSecondMostFreq(str);

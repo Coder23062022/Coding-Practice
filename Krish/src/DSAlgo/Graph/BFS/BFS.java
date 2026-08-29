@@ -44,7 +44,7 @@ public class BFS {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         new BFS(4);
         addEdge(0, 1);
         addEdge(0, 2);

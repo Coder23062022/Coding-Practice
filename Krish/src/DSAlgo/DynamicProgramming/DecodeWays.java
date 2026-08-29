@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming;
 //Space complexity: O(n)
 
 public class DecodeWays {
-    public static void main(String[] args) {
+    static void main() {
         String s = "06";
         System.out.println(numDecodings(s));
     }

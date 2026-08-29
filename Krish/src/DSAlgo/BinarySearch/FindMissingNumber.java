@@ -3,7 +3,7 @@ package Krish.src.DSAlgo.BinarySearch;
 //Time complexity: O(logn)
 
 public class FindMissingNumber {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {4, 6, 7, 8, 9, 10, 11};
         int low = 0, high = a.length - 1;
         int n = a.length;

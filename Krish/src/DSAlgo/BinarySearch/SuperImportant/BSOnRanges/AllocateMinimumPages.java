@@ -13,7 +13,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Space complexity: O(1)
 
 public class AllocateMinimumPages {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] arr = {12, 34, 67, 90};
         int[] arr = {15, 17, 20};
         int k = 2;

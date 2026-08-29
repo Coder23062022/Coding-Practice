@@ -19,7 +19,7 @@ public class MeetingRoomsII {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         List<Interval> intervals = Arrays.asList(new Interval(0, 30), new Interval(5, 10), new Interval(15, 20));
 //        List<Interval> intervals = Arrays.asList(new Interval(2, 7));
         System.out.println(minMeetingRooms(intervals, intervals.size()));
@@ -28,7 +28,7 @@ public class MeetingRoomsII {
     static int minMeetingRooms(List<Interval> intervals, int n) {
         int minMeetingRoomsNeeded = 1, result = 1;
         int i = 1, j = 0;
-        intervals.sort(Comparator.comparingInt(a -> a.start));
+//        intervals.sort(Comparator.comparingInt(a -> a.start));
         intervals.sort(Comparator.comparingInt(a -> a.end));
 
         while (i < n && j < n) {

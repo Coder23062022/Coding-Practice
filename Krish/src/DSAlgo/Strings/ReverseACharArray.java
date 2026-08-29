@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class ReverseACharArray {
-	public static void main(String[] args) {
+	static void main() {
 		char[] array = { 'I', ' ', 'l', 'i', 'v', 'e', ' ', 'i', 'n', ' ', 'I', 'n', 'd', 'i', 'a' };
 		// reverse(array, 0, array.length - 1);
 		// System.out.println(array);

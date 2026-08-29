@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOnGrids;
 import java.util.Arrays;
 
 public class UniquePaths {
-    public static void main(String[] args) {
+    static void main() {
         int m = 3, n = 7;
         System.out.println(uniquePathsWithRecursion(m, n));
         System.out.println(uniquePathsWithMemoization(m, n));

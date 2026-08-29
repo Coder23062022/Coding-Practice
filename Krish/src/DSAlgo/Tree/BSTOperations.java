@@ -99,7 +99,7 @@ public class BSTOperations {
 		printTreeInorder(root.right);
 	}
 
-	public static void main(String[] args) {
+	static void main() {
 		BSTOperations bt = new BSTOperations();
 		// Insertion
 		bt.add(6);

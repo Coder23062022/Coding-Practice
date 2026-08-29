@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 import java.util.*;
 
 public class PrintShortestPath {
-    public static void main(String[] args) {
+    static void main() {
         int n = 5, m = 6;
         int[][] edges = {{1, 2, 2}, {2, 5, 5}, {2, 3, 4}, {1, 4, 1}, {4, 3, 3}, {3, 5, 1}};
         for (int p : shortestPath(n, m, edges)) {

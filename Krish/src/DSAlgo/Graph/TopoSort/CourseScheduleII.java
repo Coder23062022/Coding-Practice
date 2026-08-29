@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.TopoSort;
 import java.util.*;
 
 public class CourseScheduleII {
-    public static void main(String[] args) {
+    static void main() {
         int numCourses = 2;
         int[][] prerequisites = {{1, 0}};
         System.out.println(Arrays.toString(canFinish(numCourses, prerequisites)));

@@ -11,7 +11,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class SubarraysWithKDifferentIntegers {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 1, 2, 3};
         int k = 2;
         System.out.println(subarraysWithKDistinct(nums, k));

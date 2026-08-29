@@ -7,7 +7,7 @@ import java.util.Set;
 //Video source: https://www.youtube.com/watch?v=Pl7mMcBm2b8&ab_channel=NickWhite
 
 public class ValidSudoku {
-    public static void main(String[] args) {
+    static void main() {
         char[][] board = {{'5' , '3' , '.' , '.' , '7' , '.' , '.' , '.' , '.'}
                 , {'6' , '.' , '.' , '1' , '9' , '5' , '.' , '.' , '.'}
                 , {'.' , '9' , '8' , '.' , '.' , '.' , '.' , '6' , '.'}

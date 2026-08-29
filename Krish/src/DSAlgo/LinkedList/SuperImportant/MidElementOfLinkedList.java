@@ -13,7 +13,7 @@ public class MidElementOfLinkedList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         MidElementOfLinkedList linkedList = new MidElementOfLinkedList();
         linkedList.head = new Node(1);
         linkedList.head.next = new Node(2);

@@ -26,7 +26,7 @@ public class InvertBinaryTree {
         printTreeInorder(root.right);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         root = new TreeNode(4);
         root.left = new TreeNode(2);
         root.right = new TreeNode(7);

@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=EgG3jsGoPvQ&t=2184s&ab_channel=takeUforward
 
 public class FrogJump {
-    public static void main(String[] args) {
+    static void main() {
         int[] heights = {20, 30, 40, 20};
         System.out.println(minCostWithRecursion(heights));
         System.out.println(minCostWithMemoization(heights));

@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Space complexity: O(n)
 
 public class PlusOne {
-    public static void main(String[] args) {
+    static void main() {
         int[] digits = {7, 8, 9, 9};
 //        int[] digits = {9, 9};
         System.out.println(Arrays.toString(plusOne(digits)));

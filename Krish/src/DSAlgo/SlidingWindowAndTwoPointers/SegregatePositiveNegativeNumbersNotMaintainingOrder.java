@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers;
 //Space complexity: O(1)
 
 public class SegregatePositiveNegativeNumbersNotMaintainingOrder {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {7, -1, -5, -2, 3, 2, -4, 1, 0};
         int left = 0;
         int right = a.length - 1;

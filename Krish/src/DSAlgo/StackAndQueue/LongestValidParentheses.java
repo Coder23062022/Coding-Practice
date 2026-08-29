@@ -6,7 +6,7 @@ package src.Stack;
 import java.util.Stack;
 
 public class LongestValidParentheses {
-    public static void main(String[] args) {
+    static void main() {
         String s = ")()())";
         System.out.println("Length of the longest valid parenthesis is: " + longestValidParenthesesMethod2(s));
     }

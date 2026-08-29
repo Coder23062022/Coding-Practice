@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FruitIntoBaskets {
-    public static void main(String[] args) {
+    static void main() {
         int[] fruits = {1, 2, 1};
         System.out.println(totalFruit(fruits));
     }

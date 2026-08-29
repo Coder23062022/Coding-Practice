@@ -9,7 +9,7 @@ import java.util.List;
 //Space Complexity: O(n!)
 
 public class PermutationsOfAGivenNumber {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {1, 2, 3};
         System.out.println(permute(arr));
     }

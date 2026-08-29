@@ -11,7 +11,7 @@ import java.util.List;
 //Space complexity: O(k), k is the number of unique triplets
 
 public class ThreeSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {-1, 0, 1, 2, -1, -4};
         System.out.println(threeSum(nums));
     }

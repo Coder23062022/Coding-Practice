@@ -24,7 +24,7 @@ public class TopAndBottomViewOfABinaryTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         root = new Node(6);
         root.left = new Node(2);
         root.right = new Node(1);

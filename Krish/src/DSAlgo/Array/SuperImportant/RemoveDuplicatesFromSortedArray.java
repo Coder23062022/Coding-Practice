@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(1)
 
 public class RemoveDuplicatesFromSortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4};
 //        int[] a = {1, 1, 1, 2};
         int n = a.length;

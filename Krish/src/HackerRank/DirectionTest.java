@@ -7,7 +7,7 @@ public class DirectionTest {
 	public static final String E = "EAST";
 	public static final String W = "WEST";
 
-	public static void main(String[] args) {
+	static void main() {
 //		String[] directionInput = new String[] { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
 		String[] directionInput = { "NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST" };
 		String[] finalArray = dirReduc(directionInput);

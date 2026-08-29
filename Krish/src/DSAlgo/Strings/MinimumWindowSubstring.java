@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MinimumWindowSubstring {
-    public static void main(String[] args) {
+    static void main() {
         String s = "ADOBECODEBANC";
         String t = "ABC";
         System.out.println(minWindow(s, t));

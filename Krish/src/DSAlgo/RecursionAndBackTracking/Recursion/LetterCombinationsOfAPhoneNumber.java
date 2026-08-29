@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(n)
 
 public class LetterCombinationsOfAPhoneNumber {
-    public static void main(String[] args) {
+    static void main() {
         String digits = "23";
         System.out.println(letterCombinations(digits));
     }

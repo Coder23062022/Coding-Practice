@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class PreviousSmallerElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 5, 0, 3, 4, 5};
         System.out.println(Arrays.toString(previousSmallerElement(nums)));
     }

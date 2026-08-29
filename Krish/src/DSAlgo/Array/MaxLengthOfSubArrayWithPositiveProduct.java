@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.Array;
 //Space complexity: O(1)
 
 public class MaxLengthOfSubArrayWithPositiveProduct {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, -2, -3, 4};
 //        int[] nums = {0, 1, -2, -3, -4};
         System.out.println("Maximum length of subarray with positive product is: " + getMaxLen(nums));

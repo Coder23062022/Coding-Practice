@@ -9,7 +9,7 @@ import java.util.Comparator;
 //Space complexity: O(n)
 
 public class LargestNumber {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 30, 34, 5, 9};
         System.out.println(largestNumberMethod1(nums));
         System.out.println(largestNumberMethod2(nums));

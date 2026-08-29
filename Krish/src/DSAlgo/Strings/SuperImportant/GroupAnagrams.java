@@ -7,7 +7,7 @@ import java.util.*;
 //Video source: https://www.youtube.com/watch?v=5BkDGXVXRA0
 
 public class GroupAnagrams {
-    public static void main(String[] args) {
+    static void main() {
 //        String[] strs = {"cab", "tin", "pew", "duh", "may", "ill", "buy", "bar", "max", "doc"};
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(groupAnagramsWithoutSorting(strs));

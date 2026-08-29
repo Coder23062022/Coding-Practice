@@ -9,7 +9,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 import java.util.Arrays;
 
 public class FindMissingAndRepeatedValues {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {{1, 3}, {2, 2}};
         System.out.println(Arrays.toString(findMissingAndRepeatedValues(grid)));
     }

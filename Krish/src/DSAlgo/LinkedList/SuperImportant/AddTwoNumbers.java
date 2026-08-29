@@ -19,7 +19,7 @@ public class AddTwoNumbers {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         headA = new Node(2);
         headA.next = new Node(4);
         headA.next.next = new Node(3);

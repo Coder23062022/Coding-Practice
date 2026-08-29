@@ -16,7 +16,7 @@ public class ConvertSortedArrayToBST {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {-10, -3, 0, 5, 9};
         printTreePreorder(sortedArrayToBST(nums));
     }

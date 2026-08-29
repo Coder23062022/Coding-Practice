@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(1)
 
 class NextPermutation {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] nums = {1, 2, 3};
         int[] nums = {1, 2, 3, 6, 5, 4};
         nextPermutation(nums);

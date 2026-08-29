@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.PartitionDP;
 import java.util.Arrays;
 
 public class MatrixChainMultiplication {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 1, 3, 4};
         System.out.println(matrixMultiplicationWithRecursion(arr));
         System.out.println(matrixMultiplicationWithMemoization(arr));

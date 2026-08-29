@@ -3,7 +3,7 @@ package Krish.src.DSAlgo.BinarySearch;
 import java.util.Scanner;
 
 public class BinarySearch {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {5, 9, 15, 20, 23, 29, 65};
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);

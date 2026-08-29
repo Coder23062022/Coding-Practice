@@ -55,7 +55,7 @@ class DetectAndRemoveLoopInALinkedList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         DetectAndRemoveLoopInALinkedList list = new DetectAndRemoveLoopInALinkedList();
         head = new Node(50);
         head.next = new Node(20);

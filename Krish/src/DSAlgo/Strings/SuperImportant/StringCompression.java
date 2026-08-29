@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Strings.SuperImportant;
 //Space complexity: O(1)
 
 public class StringCompression {
-    public static void main(String[] args) {
+    static void main() {
         char[] chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c' };
         System.out.println(compress(chars));
     }

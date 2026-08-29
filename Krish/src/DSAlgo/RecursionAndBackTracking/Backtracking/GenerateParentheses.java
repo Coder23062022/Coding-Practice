@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Space complexity: O(n), recursion stack space
 
 public class GenerateParentheses {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println("Enter no of parenthesis:");
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);

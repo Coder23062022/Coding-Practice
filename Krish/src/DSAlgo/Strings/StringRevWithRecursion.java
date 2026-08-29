@@ -1,7 +1,7 @@
 package Krish.src.DSAlgo.Strings;
 
 class StringRevWithRecursion {
-    public static void main(String[] args) {
+    static void main() {
         StringRevWithRecursion obj = new StringRevWithRecursion();
         System.out.println(obj.method1("Krish"));
     }

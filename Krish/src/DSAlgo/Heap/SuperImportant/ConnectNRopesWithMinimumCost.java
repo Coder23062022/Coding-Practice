@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 //Space complexity: O(n)
 
 public class ConnectNRopesWithMinimumCost {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {4, 3, 2, 6};
         System.out.println(minCost(arr));
     }

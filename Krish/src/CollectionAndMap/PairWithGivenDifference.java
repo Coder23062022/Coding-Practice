@@ -25,7 +25,7 @@ public class PairWithGivenDifference {
 		}
 	}
 
-	public static void main(String[] args) {
+	static void main() {
 		int difference = 3;
 		List<Integer> list = new ArrayList<>();
 		list.add(1);

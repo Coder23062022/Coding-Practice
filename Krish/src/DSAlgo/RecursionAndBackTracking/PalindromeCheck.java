@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.RecursionAndBackTracking;
 //Space Complexity: O(n)
 
 public class PalindromeCheck {
-    public static void main(String[] args) {
+    static void main() {
         String s = "MADAM";
         System.out.println(isPalindrome(0, s));
     }

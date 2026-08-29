@@ -5,7 +5,7 @@ package src.Strings;
 //Video source: https://www.youtube.com/watch?v=HpvoxRok8NQ&t=11s&ab_channel=CodeWithEase
 
 public class AddStrings {
-    public static void main(String[] args) {
+    static void main() {
         String num1 = "51";
         String num2 = "49";
         System.out.println(addStrings(num1, num2));

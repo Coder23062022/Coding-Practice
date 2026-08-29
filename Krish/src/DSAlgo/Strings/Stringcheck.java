@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class Stringcheck {
-    public static void main(String[] args) {
+    static void main() {
         String s1 = "Krish";
         StringBuilder s2 = new StringBuilder("Krish");
         StringBuffer s7 = new StringBuffer("Krish");

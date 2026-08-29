@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Space complexity: O(m * n)
 
 public class LongestPalindromicSubsequence {
-    public static void main(String[] args) {
+    static void main() {
         String s = "bbbab";
         System.out.println(longestPalindromeSubseq(s));
     }

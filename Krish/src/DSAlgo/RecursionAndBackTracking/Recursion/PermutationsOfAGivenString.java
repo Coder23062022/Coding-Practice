@@ -9,7 +9,7 @@ import java.util.List;
 //Space Complexity: O(n!)
 
 public class PermutationsOfAGivenString {
-    public static void main(String[] args) {
+    static void main() {
         String s = "ABC";
         List<String> res = findPermutation(s);
         for (String x : res) {

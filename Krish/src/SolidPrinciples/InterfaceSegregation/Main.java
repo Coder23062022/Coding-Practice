@@ -1,7 +1,7 @@
 package Krish.src.SolidPrinciples.InterfaceSegregation;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main() {
         VegetarianMenu vm = new VegetarianMenu();
         NonVegetarianMenu nvm = new NonVegetarianMenu();
         DrinkMenu dm = new DrinkMenu();

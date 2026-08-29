@@ -20,7 +20,7 @@ public class FlatteningALinkedList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         /* Create a hard-coded linked list:
             5 -> 10 -> 19 -> 28
             |    |     |

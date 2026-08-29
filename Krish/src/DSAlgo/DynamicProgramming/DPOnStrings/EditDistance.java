@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=fJaKO8FbDdo&ab_channel=takeUforward
 
 public class EditDistance {
-    public static void main(String[] args) {
+    static void main() {
         String word1 = "horse", word2 = "ros";
         System.out.println(minDistanceWithRecursion(word1, word2));
         System.out.println(minDistanceWithMemoization(word1, word2));

@@ -46,7 +46,7 @@ public class InsertionInMaxHeap {
 	}
 
 	// Driver Code
-	public static void main(String[] args) {
+	static void main() {
 		int arr[] = { 10, 5, 3, 2, 4 };
 		int n = arr.length;
 		int key = 15;

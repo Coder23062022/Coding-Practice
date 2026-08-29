@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 //Space complexity: O(n)
 
 public class FindAllPalindromicSubstrings {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "aabcdcbaxyx";
         String s = "abaaa";
         // System.out.println(findAllPalindromesUsingBruteForceApproach(s)); // Time complexity: O(n^3)

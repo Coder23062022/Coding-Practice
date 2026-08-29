@@ -1,7 +1,7 @@
 package src.GeneralProgram;
 
 public class PalindromeCheckNumber {
-	public static void main(String[] args) {
+	static void main() {
 		int num = 121, reversedInteger = 0, remainder, originalInteger;
 		originalInteger = num;
 		// reversed integer is stored in variable 

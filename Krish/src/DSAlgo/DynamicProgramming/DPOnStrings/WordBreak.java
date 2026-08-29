@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(n), recursion stack space
 
 public class WordBreak {
-    public static void main(String[] args) {
+    static void main() {
         String s = "leetcode";
         List<String> dict = Arrays.asList("leet", "code");
         System.out.println(wordBreakWithRecursion(s, new HashSet<>(dict), 0));

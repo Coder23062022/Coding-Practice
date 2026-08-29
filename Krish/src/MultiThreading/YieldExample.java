@@ -2,7 +2,7 @@ package src.Thread;
 
 public class YieldExample {
 
-	public static void main(String[] args) {
+	static void main() {
 		Thread producer = new Producer();
 		Thread consumer = new Consumer();
 

@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Time complexity: O(n)
 //Space complexity: O(1)
 public class HouseRobber2 {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {2, 7, 9, 5, 6, 6};
         System.out.println(rob(a));
     }

@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 import java.util.*;
 
 public class NetworkDelayTime {
-    public static void main(String[] args) {
+    static void main() {
         int[][] times = {{2, 1, 1}, {2, 3, 1}, {3, 4, 1}};
         int n = 4, k = 2;
         System.out.println(networkDelayTime(times, n, k));

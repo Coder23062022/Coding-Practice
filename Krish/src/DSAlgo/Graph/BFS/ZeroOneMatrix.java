@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class ZeroOneMatrix {
-    public static void main(String[] args) {
+    static void main() {
         int[][] mat = {{0, 0, 0}, {0, 1, 0}, {1, 0, 1}};
         for (int[] row : updateMatrix(mat)) System.out.println(Arrays.toString(row));
     }

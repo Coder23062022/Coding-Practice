@@ -3,7 +3,7 @@ package Krish.src.DSAlgo.RecursionAndBackTracking;
 //Problem: https://leetcode.com/problems/powx-n/
 
 public class PowImplementation {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println(pow1(2, 5));
         System.out.println(pow2(5, 3));
         System.out.println(pow2(2, -2));

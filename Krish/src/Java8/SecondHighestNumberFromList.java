@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SecondHighestNumberFromList {
-    public static void main(String[] args) {
+    static void main() {
         List<Integer> list = Arrays.asList(3, 2, 4, 1, 5);
         System.out.println("Second highest number is: "
                 + list.stream().sorted(Comparator.reverseOrder()).skip(1).limit(1).findFirst().get());

@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class FindKeyInAStringWithoutUsingLibraryFunction {
-    public static void main(String[] args) {
+    static void main() {
         String s = "Interview with Krish";
         String s1 = "with Krish";
         System.out.println(contains(s, s1));

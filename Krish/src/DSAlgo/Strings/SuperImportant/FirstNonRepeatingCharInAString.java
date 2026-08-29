@@ -19,7 +19,7 @@ public class FirstNonRepeatingCharInAString {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         String str1 = "abcaabbdce";
         String str2 = "geeksforgeeks";
         System.out.println(firstNonRepeatingCharInAStringMeth1(str1));

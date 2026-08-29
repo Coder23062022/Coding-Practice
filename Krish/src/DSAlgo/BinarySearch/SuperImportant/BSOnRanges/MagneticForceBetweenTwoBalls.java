@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 import java.util.Arrays;
 
 public class MagneticForceBetweenTwoBalls {
-    public static void main(String[] args) {
+    static void main() {
         int[] position = {1, 2, 3, 4, 7};
         int m = 3;
 //        int[] position = {5,4,3,2,1,1000000000}; int m = 2;

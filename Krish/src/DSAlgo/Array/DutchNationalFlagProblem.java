@@ -2,7 +2,7 @@ package src.Array;
 
 public class DutchNationalFlagProblem {
 
-	public static void main(String[] args) {
+	static void main() {
 
 		// Time complexity is O(n) and Space complexity is O(1)
 

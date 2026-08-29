@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers;
 //Space complexity: O(1)
 
 public class LongestSubarrayOf1sAfterDeletingOneElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {0, 1, 1, 1, 0, 1, 1, 0, 1};
         System.out.println(longestSubarray(nums));
     }

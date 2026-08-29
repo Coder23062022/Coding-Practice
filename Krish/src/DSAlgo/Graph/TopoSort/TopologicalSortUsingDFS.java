@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class TopologicalSortUsingDFS {
-    public static void main(String[] args) {
+    static void main() {
         int V = 4, E = 3;
         int[][] edges = {{3, 0}, {1, 0}, {2, 0}};
         System.out.println(topoSort(V, edges));

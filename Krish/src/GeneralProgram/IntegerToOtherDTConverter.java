@@ -2,7 +2,7 @@ package src.GeneralProgram;
 
 public class IntegerToOtherDTConverter {
 
-	public static void main(String[] args) {
+	static void main() {
 		int i = 3467;
 		String by = Integer.toBinaryString(i);
 		String hex = Integer.toHexString(i);

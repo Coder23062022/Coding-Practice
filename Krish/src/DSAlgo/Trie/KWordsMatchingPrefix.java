@@ -1,11 +1,6 @@
 package Krish.src.DSAlgo.Trie;
 
-//Problem: https://leetcode.com/problems/implement-trie-prefix-tree/
-//Video source: https://www.youtube.com/watch?v=m9zawMC6QAI&ab_channel=ApnaCollege
-//Time complexity: All the operations take O(L) time, where L is the length of the word
-//Space complexity: O(1)
-
-public class ImplementTrie {
+public class KWordsMatchingPrefix {
     static class Node {
         Node[] children;
         boolean eow;
@@ -21,7 +16,7 @@ public class ImplementTrie {
 
     static Node root;
 
-    public ImplementTrie() {
+    public KWordsMatchingPrefix() {
         root = new Node();
     }
 

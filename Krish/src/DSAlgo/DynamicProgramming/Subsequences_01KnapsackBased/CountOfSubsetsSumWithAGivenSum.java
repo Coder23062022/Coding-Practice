@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //Video source: https://www.youtube.com/watch?v=ZHyb-A2Mte4&ab_channel=takeUforward
 
 public class CountOfSubsetsSumWithAGivenSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {28, 4, 3, 27, 0, 24, 26};
         int target = 24;
         System.out.println(perfectSumWithTabulation(arr, target));

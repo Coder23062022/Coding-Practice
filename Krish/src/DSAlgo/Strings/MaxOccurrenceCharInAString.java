@@ -9,7 +9,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class MaxOccurrenceCharInAString {
-    public static void main(String[] args) {
+    static void main() {
 //        String str = "sample string";
         String str = "abcd";
         System.out.println("Max occurring character is " + getMaxOccurringCharMeth1(str));

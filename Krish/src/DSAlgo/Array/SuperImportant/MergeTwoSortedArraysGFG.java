@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(1)
 
 public class MergeTwoSortedArraysGFG {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {1, 5, 9, 10, 15, 20}, b = {2, 3, 8, 13};
         mergeArrays(a, b);
         System.out.println(Arrays.toString(a));

@@ -11,7 +11,7 @@ import java.util.List;
 //Space complexity: O(V + E). The recursive Stack of the graph coloring function will require O(V) space, Adjacency list and color array will required O(V+E).
 
 public class MColoringProblem {
-    public static void main(String[] args) {
+    static void main() {
         int V = 4;
         int[][] edges = {{0, 1}, {0, 2}, {0, 3}, {1, 3}, {2, 3}};
         int m = 3;

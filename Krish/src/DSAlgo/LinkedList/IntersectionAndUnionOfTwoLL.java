@@ -18,7 +18,7 @@ public class IntersectionAndUnionOfTwoLL {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Node head1 = new Node(1);
         head1.next = new Node(2);
         head1.next.next = new Node(3);

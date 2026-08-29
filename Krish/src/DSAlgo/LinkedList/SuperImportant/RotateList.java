@@ -16,7 +16,7 @@ public class RotateList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         // Create a hard-coded linked list:
         // 10 -> 20 -> 30 -> 40
         Node head = new Node(10);

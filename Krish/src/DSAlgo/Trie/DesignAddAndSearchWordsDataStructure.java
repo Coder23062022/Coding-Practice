@@ -46,7 +46,7 @@ public class DesignAddAndSearchWordsDataStructure {
         return curr != null && curr.eow;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         DesignAddAndSearchWordsDataStructure obj = new DesignAddAndSearchWordsDataStructure();
         String[] words = {"bad", "dad", "mad"};
         for (String word : words) {

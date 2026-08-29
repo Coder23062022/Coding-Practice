@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Graph.DFS;
 //Space complexity: O(n)
 
 public class NumberOfProvinces {
-    public static void main(String[] args) {
+    static void main() {
         int[][] isConnected = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
         System.out.println(findCircleNum(isConnected));
     }

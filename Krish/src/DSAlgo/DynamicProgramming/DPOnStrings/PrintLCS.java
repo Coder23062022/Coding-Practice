@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(m * n)
 
 public class PrintLCS {
-    public static void main(String[] args) {
+    static void main() {
 //        String str1 = "AGGTAB";
 //        String str2 = "GXTXAYB";
         String str1 = "aed";

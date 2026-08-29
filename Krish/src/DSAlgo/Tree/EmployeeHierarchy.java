@@ -72,7 +72,7 @@ public class EmployeeHierarchy {
             printHierarchyTree(em, level + 1);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         String[] lines = {"1 Rob Choi 6", "2 Paul Marmolejo 5", "3 Lois Lemer 6", "4 Christie Jacobs 5",
                 "5 Moises Medina 6", "6 Joseph Grant", "7 Andy Zuckeman 1", "8 Melaney Partner 3", "9 Cliff Gannett 5",
                 "10 Mark O'Donnell 1"};

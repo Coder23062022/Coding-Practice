@@ -7,7 +7,7 @@ import java.util.HashSet;
 //Space complexity: O(n)
 
 public class DuplicateInArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {2, 5, 1, 7, 9, 5, 2, 7};
         HashSet<Integer> hs = new HashSet<>();
         System.out.println("Duplicate numbers are:");

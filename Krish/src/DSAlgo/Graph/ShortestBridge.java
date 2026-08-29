@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class ShortestBridge {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {{1, 1, 1, 1, 1}, {1, 0, 0, 0, 1}, {1, 0, 1, 0, 1}, {1, 0, 0, 0, 1}, {1, 1, 1, 1, 1}};
         System.out.println(shortestBridge(grid));
     }

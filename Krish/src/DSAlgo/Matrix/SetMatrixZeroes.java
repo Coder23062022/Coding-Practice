@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Matrix;
 //Space complexity: O(1)
 
 public class SetMatrixZeroes {
-    public static void main(String[] args) {
+    static void main() {
 //        int[][] mat = {{1, 1, 1},
 //                {1, 0, 1},
 //                {1, 1, 1}};

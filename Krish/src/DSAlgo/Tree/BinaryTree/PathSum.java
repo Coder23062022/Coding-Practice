@@ -16,7 +16,7 @@ public class PathSum {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int sum = 22;
         Node root = new Node(5);
         root.left = new Node(4);

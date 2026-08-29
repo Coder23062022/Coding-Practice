@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers;
 //Space complexity: O(1)
 
 public class OddAndEvenNumbersSeparate {
-    public static void main(String[] args) {
+    static void main() {
         int[] inputArray = {12, 34, 99, 5, 10, 23, 2, 37}; //{12, 34, 2, 10, 5, 23, 99, 27}
 
         int left = 0;

@@ -9,7 +9,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class LongestSubstringWithAtMostTwoDistinctCharacters {
-    public static void main(String[] args) {
+    static void main() {
         String s = "aabacbebebe";
         int k = 2;
         System.out.println(longestSubstr(s, k));

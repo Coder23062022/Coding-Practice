@@ -43,7 +43,7 @@ public class BalanceBinaryTreeCheck {
         return 1 + Math.max(leftSubtreeHeight, rightSubtreeHeight);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         BalanceBinaryTreeCheck object = new BalanceBinaryTreeCheck();
         Node root = object.createTree();
         if (object.isBalanced(root) == -1) {

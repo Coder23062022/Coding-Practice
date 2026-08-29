@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Space complexity: O(1)
 
 public class BestTimeToBuyAndSellStock {
-    public static void main(String[] args) {
+    static void main() {
         int[] prices = {7, 1, 5, 3, 6, 4};
         System.out.println("Maximum profit is: " + maxProfit(prices));
     }

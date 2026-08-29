@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class MergeTwoLists {
-    public static void main(String[] args) {
+    static void main() {
         List<Integer> list1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> list2 = Arrays.asList(5, 6, 7, 8);
 

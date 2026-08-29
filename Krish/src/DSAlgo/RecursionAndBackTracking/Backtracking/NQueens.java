@@ -11,7 +11,7 @@ import java.util.List;
 //Space complexity: O(n), recursion stack space
 
 public class NQueens {
-    public static void main(String[] args) {
+    static void main() {
         List<List<String>> queen = solveNQueens(4);
         int i = 1;
         for (List<String> it : queen) {

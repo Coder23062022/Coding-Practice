@@ -19,7 +19,7 @@ public class IntersectionOfTwoLinkedLists {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         headA = new Node("a1");
         headA.next = new Node("a2");
         headA.next.next = new Node("c1");

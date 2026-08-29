@@ -9,7 +9,7 @@ import java.util.*;
 //Space complexity: O(d), d is the count of distinct elements in the array
 
 public class TopKFrequentElements {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
         int[] result = topKFrequent(nums, k);

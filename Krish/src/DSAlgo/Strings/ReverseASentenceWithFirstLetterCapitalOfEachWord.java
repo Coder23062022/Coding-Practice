@@ -3,7 +3,7 @@ package src.Strings;
 import java.util.Stack;
 
 public class ReverseASentenceWithFirstLetterCapitalOfEachWord {
-    public static void main(String[] args) {
+    static void main() {
         Stack<Character> stack = new Stack<>();
         String str = "This Is An Interview Program";
         StringBuilder sb = new StringBuilder();

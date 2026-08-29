@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 public class ProducerConsumerUsingArrayBlockingQueue<E> {
-    public static void main(String[] args) {
+    static void main() {
         // Create a bounded blocking queue with a capacity of 5
         BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5, true);
 

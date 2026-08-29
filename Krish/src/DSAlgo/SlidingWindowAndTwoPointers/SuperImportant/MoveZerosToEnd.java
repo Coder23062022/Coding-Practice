@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Space complexity: O(1)
 
 public class MoveZerosToEnd {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {0, 1, 0, 3, 12};
         if (a == null || a.length == 0)
             return;

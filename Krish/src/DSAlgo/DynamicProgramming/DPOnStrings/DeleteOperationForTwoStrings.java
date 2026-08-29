@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Space complexity: O(m * n)
 
 public class DeleteOperationForTwoStrings {
-    public static void main(String[] args) {
+    static void main() {
         String word1 = "sea", word2 = "eat";
         System.out.println(minDistance(word1, word2));
     }

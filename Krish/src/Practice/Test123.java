@@ -3,7 +3,7 @@ package src.Practice;
 import java.util.*;
 
 public class Test123 {
-    public static void main(String[] args) {
+    static void main() {
         List<int[]> list = List.of(new int[]{1, 2, 3}, new int[]{2, 3}, new int[]{1, 2, 3}, new int[]{4, 5}, new int[]{1, 2, 3}, new int[]{3, 5}, new int[]{4, 5});
         for (int[] element : removeDuplicates(list)) {
             System.out.println(Arrays.toString(element));

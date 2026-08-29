@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class CourseSchedule {
-    public static void main(String[] args) {
+    static void main() {
         int numCourses = 2;
         int[][] prerequisites = {{1, 0}};
         System.out.println(canFinish(numCourses, prerequisites));

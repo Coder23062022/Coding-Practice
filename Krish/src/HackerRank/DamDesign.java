@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DamDesign {
-	public static void main(String[] args) {
+	static void main() {
 		List<Integer> wallPositions = new ArrayList<>();
 		wallPositions.add(1);
 		wallPositions.add(2);

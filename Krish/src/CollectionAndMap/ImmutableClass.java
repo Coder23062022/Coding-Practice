@@ -67,7 +67,7 @@ public class ImmutableClass {
 	 * 
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	static void main() {
 		HashMap<String, String> h1 = new HashMap<String, String>();
 		h1.put("1", "first");
 		h1.put("2", "second");

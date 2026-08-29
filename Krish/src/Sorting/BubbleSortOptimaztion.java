@@ -1,7 +1,7 @@
 package src.Sorting;
 
 public class BubbleSortOptimaztion {
-    public static void main(String[] args) {
+    static void main() {
         int[] array = {9, 5, 7, 2, 11};
         int n = array.length;
         bubbleSortOptimization(array, n);

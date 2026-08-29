@@ -20,7 +20,7 @@ public class MeetingRoomsII {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
 //        List<Interval> intervals = Arrays.asList(new Interval(0, 30), new Interval(5, 10), new Interval(15, 20));
 //        List<Interval> intervals = Arrays.asList(new Interval(2, 7));
         List<Interval> intervals = Arrays.asList(new Interval(1, 5), new Interval(5, 10), new Interval(10, 15), new Interval(15, 20));

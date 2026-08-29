@@ -40,7 +40,7 @@ public class QueueUsingTwoStacks {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Queue q = new Queue();
         q.push(1);
         q.push(2);

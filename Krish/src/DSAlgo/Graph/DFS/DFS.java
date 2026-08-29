@@ -40,7 +40,7 @@ public class DFS {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         new DFS(4);
         addEdge(0, 1);
         addEdge(0, 2);

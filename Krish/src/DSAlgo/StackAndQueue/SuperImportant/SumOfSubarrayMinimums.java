@@ -8,7 +8,7 @@ import java.util.Stack;
 //Space complexity: O(5n) ≈ O(n)
 
 public class SumOfSubarrayMinimums {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {3, 1, 2, 4};
         System.out.println(sumSubarrayMins(arr));
     }

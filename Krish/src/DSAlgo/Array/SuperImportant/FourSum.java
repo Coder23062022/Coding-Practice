@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(k), k is the number of unique quadruplets
 
 public class FourSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 0, -1, 0, -2, 2};
         System.out.println(fourSum(nums, 0));
     }

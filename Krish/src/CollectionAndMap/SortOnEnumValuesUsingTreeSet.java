@@ -9,7 +9,7 @@ enum Name {
 }
 
 public class SortOnEnumValuesUsingTreeSet {
-	public static void main(String[] args) {
+	static void main() {
 		Set<Name> obj = new TreeSet<>(Comparator.comparing(Enum::name));
 		obj.add(Name.Alice);
 		obj.add(Name.Smith);

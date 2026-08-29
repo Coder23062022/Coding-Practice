@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Greedy;
 //Space complexity: O(1)
 
 public class GasStation {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] gas = {1, 2, 3, 4, 5}, cost = {3, 4, 5, 1, 2};
         int[] gas = {1, 2, 4, 5, 9}, cost = {3, 4, 1, 10, 1};
         System.out.println(canCompleteCircuit(gas, cost));

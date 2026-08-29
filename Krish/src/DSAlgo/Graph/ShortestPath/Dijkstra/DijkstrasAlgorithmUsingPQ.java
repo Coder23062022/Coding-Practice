@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 import java.util.*;
 
 public class DijkstrasAlgorithmUsingPQ {
-    public static void main(String[] args) {
+    static void main() {
         int V = 5, src = 0;
         int[][] edges = {
                 {0, 1, 4}, {0, 2, 8}, {1, 4, 6},

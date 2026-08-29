@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.Array;
 //Space complexity: O(1)
 
 public class SumOfLeftArrayIsEqualToSumOfRightArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 3, 4, 1, 4, 5};
         System.out.println("The index of the middle element is: " + findElementMethod1(arr));
     }

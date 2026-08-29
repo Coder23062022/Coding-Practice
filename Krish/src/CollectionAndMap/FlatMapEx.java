@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class FlatMapEx {
 
-	public static void main(String[] args) {
+	static void main() {
 		
 		//How flatMap() works?
 		//{ {1,2}, {3,4}, {5,6} } -> flatMap -> {1,2,3,4,5,6}

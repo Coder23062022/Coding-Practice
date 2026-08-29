@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Greedy;
 //Space complexity: O(1)
 
 public class JumpGame {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] nums = {2, 3, 1, 1, 4};
         int[] nums = {2, 1, 0, 3, 2};
         System.out.println(canJump(nums));

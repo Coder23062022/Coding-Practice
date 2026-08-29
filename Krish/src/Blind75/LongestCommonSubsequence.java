@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(m * n)
 
 public class LongestCommonSubsequence {
-    public static void main(String[] args) {
+    static void main() {
         String str1 = "AGGTAB";
         String str2 = "GXTXAYB";
         System.out.println(lcsWithRecursion(str1, str2, str1.length(), str2.length()));

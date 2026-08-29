@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 //Space complexity: O(1)
 
 public class CountNumberOfNiceSubarrays {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 2, 1, 1};
         int k = 3;
 //        int[] nums = {2, 2, 2, 1, 2, 2, 1, 2, 2, 2};

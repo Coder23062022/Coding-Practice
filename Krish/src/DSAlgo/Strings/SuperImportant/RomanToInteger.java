@@ -9,7 +9,7 @@ import java.util.Map;
 //Space complexity: O(1), as we are using a map of constant size, so the space complexity becomes O(1).
 
 public class RomanToInteger {
-    public static void main(String[] args) {
+    static void main() {
         String s = "MCMXCIV";
         System.out.println(romanToInt(s));
     }

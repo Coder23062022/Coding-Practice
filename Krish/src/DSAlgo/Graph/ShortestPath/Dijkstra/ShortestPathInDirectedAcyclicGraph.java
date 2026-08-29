@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class ShortestPathInDirectedAcyclicGraph {
-    public static void main(String[] args) {
+    static void main() {
         int V = 4, E = 2;
         int[][] edges = {{0, 1, 2}, {0, 2, 1}};
         System.out.println(Arrays.toString(shortestPath(V, E, edges)));

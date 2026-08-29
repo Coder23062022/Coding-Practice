@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(n).
 
 public class PermutationInString {
-    public static void main(String[] args) {
+    static void main() {
         String s1 = "ab", s2 = "eidbaooo";
         System.out.println(checkInclusion(s1, s2));
     }

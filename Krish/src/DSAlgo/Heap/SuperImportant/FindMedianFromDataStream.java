@@ -13,7 +13,7 @@ public class FindMedianFromDataStream {
     static PriorityQueue<Integer> leftMaxHeap = new PriorityQueue<>(Collections.reverseOrder());
     static PriorityQueue<Integer> rightMinHeap = new PriorityQueue<>();
 
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {5, 15, 1, 3, 2, 8};
         ArrayList<Double> res = getMedian(arr);
         System.out.printf("%.2f", res.get(0));

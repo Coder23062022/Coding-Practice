@@ -8,7 +8,7 @@ import java.util.*;
 //Space complexity: O(n)
 
 public class SortCharactersByFrequency {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "tree";
         String s = "tmqreqqemm";
         System.out.println(frequencySort(s));

@@ -18,7 +18,7 @@ public class SortList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         head = new ListNode(4);
         head.next = new ListNode(2);
         head.next.next = new ListNode(1);

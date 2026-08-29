@@ -10,7 +10,7 @@ import java.util.Stack;
 //Space complexity: O(n)
 
 public class OnlineStockSpan {
-    public static void main(String[] args) {
+    static void main() {
         List<Integer> result = new ArrayList<>();
         StockSpanner stockSpanner = new StockSpanner();
         result.add(stockSpanner.next(100));

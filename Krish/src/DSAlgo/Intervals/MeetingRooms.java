@@ -19,7 +19,7 @@ public class MeetingRooms {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         List<Interval> intervals = Arrays.asList(new Interval(0, 3), new Interval(5, 10), new Interval(15, 20));
         System.out.println("Can Attend All Meetings? - " + canAttendMeetings(intervals));
     }

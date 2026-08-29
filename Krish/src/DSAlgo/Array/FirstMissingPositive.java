@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.Array;
 //Space complexity: O(1)
 
 public class FirstMissingPositive {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 0};
 //        int[] nums = {3,4,-1,1};
         System.out.println(firstMissingPositive(nums));

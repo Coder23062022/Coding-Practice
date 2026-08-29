@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(1)
 
 public class MaximumSubarray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 //        int[] nums = {-1};
 //        int[] nums = {0};

@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Strings.SuperImportant;
 //Space complexity: O(1)
 
 public class MinimumBracketReversalsToMakeAnExpressionBalanced {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "}{{}}{{{";
         String s = "{{}{{}";
         System.out.println(countMinReversals(s));

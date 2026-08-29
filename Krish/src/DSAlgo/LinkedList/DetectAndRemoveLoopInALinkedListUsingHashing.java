@@ -44,7 +44,7 @@ public class DetectAndRemoveLoopInALinkedListUsingHashing {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         DetectAndRemoveLoopInALinkedListUsingHashing list = new DetectAndRemoveLoopInALinkedListUsingHashing();
         head = new Node(20);
         head.next = new Node(4);

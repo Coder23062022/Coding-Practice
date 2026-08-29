@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers;
 //Space complexity: O(1)
 
 public class TheCelebrityProblem {
-    public static void main(String[] args) {
+    static void main() {
         int[][] mat = {{1, 1, 0},
                 {0, 1, 0},
                 {0, 1, 1}};

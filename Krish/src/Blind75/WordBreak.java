@@ -9,7 +9,7 @@ import java.util.List;
 //Space complexity: O(n), n is the length of the string S
 
 public class WordBreak {
-    public static void main(String[] args) {
+    static void main() {
         String s = "catsandog";
         List<String> wordDict = List.of("cats", "dog", "sand", "and", "cat");
         System.out.println(wordBreak(s, wordDict));

@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.DFS;
 import java.util.Arrays;
 
 public class SurroundedRegions {
-    public static void main(String[] args) {
+    static void main() {
         char[][] board = {{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}};
 //        char[][] board = {{'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'O'}, {'X', 'O', 'O', 'X'}, {'O', 'O', 'X', 'X'}};
         for (char[] row : solve(board)) System.out.println(Arrays.toString(row));

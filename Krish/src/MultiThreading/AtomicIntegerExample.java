@@ -18,7 +18,7 @@ public class AtomicIntegerExample {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         ExecutorService executorService = null;
         Counter counter = new Counter();
         try {

@@ -8,7 +8,7 @@ import java.util.Arrays;
 //SC: O(n*2)
 
 public class BestTimeToBuyAndSellStockWithCooldown {
-    public static void main(String[] args) {
+    static void main() {
         int[] prices = {1, 2, 3, 0, 2};
         System.out.println(maxProfit(prices));
         System.out.println(maxProfitWithTabulation(prices));

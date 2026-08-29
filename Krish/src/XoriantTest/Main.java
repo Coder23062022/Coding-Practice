@@ -31,7 +31,7 @@ public class Main {
 		return array.size();
 	}
 
-	public static void main(String[] args) {
+	static void main() {
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);

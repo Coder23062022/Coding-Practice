@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Video reference: https://www.youtube.com/watch?v=HCL4_bOd3-4&ab_channel=AnujBhaiya
 
 public class MaximumSubarray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 //        int[] nums = {-1};
 //        int[] nums = {-3,-2,-2,-3};

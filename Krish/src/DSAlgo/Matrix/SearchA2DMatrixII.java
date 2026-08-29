@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Matrix;
 //Space complexity: O(1)
 
 public class SearchA2DMatrixII {
-    public static void main(String[] args) {
+    static void main() {
         int[][] mat = {{1, 4, 7, 11, 15},
                 {2, 5, 8, 12, 19},
                 {3, 6, 9, 16, 22},

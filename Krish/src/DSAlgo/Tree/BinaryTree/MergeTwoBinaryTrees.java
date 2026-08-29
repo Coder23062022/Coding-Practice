@@ -17,7 +17,7 @@ public class MergeTwoBinaryTrees {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         // construct the first Binary Tree
         //        1
         //      /   \

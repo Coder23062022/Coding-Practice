@@ -9,7 +9,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class UseOfGroupBy {
-    public static void main(String[] args) {
+    static void main() {
         List<String> fruits = Arrays.asList("apple", "apple", "banana", "apple", "orange", "banana", "papaya");
 
         //Fruit count grouped by the item

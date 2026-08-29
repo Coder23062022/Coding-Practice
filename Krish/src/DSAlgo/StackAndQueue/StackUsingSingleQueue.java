@@ -39,7 +39,7 @@ public class StackUsingSingleQueue {
         return q.isEmpty();
     }
 
-    public static void main(String[] args) {
+    static void main() {
         StackUsingSingleQueue s = new StackUsingSingleQueue();
         s.push(10);
         s.push(20);

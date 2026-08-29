@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Note: Same solution as AllocateMinimumPages
 
 public class CapacityToShipPackagesWithinDDays {
-    public static void main(String[] args) {
+    static void main() {
         int[] weights = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int days = 5;
         System.out.println(shipWithinDays(weights, days));

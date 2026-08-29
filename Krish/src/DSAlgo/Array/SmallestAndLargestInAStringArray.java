@@ -3,7 +3,7 @@ package Krish.src.DSAlgo.Array;
 import java.util.Arrays;
 
 public class SmallestAndLargestInAStringArray {
-	public static void main(String[] args) {
+	static void main() {
 		String str = "welcometojava";
 		int k = 3;
 		System.out.println(getSmallestAndLargest(str, k));

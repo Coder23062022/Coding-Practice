@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOnGrids;
 import java.util.Arrays;
 
 public class MinimumFallingPathSum {
-    public static void main(String[] args) {
+    static void main() {
         int[][] matrix = {{2, 1, 3}, {6, 5, 4}, {7, 8, 9}};
         System.out.println(minFallingPathSumWithRecursion(matrix));
         System.out.println(minFallingPathSumWithMemoization(matrix));

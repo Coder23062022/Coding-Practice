@@ -18,7 +18,7 @@ public class kthSmallestElementInBST {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(3);
         root.right = new TreeNode(6);

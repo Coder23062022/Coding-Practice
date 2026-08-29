@@ -9,7 +9,7 @@ import java.util.List;
 //Space complexity: O(n)
 
 public class StringEncodeDecode {
-    public static void main(String[] args) {
+    static void main() {
         List<String> strs = List.of("abc", "def", "gh");
         String encodedString = encode(strs);
         System.out.println("Encoded string: " + encodedString);

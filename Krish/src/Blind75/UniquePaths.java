@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(n)
 
 public class UniquePaths {
-    public static void main(String[] args) {
+    static void main() {
         int m = 3, n = 7;
         System.out.println(uniquePaths(m, n));
     }

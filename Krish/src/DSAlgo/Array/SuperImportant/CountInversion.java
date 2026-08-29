@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(n)
 
 public class CountInversion {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {4, 3, 2, 1};
         System.out.println(mergeSort(nums, 0, nums.length - 1));
     }

@@ -9,7 +9,7 @@ import java.util.Arrays;
 //Space complexity: O(n^2)
 
 public class RodCutting {
-    public static void main(String[] args) {
+    static void main() {
         int[] price = {1, 5, 8, 9, 10, 17, 17, 20};
         System.out.println(callUnboundedKnapsackWithMemoization(price));
         System.out.println(callUnboundedKnapsackWithTabulation(price));

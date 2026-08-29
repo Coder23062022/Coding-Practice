@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class CaesarCipher {
-	public static void main(String[] args) {
+	static void main() {
 		System.out.println(encrypt("VGXPZ", 3));
 	}
 

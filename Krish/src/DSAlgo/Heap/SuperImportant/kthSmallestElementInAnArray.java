@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 //Space complexity: O(k)
 
 public class kthSmallestElementInAnArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {12, 3, 5, 7, 19};
         int k = 2;
         System.out.print("K'th largest element is " + findKthSmallestWithMinHeap(arr, k));

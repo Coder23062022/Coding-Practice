@@ -5,7 +5,7 @@ package src.Strings;
 //Space complexity: O(n)
 
 public class RemoveACharacterToMakeAPalindrome {
-    public static void main(String[] args) {
+    static void main() {
         String str = "abcbea"; // abecbea
         int idx = isPalindromeByRemovingOneChar(str);
 

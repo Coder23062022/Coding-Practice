@@ -19,7 +19,7 @@ public class PathFromRootToLeafInABinaryTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Node root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(3);

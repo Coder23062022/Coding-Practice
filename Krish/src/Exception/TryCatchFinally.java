@@ -1,7 +1,7 @@
 package Krish.src.Exception;
 
 public class TryCatchFinally {
-    public static void main(String[] args) {
+    static void main() {
         String valueReturned = tryCatchFinally();
         System.out.println(valueReturned);
     }

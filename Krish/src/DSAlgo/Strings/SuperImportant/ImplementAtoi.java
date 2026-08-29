@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Strings.SuperImportant;
 //Space complexity: O(1)
 
 public class ImplementAtoi {
-    public static void main(String[] args) {
+    static void main() {
         String s = " -042";
         System.out.println(myAtoi(s));
     }

@@ -6,7 +6,7 @@ import java.util.List;
 
 //Question: https://www.chegg.com/homework-help/questions-and-answers/7-subarray-maxmin-given-array-subarrays-given-length-determine-minimum-element-subarray-mi-q68410206
 public class SubArrayMaxMin {
-	public static void main(String[] args) {
+	static void main() {
 		List<Integer> list = new ArrayList<>();
 		list.add(2);
 		list.add(5);

@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOnStocks;
 import java.util.Arrays;
 
 public class BestTimeToBuyAndSellStockII {
-    public static void main(String[] args) {
+    static void main() {
         int[] prices = {7, 1, 5, 3, 6, 4};
         System.out.println(maxProfitWithRecursion(prices));
         System.out.println(maxProfitWithMemoization(prices));

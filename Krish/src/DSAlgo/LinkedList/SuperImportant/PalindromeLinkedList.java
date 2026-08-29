@@ -18,7 +18,7 @@ public class PalindromeLinkedList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         head = new Node(1);
         head.next = new Node(1);
         head.next.next = new Node(2);

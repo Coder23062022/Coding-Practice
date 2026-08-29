@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 import java.util.stream.IntStream;
 
 public class NumberOfSubstringsContainingAll3Characters {
-    public static void main(String[] args) {
+    static void main() {
         String s = "abcabc";
         System.out.println(numberOfSubstrings(s));
     }

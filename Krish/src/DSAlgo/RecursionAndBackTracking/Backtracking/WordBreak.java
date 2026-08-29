@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(n), recursion stack space
 
 public class WordBreak {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "ilikesamsungmobile";
 //        List<String> dict = Arrays.asList("i", "like", "sam", "sung", "samsung", "mobile", "ice",
 //                "and", "cream", "icecream", "man", "go", "mango");

@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class NumberOfEnclaves {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {
                 {0, 0, 0, 0},
                 {1, 0, 1, 0},

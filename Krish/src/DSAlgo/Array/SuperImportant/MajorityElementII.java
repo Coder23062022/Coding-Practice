@@ -9,7 +9,7 @@ import java.util.List;
 //Space complexity: O(1)
 
 public class MajorityElementII {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] nums = {3, 2, 3};
         int[] nums = {2, 2, 3, 1, 3, 2, 1, 1};
         List<Integer> res = majorityElement(nums);

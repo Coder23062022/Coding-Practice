@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Video source: https://www.youtube.com/watch?v=_wP9mWNPL5w&ab_channel=takeUforward
 
 public class LongestCommonSubstring {
-    public static void main(String[] args) {
+    static void main() {
         String str1 = "abcdxyz";
         String str2 = "xyzabcd";
         System.out.println(lcsWithTabulation(str1, str2));

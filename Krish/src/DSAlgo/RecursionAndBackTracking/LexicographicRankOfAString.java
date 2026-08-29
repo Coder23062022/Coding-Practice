@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.RecursionAndBackTracking;
 //Space complexity: O(1)
 
 public class LexicographicRankOfAString {
-    public static void main(String[] args) {
+    static void main() {
         String str = "acb";
         System.out.println(findRank(str));
     }

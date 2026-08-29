@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=k4eK-vEmnKg&ab_channel=takeUforward
 
 public class BestTimeToBuyAndSellStockWithTransactionFee {
-    public static void main(String[] args) {
+    static void main() {
         int[] prices = {1, 3, 2, 8, 4, 9};
         int fee = 2;
         System.out.println(maxProfitWithMemoization(prices, fee));

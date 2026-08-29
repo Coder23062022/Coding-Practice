@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOnGrids;
 import java.util.Arrays;
 
 public class UniquePathsII {
-    public static void main(String[] args) {
+    static void main() {
         int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         System.out.println(uniquePathsWithObstaclesRecursion(obstacleGrid));
         System.out.println(uniquePathsWithObstaclesMemoization(obstacleGrid));

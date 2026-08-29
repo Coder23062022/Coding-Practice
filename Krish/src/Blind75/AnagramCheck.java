@@ -47,7 +47,7 @@ public class AnagramCheck {
         return true;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         char[] ch1 = {'t', 'e', 's', 't'};
         char[] ch2 = {'t', 't', 'e', 's'};
         if (areAnagramWithoutSorting(ch1, ch2))

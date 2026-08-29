@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Matrix;
 //Note: If you rotate a matrix 180 degree anticlockwise, then this same solution is applicable as you will get the same result.
 
 public class RotateMatrix180DegreeClockwise {
-    public static void main(String[] args) {
+    static void main() {
         int[][] mat = {{1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}};

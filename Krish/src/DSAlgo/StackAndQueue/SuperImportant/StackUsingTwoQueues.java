@@ -47,7 +47,7 @@ public class StackUsingTwoQueues {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Stack s = new Stack();
         s.push(1);
         s.push(2);

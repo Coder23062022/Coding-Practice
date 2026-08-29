@@ -63,7 +63,7 @@ public class ProducerConsumerUsingReentrantLock {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         BoundedBuffer sharedBuffer = new BoundedBuffer(5); // Buffer capacity of 5
         Random random = new Random();
 

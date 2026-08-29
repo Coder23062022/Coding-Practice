@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Note: Same solution as AllocateMinimumPages
 
 public class SplitArrayLargestSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {7, 2, 5, 10, 8};
         int k = 2;
         System.out.println(splitArray(nums, k));

@@ -26,7 +26,7 @@ public class SortStackUsingTempStack {
     }
 
     // Driver Code
-    public static void main(String[] args) {
+    static void main() {
         Stack<Integer> inputStack = new Stack<>();
         inputStack.add(34);
         inputStack.add(3);

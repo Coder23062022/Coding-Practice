@@ -42,7 +42,7 @@ public class WordSearch {
         return false;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         char[][] grid = {
                 {'A', 'B', 'C', 'E'},
                 {'S', 'F', 'C', 'S'},

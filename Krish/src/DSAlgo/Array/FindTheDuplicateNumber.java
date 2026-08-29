@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Array;
 //Space complexity: O(1)
 
 public class FindTheDuplicateNumber {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 3, 4, 2, 2};
         System.out.println(findDuplicate(nums));
     }

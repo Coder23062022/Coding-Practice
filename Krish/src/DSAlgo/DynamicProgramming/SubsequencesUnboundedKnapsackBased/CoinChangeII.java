@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=HgyouUi11zk&ab_channel=takeUforward
 
 public class CoinChangeII {
-    public static void main(String[] args) {
+    static void main() {
         int[] coins = {1, 2, 5};
         int amount = 5;
         System.out.println(changeWithMemoization(amount, coins));

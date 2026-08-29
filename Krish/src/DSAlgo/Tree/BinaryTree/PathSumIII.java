@@ -19,7 +19,7 @@ public class PathSumIII {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int sum = 8;
         Node root = new Node(10);
         root.left = new Node(5);

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NumberOfIslandsII {
-    public static void main(String[] args) {
+    static void main() {
         int n = 4, m = 5, k = 4;
         int[][] A = {{1, 1}, {0, 1}, {3, 3}, {3, 4}};
         System.out.println(numOfIslands(n, m, A));

@@ -9,7 +9,7 @@ import static Krish.src.DSAlgo.StackAndQueue.SuperImportant.SumOfSubarrayMinimum
 //Space complexity: O(10n) ≈ O(n)
 
 public class SumOfSubarrayRanges {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 3};
         System.out.println(subArrayRanges(nums));
     }

@@ -17,7 +17,7 @@ public class CountGoodNodesInBinaryTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(1);
         root.right = new TreeNode(4);

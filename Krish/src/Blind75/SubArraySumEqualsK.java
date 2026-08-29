@@ -10,7 +10,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class SubArraySumEqualsK {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] nums = {1, 1, 1}; k =2;
 //        int[] nums = {3, -3, 1, 1, 1}; k =3;
         int[] nums = {9, 4, 20, 3, 10, 5};

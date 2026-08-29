@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.RecursionAndBackTracking;
 //Space complexity: O(1)
 
 public class PrintAllPossibleSubsequencesOfAString {
-    public static void main(String[] args) {
+    static void main() {
         String input = "abc";
         String output = "";
         System.out.println("All possible subsequences are:");

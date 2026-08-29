@@ -21,7 +21,7 @@ public class PopulatingNextRightPointersInEachNode {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         // Constructed binary tree is
         //       10
         //      /  \

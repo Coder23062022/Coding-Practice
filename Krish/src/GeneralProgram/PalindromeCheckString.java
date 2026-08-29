@@ -2,7 +2,7 @@ package src.GeneralProgram;
 
 public class PalindromeCheckString {
 
-	public static void main(String[] args) {
+	static void main() {
 		
 		String s1="madam";
 		StringBuilder s2= new StringBuilder(s1);

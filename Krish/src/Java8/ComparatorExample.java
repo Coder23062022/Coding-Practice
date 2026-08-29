@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class ComparatorExample {
-    public static void main(String[] args) {
+    static void main() {
         List<Movie> m = new ArrayList<>();
         m.add(new Movie("Force Awakens", 8.3, 2015));
         m.add(new Movie("Star Wars", 8.7, 1977));

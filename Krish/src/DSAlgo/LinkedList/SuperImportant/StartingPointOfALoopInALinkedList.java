@@ -39,7 +39,7 @@ public class StartingPointOfALoopInALinkedList {
         return null;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         StartingPointOfALoopInALinkedList list = new StartingPointOfALoopInALinkedList();
         head = new Node(50);
         head.next = new Node(20);

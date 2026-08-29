@@ -18,7 +18,7 @@ public class CopyListWithRandomPointer {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         // Creating a linked list with random pointer
         Node head = new Node(1);
         head.next = new Node(2);

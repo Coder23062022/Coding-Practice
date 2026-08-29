@@ -7,7 +7,7 @@ import java.util.Set;
 //Space complexity: O(n)
 
 public class PairSumMatchesRestOfArraySum {
-    public static void main(String[] args) {
+    static void main() {
         // Check if there exist two elements in an array whose sum is equal to the sum
         // of rest of the array.
         int[] a = {2, 11, 5, 1, 4, 7};

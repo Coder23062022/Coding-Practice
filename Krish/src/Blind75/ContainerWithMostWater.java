@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(1)
 
 public class ContainerWithMostWater {
-    public static void main(String[] args) {
+    static void main() {
         int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(maxArea(height));
     }

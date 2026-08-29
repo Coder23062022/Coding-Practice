@@ -7,7 +7,7 @@ import java.util.Scanner;
 //Video source: https://www.youtube.com/watch?v=tyB0ztf0DNY&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=2&ab_channel=takeUforward
 
 public class FibonacciNumber {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println("Enter number upto which Fibonacci series to print: ");
         int number = new Scanner(System.in).nextInt();
         //Printing Fibonacci series up to number

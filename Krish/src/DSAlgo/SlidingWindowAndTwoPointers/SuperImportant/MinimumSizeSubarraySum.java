@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 //Space complexity: O(1)
 
 public class MinimumSizeSubarraySum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {2, 3, 1, 2, 4, 3};
         int target = 7;
         System.out.println(minSubArrayLen(target, nums));

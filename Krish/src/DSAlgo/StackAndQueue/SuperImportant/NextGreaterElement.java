@@ -11,7 +11,7 @@ import java.util.Stack;
 //Space complexity: O(3n)
 
 public class NextGreaterElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums1 = {4, 1, 2}, nums2 = {1, 3, 4, 2};
         System.out.println(Arrays.toString(nextGreaterElement(nums1, nums2)));
     }

@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space complexity: O(1)
 
 public class NthRootOfAnInteger {
-    public static void main(String[] args) {
+    static void main() {
         int n = 1, m = 14;
         int result = nthRoot(n, m);
         System.out.println(result);

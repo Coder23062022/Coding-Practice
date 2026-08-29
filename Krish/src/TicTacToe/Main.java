@@ -1,7 +1,7 @@
 package Krish.src.TicTacToe;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main() {
         Player player1 = new Player("Player 1", 'X');
         Player player2 = new Player("Player 2", 'O');
 

@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class KruskalsAlgo {
-    public static void main(String[] args) {
+    static void main() {
         int[][] edges = {{0, 1, 10}, {1, 3, 15}, {2, 3, 4}, {2, 0, 6}, {0, 3, 5}}; //{u, v, w}
         System.out.println(kruskalsMST(4, edges));
     }

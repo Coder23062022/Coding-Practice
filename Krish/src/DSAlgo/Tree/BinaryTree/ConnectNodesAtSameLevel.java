@@ -18,7 +18,7 @@ public class ConnectNodesAtSameLevel {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         // Constructed binary tree
         //       10
         //      /  \

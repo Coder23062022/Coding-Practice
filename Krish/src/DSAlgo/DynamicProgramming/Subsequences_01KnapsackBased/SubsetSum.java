@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=fWX9xDmIzRI&ab_channel=takeUforward
 
 public class SubsetSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {3, 34, 4, 12, 5, 2};
         int sum = 9;
         System.out.println(isSubsetSumWithMemoization(arr, sum));

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CycleDetectionInDirectedGraphDFS {
-    public static void main(String[] args) {
+    static void main() {
         int V = 4;
         int[][] edges = {{0, 1}, {0, 2}, {1, 2}, {2, 0}, {2, 3}};
         System.out.println(isCyclic(V, edges));

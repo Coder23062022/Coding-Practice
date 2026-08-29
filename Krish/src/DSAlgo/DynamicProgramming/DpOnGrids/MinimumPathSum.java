@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOnGrids;
 import java.util.Arrays;
 
 public class MinimumPathSum {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
         System.out.println(minPathSumWithRecursion(grid));
         System.out.println(minPathSumWithMemoization(grid));

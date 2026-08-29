@@ -19,7 +19,7 @@ public class SameTreeCheck {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         root1 = new TreeNode(1);
         root1.left = new TreeNode(2);
         root1.right = new TreeNode(3);

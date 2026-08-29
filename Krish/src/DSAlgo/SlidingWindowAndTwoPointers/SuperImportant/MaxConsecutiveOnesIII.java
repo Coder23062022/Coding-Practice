@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 //Space complexity: O(1)
 
 public class MaxConsecutiveOnesIII {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
         int k = 2;
         System.out.println(longestOnes(nums, k));

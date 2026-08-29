@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.Array;
 //Space complexity: O(1)
 
 public class LongestIncreasingOrderSequence {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {1, 2, 3, 4, 5, 2, 4, 6, 7, 0, 1, 2};
         System.out.println(meth1(a));
     }

@@ -11,7 +11,7 @@ import java.util.Deque;
 //Space complexity: O(k), queue is storing maximum of k elements at a time
 
 public class SlidingWindowMaximum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int k = 3;
         System.out.println(Arrays.toString(maxSlidingWindow(nums, k)));

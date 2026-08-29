@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(target)
 
 public class CombinationSumIV {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 3};
         int target = 3;
         System.out.println(combinationSum4(nums, target));

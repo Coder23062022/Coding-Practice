@@ -1,7 +1,7 @@
 package Krish.src.MultiThreading;
 
 public class Singleton {
-    public static void main(String[] args) {
+    static void main() {
         // Get the single instance of DatabaseConnection
         DatabaseConnection connection1 = DatabaseConnection.getInstance();
         connection1.connect();

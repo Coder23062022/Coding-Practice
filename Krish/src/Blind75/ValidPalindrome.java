@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Space complexity: O(n)
 
 public class ValidPalindrome {
-    public static void main(String[] args) {
+    static void main() {
         System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
         System.out.println(isPalindrome("a12a"));
     }

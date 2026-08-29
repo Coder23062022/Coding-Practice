@@ -17,7 +17,7 @@ import java.util.List;
 //Space Complexity: O(2^n * k) to store every subset of average length k. Auxiliary space is O(n) if n is the depth of the recursion tree.
 
 public class SubsetsII {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 2};
         System.out.println(subsetsWithoutDup(nums));
     }

@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.StackAndQueue.SuperImportant;
 import java.util.Stack;
 
 public class MaximalRectangle {
-    public static void main(String[] args) {
+    static void main() {
         char[][] matrix = {
                 {'1', '0', '1', '0', '0'},
                 {'1', '0', '1', '1', '1'},

@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath;
 import java.util.Arrays;
 
 public class CityWithTheSmallestNumberOfNeighborsAtAThresholdDistance {
-    public static void main(String[] args) {
+    static void main() {
         int n = 4, distanceThreshold = 4;
         int[][] edges = {{0, 1, 3}, {1, 2, 1}, {1, 3, 4}, {2, 3, 1}};
         System.out.println(findTheCity(n, edges, distanceThreshold));

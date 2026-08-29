@@ -10,7 +10,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class ImplementLRUCache {
-    public static void main(String[] args) {
+    static void main() {
         LRUCache lRUCache = new LRUCache(2);
         lRUCache.put(1, 1); // cache is {1=1}
         lRUCache.put(2, 2); // cache is {1=1, 2=2}

@@ -40,7 +40,7 @@ public class ReverseLinkedList {
     }
 
     @SuppressWarnings("static-access")
-    public static void main(String[] args) {
+    static void main() {
         ReverseLinkedList list = new ReverseLinkedList();
         list.head = new Node(85);
         list.head.next = new Node(15);

@@ -9,7 +9,7 @@ import java.util.Stack;
 //Space complexity: O(2n)
 
 public class NextGreaterElementII {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 1};
         System.out.println(Arrays.toString(nextGreaterElementII(nums)));
     }

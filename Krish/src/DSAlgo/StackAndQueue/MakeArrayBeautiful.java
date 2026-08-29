@@ -9,7 +9,7 @@ import java.util.Stack;
 //Space complexity: O(n)
 
 public class MakeArrayBeautiful {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 1, -4, 3, -5, 2, 6, -3};
         System.out.println(makeBeautiful(arr));
     }

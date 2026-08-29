@@ -47,7 +47,7 @@ public class TreeTraversalWithRecursion {
         System.out.println(tree.data);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeTraversalWithRecursion traversal = new TreeTraversalWithRecursion();
         Node tree = traversal.createTree();
         System.out.println("PreOrderTraversal of the tree is:");

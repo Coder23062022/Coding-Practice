@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Graph.MST_DisjointSet;
 //Space complexity: O(n)
 
 public class NumberOfOperationsToMakeNetworkConnected {
-    public static void main(String[] args) {
+    static void main() {
         int n = 6;
         int[][] connections = {{0, 1}, {0, 2}, {0, 3}, {1, 2}, {1, 3}};
         System.out.println(makeConnected(n, connections));

@@ -8,7 +8,7 @@ import java.util.Scanner;
 //Space Complexity: O(1)
 
 public class FindSquareRoot {
-    public static void main(String[] args) {
+    static void main() {
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Please give an input:");

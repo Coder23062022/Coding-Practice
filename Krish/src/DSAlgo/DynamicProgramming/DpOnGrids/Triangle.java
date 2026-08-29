@@ -8,7 +8,7 @@ import java.util.List;
 //Video source: https://www.youtube.com/watch?v=SrP-PiLSYC0&ab_channel=takeUforward
 
 public class Triangle {
-    public static void main(String[] args) {
+    static void main() {
         List<List<Integer>> triangle = new ArrayList<>();
         triangle.add(List.of(2));
         triangle.add(List.of(3, 4));

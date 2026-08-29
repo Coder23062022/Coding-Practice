@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space complexity: O(1)
 
 public class SearchInRotatedSortedArrayII {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {2, 5, 6, 0, 0, 1, 2};
         System.out.println(search(nums, 0));
     }

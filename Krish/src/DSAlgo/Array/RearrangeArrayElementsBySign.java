@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(1), not considering the result array space as it's needed to store the answer
 
 public class RearrangeArrayElementsBySign {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 1, -2, -5, 2, -4};
         System.out.println(Arrays.toString(rearrangeArray(nums)));
     }

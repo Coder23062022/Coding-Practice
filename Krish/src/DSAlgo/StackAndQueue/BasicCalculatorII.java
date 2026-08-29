@@ -7,7 +7,7 @@ import java.util.Stack;
 //Space complexity: O(n)
 
 public class BasicCalculatorII {
-    public static void main(String[] args) {
+    static void main() {
         String s = "3+2*32/2";
         System.out.println(calculateWithoutStack(s));
     }

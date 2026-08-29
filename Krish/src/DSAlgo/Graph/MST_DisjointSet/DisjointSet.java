@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Graph.MST_DisjointSet;
 //Space complexity: O(2n) = O(n), two arrays - rank/size array and parent array
 
 public class DisjointSet {
-    public static void main(String[] args) {
+    static void main() {
         int n = 5;
         DisjointUnionSets dus = new DisjointUnionSets(n);
         dus.unionBySize(0, 2);

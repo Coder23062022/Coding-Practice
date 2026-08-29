@@ -39,7 +39,7 @@ public class LengthOfALoopInALinkedList {
         return 0;
     }
 
-    public static void main(String[] args) {
+    static void main() {
         LengthOfALoopInALinkedList list = new LengthOfALoopInALinkedList();
         head = new Node(50);
         head.next = new Node(20);

@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space Complexity: O(1)
 
 public class FindPeakElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 3, 1};
         System.out.println("Index of the peak element is: " + findPeakElement(nums));
     }

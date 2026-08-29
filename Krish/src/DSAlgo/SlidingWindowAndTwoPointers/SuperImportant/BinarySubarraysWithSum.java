@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 //Space complexity: O(1)
 
 public class BinarySubarraysWithSum {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 0, 1, 0, 1};
 //        int[] nums = {1, 0, 0, 1, 1, 0};
         int goal = 2;

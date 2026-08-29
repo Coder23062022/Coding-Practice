@@ -1,7 +1,7 @@
 package Krish.src.MultiThreading.AlternateThreadExecution;
 
 public class OddAndEvenNumbers_AnotherApproach {
-    public static void main(String[] args) {
+    static void main() {
         OddAndEvenNumbersGeneration runnable1 = new OddAndEvenNumbersGeneration(1);
         OddAndEvenNumbersGeneration runnable2 = new OddAndEvenNumbersGeneration(0);
 

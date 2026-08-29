@@ -58,7 +58,7 @@ public class SymmetricStringCheck {
     }
 
     // Driver code
-    public static void main(String[] args) {
+    static void main() {
         String s = "MYTYM";
         if (isReflectionEqual(s)) {
             System.out.println("YES");

@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.DFS;
 import java.util.Arrays;
 
 public class FloodFill {
-    public static void main(String[] args) {
+    static void main() {
         int[][] image = {
                 {1, 1, 1},
                 {1, 1, 0},

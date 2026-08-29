@@ -16,7 +16,7 @@ public class MaximumPathSumInABinaryTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(-10);
         root.left = new TreeNode(9);
         root.right = new TreeNode(20);

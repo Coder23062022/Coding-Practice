@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.RecursionAndBackTracking.Backtracking;
 //Space complexity: O(n), recursion stack space
 
 public class SudokuSolver {
-    public static void main(String[] args) {
+    static void main() {
         char[][] mat = {
                 {'3', '.', '6', '5', '.', '8', '4', '.', '.'},
                 {'5', '2', '.', '.', '.', '.', '.', '.', '.'},

@@ -3,7 +3,7 @@ package src.Strings;
 import java.util.*;
 
 public class FirstMaxLengthEvenWord {
-    public static void main(String[] args) {
+    static void main() {
         String str = "geeksforgeeks is a platform for geeks abcdefgh";
         System.out.println(findMaxLenEven(str));
         System.out.println(findMaxLenEvenUsingJava8(str));

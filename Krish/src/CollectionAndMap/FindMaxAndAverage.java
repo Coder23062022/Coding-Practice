@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class FindMaxAndAverage {
-    public static void main(String[] args) {
+    static void main() {
         List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);

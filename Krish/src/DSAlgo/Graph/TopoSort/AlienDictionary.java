@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class AlienDictionary {
-    public static void main(String[] args) {
+    static void main() {
         String[] words = {"baa", "abcd", "abca", "cab", "cad"};
 //        String[] words = {"cb", "cba", "a", "bc"};
         System.out.println(findOrder(words));

@@ -18,7 +18,7 @@ public class SymmetricTree {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(2);

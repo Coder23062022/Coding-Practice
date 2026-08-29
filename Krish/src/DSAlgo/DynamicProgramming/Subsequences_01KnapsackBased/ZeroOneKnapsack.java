@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=ntCGbPMeqgg&t=2335s&ab_channel=AdityaVerma
 
 public class ZeroOneKnapsack {
-    public static void main(String[] args) {
+    static void main() {
         int[] wt = {5, 4, 2, 3};
         int[] val = {10, 40, 30, 50};
         int W = 5;

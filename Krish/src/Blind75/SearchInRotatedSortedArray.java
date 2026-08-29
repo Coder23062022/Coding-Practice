@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(1)
 
 public class SearchInRotatedSortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 4, 5, 1, 2};
 //        int[] nums = {1};
         System.out.println(search(nums, 5));

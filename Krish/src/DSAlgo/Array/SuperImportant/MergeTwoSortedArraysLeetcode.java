@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(1)
 
 public class MergeTwoSortedArraysLeetcode {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {4, 5, 6};
         int m = 3, n = 3;

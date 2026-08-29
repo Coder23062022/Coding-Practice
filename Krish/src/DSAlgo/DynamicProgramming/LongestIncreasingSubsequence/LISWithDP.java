@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=ekcwMsSIzVc&ab_channel=takeUforward
 
 public class LISWithDP {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         System.out.println(lengthOfLISWithRecursion(nums));
         System.out.println(lengthOfLISWithMemoization(nums));

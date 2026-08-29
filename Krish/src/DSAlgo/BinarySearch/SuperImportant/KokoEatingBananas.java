@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 import java.util.Arrays;
 
 public class KokoEatingBananas {
-    public static void main(String[] args) {
+    static void main() {
         int[] piles = {3, 6, 7, 11};
         int h = 8;
 //        int[] piles = {312884470};

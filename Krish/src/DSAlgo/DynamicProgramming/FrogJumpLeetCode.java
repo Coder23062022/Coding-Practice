@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FrogJumpLeetCode {
-    public static void main(String[] args) {
+    static void main() {
         int[] stones = {0, 1, 3, 5, 6, 8, 12, 17};
         System.out.println(canCrossWithRecursion(stones));
         System.out.println(canCrossWithMemoization(stones));

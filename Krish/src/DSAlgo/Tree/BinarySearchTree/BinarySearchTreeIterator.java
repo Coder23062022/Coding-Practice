@@ -18,7 +18,7 @@ public class BinarySearchTreeIterator {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(7);
         root.left = new TreeNode(3);
         root.right = new TreeNode(15);

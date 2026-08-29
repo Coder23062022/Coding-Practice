@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.Heap;
 //To build the heap by heapify method, it will take O(n). Height of the tree is logn. So complexity will be O(nlogn).
 
 public class HeapSort {
-	public static void main(String[] args) {
+	static void main() {
 		int arr[] = { 30, 17, 20, 1, 5, 10, 15 };
 		int n = arr.length;
 		// Build the heap.

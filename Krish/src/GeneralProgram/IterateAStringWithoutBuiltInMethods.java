@@ -1,7 +1,7 @@
 package Krish.src.GeneralProgram;
 
 public class IterateAStringWithoutBuiltInMethods {
-    public static void main(String[] args) {
+    static void main() {
         String s = "Hello World";
 
         //1st way to do

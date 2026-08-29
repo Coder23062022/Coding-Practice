@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.Array;
 //Space Complexity: O(1)
 
 public class RemoveElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 2, 2, 3};
         int val = 3;
         System.out.println(removeElement(nums, val));

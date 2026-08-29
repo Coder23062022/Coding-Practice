@@ -48,7 +48,7 @@ class Employee {
 }
 
 public class ComparatorExample {
-	public static void main(String[] args) {
+	static void main() {
 		Employee emp1 = new Employee("Krishnendu", "Banerjee", 30);
 		Employee emp2 = new Employee("Soumyadeb", "Chatterjee", 29);
 		Employee emp3 = new Employee("Dipanjan", "Mukherjee", 30);

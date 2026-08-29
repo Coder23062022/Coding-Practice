@@ -5,7 +5,7 @@ package src.Strings;
 //Space complexity: O(1)
 
 public class FindLargestNumber {
-    public static void main(String[] args) {
+    static void main() {
         String input = "12,33,abc,xyz,4a5";
         System.out.println(getLargestNumber(input));
     }

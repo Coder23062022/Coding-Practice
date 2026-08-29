@@ -14,7 +14,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 import java.util.Arrays;
 
 public class AggressiveCows {
-    public static void main(String[] args) {
+    static void main() {
 //        int[] stalls = {1, 2, 4, 8, 9};
         int[] stalls = {0, 3, 4, 7, 9, 10};
         int k = 4;

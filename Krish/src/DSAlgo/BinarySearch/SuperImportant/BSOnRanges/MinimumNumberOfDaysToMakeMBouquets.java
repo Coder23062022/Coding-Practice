@@ -13,7 +13,7 @@ import java.util.Arrays;
 //Space complexity: O(1)
 
 public class MinimumNumberOfDaysToMakeMBouquets {
-    public static void main(String[] args) {
+    static void main() {
         int[] bloomDay = {1, 10, 3, 10, 2};
         int m = 3, k = 1;
         System.out.println(minDays(bloomDay, m, k));

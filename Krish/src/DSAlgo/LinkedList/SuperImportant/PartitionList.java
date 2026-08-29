@@ -16,7 +16,7 @@ public class PartitionList {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(4);
         listNode.next.next = new ListNode(3);

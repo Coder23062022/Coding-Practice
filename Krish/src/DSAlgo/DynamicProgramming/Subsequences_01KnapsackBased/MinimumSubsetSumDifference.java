@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //SC: O(n*sum)
 
 public class MinimumSubsetSumDifference {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 9, 7, 3};
 //        int[] nums = {1, 2, 3};
         System.out.println(minDifference(nums));

@@ -26,7 +26,7 @@ public class WallsAndGates {
         DFSUtil(rooms, row, col - 1, count + 1);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int[][] rooms = {
                 {2147483647, -1, 0, 2147483647},
                 {2147483647, 2147483647, 2147483647, -1},

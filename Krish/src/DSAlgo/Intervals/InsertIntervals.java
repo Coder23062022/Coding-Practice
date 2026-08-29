@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(n), considering the result array
 
 public class InsertIntervals {
-    public static void main(String[] args) {
+    static void main() {
         int[][] intervals = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}};
         int[] newInterval = {4, 8};
         for (int[] interval : insert(intervals, newInterval))

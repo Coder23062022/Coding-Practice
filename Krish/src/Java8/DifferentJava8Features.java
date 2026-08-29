@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 public class DifferentJava8Features {
-    public static void main(String[] args) {
+    static void main() {
         // Example 1
         Supplier<String> i = () -> "Car";
         Consumer<String> c = x -> System.out.println(x.toLowerCase());

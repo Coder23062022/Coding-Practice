@@ -9,7 +9,7 @@ package Krish.src.DSAlgo.Graph.TopoSort;
 import java.util.*;
 
 public class TopologicalSortUsingBFS_KahnsAlgo {
-    public static void main(String[] args) {
+    static void main() {
         int V = 4, E = 3;
         int[][] edges = {{3, 0}, {1, 0}, {2, 0}};
         System.out.println(topoSort(V, edges));

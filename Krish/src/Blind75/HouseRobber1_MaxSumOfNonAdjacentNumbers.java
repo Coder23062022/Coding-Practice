@@ -6,7 +6,7 @@ package Krish.src.Blind75;
 //Space complexity: O(1)
 
 public class HouseRobber1_MaxSumOfNonAdjacentNumbers {
-    public static void main(String[] args) {
+    static void main() {
         int[] a = {2, 7, 9, 5, 6, 6};
         System.out.println(highestSumOfNonAdjacentNos(a));
     }

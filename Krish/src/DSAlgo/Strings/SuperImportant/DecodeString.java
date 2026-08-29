@@ -9,7 +9,7 @@ import java.util.Stack;
 //Space complexity: O(n)
 
 public class DecodeString {
-    public static void main(String[] args) {
+    static void main() {
         String str = "3[a2[c]]";
 //        String str = "3[a]2[bc]";
         System.out.println(decodeStringWithSingleStack(str));

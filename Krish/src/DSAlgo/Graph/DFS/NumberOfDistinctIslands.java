@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 public class NumberOfDistinctIslands {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {
                 {1, 1, 0, 0, 0},
                 {1, 1, 0, 0, 0},

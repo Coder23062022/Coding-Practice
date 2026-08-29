@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //Problem: https://practice.geeksforgeeks.org/contest/interview-series-60/problems/#
 
 public class NumberOfGoodComponents {
-    public static void main(String[] args) {
+    static void main() {
         int V = 3;
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>(V);
         for (int i = 0; i < V; i++)

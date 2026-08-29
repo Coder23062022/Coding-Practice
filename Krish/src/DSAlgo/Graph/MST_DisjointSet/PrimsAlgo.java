@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class PrimsAlgo {
-    public static void main(String[] args) {
+    static void main() {
         int[][] graph = new int[][]{{0, 1, 5},
                 {1, 2, 3},
                 {0, 2, 1}};

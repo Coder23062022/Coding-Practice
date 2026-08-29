@@ -5,7 +5,7 @@ package Krish.src.MultiThreading.AlternateThreadExecution;
 //Space complexity: O(1)
 
 public class OddEvenNumbers {
-    public static void main(String[] args) {
+    static void main() {
         int n = 10;
         SequenceGenerator sequenceGenerator = new SequenceGenerator(n);
 

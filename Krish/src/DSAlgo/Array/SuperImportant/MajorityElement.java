@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(1)
 
 public class MajorityElement {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
 //        int[] nums = {2, 3, 7, 3, 4};
         int candidate = majorityElement(nums);

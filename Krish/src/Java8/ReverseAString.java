@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class ReverseAString {
-    public static void main(String[] args) {
+    static void main() {
         String str = "Stream";
         System.out.println(str.chars().mapToObj(c -> String.valueOf((char) c))
                 .reduce("", (s, c) -> c + s));

@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Strings.SuperImportant;
 //Space complexity: O(2^n)
 
 public class CountAndSay {
-    public static void main(String[] args) {
+    static void main() {
         int n = 5;
         System.out.println(countAndSay(n));
     }

@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Note: Same solution as AllocateMinimumPages
 
 public class PaintersPartitionProblem {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {5, 10, 30, 20, 15};
         int k = 3;
         System.out.println(minTime(arr, k));

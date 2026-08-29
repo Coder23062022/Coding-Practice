@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 import java.util.Arrays;
 
 public class LongestCommonSubsequence {
-    public static void main(String[] args) {
+    static void main() {
         String str1 = "AGGTAB";
         String str2 = "GXTXAYB";
         System.out.println(lcsWithRecursion(str1, str2));

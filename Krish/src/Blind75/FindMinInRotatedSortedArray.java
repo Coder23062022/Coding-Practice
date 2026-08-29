@@ -5,7 +5,7 @@ package Krish.src.Blind75;
 //Space complexity: O(1)
 
 public class FindMinInRotatedSortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {3, 4, 5, 1, 2};
 //        int[] nums = {2, 1};
         System.out.println(findMin(nums));

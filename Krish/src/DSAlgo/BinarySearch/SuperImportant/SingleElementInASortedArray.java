@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant;
 //Space Complexity: O(1)
 
 public class SingleElementInASortedArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 2, 3, 3, 4, 4, 8, 8};
         System.out.println(singleNonDuplicate(nums));
     }

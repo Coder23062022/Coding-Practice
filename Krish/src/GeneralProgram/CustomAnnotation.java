@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 
 public class CustomAnnotation {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public static void main(String[] args) {
+	static void main() {
 		NokiaASeries obj = new NokiaASeries("Fire", 5);
 		Class c = obj.getClass();
 		Annotation an = c.getAnnotation(Smartphone.class);

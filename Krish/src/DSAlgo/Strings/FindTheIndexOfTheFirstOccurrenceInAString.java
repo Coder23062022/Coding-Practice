@@ -7,7 +7,7 @@ package Krish.src.DSAlgo.Strings;
 //Space complexity: O(1)
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
-    public static void main(String[] args) {
+    static void main() {
         String haystack = "sadbutsad", needle = "sad";
         System.out.println(strStr(haystack, needle));
     }

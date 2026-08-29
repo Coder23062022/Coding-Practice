@@ -1,7 +1,7 @@
 package src.Recursion;
 
 public class Factorial {
-	public static void main(String[] args) {
+	static void main() {
 		int n = 5;
 		System.out.println(fact(n));
 	}

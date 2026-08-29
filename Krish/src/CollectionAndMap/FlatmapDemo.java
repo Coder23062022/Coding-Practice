@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class FlatmapDemo {
-	public static void main(String[] args) {
+	static void main() {
 
 		List<String> houseGryffindor = Arrays.asList("Albus", "Harry", "Ron", "Hermione");
 		List<String> houseHufflepuff = Arrays.asList("Bridget", "Cedric", "Nymphadora");

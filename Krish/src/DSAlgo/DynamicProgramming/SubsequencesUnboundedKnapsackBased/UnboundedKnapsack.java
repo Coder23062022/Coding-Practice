@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=OgvOZ6OrJoY&ab_channel=takeUforward
 
 public class UnboundedKnapsack {
-    public static void main(String[] args) {
+    static void main() {
         int[] wt = {1, 3, 4, 5};
         int[] val = {6, 1, 7, 7};
         int capacity = 8;

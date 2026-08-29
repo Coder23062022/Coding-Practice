@@ -16,7 +16,7 @@ public class SegregateEvenAndOddNodes {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Node head = new Node(0);
         head.next = new Node(1);
         head.next.next = new Node(4);

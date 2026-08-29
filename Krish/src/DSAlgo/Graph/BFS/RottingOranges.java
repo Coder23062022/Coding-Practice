@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class RottingOranges {
-    public static void main(String[] args) {
+    static void main() {
         int[][] grid = {
                 {2, 1, 1},
                 {1, 1, 0},

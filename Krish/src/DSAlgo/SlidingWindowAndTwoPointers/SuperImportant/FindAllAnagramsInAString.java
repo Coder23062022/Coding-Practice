@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 import java.util.*;
 
 public class FindAllAnagramsInAString {
-    public static void main(String[] args) {
+    static void main() {
         String s = "cbaebabacd", p = "abc";
 //        String s = "baa", p = "aa";
         System.out.println(findAnagrams(s, p));

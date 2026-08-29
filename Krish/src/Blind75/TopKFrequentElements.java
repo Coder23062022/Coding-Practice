@@ -9,7 +9,7 @@ import java.util.*;
 //Space complexity: O(n)
 
 public class TopKFrequentElements {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 1, 1, 2, 2, 2, 3};
         int k = 2;
 //        int[] result = topKFrequentElementsWithSorting(nums, k);

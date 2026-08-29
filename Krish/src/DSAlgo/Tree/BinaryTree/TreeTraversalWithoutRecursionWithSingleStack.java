@@ -115,7 +115,7 @@ public class TreeTraversalWithoutRecursionWithSingleStack {
         list.forEach(System.out::println);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeTraversalWithoutRecursionWithSingleStack ttwr = new TreeTraversalWithoutRecursionWithSingleStack();
         ttwr.root = new Node(1);
         ttwr.root.left = new Node(2);

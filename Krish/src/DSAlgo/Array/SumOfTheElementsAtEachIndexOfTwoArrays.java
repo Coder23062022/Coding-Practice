@@ -8,7 +8,7 @@ import java.util.List;
 //Space complexity: O(n)
 
 public class SumOfTheElementsAtEachIndexOfTwoArrays {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 4, 7, 8};
         int[] brr = {4, 7, 2, 3, 9, 10};
 

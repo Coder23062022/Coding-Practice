@@ -10,7 +10,7 @@ import java.util.List;
 //Space complexity: O(n * 2^n)
 
 public class PrintAllPossibleSubsets {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 3};
         System.out.println(subsets(nums));
     }

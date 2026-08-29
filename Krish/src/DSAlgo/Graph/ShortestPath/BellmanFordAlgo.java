@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath;
 import java.util.Arrays;
 
 public class BellmanFordAlgo {
-    public static void main(String[] args) {
+    static void main() {
         int V = 5, src = 0;
         int[][] edges = new int[][]{
                 {1, 3, 2},

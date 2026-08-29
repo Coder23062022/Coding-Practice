@@ -1,7 +1,7 @@
 package Krish.src.DSAlgo.Heap;
 
 public class InsertionDeletionInMaxHeap {
-	public static void main(String[] args) {
+	static void main() {
 		int arr[] = { 70, 50, 40, 45, 35, 39, 16, 10, 9 };
 		int val = 60;
 		int n = arr.length;

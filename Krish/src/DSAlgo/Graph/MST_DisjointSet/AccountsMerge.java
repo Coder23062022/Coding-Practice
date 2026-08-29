@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.MST_DisjointSet;
 import java.util.*;
 
 public class AccountsMerge {
-    public static void main(String[] args) {
+    static void main() {
         List<List<String>> accounts = List.of(List.of("John", "johnsmith@mail.com", "john_newyork@mail.com"), List.of("John", "johnsmith@mail.com", "john00@mail.com"),
                 List.of("Mary", "mary@mail.com"), List.of("John", "johnnybravo@mail.com"));
         System.out.println(Arrays.toString(accountsMerge(accounts).toArray()));

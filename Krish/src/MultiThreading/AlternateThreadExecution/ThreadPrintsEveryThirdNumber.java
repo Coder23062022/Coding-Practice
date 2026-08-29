@@ -3,7 +3,7 @@ package Krish.src.MultiThreading.AlternateThreadExecution;
 //Same problem as OddEvenNumbers, with 3 threads
 
 public class ThreadPrintsEveryThirdNumber {
-    public static void main(String[] args) {
+    static void main() {
         int n = 10;
         SequenceGenerator sequenceGenerator = new SequenceGenerator(n);
 

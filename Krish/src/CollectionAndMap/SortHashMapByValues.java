@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class SortHashMapByValues {
-    public static void main(String[] args) {
+    static void main() {
         Map<String, Integer> hm = new HashMap<>();
 
         // enter data into hashmap

@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Video source: https://www.youtube.com/watch?v=ZmlQ3vgAOMo&ab_channel=takeUforward
 
 public class WildcardMatching {
-    public static void main(String[] args) {
+    static void main() {
         String s = "aa", p = "*";
         System.out.println(isMatchWithRecursion(s, p));
         System.out.println(isMatchWithMemoization(s, p));

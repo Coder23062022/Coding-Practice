@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(1)
 
 public class SecondLargestAndSmallestInAnArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {8, 8, 7, 6, 5};
         System.out.println(secondLargestElement(nums));
         System.out.println(secondSmallestElement(nums));

@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Video source: https://www.youtube.com/watch?v=Kmh3rhyEtB8&t=506s&ab_channel=takeUforward
 
 public class FrogJumpWithKDistance {
-    public static void main(String[] args) {
+    static void main() {
         int[] height = {30, 10, 60, 10, 60, 50};
         int k = 2;
         System.out.println(minCostWithRecursion(height, k));

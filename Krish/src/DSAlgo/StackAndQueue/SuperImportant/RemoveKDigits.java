@@ -8,7 +8,7 @@ import java.util.Stack;
 //Space complexity: O(n)
 
 public class RemoveKDigits {
-    public static void main(String[] args) {
+    static void main() {
         String num = "1432219";
         int k = 3;
         System.out.println(removeKdigits(num, k));

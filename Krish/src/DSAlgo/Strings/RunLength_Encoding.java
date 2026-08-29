@@ -1,7 +1,7 @@
 package src.Strings;
 
 public class RunLength_Encoding {
-	public static void main(String[] args) {
+	static void main() {
 		// I/P: AAAAABBCCAA
 		// O/P: 5A2B2C2A
 		String str = "AAAAABBCCAA";

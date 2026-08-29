@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Trie;
 import java.util.List;
 
 public class WordBreak {
-    public static void main(String[] args) {
+    static void main() {
         String s = "leetcode";
         List<String> dict = List.of("leet", "code");
 

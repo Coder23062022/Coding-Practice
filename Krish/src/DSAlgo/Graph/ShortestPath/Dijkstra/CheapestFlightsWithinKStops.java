@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 import java.util.*;
 
 public class CheapestFlightsWithinKStops {
-    public static void main(String[] args) {
+    static void main() {
         int n = 4;
         int[][] flights = {{0, 1, 100}, {1, 2, 100}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}};
         int src = 0, dst = 3, k = 1;

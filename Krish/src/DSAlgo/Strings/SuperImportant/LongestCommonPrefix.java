@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Strings.SuperImportant;
 //Space complexity: O(m)
 
 public class LongestCommonPrefix {
-    public static void main(String[] args) {
+    static void main() {
         String[] strs = {"flower", "flow", "flight"};
 //        String[] strs = {"dog","racecar","car"};
         System.out.println(longestCommonPrefix(strs));

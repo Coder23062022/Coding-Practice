@@ -16,7 +16,7 @@ public class CheckIfBinaryTreeIsBST {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         TreeNode root = new TreeNode(13);
         root.left = new TreeNode(10);
         root.left.left = new TreeNode(7);

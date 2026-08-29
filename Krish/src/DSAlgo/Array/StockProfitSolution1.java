@@ -66,7 +66,7 @@ final class Pair<T1, T2> {
 }
 
 public class StockProfitSolution1 {
-	public static void main(String[] args) {
+	static void main() {
 		int[] arr = { 5, 7, 9, 13, 11, 6, 6, 3, 3 };
 		int n = arr.length;
 		int target_sum = 12;

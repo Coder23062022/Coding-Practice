@@ -41,7 +41,7 @@ class MergeTwoSortedLists {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         /*
          * Let us create two sorted linked lists to test the methods Created lists:
          * llist1: 5->10->15, llist2: 2->3->20

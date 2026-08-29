@@ -7,7 +7,7 @@ import java.util.HashSet;
 //Space complexity: O(n)
 
 public class LongestSubstringWithoutRepeatingCharacters {
-    public static void main(String[] args) {
+    static void main() {
         String s = "abcabcbb";
 //        String s = "abcbcad";
 

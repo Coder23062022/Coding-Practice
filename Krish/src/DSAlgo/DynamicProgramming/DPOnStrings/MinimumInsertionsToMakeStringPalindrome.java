@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Space complexity: O(m * n)
 
 public class MinimumInsertionsToMakeStringPalindrome {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "zzazz";
         String s = "leetcode";
         System.out.println(minInsertions(s));

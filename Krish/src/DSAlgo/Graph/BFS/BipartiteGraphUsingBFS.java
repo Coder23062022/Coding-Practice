@@ -9,7 +9,7 @@ package Krish.src.DSAlgo.Graph.BFS;
 import java.util.*;
 
 public class BipartiteGraphUsingBFS {
-    public static void main(String[] args) {
+    static void main() {
         int V = 3;
         int[][] edges = {{0, 1}, {1, 2}};
         System.out.println(isBipartite(V, edges));

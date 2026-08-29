@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 import java.util.*;
 
 public class ShortestPathInUndirectedGraph {
-    public static void main(String[] args) {
+    static void main() {
         int[][] adj = {{1, 3}, {0, 2}, {1, 6}, {0, 4}, {3, 5}, {4, 6}, {2, 5, 7, 8}, {6, 8}, {7, 6}};
 
         //Create the adj list from the given adj array

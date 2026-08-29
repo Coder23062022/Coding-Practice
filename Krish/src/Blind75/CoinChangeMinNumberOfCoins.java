@@ -8,7 +8,7 @@ import java.util.Arrays;
 //Space complexity: O(amount)
 
 public class CoinChangeMinNumberOfCoins {
-    public static void main(String[] args) {
+    static void main() {
         int[] coins = {1, 3, 4, 5}; //{1, 2, 5}
         int amount = 7; //11
         System.out.println("Minimum number of coins to make the amount is: " + coinChangeMethod1(coins, amount));

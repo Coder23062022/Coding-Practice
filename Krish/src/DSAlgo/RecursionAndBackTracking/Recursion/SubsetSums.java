@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class SubsetSums {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {1, 2, 1};
         System.out.println(subsetSums(arr));
     }

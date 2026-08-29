@@ -42,7 +42,7 @@ public class RearrangePositiveNegativeNumbers {
     }
 
     /* Driver function to check for above functions */
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {-1, 2, -3, 4, 5, 6, -7, 8, 9, -10};
         int n = arr.length;
         rearrange(arr, n);

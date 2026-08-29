@@ -4,7 +4,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers;
 //Space complexity: O(1)
 
 public class Segregate0and1 {
-    public static void main(String[] args) {
+    static void main() {
         int[] array = {0, 1, 0, 1, 1, 1};
         segregate0and1(array);
         for (int a : array) {

@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DpOn1D;
 //Video Source: https://www.youtube.com/watch?v=rWAJCfYYOvM&ab_channel=NeetCode
 
 public class HouseRobber2 {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {1, 2, 3, 1};
         System.out.println(houseRobber2WithSpaceOptimization(nums));
         System.out.println(houseRobber2Greedy(nums));

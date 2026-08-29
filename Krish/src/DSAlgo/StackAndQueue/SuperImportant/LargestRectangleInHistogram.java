@@ -8,7 +8,7 @@ package Krish.src.DSAlgo.StackAndQueue.SuperImportant;
 import java.util.Stack;
 
 public class LargestRectangleInHistogram {
-    public static void main(String[] args) {
+    static void main() {
         int[] heights = {2, 1, 5, 6, 2, 3};
         System.out.println(largestRectangleArea(heights));
     }

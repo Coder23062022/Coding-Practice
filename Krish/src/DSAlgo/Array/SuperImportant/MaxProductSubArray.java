@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.Array.SuperImportant;
 //Space complexity: O(1)
 
 public class MaxProductSubArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] nums = {2, 3, -2, 4};
 //        int[] nums = {3, 2, -1, 4, 0, -6, 3, -2, 6};
         System.out.println(maxProduct(nums));

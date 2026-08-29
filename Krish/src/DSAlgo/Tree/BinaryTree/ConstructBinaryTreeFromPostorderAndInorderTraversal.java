@@ -27,7 +27,7 @@ public class ConstructBinaryTreeFromPostorderAndInorderTraversal {
         printTreeInorder(root.right);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int[] preorder = {3, 9, 20, 15, 7};
         int[] inorder = {9, 3, 15, 20, 7};
         TreeNode root = buildTree(preorder, inorder);

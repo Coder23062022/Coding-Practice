@@ -9,7 +9,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class LongestSubstringWithExactlyKDistinctCharacters {
-    public static void main(String[] args) {
+    static void main() {
         String s = "aabacbebebe";
         int k = 3;
         System.out.println(longestKSubstr(s, k));

@@ -43,7 +43,7 @@ public class MergeKSortedLists {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         /*
          * Let's create three sorted linked lists.
          * llist1: 1->4->5, llist2: 1->3->4, llist3: 2->6

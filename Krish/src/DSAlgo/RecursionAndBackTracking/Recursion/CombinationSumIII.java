@@ -9,7 +9,7 @@ import java.util.List;
 //Space Complexity: O(k * x), k is the average length of combination and x is the no. of combinations
 
 public class CombinationSumIII {
-    public static void main(String[] args) {
+    static void main() {
         int k = 3, n = 7;
         System.out.println(combinationSum3(k, n));
     }

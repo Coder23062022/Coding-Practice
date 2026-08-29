@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class PathWithMinimumEffort {
-    public static void main(String[] args) {
+    static void main() {
         int[][] heights = {{1, 2, 2}, {3, 8, 2}, {5, 3, 5}};
         System.out.println(minimumEffortPath(heights));
     }

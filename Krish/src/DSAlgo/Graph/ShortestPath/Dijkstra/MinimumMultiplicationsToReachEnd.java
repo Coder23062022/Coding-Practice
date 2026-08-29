@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class MinimumMultiplicationsToReachEnd {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {3, 4, 65};
         int start = 7, end = 66175;
         System.out.println(minimumMultiplications(arr, start, end));

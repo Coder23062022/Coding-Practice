@@ -6,7 +6,7 @@ package Krish.src.DSAlgo.DynamicProgramming.DPOnStrings;
 //Space complexity: O(m * n)
 
 public class ShortestCommonSupersequence {
-    public static void main(String[] args) {
+    static void main() {
         String str1 = "abac", str2 = "cab";
 //        String str1 = "brute", str2 = "groot";
         System.out.println(shortestCommonSupersequence(str1, str2));

@@ -18,7 +18,7 @@ Write an efficient algorithm for the following assumptions: N is an integer with
 */
 
 public class HighestSibling {
-	public static void main(String[] args) {
+	static void main() {
 		System.out.println(solution(3431334));
 	}
 

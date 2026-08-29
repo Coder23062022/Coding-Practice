@@ -56,7 +56,7 @@ public class LongestWordWithAllPrefixes {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         String[] words = {"p", "pr", "pro", "probl", "problem", "pros", "process", "processor"};
 //        String[] words = {"geeks", "gfg", "geeksforgeeks"};
         System.out.println(longestValidWord(words));

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class InfoGainInterviewMapQstn {
 
-	public static void main(String[] args) {
+	static void main() {
 		String key1 = "Marks";
 		String key2 = "Salary";
 		String key3 = "Category";

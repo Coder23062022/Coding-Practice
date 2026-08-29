@@ -8,7 +8,7 @@ import java.util.Scanner;
 //Space complexity: O(1)
 
 public class ClimbingStairs {
-    public static void main(String[] args) {
+    static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give the number of stairs to climb:");
         int input = sc.nextInt();

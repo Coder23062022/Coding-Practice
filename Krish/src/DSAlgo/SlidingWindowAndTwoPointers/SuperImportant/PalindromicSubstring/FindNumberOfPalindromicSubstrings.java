@@ -5,7 +5,7 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant.PalindromicS
 //Space complexity: O(n)
 
 public class FindNumberOfPalindromicSubstrings {
-    public static void main(String[] args) {
+    static void main() {
 //        String s = "abc";
         String s = "aaa";
         System.out.println(countSubstrings(s));

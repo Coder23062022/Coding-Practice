@@ -1,7 +1,7 @@
 package Krish.src.MultiThreading;
 
 public class InterThreadCommunication {
-    public static void main(String[] args) {
+    static void main() {
         Q q = new Q();
         new Produce(q);
         new Consume(q);

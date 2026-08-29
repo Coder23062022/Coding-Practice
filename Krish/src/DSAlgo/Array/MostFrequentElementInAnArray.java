@@ -9,7 +9,7 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class MostFrequentElementInAnArray {
-    public static void main(String[] args) {
+    static void main() {
         int[] arr = {1, 2, 2, 2, 4, 1};
         System.out.println(mostFreqEle(arr));
     }

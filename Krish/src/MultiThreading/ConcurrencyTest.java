@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConcurrencyTest {
-    public static void main(String[] args) {
+    static void main() {
         List<String> names = new ArrayList<>();
         names.add("Java");
         names.add("PHP");

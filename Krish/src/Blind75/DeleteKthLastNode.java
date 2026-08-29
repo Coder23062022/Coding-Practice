@@ -23,7 +23,7 @@ public class DeleteKthLastNode {
         }
     }
 
-    public static void main(String[] args) {
+    static void main() {
         int k = 3;
         insert(5);
         insert(4);
