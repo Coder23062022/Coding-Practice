@@ -54,7 +54,7 @@ public class TopKFrequentElements {
     static int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int n : nums) {
-            map.put(n, map.getOrDefault(0, n) + 1);
+            map.put(n, map.getOrDefault(n, 0) + 1);
         }
 
         PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparing(a -> a.freq));
