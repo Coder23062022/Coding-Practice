@@ -19,11 +19,7 @@ public class ImplementTrie {
         }
     }
 
-    static Node root;
-
-    public ImplementTrie() {
-        root = new Node();
-    }
+    static Node root = new Node();
 
     static void insert(String word) {
         Node curr = root;
@@ -40,7 +36,6 @@ public class ImplementTrie {
 
     static boolean search(String word) {
         Node curr = root;
-        if (curr == null) return false;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
             if (curr.children[idx] == null) return false;
@@ -52,7 +47,6 @@ public class ImplementTrie {
 
     static boolean startsWith(String prefix) {
         Node curr = root;
-        if (curr == null) return false;
         for (int i = 0; i < prefix.length(); i++) {
             int idx = prefix.charAt(i) - 'a';
             if (curr.children[idx] == null) return false;
