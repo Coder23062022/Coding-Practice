@@ -19,7 +19,28 @@ public class TopKFrequentElements {
         }
     }
 
-    static int[] topKFrequent1(int[] nums, int k) {
+    static int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int n : nums) {
+            map.put(n, map.getOrDefault(n, 0) + 1);
+        }
+
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparing(a -> a.freq));
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            pq.add(new Pair(entry.getValue(), entry.getKey()));
+            if (pq.size() > k) pq.poll();
+        }
+
+        int[] res = new int[k];
+        int idx = 0;
+        while (!pq.isEmpty()) {
+            res[idx] = pq.poll().num;
+            idx++;
+        }
+        return res;
+    }
+
+    static int[] topKFrequentAnotherApproach(int[] nums, int k) {
         Map<Integer, Integer> mp = new HashMap<>();
         for (int val : nums)
             mp.put(val, mp.getOrDefault(val, 0) + 1);
@@ -49,26 +70,5 @@ public class TopKFrequentElements {
             this.freq = freq;
             this.num = num;
         }
-    }
-
-    static int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int n : nums) {
-            map.put(n, map.getOrDefault(n, 0) + 1);
-        }
-
-        PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparing(a -> a.freq));
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            pq.add(new Pair(entry.getValue(), entry.getKey()));
-            if (pq.size() > k) pq.poll();
-        }
-
-        int[] res = new int[k];
-        int idx = 0;
-        while (!pq.isEmpty()) {
-            res[idx] = pq.poll().num;
-            idx++;
-        }
-        return res;
     }
 }

@@ -32,7 +32,7 @@ public class MinimalParkingSpaces {
         return ans;
     }
 
-    public static void main(String[] args) throws IOException {
+    static void main() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter wr = new PrintWriter(System.out);
         int n = Integer.parseInt(br.readLine().trim());

@@ -16,7 +16,7 @@ public class FindMedianFromDataStream {
     static void main() {
         int[] arr = {5, 15, 1, 3, 2, 8};
         ArrayList<Double> res = getMedian(arr);
-        System.out.printf("%.2f", res.get(0));
+        System.out.printf("%.2f", res.getFirst());
 
         for (int i = 1; i < res.size(); i++) {
             System.out.printf(" %.2f", res.get(i));
@@ -26,19 +26,8 @@ public class FindMedianFromDataStream {
     static ArrayList<Double> getMedian(int[] arr) {
         ArrayList<Double> res = new ArrayList<>();
         for (int j : arr) {
-            leftMaxHeap.add(j);
-            rightMinHeap.add(leftMaxHeap.poll());
-            if (rightMinHeap.size() > leftMaxHeap.size()) {
-                leftMaxHeap.add(rightMinHeap.poll());
-            }
-
-            double median;
-            if (leftMaxHeap.size() != rightMinHeap.size())
-                median = leftMaxHeap.peek();
-            else
-                median = (leftMaxHeap.peek() + rightMinHeap.peek()) / 2.0;
-
-            res.add(median);
+            addNum(j);
+            res.add(findMedian());
         }
         return res;
     }

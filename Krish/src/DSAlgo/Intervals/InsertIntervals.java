@@ -41,6 +41,8 @@ public class InsertIntervals {
             i = i + 1;
         }
 
+        //result.size() is just a convenient way to provide an empty array of the correct type.
+        //You can also use 0 here. Basically we are providing the dimension of the array here.
         return result.toArray(new int[result.size()][]);
     }
 }

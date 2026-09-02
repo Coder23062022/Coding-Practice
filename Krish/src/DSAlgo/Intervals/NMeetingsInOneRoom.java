@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-//Problem: https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+//Problem: https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1
 //Video source: https://www.youtube.com/watch?v=mKfhTotEguk
 //Time Complexity: O(nlogn) + O(n)
 //Space complexity: O(n)
@@ -38,7 +38,7 @@ public class NMeetingsInOneRoom {
         int count = 1;
 
         for (int i = 1; i < start.length; i++) {
-            if (meetings.get(i).start > currEnd) {
+            if (meetings.get(i).start > currEnd) { //no overlap
                 count++;
                 currEnd = meetings.get(i).end;
             }
