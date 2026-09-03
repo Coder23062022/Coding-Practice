@@ -23,7 +23,8 @@ public class TheCelebrityProblem {
         }
 
         for (int i = 0; i < n; i++) {
-            if (top != i) {
+            if (top != i) { //Ignore the diagonal
+                //Entire row should be 0 and entire col should be 1, if not return -1
                 if (mat[top][i] != 0 || mat[i][top] != 1) return -1;
             }
         }
