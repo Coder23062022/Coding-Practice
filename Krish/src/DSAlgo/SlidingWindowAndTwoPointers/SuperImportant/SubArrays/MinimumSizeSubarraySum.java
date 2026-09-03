@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
+package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant.SubArrays;
 
 //Problem: https://leetcode.com/problems/minimum-size-subarray-sum/description/
 //Video source: https://www.youtube.com/watch?v=aYqYMIqZx5s
@@ -17,10 +17,10 @@ public class MinimumSizeSubarraySum {
         int l = 0, r = 0, sum = 0, minLength = Integer.MAX_VALUE;
 
         while (r < nums.length) {
-            sum = sum + nums[r];
+            sum += nums[r];
             while (sum >= target) {
                 minLength = Math.min(minLength, r - l + 1);
-                sum = sum - nums[l];
+                sum -= nums[l];
                 l++;
             }
             r++;

@@ -1,18 +1,19 @@
-package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
+package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant.SubArrays;
 
-//Problem: https://leetcode.com/problems/binary-subarrays-with-sum/
-//Similar problem: https://leetcode.com/problems/count-number-of-nice-subarrays/
+//Problem: https://leetcode.com/problems/count-number-of-nice-subarrays/
+//Similar problem: https://leetcode.com/problems/binary-subarrays-with-sum/
 //Similar problem: https://leetcode.com/problems/subarrays-with-k-different-integers/
-//Video source: https://www.youtube.com/watch?v=XnMdNUkX6VM&ab_channel=takeUforward
+//Video source: https://www.youtube.com/watch?v=j_QOv9OT9Og&ab_channel=takeUforward
 //Time complexity: O(n)
 //Space complexity: O(1)
 
-public class BinarySubarraysWithSum {
+public class CountNumberOfNiceSubarrays {
     static void main() {
-        int[] nums = {1, 0, 1, 0, 1};
-//        int[] nums = {1, 0, 0, 1, 1, 0};
-        int goal = 2;
-        System.out.println(numSubarraysWithSum(nums, goal));
+        int[] nums = {1, 1, 2, 1, 1};
+        int k = 3;
+//        int[] nums = {2, 2, 2, 1, 2, 2, 1, 2, 2, 2};
+//        int k = 2;
+        System.out.println(numSubarraysWithSum(nums, k));
     }
 
     static int numSubarraysWithSum(int[] nums, int goal) {
@@ -24,10 +25,10 @@ public class BinarySubarraysWithSum {
         int l = 0, r = 0, sum = 0, count = 0;
 
         while (r < nums.length) {
-            sum += nums[r];
+            sum += nums[r] % 2;
 
             while (sum > goal) {
-                sum -= nums[l];
+                sum -= nums[l] % 2;
                 l++;
             }
 

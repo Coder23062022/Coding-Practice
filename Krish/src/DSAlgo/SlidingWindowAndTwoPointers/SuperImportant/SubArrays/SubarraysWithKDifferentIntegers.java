@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
+package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant.SubArrays;
 
 import java.util.HashMap;
 import java.util.Map;

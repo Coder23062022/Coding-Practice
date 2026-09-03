@@ -21,6 +21,7 @@ public class LongestRepeatingCharacterReplacement {
 
         while (r < s.length()) {
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
+
             wl = r - l + 1;
             maxF = Math.max(maxF, map.get(s.charAt(r)));
 
@@ -28,10 +29,11 @@ public class LongestRepeatingCharacterReplacement {
             //wl-maxF = number of characters need to be replaced
             if (wl - maxF > k) {
                 map.put(s.charAt(l), map.get(s.charAt(l)) - 1);
+                if (map.get(s.charAt(l)) == 0) map.remove(s.charAt(l)); //Doesn't matter if you remove this condition also
                 l++;
-            } else {
-                maxLen = Math.max(maxLen, wl);
             }
+
+            maxLen = Math.max(maxLen, r - l + 1);
             r++;
         }
         return maxLen;

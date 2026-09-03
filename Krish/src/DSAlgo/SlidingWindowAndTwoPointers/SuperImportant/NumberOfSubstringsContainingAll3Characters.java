@@ -5,8 +5,6 @@ package Krish.src.DSAlgo.SlidingWindowAndTwoPointers.SuperImportant;
 //Time complexity: O(n)
 //Space complexity: O(1)
 
-import java.util.stream.IntStream;
-
 public class NumberOfSubstringsContainingAll3Characters {
     static void main() {
         String s = "abcabc";

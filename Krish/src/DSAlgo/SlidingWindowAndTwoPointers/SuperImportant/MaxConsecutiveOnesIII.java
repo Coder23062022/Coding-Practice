@@ -25,4 +25,18 @@ public class MaxConsecutiveOnesIII {
         }
         return maxLen;
     }
+
+    static int longestOnesMethod2(int[] nums, int k) {
+        int l = 0, r = 0, maxLen = 0;
+        while (r < nums.length) {
+            if (nums[r] == 0) k--;
+            if (k < 0) {
+                if (nums[l] == 0) k++;
+                l++;
+            }
+            maxLen = Math.max(maxLen, r - l + 1);
+            r++;
+        }
+        return maxLen;
+    }
 }
