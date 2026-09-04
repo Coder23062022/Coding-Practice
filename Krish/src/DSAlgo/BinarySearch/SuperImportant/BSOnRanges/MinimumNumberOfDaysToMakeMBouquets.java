@@ -25,6 +25,7 @@ public class MinimumNumberOfDaysToMakeMBouquets {
         int low = Arrays.stream(bloomDay).min().getAsInt();
         int high = Arrays.stream(bloomDay).max().getAsInt();
         int ans = -1;
+
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(bloomDay, k, m, mid)) {

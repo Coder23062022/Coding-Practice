@@ -45,7 +45,7 @@ public class AggressiveCows {
                 countCows++;
                 last = stalls[i];
             }
-            if (countCows == k) return true;
+            if (countCows == k) return true; //Instead of this if check, you can also do 'return countOfCows >= k' after the for loop ends.
         }
         return false;
     }

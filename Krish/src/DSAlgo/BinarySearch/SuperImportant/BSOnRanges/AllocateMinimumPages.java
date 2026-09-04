@@ -7,10 +7,12 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 /*
     TC explanation:
     O(n) is to calculate the sum.
-    Binary search performs between the sum of the array and maximum number of pages in any book, so O(log(Sum(arr) - MAX))
-    Every time we check for isPossible function, so O(n * log(Sum(arr) - MAX))
+    Binary search performs between the sum of the array and maximum number of pages in any book, so O(log(Sum(arr) - MAX(arr)))
+    Every time we check for isPossible function, so O(n * (log(Sum(arr) - MAX(arr))))
 */
 //Space complexity: O(1)
+
+import java.util.Arrays;
 
 public class AllocateMinimumPages {
     static void main() {
@@ -22,17 +24,11 @@ public class AllocateMinimumPages {
 
     static int findPages(int[] arr, int k) {
         if (k > arr.length) return -1;
-        int sumOfPages = 0;
-        for (int pages : arr) {
-            sumOfPages += pages;
-        }
 
-        int maxPages = 0;
-        for (int pages : arr) {
-            maxPages = Math.max(maxPages, pages);
-        }
+        int low = Arrays.stream(arr).max().getAsInt();
+        int high = Arrays.stream(arr).sum();
+        int ans = -1;
 
-        int low = maxPages, high = sumOfPages, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(arr, k, mid)) {

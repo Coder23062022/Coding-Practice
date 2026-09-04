@@ -6,6 +6,8 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Space complexity: O(1)
 //Note: Same solution as AllocateMinimumPages
 
+import java.util.Arrays;
+
 public class SplitArrayLargestSum {
     static void main() {
         int[] nums = {7, 2, 5, 10, 8};
@@ -15,17 +17,11 @@ public class SplitArrayLargestSum {
 
     static int splitArray(int[] nums, int k) {
         if (k > nums.length) return -1;
-        int sumOfTheArray = 0;
-        for (int num : nums) {
-            sumOfTheArray += num;
-        }
 
-        int maxVal = 0;
-        for (int num : nums) {
-            maxVal = Math.max(maxVal, num);
-        }
+        int low = Arrays.stream(nums).max().getAsInt();
+        int high = Arrays.stream(nums).sum();
+        int ans = -1;
 
-        int low = maxVal, high = sumOfTheArray, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(nums, k, mid)) {

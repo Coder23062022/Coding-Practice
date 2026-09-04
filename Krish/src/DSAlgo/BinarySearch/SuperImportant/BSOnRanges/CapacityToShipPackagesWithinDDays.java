@@ -6,6 +6,8 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Space complexity: O(1)
 //Note: Same solution as AllocateMinimumPages
 
+import java.util.Arrays;
+
 public class CapacityToShipPackagesWithinDDays {
     static void main() {
         int[] weights = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -14,17 +16,10 @@ public class CapacityToShipPackagesWithinDDays {
     }
 
     static int shipWithinDays(int[] weights, int days) {
-        int sumOfWeights = 0;
-        for (int weight : weights) {
-            sumOfWeights += weight;
-        }
+        int low = Arrays.stream(weights).max().getAsInt();
+        int high = Arrays.stream(weights).sum();
+        int ans = -1;
 
-        int maxWeight = 0;
-        for (int weight : weights) {
-            maxWeight = Math.max(maxWeight, weight);
-        }
-
-        int low = maxWeight, high = sumOfWeights, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(weights, days, mid)) {

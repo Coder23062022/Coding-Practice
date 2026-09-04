@@ -6,6 +6,8 @@ package Krish.src.DSAlgo.BinarySearch.SuperImportant.BSOnRanges;
 //Space complexity: O(1)
 //Note: Same solution as AllocateMinimumPages
 
+import java.util.Arrays;
+
 public class PaintersPartitionProblem {
     static void main() {
         int[] arr = {5, 10, 30, 20, 15};
@@ -14,17 +16,10 @@ public class PaintersPartitionProblem {
     }
 
     static int minTime(int[] arr, int k) {
-        int sumOfBoardLengths = 0;
-        for (int boardLen : arr) {
-            sumOfBoardLengths += boardLen;
-        }
+        int low = Arrays.stream(arr).max().getAsInt();
+        int high = Arrays.stream(arr).sum();
+        int ans = -1;
 
-        int maxBoardLen = 0;
-        for (int boardLen : arr) {
-            maxBoardLen = Math.max(maxBoardLen, boardLen);
-        }
-
-        int low = maxBoardLen, high = sumOfBoardLengths, ans = -1;
         while (low <= high) {
             int mid = (low + high) / 2;
             if (isPossible(arr, k, mid)) {

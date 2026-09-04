@@ -2,6 +2,10 @@ package Krish.src.DSAlgo.BinarySearch;
 
 import java.util.Scanner;
 
+//Problem: https://leetcode.com/problems/binary-search/
+//Time complexity: O(logn)
+//Space complexity: O(1)
+
 public class BinarySearch {
     static void main() {
         int[] a = {5, 9, 15, 20, 23, 29, 65};
