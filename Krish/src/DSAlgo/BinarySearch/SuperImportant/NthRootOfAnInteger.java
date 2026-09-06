@@ -24,8 +24,8 @@ public class NthRootOfAnInteger {
                 if (x > m) break;
             }
             if (x == m) return (int) mid;
-            else if (x > m) high = mid - 1;
-            else low = mid + 1;
+            else if (x < m) low = mid + 1;
+            else high = mid - 1;
         }
         return -1;
     }

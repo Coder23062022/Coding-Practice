@@ -25,7 +25,7 @@ public class Candy {
             }
         }
 
-        int curr = 1, right = 1, sum = Math.max(1, left[n - 1]);
+        int curr, right = 1, sum = Math.max(1, left[n - 1]);
         for (int i = n - 2; i >= 0; i--) {
             if (ratings[i] > ratings[i + 1]) {
                 curr = right + 1;

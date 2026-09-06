@@ -20,13 +20,9 @@ public class FindSquareRoot {
         int low = 0, high = x;
         while (low <= high) {
             long mid = (low + high) / 2;
-            if (mid * mid == x) {
-                return (int) mid;
-            } else if (mid * mid < x) {
-                low = (int) mid + 1;
-            } else {
-                high = (int) mid - 1;
-            }
+            if (mid * mid == x) return (int) mid;
+            else if (mid * mid < x) low = (int) mid + 1;
+            else high = (int) mid - 1;
         }
         //The flow will come here only when the input is not a perfect square. In that case return the last 'high' value.
         //Because that will be maximum possible integer that is close to the ans.
