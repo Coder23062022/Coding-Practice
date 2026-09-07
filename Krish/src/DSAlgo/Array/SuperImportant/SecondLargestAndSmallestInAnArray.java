@@ -33,7 +33,7 @@ public class SecondLargestAndSmallestInAnArray {
             if (nums[i] < smallest) {
                 secondSmallest = smallest;
                 smallest = nums[i];
-            } else if (nums[i] != smallest && nums[i] < secondSmallest) {
+            } else if (nums[i] > smallest && nums[i] < secondSmallest) {
                 secondSmallest = nums[i];
             }
         }

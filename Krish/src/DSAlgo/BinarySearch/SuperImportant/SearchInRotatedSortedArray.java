@@ -19,10 +19,10 @@ public class SearchInRotatedSortedArray {
             int mid = (low + high) / 2;
             if (nums[mid] == target) return mid;
             if (nums[mid] >= nums[low]) { //It means left portion is sorted.
-                if (target >= nums[low] && target <= nums[mid]) high = mid - 1; //Search in left portion
+                if (target >= nums[low] && target < nums[mid]) high = mid - 1; //Search in left portion
                 else low = mid + 1; //Search in right portion
             } else { //It means right portion is sorted.
-                if (target >= nums[mid] && target <= nums[high]) low = mid + 1; //Search in right portion
+                if (target > nums[mid] && target <= nums[high]) low = mid + 1; //Search in right portion
                 else high = mid - 1; //Search in left portion
             }
         }
