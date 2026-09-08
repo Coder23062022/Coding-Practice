@@ -69,4 +69,26 @@ public class DeleteKthLastNode {
             node = node.next;
         }
     }
+
+    static Node removeNthFromEndMethod2(Node head, int n) {
+        Node dummyNode = new Node(-1, head);
+        Node res = dummyNode;
+
+        Node tail = head;
+        int len = 1;
+
+        while (tail != null) {
+            tail = tail.next;
+            len++;
+        }
+
+        int end = len - n;
+
+        for (int i = 1; i < end; i++) {
+            res = res.next;
+        }
+
+        res.next = res.next.next;
+        return dummyNode.next;
+    }
 }

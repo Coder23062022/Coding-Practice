@@ -1,6 +1,7 @@
 package Krish.src.DSAlgo.LinkedList.SuperImportant;
 
 //Problem: https://leetcode.com/problems/swap-nodes-in-pairs/
+//Video source: https://www.youtube.com/watch?v=wwbTMNVlFHQ
 //Time Complexity: O(n)
 //Space Complexity: O(n/2), if we use recursive approach. For iterative approach, it will be O(1).
 
@@ -40,7 +41,8 @@ public class SwapNodesInPairs {
     static Node swapPairs(Node head) {
         if (head == null || head.next == null) return head;
         Node dummyNode = new Node(-1);
-        Node curr = head, prev = dummyNode;
+        Node prev = dummyNode;
+        Node curr = head;
 
         while (curr != null && curr.next != null) {
             prev.next = curr.next;
