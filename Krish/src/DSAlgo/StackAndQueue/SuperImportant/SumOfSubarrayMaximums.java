@@ -14,16 +14,16 @@ public class SumOfSubarrayMaximums {
     }
 
     public static int sumSubarrayMax(int[] arr) {
-        int[] pse = previousGreaterElement(arr);
-        int[] nse = nextGreaterElement(arr);
+        int[] pge = previousGreaterElement(arr);
+        int[] nge = nextGreaterElement(arr);
         int n = arr.length;
 
         long sum = 0;
         int mod = (int) 1e9 + 7;
 
         for (int i = 0; i < n; i++) {
-            int left = i - pse[i];
-            int right = nse[i] - i;
+            int left = i - pge[i];
+            int right = nge[i] - i;
 
             sum += (long) left * right * arr[i];
             sum = sum % mod;

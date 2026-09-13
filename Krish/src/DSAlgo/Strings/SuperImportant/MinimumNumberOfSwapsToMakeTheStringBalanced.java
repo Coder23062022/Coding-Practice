@@ -16,9 +16,9 @@ public class MinimumNumberOfSwapsToMakeTheStringBalanced {
 
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '[') {
-                close -= 1;
+                close--;
             } else {
-                close += 1;
+                close++;
             }
             maxClose = Math.max(maxClose, close);
         }

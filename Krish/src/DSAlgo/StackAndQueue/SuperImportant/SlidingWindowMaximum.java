@@ -33,6 +33,7 @@ public class SlidingWindowMaximum {
             while (!dq.isEmpty() && nums[i] >= nums[dq.peekLast()]) {
                 dq.pollLast();
             }
+
             dq.addLast(i);
 
             //Start adding into the result after i value passes the kth iteration.

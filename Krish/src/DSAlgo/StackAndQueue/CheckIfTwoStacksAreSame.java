@@ -28,7 +28,7 @@ public class CheckIfTwoStacksAreSame {
         return true;
     }
 
-    public static void main(String[] arr) {
+    static void main() {
         Stack<String> stack1 = new Stack<>();
         Stack<String> stack2 = new Stack<>();
 

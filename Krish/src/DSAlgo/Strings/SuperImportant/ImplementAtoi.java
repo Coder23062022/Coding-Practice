@@ -31,7 +31,9 @@ public class ImplementAtoi {
                     (res == Integer.MAX_VALUE / 10 && s.charAt(idx) - '0' > 7)) {
                 return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
-            res = 10 * res + (s.charAt(idx++) - '0');
+
+            res = 10 * res + (s.charAt(idx) - '0');
+            idx++;
         }
         return res * sign;
     }

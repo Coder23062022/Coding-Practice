@@ -18,12 +18,7 @@ public class GroupAnagrams {
     static List<List<String>> groupAnagramsWithoutSorting(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String s : strs) {
-            char[] frequencyArr = new char[26];
-            for (int i = 0; i < s.length(); i++) {
-                frequencyArr[s.charAt(i) - 'a']++;
-            }
-
-            String keyStr = String.valueOf(frequencyArr);
+            String keyStr = getKey(s);
             if (!map.containsKey(keyStr)) {
                 map.put(keyStr, new ArrayList<>(List.of(s)));
             } else {
@@ -31,6 +26,16 @@ public class GroupAnagrams {
             }
         }
         return new ArrayList<>(map.values());
+    }
+
+    static String getKey(String s) {
+        char[] frequencyArr = new char[26];
+
+        for (char c : s.toCharArray()) {
+            frequencyArr[c - 'a']++;
+        }
+
+        return String.valueOf(frequencyArr);
     }
 
     //Time complexity: O(n * k * logk), where n is the number of words and k is the maximum length of a word

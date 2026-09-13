@@ -18,7 +18,7 @@ public class MinimumAddToMakeParenthesesValid {
             if (s.charAt(i) == '(') {
                 open++;
             } else {
-                if (open != 0) {
+                if (open > 0) {
                     open--;
                 } else {
                     close++;

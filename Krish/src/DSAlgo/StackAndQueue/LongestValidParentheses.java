@@ -1,4 +1,4 @@
-package src.Stack;
+package Krish.src.DSAlgo.StackAndQueue;
 
 //Problem: https://leetcode.com/problems/longest-valid-parentheses/
 //Video source: https://www.youtube.com/watch?v=VdQuwtEd10M&t=437s&ab_channel=AlgorithmsMadeEasy

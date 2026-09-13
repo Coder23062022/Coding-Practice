@@ -9,16 +9,6 @@ import java.util.Map;
 //Space complexity: O(n)
 
 public class FirstNonRepeatingCharInAString {
-    static class Pair {
-        Integer count;
-        Integer index;
-
-        Pair(Integer count, Integer index) {
-            this.count = count;
-            this.index = index;
-        }
-    }
-
     static void main() {
         String str1 = "abcaabbdce";
         String str2 = "geeksforgeeks";
@@ -29,17 +19,13 @@ public class FirstNonRepeatingCharInAString {
     //Time complexity: O(n)
     //Space complexity: O(n)
     static int firstNonRepeatingCharInAStringMeth1(String s) {
-        Map<Character, Pair> hm = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
-            if (hm.containsKey(s.charAt(i))) {
-                hm.put(s.charAt(i), new Pair(hm.get(s.charAt(i)).count + 1, i));
-            } else {
-                hm.put(s.charAt(i), new Pair(1, i));
-            }
+            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
         }
         for (int i = 0; i < s.length(); i++) {
-            if (hm.get(s.charAt(i)).count == 1)
-                return hm.get(s.charAt(i)).index;
+            if (map.get(s.charAt(i)) == 1)
+                return i;
         }
         return -1;
     }
