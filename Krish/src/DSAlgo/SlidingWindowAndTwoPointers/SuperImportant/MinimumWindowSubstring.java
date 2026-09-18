@@ -18,31 +18,36 @@ public class MinimumWindowSubstring {
     static String minWindowUsingHashMap(String s, String t) {
         if (s.length() < t.length()) return "";
 
-        Map<Character, Integer> map = new HashMap<>();
-        int l = 0, r = 0, minLen = Integer.MAX_VALUE, sIdx = -1, count = 0;
-
-        //Fill the map with the character frequencies of t string
-        for (int i = 0; i < t.length(); i++) {
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
+        Map<Character, Integer> freqMap = new HashMap<>();
+        for (char ch : t.toCharArray()) {
+            freqMap.put(ch, freqMap.getOrDefault(ch, 0) + 1);
         }
 
-        //Run the sliding window for s string
-        while (r < s.length()) {
-            if (map.containsKey(s.charAt(r)) && map.get(s.charAt(r)) > 0) count++;
-            map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) - 1);
+        int count = 0, minLen = Integer.MAX_VALUE, startIndex = -1, l = 0, r = 0;
 
+        while (r < s.length()) {
+            if (freqMap.containsKey(s.charAt(r)) && freqMap.get(s.charAt(r)) > 0) { //If its pre-inserted
+                count++;
+            }
+
+            freqMap.put(s.charAt(r), freqMap.getOrDefault(s.charAt(r), 0) - 1); //Decrement the char freq while expanding
+
+            //Shrink the window till count matches t length to find the minimum window
             while (count == t.length()) {
                 if (r - l + 1 < minLen) {
                     minLen = r - l + 1;
-                    sIdx = l;
+                    startIndex = l;
                 }
-                map.put(s.charAt(l), map.get(s.charAt(l)) + 1);
-                if (map.get(s.charAt(l)) > 0) count--;
+
+                freqMap.put(s.charAt(l), freqMap.get(s.charAt(l)) + 1); //Increment the char freq while shrinking
+                if (freqMap.get(s.charAt(l)) > 0)
+                    count--; //If char freq becomes positive, decrement the count to break the loop
                 l++;
             }
+
             r++;
         }
-        return sIdx == -1 ? "" : s.substring(sIdx, sIdx + minLen);
+        return startIndex == -1 ? "" : s.substring(startIndex, startIndex + minLen);
     }
 
     static String minWindowUsingArray(String s, String t) {

@@ -1,10 +1,6 @@
-package src.Strings;
+package Krish.src.DSAlgo.Strings;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 //Time Complexity: O(nlogn)
 //Auxiliary Space: O(n)
@@ -18,11 +14,7 @@ public class SecondMostFrequentCharacterInAStringUsingCollection {
     static void meth(String s) {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
-            if (map.containsKey(s.charAt(i))) {
-                map.put(s.charAt(i), map.get(s.charAt(i)) + 1);
-            } else {
-                map.put(s.charAt(i), 1);
-            }
+            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
         }
 
         List<Integer> list = new ArrayList<>(map.values());
