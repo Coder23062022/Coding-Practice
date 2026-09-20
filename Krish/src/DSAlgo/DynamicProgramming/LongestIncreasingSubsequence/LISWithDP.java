@@ -23,8 +23,9 @@ public class LISWithDP {
         if (index == n) return 0;
 
         int maxLen = recursionHelper(nums, n, index + 1, prev_index); //not take
-        if (prev_index == -1 || nums[index] > nums[prev_index]) { //take
-            maxLen = Math.max(maxLen, 1 + recursionHelper(nums, n, index + 1, index));
+        if (prev_index == -1 || nums[index] > nums[prev_index]) {
+            int len = 1 + recursionHelper(nums, n, index + 1, index); //take
+            maxLen = Math.max(maxLen, len);
         }
         return maxLen;
     }
@@ -42,8 +43,9 @@ public class LISWithDP {
         if (dp[index][prev_index + 1] != -1) return dp[index][prev_index + 1];
 
         int maxLen = memoizationHelper(nums, n, index + 1, prev_index, dp); //not take
-        if (prev_index == -1 || nums[index] > nums[prev_index]) { //take
-            maxLen = Math.max(maxLen, 1 + memoizationHelper(nums, n, index + 1, index, dp));
+        if (prev_index == -1 || nums[index] > nums[prev_index]) {
+            int len = 1 + memoizationHelper(nums, n, index + 1, index, dp); //take
+            maxLen = Math.max(maxLen, len);
         }
         return dp[index][prev_index + 1] = maxLen;
     }

@@ -4,12 +4,36 @@ package Krish.src.DSAlgo.DynamicProgramming.Subsequences_01KnapsackBased;
 //Video source: https://www.youtube.com/watch?v=F7wqWbqYn9g&ab_channel=AdityaVerma
 //Video source: https://www.youtube.com/watch?v=ZHyb-A2Mte4&ab_channel=takeUforward
 
+import java.util.Arrays;
+
 public class CountOfSubsetsSumWithAGivenSum {
     static void main() {
         int[] arr = {28, 4, 3, 27, 0, 24, 26};
         int target = 24;
+        System.out.println(perfectSumWithMemoization(arr, target));
         System.out.println(perfectSumWithTabulation(arr, target));
         System.out.println(perfectSumWithSpaceOptimizedTabulation(arr, target));
+    }
+
+    //TC: O(n*target), SC: O(n*target) + Recursion stack space
+    static int perfectSumWithMemoization(int[] arr, int target) {
+        int n = arr.length;
+        int[][] dp = new int[n + 1][target + 1];
+        for (int[] row : dp) Arrays.fill(row, -1);
+        return perfectSumHelperWithMemoization(arr, target, n, dp);
+    }
+
+    static int perfectSumHelperWithMemoization(int[] arr, int sum, int n, int[][] dp) {
+        if (n == 0) return sum == 0 ? 1 : 0;
+
+        if (dp[n][sum] != -1) return dp[n][sum];
+
+        if (arr[n - 1] <= sum) {
+            dp[n][sum] = perfectSumHelperWithMemoization(arr, sum - arr[n - 1], n - 1, dp) + perfectSumHelperWithMemoization(arr, sum, n - 1, dp);
+        } else {
+            dp[n][sum] = perfectSumHelperWithMemoization(arr, sum, n - 1, dp);
+        }
+        return dp[n][sum];
     }
 
     //TC: O(n*target), SC: O(n*target)

@@ -20,18 +20,18 @@ public class BestTimeToBuyAndSellStockWithCooldown {
         int n = prices.length;
         int[][] dp = new int[n + 1][2];
         for (int[] row : dp) Arrays.fill(row, -1);
-        return memoizationHelper(0, 1, prices, n, dp);
+        return memoizationHelper(0, 1, prices, dp);
     }
 
-    static int memoizationHelper(int i, int buy, int[] prices, int n, int[][] dp) {
-        if (i >= n) return 0;
+    static int memoizationHelper(int i, int buy, int[] prices, int[][] dp) {
+        if (i >= prices.length) return 0;
 
         if (dp[i][buy] != -1) return dp[i][buy];
 
         if (buy == 1) {
-            dp[i][buy] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, n, dp), memoizationHelper(i + 1, 1, prices, n, dp));
+            dp[i][buy] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, dp), memoizationHelper(i + 1, 1, prices, dp));
         } else {
-            dp[i][buy] = Math.max(prices[i] + memoizationHelper(i + 2, 1, prices, n, dp), memoizationHelper(i + 1, 0, prices, n, dp));
+            dp[i][buy] = Math.max(prices[i] + memoizationHelper(i + 2, 1, prices, dp), memoizationHelper(i + 1, 0, prices, dp));
         }
         return dp[i][buy];
     }

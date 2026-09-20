@@ -20,7 +20,7 @@ public class CoinChange {
         int n = coins.length;
         int[][] dp = new int[n + 1][amount + 1];
         for (int[] row : dp) Arrays.fill(row, -1);
-        return changeHelperWithMemoization(coins, amount, n, dp);
+        return changeHelperWithMemoization(coins, amount, n, dp) == Integer.MAX_VALUE - 1 ? -1 : changeHelperWithMemoization(coins, amount, n, dp);
     }
 
     static int changeHelperWithMemoization(int[] coins, int amount, int n, int[][] dp) {

@@ -31,31 +31,30 @@ public class ShortestCommonSupersequence {
         int scsLen = m + n - lcsLen; //This is not in use for this problem, but just to know the length of scs
 
         StringBuilder res = new StringBuilder();
-        int i = m, j = n;
-        while (i > 0 && j > 0) {
-            if (str1.charAt(i - 1) == str2.charAt(j - 1)) {
-                res.append(str1.charAt(i - 1));
-                i--;
-                j--;
-            } else if (dp[i - 1][j] > dp[i][j - 1]) {
-                res.append(str1.charAt(i - 1));
-                i--;
+        while (m > 0 && n > 0) {
+            if (str1.charAt(m - 1) == str2.charAt(n - 1)) {
+                res.append(str1.charAt(m - 1));
+                m--;
+                n--;
+            } else if (dp[m - 1][n] > dp[m][n - 1]) {
+                res.append(str1.charAt(m - 1));
+                m--;
             } else {
-                res.append(str2.charAt(j - 1));
-                j--;
+                res.append(str2.charAt(n - 1));
+                n--;
             }
         }
 
         //For leftover characters in the first string
-        while (i > 0) {
-            res.append(str1.charAt(i - 1));
-            i--;
+        while (m > 0) {
+            res.append(str1.charAt(m - 1));
+            m--;
         }
 
         //For leftover characters in the second string
-        while (j > 0) {
-            res.append(str2.charAt(j - 1));
-            j--;
+        while (n > 0) {
+            res.append(str2.charAt(n - 1));
+            n--;
         }
 
         //Reverse the string as we formed the result in bottom-up approach

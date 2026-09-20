@@ -24,8 +24,7 @@ public class PartitionEqualSubsetSum {
     }
 
     static boolean canPartitionHelperWithMemoization(int[] arr, int sum, int n, Boolean[][] dp) {
-        if (sum == 0) return true; //empty subset
-        if (n == 0) return false;
+        if (n == 0) return sum == 0;
 
         if (dp[n][sum] != null) return dp[n][sum];
 

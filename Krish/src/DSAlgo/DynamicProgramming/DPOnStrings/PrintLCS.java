@@ -34,20 +34,18 @@ public class PrintLCS {
         int lcsLen = dp[m][n];
         String[] res = new String[lcsLen];
         Arrays.fill(res, "$");
-
         int index = lcsLen - 1;
-        int i = str1.length(), j = str2.length();
 
-        while (i > 0 && j > 0) {
-            if (str1.charAt(i - 1) == str2.charAt(j - 1)) {
-                res[index] = String.valueOf(str1.charAt(i - 1));
+        while (m > 0 && n > 0) {
+            if (str1.charAt(m - 1) == str2.charAt(n - 1)) {
+                res[index] = String.valueOf(str1.charAt(m - 1));
                 index--;
-                i--;
-                j--;
-            } else if (dp[i - 1][j] > dp[i][j - 1]) {
-                i--;
+                m--;
+                n--;
+            } else if (dp[m - 1][n] > dp[m][n - 1]) {
+                m--;
             } else {
-                j--;
+                n--;
             }
         }
         return Arrays.toString(res);

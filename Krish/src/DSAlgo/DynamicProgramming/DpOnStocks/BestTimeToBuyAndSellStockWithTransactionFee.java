@@ -20,18 +20,18 @@ public class BestTimeToBuyAndSellStockWithTransactionFee {
         int n = prices.length;
         int[][] dp = new int[n + 1][2];
         for (int[] row : dp) Arrays.fill(row, -1);
-        return memoizationHelper(0, 1, prices, n, dp, fee);
+        return memoizationHelper(0, 1, prices, dp, fee);
     }
 
-    static int memoizationHelper(int i, int buy, int[] prices, int n, int[][] dp, int fee) {
-        if (i == n) return 0;
+    static int memoizationHelper(int i, int buy, int[] prices, int[][] dp, int fee) {
+        if (i == prices.length) return 0;
 
         if (dp[i][buy] != -1) return dp[i][buy];
 
         if (buy == 1) {
-            dp[i][buy] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, n, dp, fee), memoizationHelper(i + 1, 1, prices, n, dp, fee));
+            dp[i][buy] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, dp, fee), memoizationHelper(i + 1, 1, prices, dp, fee));
         } else {
-            dp[i][buy] = Math.max((prices[i] - fee) + memoizationHelper(i + 1, 1, prices, n, dp, fee), memoizationHelper(i + 1, 0, prices, n, dp, fee));
+            dp[i][buy] = Math.max((prices[i] - fee) + memoizationHelper(i + 1, 1, prices, dp, fee), memoizationHelper(i + 1, 0, prices, dp, fee));
         }
         return dp[i][buy];
     }

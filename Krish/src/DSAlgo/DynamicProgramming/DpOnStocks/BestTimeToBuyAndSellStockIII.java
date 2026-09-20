@@ -42,17 +42,17 @@ public class BestTimeToBuyAndSellStockIII {
         for (int[][] dp1 : dp) {
             for (int[] row : dp1) Arrays.fill(row, -1);
         }
-        return memoizationHelper(0, 1, prices, n, dp, 2);
+        return memoizationHelper(0, 1, prices, dp, 2);
     }
 
-    static int memoizationHelper(int i, int buy, int[] prices, int n, int[][][] dp, int capacity) {
-        if (i == n || capacity == 0) return 0;
+    static int memoizationHelper(int i, int buy, int[] prices, int[][][] dp, int capacity) {
+        if (i == prices.length || capacity == 0) return 0;
         if (dp[i][buy][capacity] != -1) return dp[i][buy][capacity];
 
         if (buy == 1) {
-            dp[i][buy][capacity] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, n, dp, capacity), memoizationHelper(i + 1, 1, prices, n, dp, capacity));
+            dp[i][buy][capacity] = Math.max(-prices[i] + memoizationHelper(i + 1, 0, prices, dp, capacity), memoizationHelper(i + 1, 1, prices, dp, capacity));
         } else {
-            dp[i][buy][capacity] = Math.max(prices[i] + memoizationHelper(i + 1, 1, prices, n, dp, capacity - 1), memoizationHelper(i + 1, 0, prices, n, dp, capacity));
+            dp[i][buy][capacity] = Math.max(prices[i] + memoizationHelper(i + 1, 1, prices, dp, capacity - 1), memoizationHelper(i + 1, 0, prices, dp, capacity));
         }
         return dp[i][buy][capacity];
     }
@@ -97,7 +97,7 @@ public class BestTimeToBuyAndSellStockIII {
         return prev[1][2];
     }
 
-    ////////////////////////////////////////////////ANOTHER WAY TO SOLVE: WITH TRANSACTION NUMBER///////////////////////////////////////
+    /// /////////////////////////////////////////////ANOTHER WAY TO SOLVE: WITH TRANSACTION NUMBER///////////////////////////////////////
     //TC: O(n*4), SC: O(n*4)
     static int maxProfitWithTransactionNumberMemoization(int[] prices) {
         int n = prices.length;

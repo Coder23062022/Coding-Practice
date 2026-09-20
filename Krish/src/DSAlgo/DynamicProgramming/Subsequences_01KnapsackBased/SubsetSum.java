@@ -15,17 +15,15 @@ public class SubsetSum {
         System.out.println(isSubsetSumWithSpaceOptimizedTabulation(arr, sum));
     }
 
-    //TC: O(n*sum), SC: O(n*sum)
+    //TC: O(n*sum), SC: O(n*sum) + Recursion stack space
     static Boolean isSubsetSumWithMemoization(int[] arr, int sum) {
         int n = arr.length;
         boolean[][] dp = new boolean[n + 1][sum + 1];
-        for (boolean[] row : dp) Arrays.fill(row, false);
         return isSubsetSumHelperWithMemoization(arr, sum, n, dp);
     }
 
     static Boolean isSubsetSumHelperWithMemoization(int[] arr, int sum, int n, boolean[][] dp) {
-        if (sum == 0) return true; //empty subset
-        if (n == 0) return false;
+        if (n == 0) return sum == 0;
 
         if (dp[n][sum]) return true;
 
