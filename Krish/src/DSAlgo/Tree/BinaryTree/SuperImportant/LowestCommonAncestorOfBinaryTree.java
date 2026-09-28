@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 //Video source: https://www.youtube.com/watch?v=cOjLyASDJcc&ab_channel=AnujBhaiya

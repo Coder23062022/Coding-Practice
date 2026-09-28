@@ -35,8 +35,10 @@ public class CountGoodNodesInBinaryTree {
 
     static void goodNodes(TreeNode node, int[] count, int max) {
         if (node == null) return;
-        if (node.data >= max) count[0]++;
-        max = Math.max(max, node.data);
+        if (node.data >= max) {
+            count[0]++;
+            max = node.data;
+        }
         goodNodes(node.left, count, max);
         goodNodes(node.right, count, max);
     }

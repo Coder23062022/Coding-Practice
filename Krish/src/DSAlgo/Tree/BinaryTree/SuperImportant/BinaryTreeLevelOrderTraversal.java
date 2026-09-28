@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

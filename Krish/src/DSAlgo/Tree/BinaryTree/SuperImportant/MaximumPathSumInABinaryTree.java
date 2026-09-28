@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/binary-tree-maximum-path-sum/
 //Video source: https://www.youtube.com/watch?v=WszrfSwMz58&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=17&ab_channel=takeUforward

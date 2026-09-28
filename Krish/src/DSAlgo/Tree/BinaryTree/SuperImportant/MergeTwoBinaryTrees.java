@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/merge-two-binary-trees/
 //Video source: https://www.youtube.com/watch?v=QHH6rIK3dDQ&ab_channel=NeetCode

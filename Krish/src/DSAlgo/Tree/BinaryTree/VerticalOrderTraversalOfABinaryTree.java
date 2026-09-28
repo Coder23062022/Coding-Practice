@@ -41,27 +41,27 @@ public class VerticalOrderTraversalOfABinaryTree {
     }
 
     static class Tuple {
-        TreeNode node;
         int vertical;
         int level;
+        TreeNode node;
 
-        Tuple(TreeNode node, int vertical, int level) {
-            this.node = node;
+        Tuple(int vertical, int level, TreeNode node) {
             this.vertical = vertical;
             this.level = level;
+            this.node = node;
         }
     }
 
     static List<List<Integer>> verticalTraversal(TreeNode root) {
         Map<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
         Queue<Tuple> q = new LinkedList<>();
-        q.add(new Tuple(root, 0, 0));
+        q.add(new Tuple(0, 0, root));
 
         while (!q.isEmpty()) {
             Tuple tuple = q.poll();
-            TreeNode node = tuple.node;
             int vertical = tuple.vertical;
             int level = tuple.level;
+            TreeNode node = tuple.node;
 
             if (!map.containsKey(vertical)) {
                 map.put(vertical, new TreeMap<>());
@@ -73,11 +73,11 @@ public class VerticalOrderTraversalOfABinaryTree {
             map.get(vertical).get(level).add(node.data);
 
             if (node.left != null) {
-                q.add(new Tuple(node.left, vertical - 1, level + 1));
+                q.add(new Tuple(vertical - 1, level + 1, node.left));
             }
 
             if (node.right != null) {
-                q.add(new Tuple(node.right, vertical + 1, level + 1));
+                q.add(new Tuple(vertical + 1, level + 1, node.right));
             }
         }
 

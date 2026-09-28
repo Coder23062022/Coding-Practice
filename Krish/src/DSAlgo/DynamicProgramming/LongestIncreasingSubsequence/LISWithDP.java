@@ -15,16 +15,15 @@ public class LISWithDP {
 
     //TC: O(2^n), SC: O(n)
     static int lengthOfLISWithRecursion(int[] nums) {
-        int n = nums.length;
-        return recursionHelper(nums, n, 0, -1);
+        return recursionHelper(nums, 0, -1);
     }
 
-    static int recursionHelper(int[] nums, int n, int index, int prev_index) {
-        if (index == n) return 0;
+    static int recursionHelper(int[] nums, int index, int prev_index) {
+        if (index == nums.length) return 0;
 
-        int maxLen = recursionHelper(nums, n, index + 1, prev_index); //not take
+        int maxLen = recursionHelper(nums, index + 1, prev_index); //not take
         if (prev_index == -1 || nums[index] > nums[prev_index]) {
-            int len = 1 + recursionHelper(nums, n, index + 1, index); //take
+            int len = 1 + recursionHelper(nums, index + 1, index); //take
             maxLen = Math.max(maxLen, len);
         }
         return maxLen;
@@ -35,16 +34,16 @@ public class LISWithDP {
         int n = nums.length;
         int[][] dp = new int[n + 1][n + 1];
         for (int[] row : dp) Arrays.fill(row, -1);
-        return memoizationHelper(nums, n, 0, -1, dp);
+        return memoizationHelper(nums, 0, -1, dp);
     }
 
-    static int memoizationHelper(int[] nums, int n, int index, int prev_index, int[][] dp) {
-        if (index == n) return 0; //Base case
+    static int memoizationHelper(int[] nums, int index, int prev_index, int[][] dp) {
+        if (index == nums.length) return 0; //Base case
         if (dp[index][prev_index + 1] != -1) return dp[index][prev_index + 1];
 
-        int maxLen = memoizationHelper(nums, n, index + 1, prev_index, dp); //not take
+        int maxLen = memoizationHelper(nums, index + 1, prev_index, dp); //not take
         if (prev_index == -1 || nums[index] > nums[prev_index]) {
-            int len = 1 + memoizationHelper(nums, n, index + 1, index, dp); //take
+            int len = 1 + memoizationHelper(nums, index + 1, index, dp); //take
             maxLen = Math.max(maxLen, len);
         }
         return dp[index][prev_index + 1] = maxLen;

@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 import java.util.ArrayList;
 
@@ -31,21 +31,21 @@ public class PathFromRootToAGivenNodeInABinaryTree {
     }
 
     static void printPath(Node root, int x) {
-        ArrayList<Integer> arr = new ArrayList<>();
-        if (hasPath(root, arr, x)) {
-            for (int i = 0; i < arr.size() - 1; i++)
-                System.out.print(arr.get(i) + "->");
-            System.out.print(arr.get(arr.size() - 1));
+        ArrayList<Integer> res = new ArrayList<>();
+        if (hasPath(root, res, x)) {
+            for (int i = 0; i < res.size() - 1; i++)
+                System.out.print(res.get(i) + "->");
+            System.out.print(res.get(res.size() - 1));
         } else
             System.out.print("No Path");
     }
 
-    static boolean hasPath(Node root, ArrayList<Integer> arr, int x) {
+    static boolean hasPath(Node root, ArrayList<Integer> res, int x) {
         if (root == null) return false;
-        arr.add(root.data);
+        res.add(root.data);
         if (root.data == x) return true;
-        if (hasPath(root.left, arr, x) || hasPath(root.right, arr, x)) return true;
-        arr.remove(arr.size() - 1);
+        if (hasPath(root.left, res, x) || hasPath(root.right, res, x)) return true;
+        res.remove(res.size() - 1);
         return false;
     }
 }

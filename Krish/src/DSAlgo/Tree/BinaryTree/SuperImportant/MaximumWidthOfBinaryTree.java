@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/maximum-width-of-binary-tree/
 //Time complexity: O(n)

@@ -49,16 +49,15 @@ public class TreeTraversalWithoutRecursionWithSingleStack {
         stack.push(root);
 
         while (!stack.isEmpty()) {
-            Node myNode = stack.peek();
-            System.out.println(myNode.data);
-            stack.pop();
+            Node curr = stack.pop();
+            System.out.println(curr.data);
 
-            if (myNode.right != null) {
-                stack.push(myNode.right);
+            if (curr.right != null) {
+                stack.push(curr.right);
             }
 
-            if (myNode.left != null) {
-                stack.push(myNode.left);
+            if (curr.left != null) {
+                stack.push(curr.left);
             }
         }
     }

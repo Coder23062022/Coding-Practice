@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
 //Problem: https://leetcode.com/problems/binary-tree-right-side-view/
@@ -8,7 +8,6 @@ package Krish.src.DSAlgo.Tree.BinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.SocketHandler;
 
 public class LeftAndRightViewOfABinaryTree {
     static Node root;

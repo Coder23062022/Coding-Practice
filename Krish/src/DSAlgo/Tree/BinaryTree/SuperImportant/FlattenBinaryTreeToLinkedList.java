@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 //Video source: https://www.youtube.com/watch?v=dU2Z5HWSGM0&ab_channel=ShradhaKhapra

@@ -1,9 +1,6 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 //Problem: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 //Video source: https://www.youtube.com/watch?v=3OXWEdlIGl4&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=19&ab_channel=takeUforward
@@ -37,7 +34,7 @@ public class ZigZagLevelOrderTraversal {
 
     static List<List<Integer>> zigzagLevelOrderTraversal(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
-        LinkedList<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         int flag = 0;
 

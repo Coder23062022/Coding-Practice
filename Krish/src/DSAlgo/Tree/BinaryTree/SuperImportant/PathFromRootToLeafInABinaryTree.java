@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,20 +32,21 @@ public class PathFromRootToLeafInABinaryTree {
 
     static List<String> binaryTreePaths(Node root) {
         List<String> res = new ArrayList<>();
-        func(root, res, "");
+        helper(root, res, "");
         return res;
     }
 
-    static void func(Node node, List<String> res, String path) {
+    static void helper(Node node, List<String> res, String path) {
         if (node == null) return;
+
         path += node.data;
 
         if (node.left == null && node.right == null) {
             res.add(path);
-        } else {
-            path += "->";
-            func(node.left, res, path);
-            func(node.right, res, path);
         }
+
+        path += "->";
+        helper(node.left, res, path);
+        helper(node.right, res, path);
     }
 }

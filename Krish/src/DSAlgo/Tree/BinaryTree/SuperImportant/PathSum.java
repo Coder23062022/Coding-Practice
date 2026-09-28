@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.Tree.BinaryTree;
+package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 //Problem: https://leetcode.com/problems/path-sum/
 //Video source: https://www.youtube.com/watch?v=LSKQyOz_P8I&ab_channel=NeetCode
