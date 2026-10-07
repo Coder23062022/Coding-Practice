@@ -3,6 +3,7 @@ package Krish.src.DSAlgo.Graph.BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//Problem: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 //Video source: https://www.youtube.com/watch?v=-tgVpUgsQ5k&ab_channel=takeUforward
 //Time complexity: O(V + 2E)
 //Space complexity: O(n)

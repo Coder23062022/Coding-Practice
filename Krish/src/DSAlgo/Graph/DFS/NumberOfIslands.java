@@ -16,7 +16,7 @@ public class NumberOfIslands {
         for (int i = 0; i < n; i++)
             for (int j = 0; j < m; j++)
                 if (grid[i][j] == '1' && visited[i][j] == 0) { //Found an island which is not visited
-                    noOfIslands += 1;
+                    noOfIslands++;
                     DFSUtil(grid, i, j, visited);
                 }
         return noOfIslands;

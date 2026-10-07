@@ -22,13 +22,13 @@ public class RottingOranges {
 
     static int orangesRotting(int[][] grid) {
         int[][] visited = new int[grid.length][grid[0].length];
-        Queue<Pair> q = new LinkedList<>();
+        Queue<Triplet> q = new LinkedList<>();
         int freshOrangesCount = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == 2) {
-                    q.add(new Pair(i, j, 0));
-                    visited[i][j] = 2;
+                    q.add(new Triplet(i, j, 0));
+                    visited[i][j] = 1;
                 } else if (grid[i][j] == 1) {
                     freshOrangesCount++;
                 }
@@ -51,20 +51,20 @@ public class RottingOranges {
         return freshOrangesCount == count ? time : -1;
     }
 
-    static void BFSUtil(int[][] grid, int row, int col, int[][] visited, int t, Queue<Pair> q) {
-        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == 1 && visited[row][col] != 2) {
-            visited[row][col] = 2;
-            q.add(new Pair(row, col, t + 1));
+    static void BFSUtil(int[][] grid, int row, int col, int[][] visited, int t, Queue<Triplet> q) {
+        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == 1 && visited[row][col] == 0) {
+            visited[row][col] = 1;
+            q.add(new Triplet(row, col, t + 1));
             count++;
         }
     }
 
-    static class Pair {
+    static class Triplet {
         int row;
         int col;
         int time;
 
-        Pair(int row, int col, int time) {
+        Triplet(int row, int col, int time) {
             this.row = row;
             this.col = col;
             this.time = time;

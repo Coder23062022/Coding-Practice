@@ -1,7 +1,7 @@
 package Krish.src.DSAlgo.Graph.DFS;
 
 //Problem: https://www.geeksforgeeks.org/problems/number-of-distinct-islands/0
-//https://leetcode.com/problems/number-of-distinct-islands/description/
+//Problem: https://leetcode.com/problems/number-of-distinct-islands/description/
 //Video source: https://www.youtube.com/watch?v=7zmgQSJghpo&t=781s&ab_channel=takeUforward
 //Time complexity: O(n * m)
 //Space complexity: O(n * m)
