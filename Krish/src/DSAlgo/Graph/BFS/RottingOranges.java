@@ -21,11 +21,13 @@ public class RottingOranges {
     static int count = 0; //This count is to track how many fresh oranges are getting rotten
 
     static int orangesRotting(int[][] grid) {
-        int[][] visited = new int[grid.length][grid[0].length];
+        int n = grid.length, m = grid[0].length;
+        int[][] visited = new int[n][m];
         Queue<Triplet> q = new LinkedList<>();
         int freshOrangesCount = 0;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 if (grid[i][j] == 2) {
                     q.add(new Triplet(i, j, 0));
                     visited[i][j] = 1;
@@ -36,6 +38,10 @@ public class RottingOranges {
         }
 
         int time = 0;
+
+        int[] delRow = {-1, 0, 1, 0};
+        int[] delCol = {0, 1, 0, -1};
+
         while (!q.isEmpty()) {
             int r = q.peek().row;
             int c = q.peek().col;
@@ -43,20 +49,18 @@ public class RottingOranges {
             time = Math.max(time, t);
             q.remove();
 
-            BFSUtil(grid, r + 1, c, visited, t, q);
-            BFSUtil(grid, r - 1, c, visited, t, q);
-            BFSUtil(grid, r, c + 1, visited, t, q);
-            BFSUtil(grid, r, c - 1, visited, t, q);
+            for (int k = 0; k < 4; k++) {
+                int nRow = r + delRow[k];
+                int nCol = c + delCol[k];
+
+                if (nRow >= 0 && nRow < n && nCol >= 0 && nCol < m && grid[nRow][nCol] == 1 && visited[nRow][nCol] == 0) {
+                    visited[nRow][nCol] = 1;
+                    q.add(new Triplet(nRow, nCol, t + 1));
+                    count++;
+                }
+            }
         }
         return freshOrangesCount == count ? time : -1;
-    }
-
-    static void BFSUtil(int[][] grid, int row, int col, int[][] visited, int t, Queue<Triplet> q) {
-        if (row >= 0 && row < grid.length && col >= 0 && col < grid[0].length && grid[row][col] == 1 && visited[row][col] == 0) {
-            visited[row][col] = 1;
-            q.add(new Triplet(row, col, t + 1));
-            count++;
-        }
     }
 
     static class Triplet {

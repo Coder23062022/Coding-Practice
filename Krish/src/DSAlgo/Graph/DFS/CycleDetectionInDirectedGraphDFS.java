@@ -24,23 +24,23 @@ public class CycleDetectionInDirectedGraphDFS {
             adj[u].add(v);
         }
 
-        int[] visited = new int[V];
+        boolean[] visited = new boolean[V];
         int[] pathVisited = new int[V];
 
         for (int i = 0; i < V; i++) {
-            if (visited[i] == 0) {
+            if (!visited[i]) {
                 if (dfs(i, adj, visited, pathVisited)) return true;
             }
         }
         return false;
     }
 
-    static boolean dfs(int node, List<Integer>[] adj, int[] visited, int[] pathVisited) {
-        visited[node] = 1;
+    static boolean dfs(int node, List<Integer>[] adj, boolean[] visited, int[] pathVisited) {
+        visited[node] = true;
         pathVisited[node] = 1;
 
         for (int neighbor : adj[node]) {
-            if (visited[neighbor] == 0) {
+            if (!visited[neighbor]) {
                 if (dfs(neighbor, adj, visited, pathVisited)) return true;
             } else if (pathVisited[neighbor] == 1) {
                 return true;

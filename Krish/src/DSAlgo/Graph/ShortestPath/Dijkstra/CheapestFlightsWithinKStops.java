@@ -68,7 +68,6 @@ public class CheapestFlightsWithinKStops {
                 }
             }
         }
-        if (costs[dst] == Integer.MAX_VALUE) return -1;
-        return costs[dst];
+        return costs[dst] == Integer.MAX_VALUE ? -1 : costs[dst];
     }
 }
