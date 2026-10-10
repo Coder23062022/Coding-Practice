@@ -2,7 +2,7 @@ package Krish.src.DSAlgo.Graph.ShortestPath.Dijkstra;
 
 //Problem: https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1
 //Video source: https://www.youtube.com/watch?v=_BvEJ3VIDWw&t=934s&ab_channel=takeUforward
-//Time complexity: O(100000 * n), n = arr.length
+//Time complexity: O(1000 * n), n = arr.length
 //Space complexity: O(mod)
 
 import java.util.Arrays;
@@ -17,39 +17,38 @@ public class MinimumMultiplicationsToReachEnd {
     }
 
     static class Pair {
-        int node;
         int steps;
+        int node;
 
-        Pair(int node, int steps) {
-            this.node = node;
+        Pair(int steps, int node) {
             this.steps = steps;
+            this.node = node;
         }
     }
 
     static int minimumMultiplications(int[] arr, int start, int end) {
-        int mod = 100000;
+        int mod = 1000;
 
         int[] dist = new int[mod];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[start] = 0;
 
         Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(start, 0));
+        q.add(new Pair(0, start));
 
         while (!q.isEmpty()) {
-            int node = q.peek().node;
             int steps = q.peek().steps;
+            int node = q.peek().node;
             q.poll();
 
             for (int a : arr) {
                 int num = (node * a) % mod;
                 if (steps + 1 < dist[num]) {
                     dist[num] = steps + 1;
-                    q.add(new Pair(num, dist[num]));
+                    q.add(new Pair(dist[num], num));
                 }
             }
         }
-        if (dist[end] == Integer.MAX_VALUE) return -1;
-        return dist[end];
+        return dist[end] == 1e9 ? -1 : dist[end];
     }
 }
