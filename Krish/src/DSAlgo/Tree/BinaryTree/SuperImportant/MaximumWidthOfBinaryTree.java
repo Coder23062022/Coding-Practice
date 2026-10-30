@@ -42,22 +42,21 @@ public class MaximumWidthOfBinaryTree {
 
     static int widthOfBinaryTreeMethod1(TreeNode root) {
         int maxWidth = 0;
-        Deque<Pair1> q = new LinkedList<>();
-        q.add(new Pair1(root, 0));
+        Deque<Pair1> dq = new LinkedList<>();
+        dq.add(new Pair1(root, 0));
 
-        while (!q.isEmpty()) {
-            int size = q.size();
-            long stIdx = q.peekFirst().index;
-            long endIdx = q.peekLast().index;
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            long stIdx = dq.peekFirst().index;
+            long endIdx = dq.peekLast().index;
             maxWidth = Math.max(maxWidth, (int) (endIdx - stIdx + 1));
 
-
             for (int i = 0; i < size; i++) {
-                Pair1 curr = q.poll();
+                Pair1 curr = dq.poll();
                 TreeNode node = curr.node;
                 long index = curr.index;
-                if (node.left != null) q.add(new Pair1(node.left, 2 * index + 1));
-                if (node.right != null) q.add(new Pair1(node.right, 2 * index + 2));
+                if (node.left != null) dq.add(new Pair1(node.left, 2 * index + 1));
+                if (node.right != null) dq.add(new Pair1(node.right, 2 * index + 2));
             }
         }
         return maxWidth;

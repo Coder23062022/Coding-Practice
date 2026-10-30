@@ -22,6 +22,9 @@ public class NumberOfIslandsII {
         int count = 0;
         List<Integer> res = new ArrayList<>();
 
+        int[] dr = {-1, 0, 1, 0};
+        int[] dc = {0, 1, 0, -1};
+
         for (int[] operator : operators) {
             int row = operator[0];
             int col = operator[1];
@@ -31,9 +34,6 @@ public class NumberOfIslandsII {
             }
             visited[row][col] = true;
             count++;
-
-            int[] dr = {-1, 0, 1, 0};
-            int[] dc = {0, 1, 0, -1};
 
             for (int k = 0; k < 4; k++) {
                 int adjRow = row + dr[k];

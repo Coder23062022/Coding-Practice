@@ -1,4 +1,4 @@
-package Krish.src.DSAlgo.LinkedList;
+package Krish.src.DSAlgo.LinkedList.SuperImportant;
 
 //Problem: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
 //Reference doc: https://www.geeksforgeeks.org/reverse-a-linked-list-in-groups-of-given-size-iterative-approach/

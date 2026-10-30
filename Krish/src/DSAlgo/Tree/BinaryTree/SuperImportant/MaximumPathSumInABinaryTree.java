@@ -7,11 +7,11 @@ package Krish.src.DSAlgo.Tree.BinaryTree.SuperImportant;
 
 public class MaximumPathSumInABinaryTree {
     static class TreeNode {
-        int data;
+        int val;
         TreeNode left, right;
 
         TreeNode(int d) {
-            data = d;
+            val = d;
             this.left = this.right = null;
         }
     }
@@ -25,18 +25,18 @@ public class MaximumPathSumInABinaryTree {
         System.out.println("Maximum path sum of the binary tree is: " + maxPathSum(root));
     }
 
+    static int res = Integer.MIN_VALUE;
+
     static int maxPathSum(TreeNode root) {
-        int[] maxValue = new int[1];
-        maxValue[0] = Integer.MIN_VALUE;
-        maxPath(root, maxValue);
-        return maxValue[0];
+        maxPathHelper(root);
+        return res;
     }
 
-    static int maxPath(TreeNode root, int[] maxValue) {
+    static int maxPathHelper(TreeNode root) {
         if (root == null) return 0;
-        int left = Math.max(0, maxPath(root.left, maxValue));
-        int right = Math.max(0, maxPath(root.right, maxValue));
-        maxValue[0] = Math.max(maxValue[0], left + right + root.data);
-        return root.data + Math.max(left, right);
+        int left = Math.max(0, maxPathHelper(root.left));
+        int right = Math.max(0, maxPathHelper(root.right));
+        res = Math.max(res, left + right + root.val);
+        return root.val + Math.max(left, right);
     }
 }
